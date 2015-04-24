@@ -1,6 +1,6 @@
 Lacuna Reaver
 
-This repository serves as an archival location for the source files for _"Lacuna Reaver,"_ a student-created 2D RPG by a team at California State University San Bernardino.
+This repository serves as an archival location for the source files for _Lacuna Reaver,_ a student-created 2D RPG by a team at California State University San Bernardino.
 
 The installer for the game can be downloaded at http://cse.csusb.edu/lr.
 
