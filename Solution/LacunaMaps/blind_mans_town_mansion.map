@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>blind_mans_town_mansion</Name>
+    <TextureSheetName>blind_mans_town_mansion</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>16 30</DimensionsInTiles>
+    <GroundLayer>32 52 52 52 52 52 52 52 52 52 52 52 52 32 52 52 52 52 52 52 52 32 52 52 52 32 52 52 52 32 32 52 32 52 52 52 52 52 52 52 52 52 52 32 52 52 52 52 72 72 72 72 72 72 72 69 70 71 72 72 72 72 72 72 13 16 16 16 16 16 16 89 90 91 16 16 16 16 16 17 33 34 34 34 34 34 34 34 34 34 34 34 34 34 34 37 33 34 34 34 34 34 34 34 34 34 34 34 34 34 34 37 33 34 34 34 34 34 34 34 34 34 34 34 34 34 34 37 33 34 34 34 34 34 34 34 34 34 34 34 34 34 34 37 53 34 34 34 34 34 34 34 34 34 34 34 34 34 34 57 73 74 74 74 74 74 74 75 74 74 74 74 74 74 74 77 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 115 92 92 92 92 92 92 92 92</GroundLayer>
+    <ForeGroundLayer>-1 -1 -1 -1 -1 -1 8 9 10 11 -1 3 -1 -1 -1 -1 -1 -1 0 1 2 -1 28 29 30 31 -1 0 1 2 -1 -1 -1 -1 20 21 22 -1 48 49 50 51 -1 20 21 22 -1 -1 -1 -1 40 41 42 -1 -1 -1 -1 -1 -1 40 41 42 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 83 -1 81 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 102 -1 101 -1 -1 -1 -1 -1 -1 -1 84 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 86 104 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 106 -1 -1 -1 -1 -1 -1 82 -1 80 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 102 -1 101 -1 -1 -1 -1 -1 -1 -1 122 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 122 86 -1 -1 -1 -1 -1 -1 -1 121 -1 -1 -1 -1 -1 -1 85 106 -1 -1 -1 -1 -1 83 -1 81 -1 -1 -1 -1 -1 -1 105 122 -1 -1 -1 -1 -1 102 -1 101 -1 -1 -1 -1 -1 -1 122 123 -1 -1 -1 -1 -1 122 -1 -1 -1 -1 -1 -1 -1 -1 122 85 -1 -1 -1 -1 -1 121 -1 121 -1 -1 -1 -1 -1 -1 84 105 -1 -1 -1 -1 -1 82 -1 80 -1 -1 -1 -1 -1 -1 104 -1 -1 -1 -1 -1 -1 102 -1 100 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 63 -1 61 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 5 -1 5 -1 -1 -1 -1 -1 -1 -1 64 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 66 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 62 -1 60 -1 -1 -1 -1 -1 -1 122 -1 -1 -1 -1 -1 -1 5 -1 121 -1 -1 -1 -1 -1 -1 -1 122 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 122 66 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 65 -1 -1 -1 -1 -1 -1 63 -1 61 -1 -1 -1 -1 -1 -1 122 124 -1 -1 -1 -1 -1 121 -1 5 -1 -1 -1 -1 -1 -1 122 122 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 122 65 -1 -1 -1 -1 -1 121 -1 121 -1 -1 -1 -1 -1 -1 64 122 -1 -1 -1 -1 -1 62 -1 60 -1 -1 -1 -1 -1 -1 122 122 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 1 0 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>MansionOwner1</AssetName>
+        <SpawnPosition>7 6</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>0 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>1 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>2 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>3 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>4 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>5 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>6 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>7 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>8 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>15 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>14 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>13 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>12 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>11 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>10 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>MansionOwnersCutSceneScreen</AssetName>
+        <TriggerPosition>9 10</TriggerPosition>
+      </Item>
+    </CutSceneEntries>
+    <Portals>
+      <Item>
+        <DestinationMap>blind_mans_town</DestinationMap>
+        <DestinationPosition>6 6</DestinationPosition>
+        <Position>7 29</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>blind_mans_forest_1</DestinationMap>
+        <DestinationPosition>14 38</DestinationPosition>
+        <Position>12 2</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>blind_mans_forest_1</DestinationMap>
+        <DestinationPosition>3 38</DestinationPosition>
+        <Position>3 2</Position>
+        <SoundCueName>Door</SoundCueName>
+      </Item>
+    </Portals>
+    <MusicCueName>BlindMansTown</MusicCueName>
+  </Asset>
+</XnaContent>

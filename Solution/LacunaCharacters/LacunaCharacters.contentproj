@@ -1,0 +1,2263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectGuid>{B46C0A76-03E7-457A-8F1D-7C46E02F5243}</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>LacunaCharacters</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\AdvancedAccessoryMerchant.xml">
+      <Name>AdvancedAccessoryMerchant</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Arlan.xml">
+      <Name>Arlan</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ArlanS.xml">
+      <Name>ArlanS</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Bandit1.xml">
+      <Name>Bandit1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Bandit2.xml">
+      <Name>Bandit2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\BlindMansForestChest1.xml">
+      <Name>BlindMansForestChest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\BlindMansForestChest2.xml">
+      <Name>BlindMansForestChest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\BlindMansForestChest3.xml">
+      <Name>BlindMansForestChest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\BlindMansForestChest4.xml">
+      <Name>BlindMansForestChest4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\BlindMansForestChest5.xml">
+      <Name>BlindMansForestChest5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\BlindMansForestChest6.xml">
+      <Name>BlindMansForestChest6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\BlindMansForestChest7.xml">
+      <Name>BlindMansForestChest7</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\BlindMansForestChest8.xml">
+      <Name>BlindMansForestChest8</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Bob.xml">
+      <Name>Bob</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\BoxGame1.xml">
+      <Name>BoxGame1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\BoxGame2.xml">
+      <Name>BoxGame2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\BoxGame3.xml">
+      <Name>BoxGame3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\BoxGameMan.xml">
+      <Name>BoxGameMan</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\BoyMage.xml">
+      <Name>BoyMage</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Refman.xml">
+      <Name>Refman</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Burtle.xml">
+      <Name>Burtle</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Cara.xml">
+      <Name>Cara</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CarasChest.xml">
+      <Name>CarasChest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest1.xml">
+      <Name>CaveLabyrinthChest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest10.xml">
+      <Name>CaveLabyrinthChest10</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest11.xml">
+      <Name>CaveLabyrinthChest11</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest12.xml">
+      <Name>CaveLabyrinthChest12</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest13.xml">
+      <Name>CaveLabyrinthChest13</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest14.xml">
+      <Name>CaveLabyrinthChest14</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest15.xml">
+      <Name>CaveLabyrinthChest15</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest16.xml">
+      <Name>CaveLabyrinthChest16</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest17.xml">
+      <Name>CaveLabyrinthChest17</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest2.xml">
+      <Name>CaveLabyrinthChest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest3.xml">
+      <Name>CaveLabyrinthChest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest4.xml">
+      <Name>CaveLabyrinthChest4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest5.xml">
+      <Name>CaveLabyrinthChest5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest6.xml">
+      <Name>CaveLabyrinthChest6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest7.xml">
+      <Name>CaveLabyrinthChest7</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest8.xml">
+      <Name>CaveLabyrinthChest8</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest9.xml">
+      <Name>CaveLabyrinthChest9</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Chepetawa.xml">
+      <Name>Chepetawa</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Citizen1.xml">
+      <Name>Citizen1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Clark.xml">
+      <Name>Clark</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\CloakedArlan.xml">
+      <Name>CloakedArlan</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Curator.xml">
+      <Name>Curator</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\DeadGateGuard.xml">
+      <Name>DeadGateGuard</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\DeadKing.xml">
+      <Name>DeadKing</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\DeadMax.xml">
+      <Name>DeadMax</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\DeadSid.xml">
+      <Name>DeadSid</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\DistressedGirl.xml">
+      <Name>DistressedGirl</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Drifter.xml">
+      <Name>Drifter</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\EmptyBoxGame1.xml">
+      <Name>EmptyBoxGame1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\EmptyBoxGame2.xml">
+      <Name>EmptyBoxGame2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\EmptyBoxGame3.xml">
+      <Name>EmptyBoxGame3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Endor.xml">
+      <Name>Endor</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Farmer.xml">
+      <Name>Farmer</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernHighChest1.xml">
+      <Name>ForbiddenCavernHighChest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernHighChest2.xml">
+      <Name>ForbiddenCavernHighChest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernHighChest3.xml">
+      <Name>ForbiddenCavernHighChest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernHighChest4.xml">
+      <Name>ForbiddenCavernHighChest4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernHighChest5.xml">
+      <Name>ForbiddenCavernHighChest5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernHighChest6.xml">
+      <Name>ForbiddenCavernHighChest6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernHighChest7.xml">
+      <Name>ForbiddenCavernHighChest7</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernHighChest8.xml">
+      <Name>ForbiddenCavernHighChest8</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest1.xml">
+      <Name>ForbiddenCavernLowChest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest10.xml">
+      <Name>ForbiddenCavernLowChest10</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest11.xml">
+      <Name>ForbiddenCavernLowChest11</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest12.xml">
+      <Name>ForbiddenCavernLowChest12</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest13.xml">
+      <Name>ForbiddenCavernLowChest13</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest14.xml">
+      <Name>ForbiddenCavernLowChest14</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest15.xml">
+      <Name>ForbiddenCavernLowChest15</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest2.xml">
+      <Name>ForbiddenCavernLowChest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest3.xml">
+      <Name>ForbiddenCavernLowChest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest4.xml">
+      <Name>ForbiddenCavernLowChest4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest5.xml">
+      <Name>ForbiddenCavernLowChest5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest6.xml">
+      <Name>ForbiddenCavernLowChest6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest7.xml">
+      <Name>ForbiddenCavernLowChest7</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest8.xml">
+      <Name>ForbiddenCavernLowChest8</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernLowChest9.xml">
+      <Name>ForbiddenCavernLowChest9</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernRoomAChest1.xml">
+      <Name>ForbiddenCavernRoomAChest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernRoomAChest2.xml">
+      <Name>ForbiddenCavernRoomAChest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernRoomAChest3.xml">
+      <Name>ForbiddenCavernRoomAChest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernRoomBGroundChest1.xml">
+      <Name>ForbiddenCavernRoomBGroundChest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernRoomBGroundChest2.xml">
+      <Name>ForbiddenCavernRoomBGroundChest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernRoomBGroundChest3.xml">
+      <Name>ForbiddenCavernRoomBGroundChest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernRoomBLedgeChest.xml">
+      <Name>ForbiddenCavernRoomBLedgeChest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernRoomCChest.xml">
+      <Name>ForbiddenCavernRoomCChest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernRoomDChest.xml">
+      <Name>ForbiddenCavernRoomDChest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernRoomEChest.xml">
+      <Name>ForbiddenCavernRoomEChest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ForbiddenCavernRoomFChest.xml">
+      <Name>ForbiddenCavernRoomFChest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Friend1.xml">
+      <Name>Friend1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Friend2.xml">
+      <Name>Friend2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\GateGuard1.xml">
+      <Name>GateGuard1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\GateGuard2.xml">
+      <Name>GateGuard2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Grandson.xml">
+      <Name>Grandson</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Greeter.xml">
+      <Name>Greeter</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\GuardExplosion.xml">
+      <Name>GuardExplosion</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\HappyGuy.xml">
+      <Name>HappyGuy</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\HealersBlacksmith.xml">
+      <Name>HealersBlacksmith</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\HealersInnClerk.xml">
+      <Name>HealersInnClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\HealersInvisibleBlacksmith.xml">
+      <Name>HealersInvisibleBlacksmith</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacters\HealersInvisibleInnClerk.xml">
+      <Name>HealersInvisibleInnClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\HealersInvisibleItemClerk.xml">
+      <Name>HealersInvisibleItemClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\HealersItemClerk.xml">
+      <Name>HealersItemClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Helena.xml">
+      <Name>Helena</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\InjuredGateGuard.xml">
+      <Name>InjuredGateGuard</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\InvisibleSeedMerchant.xml">
+      <Name>InvisibleSeedMerchant</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Jannie.xml">
+      <Name>Jannie</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Jannie_RippedTippers.xml">
+      <Name>Jannie_RippedTippers</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Jannie_Tippers.xml">
+      <Name>Jannie_Tippers</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\JealousBoy.xml">
+      <Name>JealousBoy</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\JealousGirl.xml">
+      <Name>JealousGirl</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Jessica.xml">
+      <Name>Jessica</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\JessicaSick.xml">
+      <Name>JessicaSick</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Keepf2Chest.xml">
+      <Name>Keepf2Chest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\King.xml">
+      <Name>King</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library1Chest1.xml">
+      <Name>Library1Chest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library1Chest2.xml">
+      <Name>Library1Chest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library1Chest3.xml">
+      <Name>Library1Chest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library2Chest1.xml">
+      <Name>Library2Chest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library2Chest2.xml">
+      <Name>Library2Chest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library2Chest3.xml">
+      <Name>Library2Chest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library2Chest4.xml">
+      <Name>Library2Chest4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library3Chest1.xml">
+      <Name>Library3Chest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library3Chest2.xml">
+      <Name>Library3Chest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library3Chest3.xml">
+      <Name>Library3Chest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library3Chest4.xml">
+      <Name>Library3Chest4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library3Chest5.xml">
+      <Name>Library3Chest5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library4Chest1.xml">
+      <Name>Library4Chest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library4Chest2.xml">
+      <Name>Library4Chest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library4Chest3.xml">
+      <Name>Library4Chest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Library5Chest1.xml">
+      <Name>Library5Chest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\LostBoy.xml">
+      <Name>LostBoy</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\LostItem.xml">
+      <Name>LostItem</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\LostToy.xml">
+      <Name>LostToy</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Lydia.xml">
+      <Name>Lydia</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MagesBlacksmith.xml">
+      <Name>MagesBlacksmith</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MagesInnClerk.xml">
+      <Name>MagesInnClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MagesInvisibleInnClerk.xml">
+      <Name>MagesInvisibleInnClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MagesInvisibleInnClerk2.xml">
+      <Name>MagesInvisibleInnClerk2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MagesInvisibleInnClerk3.xml">
+      <Name>MagesInvisibleInnClerk3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MagesInvisibleItemClerk.xml">
+      <Name>MagesInvisibleItemClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MagesInvisibleItemClerk2.xml">
+      <Name>MagesInvisibleItemClerk2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MagesInvisibleItemClerk3.xml">
+      <Name>MagesInvisibleItemClerk3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MagesItemClerk.xml">
+      <Name>MagesItemClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MansionGuard1.xml">
+      <Name>MansionGuard1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MansionGuard2.xml">
+      <Name>MansionGuard2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MansionOwner1.xml">
+      <Name>MansionOwner1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Mary.xml">
+      <Name>Mary</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MasterBlacksmith.xml">
+      <Name>MasterBlacksmith</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Mayor.xml">
+      <Name>Mayor</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Merchant1.xml">
+      <Name>Merchant1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Merchant2.xml">
+      <Name>Merchant2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Merchant3.xml">
+      <Name>Merchant3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MissplacedBook.xml">
+      <Name>MissplacedBook</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MissplacedBookMan.xml">
+      <Name>MissplacedBookMan</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Mole.xml">
+      <Name>Mole</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MoleTrainer.xml">
+      <Name>MoleTrainer</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MonsterChest.xml">
+      <Name>MonsterChest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Mother.xml">
+      <Name>Mother</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Mushroom1.xml">
+      <Name>Mushroom1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Mushroom2.xml">
+      <Name>Mushroom2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Mushroom3.xml">
+      <Name>Mushroom3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Mushroom4.xml">
+      <Name>Mushroom4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MushroomForestChest1.xml">
+      <Name>MushroomForestChest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MushroomForestChest2.xml">
+      <Name>MushroomForestChest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MushroomForestChest3.xml">
+      <Name>MushroomForestChest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MushroomForestChest4.xml">
+      <Name>MushroomForestChest4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MushroomForestChest5.xml">
+      <Name>MushroomForestChest5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MushroomForestChest6.xml">
+      <Name>MushroomForestChest6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\MysteriaPlant.xml">
+      <Name>MysteriaPlant</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\NathanInjured.xml">
+      <Name>NathanInjured</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Noculus.xml">
+      <Name>Noculus</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OldLady.xml">
+      <Name>OldLady</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\oldman.xml">
+      <Name>oldman</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest1.xml">
+      <Name>OpenChest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest10.xml">
+      <Name>OpenChest10</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest11.xml">
+      <Name>OpenChest11</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest12.xml">
+      <Name>OpenChest12</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest13.xml">
+      <Name>OpenChest13</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest14.xml">
+      <Name>OpenChest14</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest15.xml">
+      <Name>OpenChest15</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest2.xml">
+      <Name>OpenChest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest3.xml">
+      <Name>OpenChest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest4.xml">
+      <Name>OpenChest4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest5.xml">
+      <Name>OpenChest5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest6.xml">
+      <Name>OpenChest6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest7.xml">
+      <Name>OpenChest7</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest8.xml">
+      <Name>OpenChest8</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\OpenChest9.xml">
+      <Name>OpenChest9</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Parker.xml">
+      <Name>Parker</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ParkerSick.xml">
+      <Name>ParkerSick</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Peeper.xml">
+      <Name>Peeper</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\PickPocket.xml">
+      <Name>PickPocket</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\PoorGuy.xml">
+      <Name>PoorGuy</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Queen.xml">
+      <Name>Queen</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\RareSeeds.xml">
+      <Name>RareSeeds</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Rema.xml">
+      <Name>Rema</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Rendil.xml">
+      <Name>Rendil</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\RiftKey.xml">
+      <Name>RiftKey</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\RiftMan.xml">
+      <Name>RiftMan</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\RiftManChest.xml">
+      <Name>RiftManChest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\RiftNote1.xml">
+      <Name>RiftNote1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\RiftNote2.xml">
+      <Name>RiftNote2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\RiftPortal.xml">
+      <Name>RiftPortal</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Ruith.xml">
+      <Name>Ruith</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SadGuy.xml">
+      <Name>SadGuy</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Sarah.xml">
+      <Name>Sarah</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SarahSick.xml">
+      <Name>SarahSick</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SavedGirl.xml">
+      <Name>SavedGirl</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ScaredCivilian1.xml">
+      <Name>ScaredCivilian1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ScriptedMonster1.xml">
+      <Name>ScriptedMonster1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ScriptedMonster2.xml">
+      <Name>ScriptedMonster2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ScriptedMonster3.xml">
+      <Name>ScriptedMonster3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SeedMerchant.xml">
+      <Name>SeedMerchant</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Serlynx.xml">
+      <Name>Serlynx</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SewnBogChest1.xml">
+      <Name>SewnBogChest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SewnBogChest10.xml">
+      <Name>SewnBogChest10</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SewnBogChest11.xml">
+      <Name>SewnBogChest11</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SewnBogChest12.xml">
+      <Name>SewnBogChest12</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SewnBogChest13.xml">
+      <Name>SewnBogChest13</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SewnBogChest2.xml">
+      <Name>SewnBogChest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SewnBogChest3.xml">
+      <Name>SewnBogChest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SewnBogChest4.xml">
+      <Name>SewnBogChest4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SewnBogChest5.xml">
+      <Name>SewnBogChest5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SewnBogChest6.xml">
+      <Name>SewnBogChest6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SewnBogChest7.xml">
+      <Name>SewnBogChest7</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SewnBogChest8.xml">
+      <Name>SewnBogChest8</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SewnBogChest9.xml">
+      <Name>SewnBogChest9</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SickGrandson.xml">
+      <Name>SickGrandson</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SkinGuy.xml">
+      <Name>SkinGuy</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SnowMan.xml">
+      <Name>SnowMan</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SnowTownNpc1.xml">
+      <Name>SnowTownNpc1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SnowTownNpc2.xml">
+      <Name>SnowTownNpc2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SnowTownNpc3.xml">
+      <Name>SnowTownNpc3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SnowTownNpc4.xml">
+      <Name>SnowTownNpc4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SnowTownNpc5.xml">
+      <Name>SnowTownNpc5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SnowTownNpc6.xml">
+      <Name>SnowTownNpc6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SnowTownNpc7.xml">
+      <Name>SnowTownNpc7</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Soldier1.xml">
+      <Name>Soldier1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Soldier2.xml">
+      <Name>Soldier2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\StolenItem1.xml">
+      <Name>StolenItem1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\StolenItem2.xml">
+      <Name>StolenItem2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\StolenItem3.xml">
+      <Name>StolenItem3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\StolenItem4.xml">
+      <Name>StolenItem4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\StolenItem5.xml">
+      <Name>StolenItem5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\StolenItem6.xml">
+      <Name>StolenItem6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Stub.xml">
+      <Name>Stub</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\suspiciousguy.xml">
+      <Name>suspiciousguy</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampBoy.xml">
+      <Name>SwampBoy</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampBoySick.xml">
+      <Name>SwampBoySick</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampGirl.xml">
+      <Name>SwampGirl</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampGirlSick.xml">
+      <Name>SwampGirlSick</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampInnClerk.xml">
+      <Name>SwampInnClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampInvisibleInnClerk.xml">
+      <Name>SwampInvisibleInnClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampInvisibleInnClerk2.xml">
+      <Name>SwampInvisibleInnClerk2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampInvisibleInnClerk3.xml">
+      <Name>SwampInvisibleInnClerk3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampInvisibleItemClerk.xml">
+      <Name>SwampInvisibleItemClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampInvisibleItemClerk2.xml">
+      <Name>SwampInvisibleItemClerk2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampInvisibleItemClerk3.xml">
+      <Name>SwampInvisibleItemClerk3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampItemClerk.xml">
+      <Name>SwampItemClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampOldMan.xml">
+      <Name>SwampOldMan</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampOldManSick.xml">
+      <Name>SwampOldManSick</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampOldWoman.xml">
+      <Name>SwampOldWoman</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampOldWomanSick.xml">
+      <Name>SwampOldWomanSick</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampQueen.xml">
+      <Name>SwampQueen</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\SwampQueenSick.xml">
+      <Name>SwampQueenSick</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\TagKid.xml">
+      <Name>TagKid</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Tippers.xml">
+      <Name>Tippers</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\ToyMonster.xml">
+      <Name>ToyMonster</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\TrappedGirl.xml">
+      <Name>TrappedGirl</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\UpsetBoy.xml">
+      <Name>UpsetBoy</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Vidulus.xml">
+      <Name>Vidulus</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\VillageIdiot.xml">
+      <Name>VillageIdiot</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\VillageIdiotSick.xml">
+      <Name>VillageIdiotSick</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Wesley.xml">
+      <Name>Wesley</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\Will.xml">
+      <Name>Will</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\WillsBlacksmith.xml">
+      <Name>WillsBlacksmith</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\WillsInnClerk.xml">
+      <Name>WillsInnClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\WillsInvisibleBlacksmith.xml">
+      <Name>WillsInvisibleBlacksmith</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\WillsInvisibleInnClerk.xml">
+      <Name>WillsInvisibleInnClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\WillsInvisibleItemClerk.xml">
+      <Name>WillsInvisibleItemClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="NPCMapCharacters\WillsItemClerk.xml">
+      <Name>WillsItemClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PCMapCharacters\Nathan.xml">
+      <Name>Nathan</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="PCMapCharacters\PCCara.xml">
+      <Name>PCCara</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RiftManChest.xml">
+      <Name>RiftManChest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyQuest\MyQuest.csproj">
+      <Project>{C0D8017A-0875-4BB4-B8EC-68BF42B5F45E}</Project>
+      <Name>MyQuest</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\TimidWoman.xml">
+      <Name>TimidWoman</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Torch1.xml">
+      <Name>Torch1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\UncleArlan.xml">
+      <Name>UncleArlan</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\AgoraKeyChest.xml">
+      <Name>AgoraKeyChest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\AgoraChestRooftop.xml">
+      <Name>AgoraChestRooftop</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\AgoraChestAnteroom.xml">
+      <Name>AgoraChestAnteroom</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\AgoraChestRoom4.xml">
+      <Name>AgoraChestRoom4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\AgoraChestMazeG4.xml">
+      <Name>AgoraChestMazeG4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\AgoraChestRoom5.xml">
+      <Name>AgoraChestRoom5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\AgoraChestRoom6.xml">
+      <Name>AgoraChestRoom6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Apprentice1.xml">
+      <Name>Apprentice1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\ElderMantis.xml">
+      <Name>ElderMantis</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Apprentice2.xml">
+      <Name>Apprentice2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PCMapCharacters\PCWill.xml">
+      <Name>PCWill</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\EndorNight.xml">
+      <Name>EndorNight</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RuithNight.xml">
+      <Name>RuithNight</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\HealersInvisibleInnClerk2.xml">
+      <Name>HealersInvisibleInnClerk2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\HealersInvisibleInnClerk3.xml">
+      <Name>HealersInvisibleInnClerk3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\HealersInvisibleInnClerk4.xml">
+      <Name>HealersInvisibleInnClerk4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\HealersInvisibleItemClerk2.xml">
+      <Name>HealersInvisibleItemClerk2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\HealersInvisibleItemClerk3.xml">
+      <Name>HealersInvisibleItemClerk3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\HealersInvisibleItemClerk4.xml">
+      <Name>HealersInvisibleItemClerk4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\HealersInvisibleBlacksmith2.xml">
+      <Name>HealersInvisibleBlacksmith2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\HealersInvisibleBlacksmith4.xml">
+      <Name>HealersInvisibleBlacksmith4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\HealersInvisibleBlacksmith3.xml">
+      <Name>HealersInvisibleBlacksmith3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\NegaWill.xml">
+      <Name>NegaWill</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RandomCave1Chest1.xml">
+      <Name>RandomCave1Chest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RandomCave1Chest2.xml">
+      <Name>RandomCave1Chest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RandomCave1Chest3.xml">
+      <Name>RandomCave1Chest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RandomCave2Chest3.xml">
+      <Name>RandomCave2Chest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RandomCave2Chest2.xml">
+      <Name>RandomCave2Chest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RandomCave2Chest1.xml">
+      <Name>RandomCave2Chest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\KingNorth.xml">
+      <Name>KingNorth</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\SnowInnClerk.xml">
+      <Name>SnowInnClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\SnowItemClerk.xml">
+      <Name>SnowItemClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\SnowInvisibleInnClerk.xml">
+      <Name>SnowInvisibleInnClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\SnowInvisibleInnClerk2.xml">
+      <Name>SnowInvisibleInnClerk2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\SnowInvisibleInnClerk3.xml">
+      <Name>SnowInvisibleInnClerk3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\SnowInvisibleItemClerk.xml">
+      <Name>SnowInvisibleItemClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\SnowInvisibleItemClerk2.xml">
+      <Name>SnowInvisibleItemClerk2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\SnowInvisibleItemClerk3.xml">
+      <Name>SnowInvisibleItemClerk3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RandomCave3Chest1.xml">
+      <Name>RandomCave3Chest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RefugeeItemClerk.xml">
+      <Name>RefugeeItemClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RefugeeInnClerk.xml">
+      <Name>RefugeeInnClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RefugeeInvisibleInnClerk.xml">
+      <Name>RefugeeInvisibleInnClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RefugeeInvisibleInnClerk2.xml">
+      <Name>RefugeeInvisibleInnClerk2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RefugeeInvisibleInnClerk3.xml">
+      <Name>RefugeeInvisibleInnClerk3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RefugeeInvisibleItemClerk.xml">
+      <Name>RefugeeInvisibleItemClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RefugeeInvisibleItemClerk2.xml">
+      <Name>RefugeeInvisibleItemClerk2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RefugeeInvisibleItemClerk3.xml">
+      <Name>RefugeeInvisibleItemClerk3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\ScarfBandit.xml">
+      <Name>ScarfBandit</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\BanditKing.xml">
+      <Name>BanditKing</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Bandit3.xml">
+      <Name>Bandit3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Bandit4.xml">
+      <Name>Bandit4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\SpadeBandit.xml">
+      <Name>SpadeBandit</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\BlindMansCaveChest.xml">
+      <Name>BlindMansCaveChest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Bill.xml">
+      <Name>Bill</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Burlam.xml">
+      <Name>Burlam</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Reflady.xml">
+      <Name>Reflady</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RefGuard1.xml">
+      <Name>RefGuard1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\RefGuard2.xml">
+      <Name>RefGuard2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\SnowTownChest1.xml">
+      <Name>SnowTownChest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\SnowTownChest3.xml">
+      <Name>SnowTownChest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\SnowTownChest2.xml">
+      <Name>SnowTownChest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\CaveLabyrinthChest18.xml">
+      <Name>CaveLabyrinthChest18</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\OpenChest18.xml">
+      <Name>OpenChest18</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\OpenChest16.xml">
+      <Name>OpenChest16</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\OpenChest17.xml">
+      <Name>OpenChest17</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon4Chest1.xml">
+      <Name>Dungeon4Chest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon4Chest2.xml">
+      <Name>Dungeon4Chest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon4Chest3.xml">
+      <Name>Dungeon4Chest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon4Chest4.xml">
+      <Name>Dungeon4Chest4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon4Chest5.xml">
+      <Name>Dungeon4Chest5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon4Chest9.xml">
+      <Name>Dungeon4Chest9</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon4Chest6.xml">
+      <Name>Dungeon4Chest6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon4Chest7.xml">
+      <Name>Dungeon4Chest7</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon4Chest8.xml">
+      <Name>Dungeon4Chest8</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\OpenChest19.xml">
+      <Name>OpenChest19</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\OpenChest23.xml">
+      <Name>OpenChest23</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\OpenChest20.xml">
+      <Name>OpenChest20</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\OpenChest21.xml">
+      <Name>OpenChest21</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\OpenChest22.xml">
+      <Name>OpenChest22</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon6Chest1.xml">
+      <Name>Dungeon6Chest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon6Chest9.xml">
+      <Name>Dungeon6Chest9</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon6Chest2.xml">
+      <Name>Dungeon6Chest2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon6Chest3.xml">
+      <Name>Dungeon6Chest3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon6Chest4.xml">
+      <Name>Dungeon6Chest4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon6Chest5.xml">
+      <Name>Dungeon6Chest5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon6Chest6.xml">
+      <Name>Dungeon6Chest6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon6Chest7.xml">
+      <Name>Dungeon6Chest7</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Dungeon6Chest8.xml">
+      <Name>Dungeon6Chest8</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\AstalClerk.xml">
+      <Name>AstalClerk</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\MasterBlacksmithInvisible.xml">
+      <Name>MasterBlacksmithInvisible</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\MasterBlacksmithInvisible3.xml">
+      <Name>MasterBlacksmithInvisible3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\MasterBlacksmithInvisible2.xml">
+      <Name>MasterBlacksmithInvisible2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\MasterBlacksmithInvisible6.xml">
+      <Name>MasterBlacksmithInvisible6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\MasterBlacksmithInvisible4.xml">
+      <Name>MasterBlacksmithInvisible4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\MasterBlacksmithInvisible5.xml">
+      <Name>MasterBlacksmithInvisible5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\StubKyle.xml">
+      <Name>StubKyle</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\StubGlen.xml">
+      <Name>StubGlen</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\StubRyan.xml">
+      <Name>StubRyan</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\StubGerren.xml">
+      <Name>StubGerren</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\StubDavid.xml">
+      <Name>StubDavid</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\StubMichael.xml">
+      <Name>StubMichael</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\StubJonathan.xml">
+      <Name>StubJonathan</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\StubMatt.xml">
+      <Name>StubMatt</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\StubJames.xml">
+      <Name>StubJames</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\ArlanInjured.xml">
+      <SubType>Designer</SubType>
+      <Name>ArlanInjured</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\Malticar.xml">
+      <Name>Malticar</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NPCMapCharacters\InjuredCara.xml">
+      <Name>InjuredCara</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

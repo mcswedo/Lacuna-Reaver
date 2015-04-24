@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.NPCMapCharacter">
+    <Name>MagesBlacksmith</Name>
+    <PortraitName>generic_man_portrait</PortraitName>
+    <IdleAnimation>
+      <Name>Idle</Name>
+      <Animations>
+          <Item>
+            <Key>North</Key>
+            <Value>
+              <Frames>0 0 64 64</Frames>
+              <FrameDelay>0</FrameDelay>
+            </Value>
+          </Item>
+          <Item>
+            <Key>East</Key>
+            <Value>
+              <Frames>0 0 64 64</Frames>
+              <FrameDelay>0</FrameDelay>
+            </Value>
+          </Item>
+          <Item>
+            <Key>South</Key>
+            <Value>
+              <Frames>0 0 64 64</Frames>
+              <FrameDelay>0</FrameDelay>
+            </Value>
+          </Item>
+          <Item>
+            <Key>West</Key>
+            <Value>
+              <Frames>0 0 64 64</Frames>
+              <FrameDelay>0</FrameDelay>
+            </Value>
+          </Item>
+        </Animations>
+      <SpriteSheetName>mages_blacksmith</SpriteSheetName>
+    </IdleAnimation>
+    <ControllerName>MagesBlacksmithsController</ControllerName>
+    <IdleOnly>true</IdleOnly>
+    <MoveDelay>1.2</MoveDelay>
+  </Asset>
+</XnaContent>

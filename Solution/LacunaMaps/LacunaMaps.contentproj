@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectGuid>{2AC16CB9-B173-4DE0-86D0-DA2DDB6BD786}</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>LacunaMaps</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agora_castle_courtyard.map">
+      <Name>agora_castle_courtyard</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="agora_castle_rooma.map">
+      <Name>agora_castle_rooma</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="agora_castle_roomb.map">
+      <Name>agora_castle_roomb</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="agora_castle_roomb2.map">
+      <Name>agora_castle_roomb2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="agora_castle_throne_room.map">
+      <Name>agora_castle_throne_room</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="blind_mans_forest_1.map">
+      <Name>blind_mans_forest_1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="blind_mans_forest_2.map">
+      <Name>blind_mans_forest_2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="blind_mans_forest_3.map">
+      <Name>blind_mans_forest_3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="blind_mans_forest_4.map">
+      <Name>blind_mans_forest_4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="blind_mans_forest_5.map">
+      <Name>blind_mans_forest_5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="blind_mans_forest_boss.map">
+      <Name>blind_mans_forest_boss</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="blind_mans_town.map">
+      <Name>blind_mans_town</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="blind_mans_town_inn_f1.map">
+      <Name>blind_mans_town_inn_f1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="blind_mans_town_inn_f2.map">
+      <Name>blind_mans_town_inn_f2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="blind_mans_town_mansion.map">
+      <Name>blind_mans_town_mansion</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="blind_mans_town_night.map">
+      <Name>blind_mans_town_night</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="blind_mans_town_npchouse.map">
+      <Name>blind_mans_town_npchouse</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="cave_labyrinth.map">
+      <Name>cave_labyrinth</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="cave_labyrinth_boss.map">
+      <Name>cave_labyrinth_boss</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="combat_tests_kwirl_forest.map">
+      <Name>combat_tests_kwirl_forest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="combat_test_agora.map">
+      <Name>combat_test_agora</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="combat_test_cave.map">
+      <Name>combat_test_cave</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="combat_test_desert.map">
+      <Name>combat_test_desert</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="combat_test_forest.map">
+      <Name>combat_test_forest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="combat_test_keep.map">
+      <Name>combat_test_keep</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="combat_test_library.map">
+      <Name>combat_test_library</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="combat_test_map.map">
+      <Name>combat_test_map</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="combat_test_skwirl_forest.map">
+      <Name>combat_test_skwirl_forest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="combat_test_snow.map">
+      <Name>combat_test_snow</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="combat_test_swamp.map">
+      <Name>combat_test_swamp</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="forbidden_cavern_high.map">
+      <Name>forbidden_cavern_high</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="forbidden_cavern_low.map">
+      <Name>forbidden_cavern_low</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="forbidden_cavern_rooma.map">
+      <Name>forbidden_cavern_rooma</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="forbidden_cavern_roomb_ground.map">
+      <Name>forbidden_cavern_roomb_ground</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="forbidden_cavern_roomb_ledge.map">
+      <Name>forbidden_cavern_roomb_ledge</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="forbidden_cavern_roomc.map">
+      <Name>forbidden_cavern_roomc</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="forbidden_cavern_roomd.map">
+      <Name>forbidden_cavern_roomd</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="forbidden_cavern_roome.map">
+      <Name>forbidden_cavern_roome</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="forbidden_cavern_roomf.map">
+      <Name>forbidden_cavern_roomf</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="forest_bandit_camp_1.map">
+      <Name>forest_bandit_camp_1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="forest_bandit_camp_2.map">
+      <Name>forest_bandit_camp_2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="forest_bandit_camp_3.map">
+      <Name>forest_bandit_camp_3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="forest_bandit_camp_4.map">
+      <Name>forest_bandit_camp_4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="forest_bandit_camp_room_1.map">
+      <Name>forest_bandit_camp_room_1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="forest_bandit_camp_room_2.map">
+      <Name>forest_bandit_camp_room_2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="healers_village.map">
+      <Name>healers_village</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="healers_village_blacksmith.map">
+      <Name>healers_village_blacksmith</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="healers_village_inn_f1.map">
+      <Name>healers_village_inn_f1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="healers_village_inn_f2.map">
+      <Name>healers_village_inn_f2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="healers_village_mayors_house_f1.map">
+      <Name>healers_village_mayors_house_f1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="healers_village_mayors_house_f2.map">
+      <Name>healers_village_mayors_house_f2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="healers_village_npchouse_se.map">
+      <Name>healers_village_npchouse_se</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="healers_village_npchouse_sw.map">
+      <Name>healers_village_npchouse_sw</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="keepf0.map">
+      <Name>keepf0</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="keepf1.map">
+      <Name>keepf1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="keepf2.map">
+      <Name>keepf2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="keepf3.map">
+      <Name>keepf3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="keepf3_after.map">
+      <Name>keepf3_after</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="keepf4treasury.map">
+      <Name>keepf4treasury</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="keepf5.map">
+      <Name>keepf5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="mage_town.map">
+      <Name>mage_town</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="mage_town_blacksmith.map">
+      <Name>mage_town_blacksmith</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="mage_town_endors_study.map">
+      <Name>mage_town_endors_study</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="mage_town_entrance_after.map">
+      <Name>mage_town_entrance_after</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="mage_town_entrance_before.map">
+      <Name>mage_town_entrance_before</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="mage_town_inn.map">
+      <Name>mage_town_inn</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="mage_town_inn_f2.map">
+      <Name>mage_town_inn_f2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="mage_town_npc_house1.map">
+      <Name>mage_town_npc_house1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="mage_town_npc_house2.map">
+      <Name>mage_town_npc_house2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="mage_town_npc_house3.map">
+      <Name>mage_town_npc_house3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="mage_town_transition.map">
+      <Name>mage_town_transition</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="mushroom_forest.map">
+      <Name>mushroom_forest</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="overworld.map">
+      <Name>overworld</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="possessed_library_1ground.map">
+      <Name>possessed_library_1ground</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="possessed_library_1ledge.map">
+      <Name>possessed_library_1ledge</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="possessed_library_2ground.map">
+      <Name>possessed_library_2ground</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="possessed_library_2ledge.map">
+      <Name>possessed_library_2ledge</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="possessed_library_3.map">
+      <Name>possessed_library_3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="possessed_library_3ledge.map">
+      <Name>possessed_library_3ledge</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="possessed_library_4ground.map">
+      <Name>possessed_library_4ground</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="possessed_library_4ledge.map">
+      <Name>possessed_library_4ledge</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="possessed_library_4secret1.map">
+      <Name>possessed_library_4secret1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="possessed_library_4secret2.map">
+      <Name>possessed_library_4secret2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="possessed_library_4secret3.map">
+      <Name>possessed_library_4secret3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="possessed_library_5.map">
+      <Name>possessed_library_5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="possessed_library_5secret.map">
+      <Name>possessed_library_5secret</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="possessed_library_boss.map">
+      <Name>possessed_library_boss</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="sewnBog_1.map">
+      <Name>sewnBog_1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="sewnBog_2.map">
+      <Name>sewnBog_2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="sewnBog_3.map">
+      <Name>sewnBog_3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="sewnBog_4.map">
+      <Name>sewnBog_4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="sewnBog_5.map">
+      <Name>sewnBog_5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="sewnBog_6.map">
+      <Name>sewnBog_6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="sewnBog_7.map">
+      <Name>sewnBog_7</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="sewn_bog_boss.map">
+      <Name>sewn_bog_boss</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town.map">
+      <Name>snow_town</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="snow_town_blacksmith_interior.map">
+      <Name>snow_town_blacksmith_interior</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_hermit_info_house.map">
+      <Name>snow_town_hermit_info_house</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_hermit_info_house_f2.map">
+      <Name>snow_town_hermit_info_house_f2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_hermit_info_house_f3.map">
+      <Name>snow_town_hermit_info_house_f3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_inn.map">
+      <Name>snow_town_inn</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_npchouse_e_n.map">
+      <Name>snow_town_npchouse_e_n</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="snow_town_npchouse_e_s.map">
+      <Name>snow_town_npchouse_e_s</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_npchouse_e_s_1.map">
+      <Name>snow_town_npchouse_e_s_1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_npchouse_e_s_2.map">
+      <Name>snow_town_npchouse_e_s_2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_npchouse_ne.map">
+      <Name>snow_town_npchouse_ne</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_npchouse_nw_f1.map">
+      <Name>snow_town_npchouse_nw_f1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_npchouse_nw_f2.map">
+      <Name>snow_town_npchouse_nw_f2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_npchouse_s_ne.map">
+      <Name>snow_town_npchouse_s_ne</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_npchouse_s_nw.map">
+      <Name>snow_town_npchouse_s_nw</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_npchouse_s_se.map">
+      <Name>snow_town_npchouse_s_se</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_npchouse_w_n.map">
+      <Name>snow_town_npchouse_w_n</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_npchouse_w_s.map">
+      <Name>snow_town_npchouse_w_s</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="snow_town_outskirts_blacksmith.map">
+      <Name>snow_town_outskirts_blacksmith</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="swamp_village.map">
+      <Name>swamp_village</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="swamp_village_inn.map">
+      <Name>swamp_village_inn</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="swamp_village_neva_lees_wigwam.map">
+      <Name>swamp_village_neva_lees_wigwam</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="swamp_village_npchut_e1.map">
+      <Name>swamp_village_npchut_e1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="swamp_village_npchut_e2.map">
+      <Name>swamp_village_npchut_e2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="swamp_village_npchut_w.map">
+      <Name>swamp_village_npchut_w</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="swamp_village_npcwigwam_e.map">
+      <Name>swamp_village_npcwigwam_e</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="swamp_village_npcwigwam_w.map">
+      <Name>swamp_village_npcwigwam_w</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="throne_room_flashback.map">
+      <Name>throne_room_flashback</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="world_beta_1.map">
+      <Name>world_beta_1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyQuest\MyQuest.csproj">
+      <Project>{C0D8017A-0875-4BB4-B8EC-68BF42B5F45E}</Project>
+      <Name>MyQuest</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agora_portal_room1.map">
+      <Name>agora_portal_room1</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_portal_room2.map">
+      <Name>agora_portal_room2</Name>
+      <Importer>XmlImporter</Importer>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="agora_portal_room3.map">
+      <Name>agora_portal_room3</Name>
+      <Importer>XmlImporter</Importer>
+      <SubType>Designer</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agora_castle_maze_a1.map">
+      <Name>agora_castle_maze_a1</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_a2.map">
+      <Name>agora_castle_maze_a2</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_a3.map">
+      <Name>agora_castle_maze_a3</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_a4.map">
+      <Name>agora_castle_maze_a4</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_a5.map">
+      <Name>agora_castle_maze_a5</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_a6.map">
+      <Name>agora_castle_maze_a6</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_a7.map">
+      <Name>agora_castle_maze_a7</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_b1.map">
+      <Name>agora_castle_maze_b1</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_b2.map">
+      <Name>agora_castle_maze_b2</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_b3.map">
+      <Name>agora_castle_maze_b3</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_b4.map">
+      <Name>agora_castle_maze_b4</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_b5.map">
+      <Name>agora_castle_maze_b5</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_b6.map">
+      <Name>agora_castle_maze_b6</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_b7.map">
+      <Name>agora_castle_maze_b7</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_c1.map">
+      <Name>agora_castle_maze_c1</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_c2.map">
+      <Name>agora_castle_maze_c2</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_c3.map">
+      <Name>agora_castle_maze_c3</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_c4.map">
+      <Name>agora_castle_maze_c4</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_c5.map">
+      <Name>agora_castle_maze_c5</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_c6.map">
+      <Name>agora_castle_maze_c6</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_c7.map">
+      <Name>agora_castle_maze_c7</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_d1.map">
+      <Name>agora_castle_maze_d1</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_d2.map">
+      <Name>agora_castle_maze_d2</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_d3.map">
+      <Name>agora_castle_maze_d3</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_d4.map">
+      <Name>agora_castle_maze_d4</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_d5.map">
+      <Name>agora_castle_maze_d5</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_d6.map">
+      <Name>agora_castle_maze_d6</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_d7.map">
+      <Name>agora_castle_maze_d7</Name>
+      <Importer>XmlImporter</Importer>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="agora_castle_maze_e1.map">
+      <Name>agora_castle_maze_e1</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_e2.map">
+      <Name>agora_castle_maze_e2</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_e3.map">
+      <Name>agora_castle_maze_e3</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_e4.map">
+      <Name>agora_castle_maze_e4</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_e5.map">
+      <Name>agora_castle_maze_e5</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_e6.map">
+      <Name>agora_castle_maze_e6</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_e7.map">
+      <Name>agora_castle_maze_e7</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_f4.map">
+      <Name>agora_castle_maze_f4</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_f5.map">
+      <Name>agora_castle_maze_f5</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_f7.map">
+      <Name>agora_castle_maze_f7</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_g4.map">
+      <Name>agora_castle_maze_g4</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_g5.map">
+      <Name>agora_castle_maze_g5</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_g6.map">
+      <Name>agora_castle_maze_g6</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_maze_g7.map">
+      <Name>agora_castle_maze_g7</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_right_tower_anteroom.map">
+      <Name>agora_castle_right_tower_anteroom</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_right_tower_entrance.map">
+      <Name>agora_castle_right_tower_entrance</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_rooftop.map">
+      <Name>agora_castle_rooftop</Name>
+      <Importer>XmlImporter</Importer>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="agora_castle_rooftop_room1.map">
+      <Name>agora_castle_rooftop_room1</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_rooftop_room2.map">
+      <Name>agora_castle_rooftop_room2</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_rooftop_room3.map">
+      <Name>agora_castle_rooftop_room3</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_rooftop_room4a.map">
+      <Name>agora_castle_rooftop_room4a</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_rooftop_room4b.map">
+      <Name>agora_castle_rooftop_room4b</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_rooftop_throne_room_transition.map">
+      <Name>agora_castle_rooftop_throne_room_transition</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_room1_ground.map">
+      <Name>agora_castle_room1_ground</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_room2.map">
+      <Name>agora_castle_room2</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_room2b.map">
+      <Name>agora_castle_room2b</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agora_castle_supply_room1.map">
+      <Name>agora_castle_supply_room1</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_supply_room2.map">
+      <Name>agora_castle_supply_room2</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agora_castle_keyarea_aboveground.map">
+      <Name>agora_castle_keyarea_aboveground</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_keyarea_goal.map">
+      <Name>agora_castle_keyarea_goal</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_keyrooma.map">
+      <Name>agora_castle_keyrooma</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_left_tower_entrance.map">
+      <Name>agora_castle_left_tower_entrance</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_longhall.map">
+      <Name>agora_castle_longhall</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agora_castle_courtyardToGarden.map">
+      <Name>agora_castle_courtyardToGarden</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_courtyardToKeyarea.map">
+      <Name>agora_castle_courtyardToKeyarea</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_extraroom1.map">
+      <Name>agora_castle_extraroom1</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_extraroom2.map">
+      <Name>agora_castle_extraroom2</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_extraroom3.map">
+      <Name>agora_castle_extraroom3</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_extraroom4.map">
+      <Name>agora_castle_extraroom4</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_extraroom5.map">
+      <Name>agora_castle_extraroom5</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_extraroom6.map">
+      <Name>agora_castle_extraroom6</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_garden.map">
+      <Name>agora_castle_garden</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="agora_castle_garden_ledge.map">
+      <Name>agora_castle_garden_ledge</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agora_refugee_area.map">
+      <Name>agora_refugee_area</Name>
+      <Importer>XmlImporter</Importer>
+      <SubType>Designer</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="mage_town_night.map">
+      <Name>mage_town_night</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="mage_town_endors_study_night.map">
+      <Name>mage_town_endors_study_night</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="random_dungeon_1_floor1.map">
+      <Name>random_dungeon_1_floor1</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="random_dungeon_1_floor1secret.map">
+      <Name>random_dungeon_1_floor1secret</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="random_dungeon_1_floor2.map">
+      <Name>random_dungeon_1_floor2</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="random_dungeon_1_floor2_ground.map">
+      <Name>random_dungeon_1_floor2_ground</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="random_dungeon_1_floor2_groundsecret.map">
+      <Name>random_dungeon_1_floor2_groundsecret</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+    <Compile Include="random_dungeon_1_floor3.map">
+      <Name>random_dungeon_1_floor3</Name>
+      <Importer>XmlImporter</Importer>
+      <SubType>Designer</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="random_dungeon2.map">
+      <Name>random_dungeon2</Name>
+      <Importer>XmlImporter</Importer>
+      <SubType>Designer</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="swamp_village_inn_fl2.map">
+      <Name>swamp_village_inn_fl2</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="random_dungeon3.map">
+      <Name>random_dungeon3</Name>
+      <Importer>XmlImporter</Importer>
+      <SubType>Designer</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="random_dungeon4.map">
+      <Name>random_dungeon4</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="random_dungeon6_mimicMaze.map">
+      <Name>random_dungeon6_mimicMaze</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="swamp_to_snow_cave.map">
+      <Name>swamp_to_snow_cave</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="snow_to_swamp_cave.map">
+      <Name>snow_to_swamp_cave</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="arlans_study.map">
+      <Name>arlans_study</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="refugee_inn.map">
+      <Name>refugee_inn</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="refugee_interior1.map">
+      <Name>refugee_interior1</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="refugee_interior2.map">
+      <Name>refugee_interior2</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="refugee_interior3.map">
+      <Name>refugee_interior3</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="blind_mans_forest_cave.map">
+      <Name>blind_mans_forest_cave</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cave_labyrinth_easter_egg.map">
+      <Name>cave_labyrinth_easter_egg</Name>
+      <Importer>XmlImporter</Importer>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>healers_village_npchouse_sw</Name>
+    <TextureSheetName>healers_village_interior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>5 7</DimensionsInTiles>
+    <GroundLayer>43 124 124 124 44 63 144 144 144 64 11 13 13 13 12 280 42 42 42 34 33 42 42 42 34 31 14 42 14 32 -1 -1 35 -1 -1</GroundLayer>
+    <ForeGroundLayer>-1 -1 128 -1 -1 -1 -1 148 -1 -1 -1 -1 -1 -1 -1 283 -1 -1 80 82 300 -1 -1 100 102 -1 -1 -1 -1 46 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>125 126 126 126 127 145 -1 -1 -1 147 260 -1 -1 -1 147 -1 -1 -1 109 147 145 -1 -1 -1 147 165 166 166 166 166 -1 -1 105 -1 -1</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 0 0 0 1 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries />
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>healers_village</DestinationMap>
+        <DestinationPosition>12 15</DestinationPosition>
+        <Position>2 6</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>HealersVillage</MusicCueName>
+  </Asset>
+</XnaContent>

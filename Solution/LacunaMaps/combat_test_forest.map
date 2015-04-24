@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>combat_test_forest</Name>
+    <TextureSheetName>mushroom_forest</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>10 10</DimensionsInTiles>
+    <GroundLayer>36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36</GroundLayer>
+    <ForeGroundLayer>0 7 54 -1 44 45 -1 -1 65 -1 20 21 72 -1 44 45 -1 -1 -1 -1 65 -1 -1 65 48 51 65 -1 -1 65 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 65 -1 -1 65 -1 -1 65 -1 -1 65 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 65 -1 -1 65 -1 -1 65 -1 -1 65 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 8 9 -1 -1 -1 -1 -1 -1 8 9 26 27 -1 -1 44 45 -1 -1 26 27</ForeGroundLayer>
+    <FringeLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>1 1 0 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries />
+    <CutSceneEntries>
+      <Item>
+        <AssetName>ForestFeeshTest</AssetName>
+        <TriggerPosition>9 6</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>ForestFeeshTest3</AssetName>
+        <TriggerPosition>6 6</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>ForestFeeshTest2</AssetName>
+        <TriggerPosition>0 6</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>ForestFeeshTest5</AssetName>
+        <TriggerPosition>8 0</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>ForestFeeshTest4</AssetName>
+        <TriggerPosition>3 6</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>ForestFeeshTest</AssetName>
+        <TriggerPosition>4 6</TriggerPosition>
+      </Item>
+      
+    </CutSceneEntries>
+    <Portals>
+      <Item>
+        <DestinationMap>combat_test_cave</DestinationMap>
+        <DestinationPosition>6 13</DestinationPosition>
+        <Position>2 1</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>combat_test_library</DestinationMap>
+        <DestinationPosition>4 8</DestinationPosition>
+        <Position>5 0</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>combat_test_library</DestinationMap>
+        <DestinationPosition>4 8</DestinationPosition>
+        <Position>4 0</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>combat_test_keep</DestinationMap>
+        <DestinationPosition>5 1</DestinationPosition>
+        <Position>5 9</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>combat_test_keep</DestinationMap>
+        <DestinationPosition>5 1</DestinationPosition>
+        <Position>4 9</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+    </Portals>
+    <MusicCueName>Overworld</MusicCueName>
+  </Asset>
+</XnaContent>

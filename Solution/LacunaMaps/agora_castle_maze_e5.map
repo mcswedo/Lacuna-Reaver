@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>agora_castle_maze_e5</Name>
+    <TextureSheetName>agora_castle_Interior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>9 10</DimensionsInTiles>
+    <GroundLayer>0 271 0 0 244 0 0 271 0 0 281 0 0 244 0 0 281 0 0 244 0 0 244 0 0 244 0 0 244 10 10 244 10 10 244 0 10 252 253 253 254 253 253 242 10 253 254 31 31 31 31 31 254 253 0 252 31 31 31 31 31 242 0 0 252 31 31 31 31 31 242 0 0 250 243 243 31 243 243 251 0 0 0 0 0 244 0 0 0 0</GroundLayer>
+    <ForeGroundLayer>9 -1 9 9 59 9 9 -1 9 9 -1 9 9 59 9 9 -1 9 9 275 88 89 59 88 89 275 9 -1 276 98 99 59 98 99 276 -1 -1 -1 -1 106 59 106 -1 -1 -1 51 64 51 51 68 51 51 64 51 9 59 313 314 59 315 316 59 9 9 63 51 51 68 51 51 62 9 9 -1 -1 -1 59 -1 -1 -1 9 9 9 9 9 59 9 9 9 9</ForeGroundLayer>
+    <FringeLayer>9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 115 116 117 118 119 9 9 9 9 125 108 127 108 129 9 9 9 9 135 136 137 136 139 9 9 69 9 303 304 9 305 306 9 69 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 69 69 69 9 69 69 69 9 9 9 9 9 9 9 9 9 9</FringeLayer>
+    <CollisionLayer>0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 0 0 1 0 0 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 0 0 0 0 1 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>
+       97  98  99 100 101 102  97  98  99 100
+      101 102  97  98  99 100 101 102  97  98
+       99 100 101 102 102  97  98  99 100 101
+       97  98  99 100 101 102  97  98  99 100
+      101 102  97  98  99 100 101 102  97  98
+       99 100 101 102 102  97  98  99 100 101
+       97  98  99 100 101 102  97  98  99 100
+      101 102  97  98  99 100 101 102  97  98
+       99 100 101 102 102  97  98  99 100 101
+    </CombatLayer>
+    <NpcEntries />
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>agora_castle_maze_e4</DestinationMap>
+        <DestinationPosition>7 5</DestinationPosition>
+        <Position>0 5</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>West</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>agora_castle_maze_f5</DestinationMap>
+        <DestinationPosition>4 8</DestinationPosition>
+        <Position>4 0</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>agora_castle_maze_e6</DestinationMap>
+        <DestinationPosition>1 5</DestinationPosition>
+        <Position>8 5</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>East</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>agora_castle_maze_d5</DestinationMap>
+        <DestinationPosition>4 1</DestinationPosition>
+        <Position>4 9</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>ArlanAgoraCastle</MusicCueName>
+  </Asset>
+</XnaContent>

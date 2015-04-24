@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>combat_test_library</Name>
+    <TextureSheetName>possessedlibrary</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>10 10</DimensionsInTiles>
+    <GroundLayer>19 19 19 19 19 19 19 19 -1 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19</GroundLayer>
+    <ForeGroundLayer>70 70 70 70 50 70 70 70 96 70 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 96 -1 -1 96 -1 -1 96 -1 -1 96 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 96 -1 -1 96 -1 -1 96 -1 -1 96 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 96 -1 -1 96 -1 -1 96 -1 -1 96 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 70 70 -1 -1 -1 -1 -1 -1 70 70 70 70 3 3 72 3 3 3 70 70</ForeGroundLayer>
+    <FringeLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>0 0 0 0 1 0 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 0 0 0 0 0 0 1 0 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries />
+    <CutSceneEntries>
+      <Item> 
+        <AssetName>LibraryMixTest</AssetName>
+        <TriggerPosition>0 6</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>LibraryHauntedBookTest</AssetName>
+        <TriggerPosition>2 6</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>LibraryGhostTest</AssetName>
+        <TriggerPosition>4 6</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>LibraryHauntedChairTest</AssetName>
+        <TriggerPosition>6 4</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>LibraryMixTest2</AssetName>
+        <TriggerPosition>3 2</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>LibraryMixTest3</AssetName>
+        <TriggerPosition>6 1</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>LibraryMixTest4</AssetName>
+        <TriggerPosition>4 2</TriggerPosition>
+      </Item>
+    </CutSceneEntries>
+    <Portals>
+      <Item>
+        <DestinationMap>combat_test_forest</DestinationMap>
+        <DestinationPosition>5 1</DestinationPosition>
+        <Position>4 9</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>combat_test_swamp</DestinationMap>
+        <DestinationPosition>4 8</DestinationPosition>
+        <Position>4 0</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+    </Portals>
+    <MusicCueName>LibraryTheme</MusicCueName>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.NPCMapCharacter">
+    <Name>SnowTownNpc3</Name>
+    <PortraitName>HeroPortrait</PortraitName>
+    <IdleAnimation>
+      <Name>Idle</Name>
+      <Animations>
+        <Item>
+          <Key>North</Key>
+          <Value>
+            <Frames>0 0 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>South</Key>
+          <Value>
+            <Frames>0 64 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>East</Key>
+          <Value>
+            <Frames>0 128 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>West</Key>
+          <Value>
+            <Frames>0 192 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+      </Animations>
+      <SpriteSheetName>stub_standing</SpriteSheetName>
+    </IdleAnimation>
+    <WalkingAnimation>
+      <Name>Walking</Name>
+      <Animations>
+        <Item>
+          <Key>West</Key>
+          <Value>
+            <Frames>0 0 64 64 64 0 64 64 128 0 64 64 192 0 64 64</Frames>
+            <FrameDelay>0.1</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>East</Key>
+          <Value>
+            <Frames>0 64 64 64 64 64 64 64 128 64 64 64 192 64 64 64</Frames>
+            <FrameDelay>0.1</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>North</Key>
+          <Value>
+            <Frames>0 128 64 64 64 128 64 64 128 128 64 64 192 128 64 64</Frames>
+            <FrameDelay>0.1</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>South</Key>
+          <Value>
+            <Frames>0 192 64 64 64 192 64 64 128 192 64 64 192 192 64 64</Frames>
+            <FrameDelay>0.1</FrameDelay>
+          </Value>
+        </Item>
+      </Animations>
+      <SpriteSheetName>stub_walking</SpriteSheetName>
+    </WalkingAnimation>
+    <MoveSpeed>0.8</MoveSpeed>
+    <ControllerName>NullController</ControllerName>
+    <IdleOnly>false</IdleOnly>
+    <MoveDelay>2</MoveDelay>
+  </Asset>
+</XnaContent>

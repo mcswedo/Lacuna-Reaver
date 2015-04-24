@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.NPCMapCharacter">
+    <Name>RiftPortal</Name>
+    <PortraitName>generic_man_portrait</PortraitName>
+    <IsCastingShadow>false</IsCastingShadow>
+    <IdleAnimation>
+      <Name>Idle</Name>
+      <Animations>
+        <Item>
+          <Key>North</Key>
+          <Value>
+            <Frames>0 0 64 64 64 0 64 64 128 0 64 64 192 0 64 64 256 0 64 64 320 0 64 64 384 0 64 64 448 0 64 64 512 0 64 64 576 0 64 64 640 0 64 64</Frames>
+            <FrameDelay>0.1</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>South</Key>
+          <Value>
+            <Frames>0 0 64 64 64 0 64 64 128 0 64 64 192 0 64 64 256 0 64 64 320 0 64 64 384 0 64 64 448 0 64 64 512 0 64 64 576 0 64 64 640 0 64 64</Frames>
+            <FrameDelay>0.1</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>East</Key>
+          <Value>
+            <Frames>0 0 64 64 64 0 64 64 128 0 64 64 192 0 64 64 256 0 64 64 320 0 64 64 384 0 64 64 448 0 64 64 512 0 64 64 576 0 64 64 640 0 64 64</Frames>
+            <FrameDelay>0.1</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>West</Key>
+          <Value>
+            <Frames>0 0 64 64 64 0 64 64 128 0 64 64 192 0 64 64 256 0 64 64 320 0 64 64 384 0 64 64 448 0 64 64 512 0 64 64 576 0 64 64 640 0 64 64</Frames>
+            <FrameDelay>0.1</FrameDelay>
+          </Value>
+        </Item>
+      </Animations>
+      <SpriteSheetName>RiftPortal</SpriteSheetName>
+    </IdleAnimation>
+    <MoveSpeed>0.8</MoveSpeed>
+    <ControllerName>NullController</ControllerName>
+    <IdleOnly>true</IdleOnly>
+    <MoveDelay>2</MoveDelay>
+  </Asset>
+</XnaContent>

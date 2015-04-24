@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>refugee_interior3</Name>
+    <TextureSheetName>cave_habitat</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>8 8</DimensionsInTiles>
+    <GroundLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>-1 -1 -1 -1 -1 -1 147 148 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 171 172 -1 -1 -1 -1 171 171 195 196 -1 -1 -1 -1 195 196 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>Reflady</AssetName>
+        <SpawnPosition>2 3</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>agora_refugee_area</DestinationMap>
+        <DestinationPosition>27 26</DestinationPosition>
+        <Position>3 7</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>SwampTown</MusicCueName>
+  </Asset>
+</XnaContent>

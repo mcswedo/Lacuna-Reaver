@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>cave_labyrinth_boss</Name>
+    <TextureSheetName>cavemap</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>7 12</DimensionsInTiles>
+    <GroundLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 65 65 65 -1 -1 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 -1 -1 -1 65 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>-1 -1 5 13 1 -1 -1 5 14 15 23 11 12 1 15 24 25 -1 21 22 11 25 -1 -1 -1 -1 -1 21 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 8 -1 -1 -1 -1 -1 7 8 -1 -1 -1 -1 -1 7 8 -1 -1 -1 -1 -1 7 8 -1 -1 -1 -1 -1 7 8 -1 -1 -1 -1 -1 7 8 -1 -1 -1 -1 -1 7 8 -1 -1 -1 -1 -1 7 8 -1 -1 -1 -1 -1 7 45 46 47 -1 40 41 42 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>Serlynx</AssetName>
+        <SpawnPosition>3 3</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>MasterBlacksmith</AssetName>
+        <SpawnPosition>3 2</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries>
+      <Item>
+        <AssetName>LabyrinthBossCutSceneScreen</AssetName>
+        <TriggerPosition>3 11</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>BackToHermitHouseCutSceneScreen</AssetName>
+        <TriggerPosition>6 4</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>BackToHermitHouseCutSceneScreen</AssetName>
+        <TriggerPosition>5 4</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>BackToHermitHouseCutSceneScreen</AssetName>
+        <TriggerPosition>4 4</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>BackToHermitHouseCutSceneScreen</AssetName>
+        <TriggerPosition>3 4</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>BackToHermitHouseCutSceneScreen</AssetName>
+        <TriggerPosition>2 4</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>BackToHermitHouseCutSceneScreen</AssetName>
+        <TriggerPosition>1 4</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>BackToHermitHouseCutSceneScreen</AssetName>
+        <TriggerPosition>0 4</TriggerPosition>
+      </Item>
+    </CutSceneEntries>
+    <Portals>
+      <Item>
+        <DestinationMap>cave_labyrinth</DestinationMap>
+        <DestinationPosition>48 48</DestinationPosition>
+        <Position>3 11</Position>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>Labyrinth</MusicCueName>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>refugee_inn</Name>
+    <TextureSheetName>cave_habitat</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>8 8</DimensionsInTiles>
+    <GroundLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>-1 -1 -1 -1 -1 -1 -1 148 175 176 177 178 175 176 177 178 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 171 171 -1 -1 -1 172 171 171 195 195 -1 -1 -1 196 195 196 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>RefugeeItemClerk</AssetName>
+        <SpawnPosition>5 0</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>RefugeeInnClerk</AssetName>
+        <SpawnPosition>1 0</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>RefugeeInvisibleInnClerk</AssetName>
+        <SpawnPosition>2 1</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>RefugeeInvisibleInnClerk2</AssetName>
+        <SpawnPosition>1 1</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>RefugeeInvisibleInnClerk3</AssetName>
+        <SpawnPosition>0 1</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>RefugeeInvisibleItemClerk</AssetName>
+        <SpawnPosition>4 1</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>RefugeeInvisibleItemClerk2</AssetName>
+        <SpawnPosition>5 1</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>RefugeeInvisibleItemClerk3</AssetName>
+        <SpawnPosition>6 1</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>agora_refugee_area</DestinationMap>
+        <DestinationPosition>22 16</DestinationPosition>
+        <Position>3 7</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>Inn</MusicCueName>
+  </Asset>
+</XnaContent>

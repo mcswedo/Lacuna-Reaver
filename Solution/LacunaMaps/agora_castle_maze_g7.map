@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>agora_castle_maze_g7</Name>
+    <TextureSheetName>agora_castle_Interior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>9 10</DimensionsInTiles>
+    <GroundLayer>0 271 0 0 0 0 0 271 0 0 281 0 0 0 0 0 281 0 0 244 0 0 0 0 0 244 0 0 244 10 10 10 10 10 244 0 10 252 253 253 253 253 253 242 0 253 254 31 31 31 31 31 242 0 0 252 31 31 31 31 31 242 0 0 252 31 31 31 31 31 242 0 0 250 243 243 31 243 243 251 0 0 0 0 0 244 0 0 0 0</GroundLayer>
+    <ForeGroundLayer>9 -1 9 9 9 9 9 -1 9 9 -1 9 9 9 9 9 -1 9 9 275 204 205 163 204 205 275 9 -1 276 214 215 163 214 215 276 9 -1 -1 106 -1 -1 -1 106 -1 9 51 51 51 51 60 -1 -1 -1 9 9 -1 -1 -1 59 -1 -1 -1 9 9 276 -1 -1 59 -1 -1 276 9 9 -1 276 -1 59 -1 276 -1 9 9 9 9 9 59 9 9 9 9</ForeGroundLayer>
+    <FringeLayer>9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 115 118 119 9 115 118 119 9 9 125 108 129 9 125 108 129 9 9 135 138 139 9 135 138 139 9 69 9 9 9 9 9 9 9 9 9 274 9 9 9 9 9 274 9 9 9 274 9 9 9 274 9 9 9 69 69 69 9 69 69 69 9 9 9 9 9 9 9 9 9 9</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>
+       97  98  99 100 101 102  97  98  99 100
+      101 102  97  98  99 100 101 102  97  98
+       99 100 101 102 102  97  98  99 100 101
+       97  98  99 100 101 102  97  98  99 100
+      101 102  97  98  99 100 101 102  97  98
+       99 100 101 102 102  97  98  99 100 101
+       97  98  99 100 101 102  97  98  99 100
+      101 102  97  98  99 100 101 102  97  98
+       99 100 101 102 102  97  98  99 100 101
+    </CombatLayer>
+    <NpcEntries />
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>agora_castle_maze_g6</DestinationMap>
+        <DestinationPosition>7 5</DestinationPosition>
+        <Position>0 5</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>West</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>agora_castle_maze_f7</DestinationMap>
+        <DestinationPosition>4 1</DestinationPosition>
+        <Position>4 9</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>ArlanAgoraCastle</MusicCueName>
+  </Asset>
+</XnaContent>

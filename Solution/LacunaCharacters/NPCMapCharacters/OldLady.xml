@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.NPCMapCharacter">
+    <Name>OldLady</Name>
+    <PortraitName>generic_man_portrait</PortraitName>
+    <IsCastingShadow>false</IsCastingShadow>
+    <IdleAnimation>
+      <Name>Idle</Name>
+      <Animations>
+        <Item>
+          <Key>North</Key>
+          <Value>
+            <Frames>0 0 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>South</Key>
+          <Value>
+            <Frames>0 64 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>East</Key>
+          <Value>
+            <Frames>0 128 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>West</Key>
+          <Value>
+            <Frames>0 192 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+      </Animations>
+      <SpriteSheetName>old_lady_standing</SpriteSheetName>
+    </IdleAnimation>
+    <ControllerName>OldLadysController</ControllerName>
+    <IdleOnly>true</IdleOnly>
+  </Asset>
+</XnaContent>

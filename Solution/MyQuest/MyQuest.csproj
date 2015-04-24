@@ -1,0 +1,1227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{C0D8017A-0875-4BB4-B8EC-68BF42B5F45E}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyQuest</RootNamespace>
+    <AssemblyName>MyQuest</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>Reach</XnaProfile>
+    <XnaCrossPlatformGroupID>ace2eb41-20bd-4f52-b646-40b0ef23d25d</XnaCrossPlatformGroupID>
+    <XnaOutputType>Library</XnaOutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>True</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animation\CombatAnimation.cs" />
+    <Compile Include="Animation\FrameAnimation.cs" />
+    <Compile Include="Animation\SpriteAnimation.cs" />
+    <Compile Include="Audio\AudioCues.cs" />
+    <Compile Include="Audio\MusicSystem.cs" />
+    <Compile Include="Audio\SoundSystem.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\AbominableSnowMan.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\AgoraDemon3.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Apprentice.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Arlan.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Boggimus.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\BoggimusTadpole.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\CaveCrab.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Chepetawa.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Bandit.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\CaveDemon1.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\CaveDemon2.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\CarasBandit.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\AgoraCaveDemon1.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\AgoraCaveDemon2.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Agora Imp.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\AgoraCaveCrab.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\AgoraGhost.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\AgoraElderMantis.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\AgoraFireFlyder.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\AgoraHauntedTree.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\AgoraTohmey.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Bandit2.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\BanditKing.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\FinalMalticar.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\DemonBandit.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\PoisonousHauntedBook.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\TippersCombat.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\NegaWill.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\HauntedChair.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Character\FightingCharacter\NPCs\KeepDemon.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\KeepImp.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\DesertBandit.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\ElderMantis.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\FireFlyder.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\FireImp.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Flyder.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\FrostFlyder.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Ghost2.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\HauntedTree.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\SewnBogHauntedTree.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\IceFeesh.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Ghost.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\HauntedBook.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Imp.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Malticar.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\PolarBurtle.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Serlynx.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\SnowBandit.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\AgoraDemon2.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Tohmey.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\VoodooDoll.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\WitchDoctor.cs" />
+    <Compile Include="Character\FightingCharacter\PCs\Will.cs" />
+    <Compile Include="Character\Level Up\CaraLevelUp.cs" />
+    <Compile Include="Character\Level Up\CharacterLevelUp.cs" />
+    <Compile Include="Character\FightingCharacter\NPCFightingCharacter.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Burtle.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Feesh.cs" />
+    <Compile Include="Character\FightingCharacter\NPCs\Demon1.cs" />
+    <Compile Include="Character\FightingCharacter\PCFightingCharacter.cs" />
+    <Compile Include="Character\FightingCharacter\FighterStats.cs" />
+    <Compile Include="Character\FightingCharacter\FightingCharacter.cs" />
+    <Compile Include="Character\FightingCharacter\PCs\Cara.cs" />
+    <Compile Include="Character\FightingCharacter\PCs\Max.cs" />
+    <Compile Include="Character\FightingCharacter\PCs\Nathan.cs" />
+    <Compile Include="Character\FightingCharacter\PCs\Sid.cs" />
+    <Compile Include="Character\Level Up\MaxLevelUp.cs" />
+    <Compile Include="Character\Level Up\NathanLevelUp.cs" />
+    <Compile Include="Character\Level Up\SidLevelUp.cs" />
+    <Compile Include="Character\Level Up\WillLevelUp.cs" />
+    <Compile Include="Character\MapCharacters\MapCharacter.cs" />
+    <Compile Include="Character\MapCharacters\NPCPool.cs" />
+    <Compile Include="Character\MapCharacters\NPCMapCharacter.cs" />
+    <Compile Include="Character\MapCharacters\PCMapCharacter.cs" />
+    <Compile Include="Combat\AI\ArlanCombatAIController.cs" />
+    <Compile Include="Combat\AI\BoggimusCombatAIController.cs" />
+    <Compile Include="Combat\AI\BurtleCombatAIController.cs" />
+    <Compile Include="Combat\AI\ChepetawaCombatAIController.cs" />
+    <Compile Include="Combat\AI\CombatAIController.cs" />
+    <Compile Include="Combat\AI\CombatStatistics.cs" />
+    <Compile Include="Combat\AI\ElderMantisCombatAIController.cs" />
+    <Compile Include="Combat\AI\MalticarCombatAIController.cs" />
+    <Compile Include="Combat\AI\SerlynxCombatAIController.cs" />
+    <Compile Include="Combat\CombatCalculations.cs" />
+    <Compile Include="Combat\CombatMessage.cs" />
+    <Compile Include="Combat\CombatZone.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Combat\CombatZoneLayout.cs" />
+    <Compile Include="Combat\CombatZonePool.cs" />
+    <Compile Include="Combat\DamageModifier.cs" />
+    <Compile Include="Combat\Monster.cs" />
+    <Compile Include="Combat\Slot.cs" />
+    <Compile Include="Combat\Status Effects\Armored.cs" />
+    <Compile Include="Combat\Status Effects\Blindness.cs" />
+    <Compile Include="Combat\Status Effects\BurtleRage.cs" />
+    <Compile Include="Combat\Status Effects\ChepetawaRage.cs" />
+    <Compile Include="Combat\Status Effects\Burning.cs" />
+    <Compile Include="Combat\Status Effects\Expose.cs" />
+    <Compile Include="Combat\Status Effects\SpRegeneration.cs" />
+    <Compile Include="Combat\Status Effects\DestinyStatusEffect.cs" />
+    <Compile Include="Combat\Status Effects\Defending.cs" />
+    <Compile Include="Combat\Status Effects\Envigored.cs" />
+    <Compile Include="Combat\Status Effects\Focused.cs" />
+    <Compile Include="Combat\Status Effects\Invulnerable.cs" />
+    <Compile Include="Combat\Status Effects\Paralyzed.cs" />
+    <Compile Include="Combat\Status Effects\Poisoned.cs" />
+    <Compile Include="Combat\Status Effects\Regeneration.cs" />
+    <Compile Include="Combat\Status Effects\StatusEffect.cs" />
+    <Compile Include="Combat\Status Effects\Stunned.cs" />
+    <Compile Include="Combat\Status Effects\Warded.cs" />
+    <Compile Include="Combat\Status Effects\Weakened.cs" />
+    <Compile Include="Combat\TurnExecutor.cs" />
+    <Compile Include="Engine\Camera.cs" />
+    <Compile Include="Engine\ContentList.cs" />
+    <Compile Include="Engine\GameLoop.cs" />
+    <Compile Include="Engine\MyContentManager.cs" />
+    <Compile Include="Items\Accessories\BattleLordsRing.cs" />
+    <Compile Include="Items\Accessories\BattleThiefRing.cs" />
+    <Compile Include="Items\Accessories\ChainOfFlame.cs" />
+    <Compile Include="Items\Accessories\ChainOfTheSea.cs" />
+    <Compile Include="Items\Accessories\ChainOfSkies.cs" />
+    <Compile Include="Items\Accessories\AmuletOfInsight.cs" />
+    <Compile Include="Items\Accessories\NathansGift.cs" />
+    <Compile Include="Items\Accessories\PearlBand.cs" />
+    <Compile Include="Items\Accessories\JadeStatue.cs" />
+    <Compile Include="Items\Accessories\RubyRing.cs" />
+    <Compile Include="Items\Accessories\ObsidianCharm.cs" />
+    <Compile Include="Items\Accessories\NatureCharm.cs" />
+    <Compile Include="Items\Accessories\EarthenGloves.cs" />
+    <Compile Include="Items\Accessories\SpikedChain.cs" />
+    <Compile Include="Items\Accessories\RingOfVeneration.cs" />
+    <Compile Include="Items\Accessories\RingOfTheSages.cs" />
+    <Compile Include="Items\Accessories\RingOfCalling.cs" />
+    <Compile Include="Items\Accessories\RingOfBravura.cs" />
+    <Compile Include="Items\Accessories\DivineRing.cs" />
+    <Compile Include="Items\Accessories\RingOfJustice.cs" />
+    <Compile Include="Items\Accessories\ShadowStrikeRing.cs" />
+    <Compile Include="Items\Accessories\BattleMageRing.cs" />
+    <Compile Include="Items\Accessories\SkirmishRing.cs" />
+    <Compile Include="Items\Accessories\TrainingBelt.cs" />
+    <Compile Include="Items\Accessories\TranslucentRing.cs" />
+    <Compile Include="Items\Accessories\LapizLazuliRing.cs" />
+    <Compile Include="Items\Accessory.cs" />
+    <Compile Include="Items\ConsumableItem.cs" />
+    <Compile Include="Items\Equipment.cs" />
+    <Compile Include="Items\Equipment\Caras Equipment\ExpertsClothArmor.cs" />
+    <Compile Include="Items\Equipment\Caras Equipment\ExpertsBook.cs" />
+    <Compile Include="Items\Equipment\Caras Equipment\WoolArmor.cs" />
+    <Compile Include="Items\Equipment\Nathans Equipment\AdvancedSword.cs" />
+    <Compile Include="Items\Equipment\Nathans Equipment\AdvancedArmor.cs" />
+    <Compile Include="Items\Equipment\Nathans Equipment\Armor.cs" />
+    <Compile Include="Items\Equipment\Caras Equipment\ClothArmor.cs" />
+    <Compile Include="Items\Equipment\Caras Equipment\AdvancedBook.cs" />
+    <Compile Include="Items\Equipment\Nathans Equipment\TrainingSword.cs" />
+    <Compile Include="Items\Equipment\Nathans Equipment\ExpertsArmor.cs" />
+    <Compile Include="Items\Equipment\Nathans Equipment\ExpertsSword.cs" />
+    <Compile Include="Items\Equipment\Wills Equipment\AdvancedScythe.cs" />
+    <Compile Include="Items\Equipment\PlainArmor.cs" />
+    <Compile Include="Items\Equipment\Wills Equipment\ExpertsLeatherArmor.cs" />
+    <Compile Include="Items\Equipment\Wills Equipment\RustyScythe.cs" />
+    <Compile Include="Items\Equipment\Wills Equipment\ExpertsScythe.cs" />
+    <Compile Include="Items\Equipment\Wills Equipment\RawhideLeatherArmor.cs" />
+    <Compile Include="Items\Equipment\Wills Equipment\LeatherArmor.cs" />
+    <Compile Include="Items\Equipment\Caras Equipment\PlainBook.cs" />
+    <Compile Include="Items\Equipment\Wills Equipment\PlainScythe.cs" />
+    <Compile Include="Items\Equipment\Nathans Equipment\PlainSword.cs" />
+    <Compile Include="Items\Inventory.cs" />
+    <Compile Include="Items\Item.cs" />
+    <Compile Include="Items\Items\HugeEnergyPotion.cs" />
+    <Compile Include="Items\Items\HugeHealthPotion.cs" />
+    <Compile Include="Items\QuestItems\BeardTrimmer.cs" />
+    <Compile Include="Items\QuestItems\BlueMark.cs" />
+    <Compile Include="Items\QuestItems\BloodMetalOre.cs" />
+    <Compile Include="Items\QuestItems\Compass.cs" />
+    <Compile Include="Items\QuestItems\EyeOfShambala.cs" />
+    <Compile Include="Items\QuestItems\MapItems\ForbiddenCavernMap.cs" />
+    <Compile Include="Items\QuestItems\SnowBoots.cs" />
+    <Compile Include="Items\QuestItems\MysteriousPage.cs" />
+    <Compile Include="Items\QuestItems\QuickeningBoots.cs" />
+    <Compile Include="Items\QuestItems\StarfireOre.cs" />
+    <Compile Include="Items\QuestItems\RedMark.cs" />
+    <Compile Include="Items\QuestItems\GreenMark.cs" />
+    <Compile Include="Items\QuestItems\MapItems\AgoraMap.cs" />
+    <Compile Include="Items\QuestItems\MapItems\RefugeeCampMap.cs" />
+    <Compile Include="Items\QuestItems\MapItems\EllaethiaMap.cs" />
+    <Compile Include="Items\QuestItems\MapItems\SnowTownMap.cs" />
+    <Compile Include="Items\QuestItems\MapItems\CaveLabyrinthMap.cs" />
+    <Compile Include="Items\QuestItems\MapItems\MushroomForestMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Items\QuestItems\MapItems\SewnBogMap.cs" />
+    <Compile Include="Items\QuestItems\MapItems\SwampVillageMap.cs" />
+    <Compile Include="Items\QuestItems\MapItems\WillsVillageMap.cs" />
+    <Compile Include="Items\QuestItems\MapItems\PossessedLibraryMap.cs" />
+    <Compile Include="Items\QuestItems\MapItems\MageTownMap.cs" />
+    <Compile Include="Items\QuestItems\MapItems\WillsForestMap.cs" />
+    <Compile Include="Items\QuestItems\MapItems\HealersVillageMap.cs" />
+    <Compile Include="Items\QuestItems\CourtyardKey.cs" />
+    <Compile Include="Items\QuestItems\RoofTopKey.cs" />
+    <Compile Include="Items\QuestItems\DisplaySword.cs" />
+    <Compile Include="Items\QuestItems\Necklace.cs" />
+    <Compile Include="Items\QuestItems\LostItem.cs" />
+    <Compile Include="Items\QuestItems\LostToy.cs" />
+    <Compile Include="Items\QuestItems\MissplacedBook.cs" />
+    <Compile Include="Items\QuestItems\RiftKey.cs" />
+    <Compile Include="Items\QuestItems\RiftNote1.cs" />
+    <Compile Include="Items\QuestItems\RiftNote2.cs" />
+    <Compile Include="Items\QuestItems\WizardHat.cs" />
+    <Compile Include="Items\QuestItems\RedScarf.cs" />
+    <Compile Include="Items\QuestItems\BanditCrown.cs" />
+    <Compile Include="Items\QuestItems\FarmersSpade.cs" />
+    <Compile Include="Items\QuestItems\MysteriaPlant.cs" />
+    <Compile Include="Items\QuestItems\RareSeeds.cs" />
+    <Compile Include="Items\QuestItems\Purse.cs" />
+    <Compile Include="Items\QuestItems\StolenItem.cs" />
+    <Compile Include="Items\QuestItems\SwordHilt.cs" />
+    <Compile Include="Items\QuestItems\Mushroom.cs" />
+    <Compile Include="Items\Items\LargeEnergyPotion.cs" />
+    <Compile Include="Items\Items\MediumEnergyPotion.cs" />
+    <Compile Include="Items\Items\SmallEnergyPotion.cs" />
+    <Compile Include="Items\Items\LargeHealthPotion.cs" />
+    <Compile Include="Items\Items\MediumHealthPotion.cs" />
+    <Compile Include="Items\Items\SmallHealthPotion.cs" />
+    <Compile Include="Items\QuestItems\Tippers.cs" />
+    <Compile Include="Items\QuestItem.cs" />
+    <Compile Include="Items\StatModifier.cs" />
+    <Compile Include="NPCMapCharacterControllers\Agora\AgoraKeyChestController.cs" />
+    <Compile Include="NPCMapCharacterControllers\Agora\AgoraChestAnteroomController.cs" />
+    <Compile Include="NPCMapCharacterControllers\Agora\AgoraChestMazeG4Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\Agora\AgoraChestRooftopController.cs" />
+    <Compile Include="NPCMapCharacterControllers\Agora\AgoraChestRoom4Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\Agora\AgoraChestRoom5Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\Agora\AgoraChestRoom6Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\Agora\BillsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\Agora\RefGuard1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\Agora\RefGuard2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\Agora\RefladysController.cs" />
+    <Compile Include="NPCMapCharacterControllers\Agora\RefmansController.cs" />
+    <Compile Include="NPCMapCharacterControllers\Agora\RefugeeInnClerksController.cs" />
+    <Compile Include="NPCMapCharacterControllers\Agora\RefugeeItemClerksController.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest10Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest11Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest12Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest13Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest14Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest15Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest16Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest17Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest4Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest5Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest6Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest7Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest8Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest9Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\CaveLabyrinthChest18Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\EasterEgg\StubJamesController.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\EasterEgg\StubJonathansController.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\EasterEgg\StubMattsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\EasterEgg\StubGlensController.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\EasterEgg\StubGerrensController.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\EasterEgg\StubDavidsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\EasterEgg\StubMichaelsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\EasterEgg\StubRyansController.cs" />
+    <Compile Include="NPCMapCharacterControllers\CaveLabyrinth\EasterEgg\StubKylesController.cs" />
+    <Compile Include="NPCMapCharacterControllers\Dialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest15Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest14Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest13Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest12Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest11Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest9Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest10Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest6Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest7Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest8Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernRoomDChestController.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernRoomEChestController.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernRoomFChestController.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernRoomCChestController.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernRoomBLedgeChestController.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernRoomBGroundChest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernRoomBGroundChest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernRoomBGroundChest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernRoomAChest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernRoomAChest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernRoomAChest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest4Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernLowChest5Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernHighChest8Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernHighChest7Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernHighChest6Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernHighChest5Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernHighChest4Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernHighChest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernHighChest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\ForbiddenCavern\ForbiddenCavernHighChest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\BobsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\CarasController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\CarasChestController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\BanditKingController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\AstralClerksController.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave4\Dungeon4Chest6Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave4\Dungeon4Chest7Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave4\Dungeon4Chest8Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave4\Dungeon4Chest9Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave4\Dungeon4MonsterChest5Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave4\Dungeon4MonsterChest4Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave4\Dungeon4MonsterChest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave4\Dungeon4MonsterChest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave4\Dungeon4MonsterChest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave6\Dungeon6MonsterChest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave6\Dungeon6MonsterChest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave6\Dungeon6Chest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave6\Dungeon6MonsterChest4Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave6\Dungeon6MonsterChest5Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave6\Dungeon6MonsterChest6Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave6\Dungeon6MonsterChest7Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave6\Dungeon6Chest8Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave6\Dungeon6Chest9Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\SnowTownChestController.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\BlindMansCaveChestController.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\SpadeBanditController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\ScarfBanditController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\MushroomController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\MushroomForestChest6Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\MushroomForestChest5Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\MushroomForestChest4Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\MushroomForestChest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\MushroomForestChest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\DrifterController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\MushroomForestChest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\HealersInnClerksController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\HealersItemClerksController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\LostItemController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\RiftNote2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\SickGrandsonsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\DeadGateGuardsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\FarmersController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\GateGuards1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\GateGuards2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\GrandsonsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\InjuredGateGuardsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\MayorsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\Mushroom1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\Mushroom2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\Mushroom3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\Mushroom4Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\MysteriaPlantsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\HealersBlacksmithsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\HealersVillage\OldLadysController.cs" />
+    <Compile Include="NPCMapCharacterControllers\Keep\Keepf2ChestController.cs" />
+    <Compile Include="NPCMapCharacterControllers\Keep\MonsterChestController.cs" />
+    <Compile Include="NPCMapCharacterControllers\Keep\ScaredCivilian1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\Keep\ScriptedMonster3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\Keep\TrappedGirlsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\BoxGame1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\BoxGame2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\BoxGame3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\BoxGameManController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\BoyMagesController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\BurlamsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\EmptyBoxGame2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\EmptyBoxGame1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\EmptyBoxGame3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\MolesController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\HelenasController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\CuratorsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\MoleTrainersController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\LydiasController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library4Chest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library4Chest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library4Chest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library2Chest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library2Chest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library2Chest4Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library2Chest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library5Chest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library1Chest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library1Chest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library1Chest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\RiftKeyController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\WesleysController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\EndorsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\RuithsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library3Chest5Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library3Chest4Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library3Chest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library3Chest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\Library3Chest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\RendilsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\JanniesController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\MagesBlacksmithsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\MagesItemClerksController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\MagesInnClerksController.cs" />
+    <Compile Include="NPCMapCharacterControllers\NPCMapCharacterController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacterControllers\NullController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacterControllers\RandomCave1\RandomCave1Chest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave1\RandomCave1Chest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave1\RandomCave1Chest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave2\RandomCave2Chest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave2\RandomCave2Chest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave2\RandomCave2Chest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\RandomCave3\RandomCave3Chest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\SnowInnClerksController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\SnowItemClerksController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\TimidWomansController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\happyguyController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\MasterBlacksmithsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\MissplacedBookController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\MissplacedBookManController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\OldManController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\PeeperController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\RiftManChestController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\RiftManController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\SnowMansController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\SuspiciousGuyController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SnowTown\DistressedGirlsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\KidTagController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\MotherController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\LostBoyController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\LostToyController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\RiftNote1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SadGuyController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SewnBog\SewnBogChest11Controller.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SewnBog\SewnBogChest13Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SewnBog\SewnBogChest12Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SewnBog\SewnBogChest10Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SewnBog\SewnBogChest9Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SewnBog\SewnBogChest7Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SewnBog\SewnBogChest8Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SewnBog\SewnBogChest5Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SewnBog\SewnBogChest6Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SewnBog\SewnBogChest4Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SewnBog\SewnBogChest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SewnBog\SewnBogChest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SewnBog\SewnBogChest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SkinGuyController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SwampInnClerksController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SwampItemClerksController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SwampMonsterController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\UpsetBoyController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\VillageIdiotsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SwampGirlsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SwampBoysController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SwampOldMansController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SwampOldWomansController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SwampQueensController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\JessicaController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\ParkersController.cs" />
+    <Compile Include="NPCMapCharacterControllers\SwampVillage\SarahsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\Citizen1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\Merchant1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\Merchant2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\Merchant3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\MansionOwnersController.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\SeedMerchantsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\MansionGuard2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\MansionGuard1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\PoorGuysController.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\JealousController.cs" />
+    <Compile Include="NPCMapCharacterControllers\MageTown\Possessed Library\TippersController.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\BlindMansForestChest1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\BlindMansForestChest2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\BlindMansForestChest3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\BlindMansForestChest4Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\BlindMansForestChest5Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\BlindMansForestChest6Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\BlindMansForestChest7Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\BlindMansForestChest8Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\BurtleController.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\StolenItem2Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\StolenItem3Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\StolenItem4Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\StolenItem5Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\StolenItem6Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsForest\StolenItem1Controller.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\GreetersController.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\PickPocketsController.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\MarysController.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsInnClerksController.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsItemClerksController.cs" />
+    <Compile Include="NPCMapCharacterControllers\WillsVillage\WillsBlacksmithsController.cs" />
+    <Compile Include="Party\GameState.cs" />
+    <Compile Include="Party\LogEntry.cs" />
+    <Compile Include="Party\Party.cs" />
+    <Compile Include="Party\PartySerializer2.cs" />
+    <Compile Include="ScreenManager\CombatScreens\AnalyzeScreen.cs" />
+    <Compile Include="ScreenManager\CombatScreens\CombatMenuScreen.cs" />
+    <Compile Include="ScreenManager\CombatScreens\CombatScreen.cs" />
+    <Compile Include="ScreenManager\CombatScreens\DefeatConfirmationScreen.cs" />
+    <Compile Include="ScreenManager\CombatScreens\EnterCombatTransitionScreen.cs" />
+    <Compile Include="ScreenManager\CombatScreens\GameOverScreen.cs" />
+    <Compile Include="ScreenManager\CombatScreens\InCombatInventoryScreen.cs" />
+    <Compile Include="ScreenManager\CombatScreens\InCombatSkillScreen.cs" />
+    <Compile Include="ScreenManager\CombatScreens\ItemTargetSelectionScreen.cs" />
+    <Compile Include="ScreenManager\CombatScreens\LevelUpScreen.cs" />
+    <Compile Include="ScreenManager\CombatScreens\SkillTargetSelectionScreen.cs" />
+    <Compile Include="ScreenManager\CombatScreens\VictoryScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\AgoraInnScene\AgoraInnCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\AgoraInnScene\AgoraInnSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\AgoraPortalScenes\PortalToElathiaCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\AgoraRiftScene\AgoraRiftCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\AgoraRiftScene\AgoraRiftSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\AgoraRiftScene\AgoraRiftSceneC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScreenManager\CutScenes\Agora\AgoraRiftScene\AgoraRiftSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\ArrivedAtAgoraScene\ArrivedAtAgoraCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\ArrivedAtAgoraScene\ArrivedAtAgoraSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\ArrivedAtCastleScene\ArrivedAtCastleCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\ArrivedAtCastleScene\ArrivedAtCastleSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\AgoraPortalScenes\PortalToAgoraCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\CourtYardDoorScene\CourtYardDoorCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\CourtYardDoorScene\CourtYardDoorSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\FinalBattle\FinalBattleSceneJ.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\FinalBattle\FinalBattleSceneF.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\FinalBattle\FinalBattleSceneG.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\FinalBattle\FinalBattleSceneH.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\RoofTopDoorScene\RoofTopDoorCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\RoofTopDoorScene\RoofTopDoorSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\WakeUpCutScene\PortalToRefugeeInnBedScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\WakeUpCutScene\WakeUpRefugeeInnCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\WillDies\WillDiesSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\WillDies\WillDiesSceneG.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\WillDies\WillDiesSceneF.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\WillDies\WillDiesSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\WillDies\WillDiesSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\FinalBattle\FinalBattleSceneE.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\FinalBattle\FinalBattleCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\FinalBattle\FinalBattleSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\FinalBattle\FinalBattleSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\FinalBattle\FinalBattleSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\FinalBattle\FinalBattleSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\WillDies\WillDiesSceneE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScreenManager\CutScenes\Agora\WillDies\WillDiesSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\Agora\WillDies\WillDiesCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle1\Battle1SceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle1\Battle1CutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle1\Battle1SceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle2\Battle2CutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle2\Battle2SceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle2\Battle2SceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle3\Battle3CutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle3\Battle3SceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle3\Battle3SceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle4\Battle4CutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle4\Battle4SceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle4\Battle4SceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle5\Battle5CutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle5\Battle5SceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\Dungeon3%28Overwolrld%29\Battle5\Battle5SceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\FadeScenes\FadeInWhiteScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\FadeScenes\FadeOutWhiteScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\FadeScenes\TryTriggerNewScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\FadeScenes\DelayScene.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScreenManager\CutScenes\FadeScenes\FadeInScene.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScreenManager\CutScenes\FadeScenes\FadeOutScene.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScreenManager\CutScenes\FadeScenes\PortalCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\FadeScenes\PortalScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\FadeScenes\SlowFadeInWhiteScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\HealerJoinsCutScene\HealerJoinsCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\HealerJoinsCutScene\HealerJoinsSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\HealerJoinsCutScene\HealerJoinsSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\HealersBattleCutScene\HealersBattleSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\HealersBattleCutScene\HealersBattleSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\NathanFoundCutScene\NathanFoundCutSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\NathanFoundCutScene\NathanFoundCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\PreventPortalToMushroomForest\PreventPortalToMushroomForestSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\PreventPortalToMushroomForest\PreventPortalToMushroomForestCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\ReturnToMayorCutScene\ReturnToMayorSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\ReturnToMayorCutScene\ReturnToMayorSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\ReturnToMayorCutScene\ReturnToMayorCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealingWellScene\HealingWellCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealingWellScene\HealingWellCutSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\PortalToMushroomForest.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneZ.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneY.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\PortalToCarasHouse.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneW.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneV.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneU.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneT.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneS.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneQ.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneR.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneP.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneO.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneN.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneX.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\PortalToKeepf3\PortalToKeepf3CutSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\PortalToKeepf3\PortalToKeepf3CutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\BoxGameCutScene\BoxGameCutSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\BoxGameCutScene\BoxGameCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\DiscoverMageTownCutScene\DiscoverMageTownCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\DiscoverMageTownCutScene\DiscoverMageTownSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillEndorsStudyScene\DoneScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillEndorsStudyScene\WillEndorsStudySceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillEndorsStudyScene\WillEndorsStudySceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillEndorsStudyScene\WillEndorsStudyCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillEndorsStudyScene\WillEndorsStudySceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillBoxGameCutScene\WillBoxGameCutSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillBoxGameCutScene\WillBoxGameCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\EndorsStudyScene\EndorsStudySceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\EndorsStudyScene\EndorsStudySceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\EndorsStudyScene\EndorsStudyCutSceneScreen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScreenManager\CutScenes\MageTown\EndorsStudyScene\EndorsStudySceneA.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScreenManager\CutScenes\MageTown\EndorsStudyScene\EndorsStudySceneB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScreenManager\CutScenes\MageTown\EnterMageTownCutScene\EnterMageTownSceneG.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\EnterMageTownCutScene\EnterMageTownSceneF.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\EnterMageTownCutScene\EnterMageTownSceneE.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\EnterMageTownCutScene\EnterMageTownSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\EnterMageTownCutScene\EnterMageTownSceneEnd.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\EnterMageTownCutScene\EnterMageTownSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\FlashBack\BackFromArlansStudyScene.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScreenManager\CutScenes\MageTown\FlashBack\PortalToArlansStudyScene.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScreenManager\CutScenes\MageTown\FlashBack\ArlansStudyCutSceneScreen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScreenManager\CutScenes\MageTown\FlashBack\ArlansStudyScene.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScreenManager\CutScenes\MageTown\FlashBack\PartyRejoinScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\FlashBack\PortalToLibraryScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\LibraryBossScene\LibraryBossSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\LibraryBossScene\LibraryBossSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\LibraryBossScene\LibraryBossCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\LibraryBossScene\LibraryBossSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\LibraryBossScene\LibraryBossSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\PartyReactCutScene\ReturnPartyCutScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\PartyReactCutScene\PartyReactCutScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\PartyReactCutScene\PartyReactCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\EnterMageTownCutScene\EnterMageTownCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\EnterMageTownCutScene\EnterMageTownSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\EnterMageTownCutScene\EnterMageTownSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\MoveJannieCutScene\MoveJannieCutScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\MoveJannieCutScene\MoveJannieCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WakeUpCutScene\PortalToMagesInnBedScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WakeUpCutScene\WakeUpMagesInnCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillEntersMageTownCutScene\WillEntersMageTownSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillEntersMageTownCutScene\WillEntersMageTownSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillEntersMageTownCutScene\WillEntersMageTownCutSceneScreen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillReactCutScene\ReturnWillCutScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillReactCutScene\WillReactCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillReactCutScene\WillReactCutScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\Scene.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\MushroomForest\GrandsonLostCutScene\GrandsonAddScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\MushroomForest\GrandsonLostCutScene\GrandsonLostCutSceneScreenB.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\MushroomForest\GrandsonLostCutScene\GrandsonLostCutSceneScreenA.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\MushroomForest\GrandsonLostCutScene\GrandsonRemoveScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\HealersBattleCutScene\HealersBattleCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\HealersBattleCutScene\HealersBattleSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneG.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneF.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneE.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneH.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneI.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneJ.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneK.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneL.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneM.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\HealersBlacksmithCutScene\HealersBlacksmithCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\HealersBlacksmithCutScene\HealersBlacksmithSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\HealersGateCutScenes\HealersGateCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\HealersGateCutScenes\HealersGateSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\MayorsHouseCutScene\MayorsHouseCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\MayorsHouseCutScene\MayorsHouseSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\MayorsHouseCutScene\MayorsHouseSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\WakeUpCutScene\GetOutOfBedScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\WakeUpCutScene\PortalToBedScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\HealersTownCutSceneScreens\WakeUpCutScene\WakeUpCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf2CutScene\Keepf2CutSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf2CutScene\Keepf2CutSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf2CutScene\Keepf2CutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\FirstBattleCutScene\FirstBattleCutSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\FirstBattleCutScene\FirstBattleCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\IntroCutScene\IntroCutSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\IntroCutScene\IntroCutSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\IntroCutScene\IntroCutSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\IntroCutScene\IntroCutSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\IntroCutScene\IntroCutSceneE.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\IntroCutScene\IntroCutSceneF.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\IntroCutScene\IntroCutSceneG.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\IntroCutScene\IntroCutSceneH.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\IntroCutScene\IntroCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf1CutScene\Keepf1CutSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf1CutScene\Keepf1CutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf3CutScene\Keepf3CutSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf3CutScene\Keepf3CutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SceneHelpers\MoveCameraHelper.cs" />
+    <Compile Include="ScreenManager\CutScenes\SceneHelpers\MoveMapCharacterHelper.cs" />
+    <Compile Include="ScreenManager\CutScenes\SceneHelpers\MoveNpcCharacterHelper.cs" />
+    <Compile Include="ScreenManager\CutScenes\SceneHelpers\MovePCMapCharacterHelper.cs" />
+    <Compile Include="ScreenManager\CutScenes\SceneHelpers\SceneHelper.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\EasterEgg\InitiateEasterEggSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\EasterEgg\InitiateEasterEggCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\EasterEgg\InitiateEasterEggSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\EasterEgg\TalkedToAllStubs\TalkedToAllStubsSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\EasterEgg\TalkedToAllStubs\TalkedToAllStubsSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\EasterEgg\TalkedToAllStubs\TalkedToAllStubsCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\HermitHouse\CaraUpgradeScene\CaraUpgradeCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\HermitHouse\CaraUpgradeScene\CaralUpgradeSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\HermitHouse\HermitHouseAttackedScene\HermitHouseAttackedSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\HermitHouse\WillUpgradeScene\WillUpgradeSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\HermitHouse\WillUpgradeScene\WillUpgradeSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\HermitHouse\WillUpgradeScene\WillUpgradeCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\BackToHermitHouseScene\BackToHermitHouseCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\BackToHermitHouseScene\BackToHermitHouseSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\BackToHermitHouseScene\BackToHermitHouseSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\BackToHermitHouseScene\FlashBacks\Keepf5RememberedSceneW.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\BackToHermitHouseScene\FlashBacks\PortalToThroneRoomRememberdScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\BackToHermitHouseScene\PortalToHermitHouseAgain.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\BackToHermitHouseScene\FlashBacks\PortalToKeepf5Scene.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\BackToHermitHouseScene\FlashBacks\StudyRememberedScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\BackToHermitHouseScene\PortalToHermitHouse.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\BackToHermitHouseScene\BackToHermitHouseSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\BackToHermitHouseScene\BackToHermitHouseSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\BackToHermitHouseScene\FlashBacks\RoyalFamilyRememberdScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\HermitHouse\InsideHermitHouseScene\InsideHermitHouseCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\HermitHouse\InsideHermitHouseScene\InsideHermitHouseSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\HermitHouse\InsideHermitHouseScene\InsideHermitHouseSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\HermitHouse\HermitHouseAttackedScene\HermitHouseAttackedSceneB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScreenManager\CutScenes\SnowTown\HermitHouse\HermitHouseAttackedScene\HermitHouseAttackedCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\HermitHouse\HermitHouseAttackedScene\HermitHouseAttackedSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\EnterLabyrinthScene\EnterLabyrinthCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\EnterLabyrinthScene\EnterLabyrinthSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\EnterLabyrinthScene\EnterLabyrinthSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\LabyrinthBoss\BossRoar.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\LabyrinthBoss\LabyrinthBossCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\LabyrinthBoss\LabyrinthBossSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\LabyrinthBoss\LabyrinthBossSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\LabyrinthBoss\LabyrinthBossSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\LabyrinthBoss\LabyrinthBossSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\Labyrinth\LabyrinthBoss\LabyrinthBossSceneE.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\MovePeeper\MovePeeperCutScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\MovePeeper\MovePeeperCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\TrappedGirlsCutSceneScreen\TrappedGirlsCutScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\TrappedGirlsCutSceneScreen\TrappedGirlsCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\WakeUpCutScene\PortalToSnowInnBedScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\SnowTown\WakeUpCutScene\WakeUpSnowInnCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\ChepetawaCutScene\ChepetawaCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\ChepetawaCutScene\ChepetawaSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\ChepetawaCutScene\ChepetawaSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\ChepetawaCutScene\ChepetawaSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\ChepetawaCutScene\ChepetawaSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\BackToQueenScene\BackToQueenCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\BackToQueenScene\BackToQueenSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\BackToQueenScene\BackToQueenSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\BackToQueenScene\BackToQueenSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\BackToQueenScene\BackToQueenSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\LostboyCutScene\LostboyScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\LostboyCutScene\LostboyCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\LostToyCutScene\LostToyCutSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\LostToyCutScene\LostToyCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\SwampQueenCutScene\SwampQueenSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\SwampQueenCutScene\SwampQueenSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\SwampQueenCutScene\SwampQueenSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\SwampQueenCutScene\SwampQueenCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\TagCutSceneA\TagCutSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\TagCutSceneB\TagCutSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\TagCutSceneB\TagCutSceneScreenB.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\TagCutSceneC\TagCutSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\TagCutSceneC\TagCutSceneScreenC.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\TagCutSceneD\TagCutSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\TagCutSceneD\TagCutSceneScreenD.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\TagCutSceneE\TagCutSceneE.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\TagCutSceneA\TagCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\TagCutSceneE\TagCutSceneScreenE.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\WakeUpCutScene\PortalToSwampInnBedScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\SwampTown\WakeUpCutScene\WakeUpSwampInnCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\CaraPortalCutScene\CaraStopPortalCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\CaraPortalCutScene\CaraStopPortalSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillPartyLeaderCutScene\WillPortalScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillPartyLeaderCutScene\WillTalksScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillPartyLeaderCutScene\WillPartyLeaderCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\MageTown\WillPartyLeaderCutScene\WillPartyLeaderScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PickPocketsCutSceneC\PickPocketsSceneC2.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WeirdCaraCutScene\WeirdCaraRejoinScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WeirdCaraCutScene\WeirdDialogScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WeirdCaraCutScene\CaraExitScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WeirdCaraCutScene\WeirdCaraCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\EndCaraGamePlayCutScene\EndCaraGamePlayCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\EndCaraGamePlayCutScene\EndCaraGamePlaySceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\FlashBack\CaraRejoinScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\FlashBack\CaraScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\FlashBack\PortalToThroneRoomScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\FlashBack\PortalToMansionScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\FlashBack\RoyalFamilyCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\FlashBack\RoyalFamilyScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\MansionOwnerCutScene\MansionOwnersCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\MansionOwnerCutScene\MansionOwnersSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\MansionOwnerCutScene\MansionOwnersSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\MansionOwnerCutScene\MansionOwnersSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\MansionOwnerCutScene\MansionOwnersSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PickPocketsCutSceneA\PickPocketsSceneA1.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PickPocketsCutSceneA\PickPocketsCutSceneScreenA.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PickPocketsCutSceneA\PickPocketsSceneA2.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PickPocketsCutSceneA\PickPocketsSceneA3.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PickPocketsCutSceneB\PickPocketsSceneB2.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PickPocketsCutSceneB\PickPocketsSceneB3.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PickPocketsCutSceneB\PickPocketsSceneB1.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PickPocketsCutSceneB\PickPocketsCutSceneScreenB.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PickPocketsCutSceneC\PickPocketsSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PickPocketsCutSceneC\PickPocketsCutSceneScreenC.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PickPocketsCutSceneD\PickPocketsSceneD1.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PickPocketsCutSceneD\PickPocketsCutSceneScreenD.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PickPocketsCutSceneD\PickPocketsSceneD2.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PoorGuysCutSceneA\PoorGuysCutSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PoorGuysCutSceneA\PoorGuysCutSceneScreenA.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\MansionGuardsCutScenes\MansionGuardsCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\MansionGuardsCutScenes\MansionGuardsSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PoorGuysCutSceneB\PoorGuysCutSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\PoorGuysCutSceneB\PoorGuysCutSceneScreenB.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\SwitchPartyLeaderCutScene\CaraTalksScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\SwitchPartyLeaderCutScene\CaraPortalScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\SwitchPartyLeaderCutScene\SwitchPartyLeaderScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\SwitchPartyLeaderCutScene\SwitchPartyLeaderCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WakeUpCutScene\PortalToWillsInnBedScene.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WakeUpCutScene\WakeUpWillsInnCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillPreventsSouthCutScene\WillPreventsSouthCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillPreventsSouthCutScene\WillPreventsSouthSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillPreventsSouthCutScene\WillPreventsSouthSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillPreventsSouthCutScene\WillPreventsSouthSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CantLeaveSouthCutScene\CantLeaveSouthCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CantLeaveSouthCutScene\CantLeaveSouthSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CantLeaveSouthCutScene\CantLeaveSouthSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CantLeaveSouthCutScene\CantLeaveSouthSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CantLeaveEastCutScene\CantLeaveEastCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CantLeaveEastCutScene\CantLeaveEastSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CantLeaveEastCutScene\CantLeaveEastSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CantLeaveEastCutScene\CantLeaveEastSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CapturedWillCutScene\CapturedWillCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CapturedWillCutScene\CapturedWillSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CapturedWillCutScene\CapturedWillSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CapturedWillCutScene\CapturedWillSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CapturedWillCutScene\CapturedWillSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CapturedWillCutScene\CapturedWillSceneE.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CapturedWillCutScene\CapturedWillSceneF.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CapturedWillCutScene\CapturedWillSceneG.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CapturedWillCutScene\CapturedWillSceneH.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CapturedWillCutScene\CapturedWillSceneI.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\CapturedWillCutScene\CapturedWillSceneJ.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsBurtleInitiateCutScene\WillsBurtleInitiateCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsBurtleInitiateCutScene\WillsBurtleInitiateSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsBurtleInitiateCutScene\WillsBurtleInitiateSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsBurtleInitiateCutScene\WillsBurtleInitiateSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\StolenItemCutScene\StolenItemCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\StolenItemCutScene\StolenItemSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\StolenItemCutScene\StolenItemSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\StolenItemCutScene\StolenItemSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsBlindedCutScene\WillsBlindedCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsBlindedCutScene\WillsBlindedSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsBlindedCutScene\WillsBlindedSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsBlindedCutScene\WillsBlindedSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsBlindedCutScene\WillsBlindedSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsWanderCutScene\WillsWanderCutSceneScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsWanderCutScene\WillsWanderSceneA.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsWanderCutScene\WillsWanderSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsWanderCutScene\WillsWanderSceneC.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsWanderCutScene\WillsWanderSceneD.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsWanderCutScene\WillsWanderSceneE.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsWanderCutScene\WillsWanderSceneF.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsWanderCutScene\WillsWanderSceneG.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsWanderCutScene\WillsWanderSceneH.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsWanderCutScene\WillsWanderSceneI.cs" />
+    <Compile Include="ScreenManager\CutScenes\WillsTown\WillsForest\WillsWanderCutScene\WillsWanderSceneJ.cs" />
+    <Compile Include="ScreenManager\CombatScreens\VictoryDelayScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\DemoPhaseSelectionScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\ViewMapScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\EndingScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\QuitConfirmationScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\GamePhaseSelectionScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\RiftSkillScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\RiftTransitionScreen.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneB.cs" />
+    <Compile Include="ScreenManager\CutScenes\IntroTowerCutSceneScreens\Keepf5Cutscene\Keepf5CutSceneScreen.cs" />
+    <Compile Include="ScreenManager\PreGamePlayMenuScreens\CreditsScreen.cs" />
+    <Compile Include="ScreenManager\PreGamePlayMenuScreens\LoadingPartyScreen.cs" />
+    <Compile Include="ScreenManager\PreGamePlayMenuScreens\LoadingScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\ConfirmItemDestroyScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\ConversationLogScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\DialogScreen.cs" />
+    <Compile Include="ScreenManager\HelpScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\InventoryScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\ItemShopScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\SkillScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\StatusScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\TargetedSkillScreen.cs" />
+    <Compile Include="ScreenManager\MapScreens\TileMapScreen.cs" />
+    <Compile Include="ScreenManager\PreGamePlayMenuScreens\MenuOptions\MenuOption.cs" />
+    <Compile Include="ScreenManager\PreGamePlayMenuScreens\MenuOptions\StaticMenuOption.cs" />
+    <Compile Include="Skills\Aegis\Aegis.cs" />
+    <Compile Include="Skills\Analyze\Analyze.cs" />
+    <Compile Include="Skills\Attack\AbominableSnowManAttack.cs" />
+    <Compile Include="Skills\Attack\Attack.cs" />
+    <Compile Include="Skills\Attack\BanditAttack.cs" />
+    <Compile Include="Skills\Attack\BoggimusAttack.cs" />
+    <Compile Include="Skills\Attack\BoggimusTadpoleAttack.cs" />
+    <Compile Include="Skills\Attack\BurtleAttack.cs" />
+    <Compile Include="Skills\Attack\CaraAttack.cs" />
+    <Compile Include="Skills\Attack\CaveCrabAttack.cs" />
+    <Compile Include="Skills\Attack\ChepetawaAttack.cs" />
+    <Compile Include="Skills\Attack\DemonBanditAttack.cs" />
+    <Compile Include="Skills\Attack\DemonGearAttack.cs" />
+    <Compile Include="Skills\Attack\Demon1Attack.cs" />
+    <Compile Include="Skills\Attack\Demon2Attack.cs" />
+    <Compile Include="Skills\Attack\Demon3Attack.cs" />
+    <Compile Include="Skills\Attack\DesertBanditAttack.cs" />
+    <Compile Include="Skills\Attack\FeeshAttack.cs" />
+    <Compile Include="Skills\Attack\FireFlyderAttack.cs" />
+    <Compile Include="Skills\Attack\FlyderAttack.cs" />
+    <Compile Include="Skills\Attack\FrostFeeshAttack.cs" />
+    <Compile Include="Skills\Attack\FrostFlyderAttack.cs" />
+    <Compile Include="Skills\Attack\GhostAttack.cs" />
+    <Compile Include="Skills\Attack\HauntedTreeAttack.cs" />
+    <Compile Include="Skills\Attack\ImpAttack.cs" />
+    <Compile Include="Skills\Attack\MalticarAttack.cs" />
+    <Compile Include="Skills\Attack\MaxAttack.cs" />
+    <Compile Include="Skills\Attack\NathanAttack.cs" />
+    <Compile Include="Skills\Attack\PolarBurtleAttack.cs" />
+    <Compile Include="Skills\Attack\PossessedBookAttack.cs" />
+    <Compile Include="Skills\Attack\PossessedChairAttack.cs" />
+    <Compile Include="Skills\Attack\SerlynxAttack.cs" />
+    <Compile Include="Skills\Attack\SidAttack.cs" />
+    <Compile Include="Skills\Attack\SnowBanditAttack.cs" />
+    <Compile Include="Skills\Attack\TohMeyAttack.cs" />
+    <Compile Include="Skills\Attack\TreantAttack.cs" />
+    <Compile Include="Skills\Attack\VoodooDollAttack.cs" />
+    <Compile Include="Skills\Attack\WillAttack.cs" />
+    <Compile Include="Skills\BattleRift\BattleRift.cs" />
+    <Compile Include="Skills\Blackout\Blackout.cs" />
+    <Compile Include="Skills\BladeStorm\BladeStorm.cs" />
+    <Compile Include="Skills\Blind\Blind.cs" />
+    <Compile Include="Skills\Blind\DesertBanditBlind.cs" />
+    <Compile Include="Skills\Blind\PossessedBookBlind.cs" />
+    <Compile Include="Skills\DarkStrike\DarkStrike.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Destiny\Destiny.cs" />
+    <Compile Include="Skills\Destiny\VoodooDollDestiny.cs" />
+    <Compile Include="Skills\Disintegrate\Disintegrate.cs" />
+    <Compile Include="Skills\Dispel\Dispel.cs" />
+    <Compile Include="Skills\DoubleStrike\SidDoubleStrike.cs" />
+    <Compile Include="Skills\DoubleStrike\DoubleStrike.cs" />
+    <Compile Include="Skills\EarthShatter\EarthShatter.cs" />
+    <Compile Include="Skills\Endowment\Endowment.cs" />
+    <Compile Include="Skills\EtherBlast\EtherBlast.cs" />
+    <Compile Include="Skills\FireBall\ApprenticeFireBall.cs" />
+    <Compile Include="Skills\FireBall\ArlanFireBall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\FireBall\ElderMantisFireBall.cs" />
+    <Compile Include="Skills\FireBall\FireBall.cs" />
+    <Compile Include="Skills\FireBall\ImpFireBall.cs" />
+    <Compile Include="Skills\FireBall\WillFireBall.cs" />
+    <Compile Include="Skills\FireStorm\FireStorm.cs" />
+    <Compile Include="Skills\FlameLance\CaveCrabFlameLance.cs" />
+    <Compile Include="Skills\FlameLance\DemonBanditFlameLance.cs" />
+    <Compile Include="Skills\FlameLance\DesertBanditFlameLance.cs" />
+    <Compile Include="Skills\FlameLance\FireFlyderFlameLance.cs" />
+    <Compile Include="Skills\FlameLance\FlameLance.cs" />
+    <Compile Include="Skills\FlameStrike\FlameStrike.cs" />
+    <Compile Include="Skills\Focus\Focus.cs" />
+    <Compile Include="Skills\GamePhase\DemoPhase.cs" />
+    <Compile Include="Skills\GamePhase\GamePhase.cs" />
+    <Compile Include="Skills\GazeOfDespair\ElderMantisGazeOfDespair.cs" />
+    <Compile Include="Skills\GazeOfDespair\GazeOfDespair.cs" />
+    <Compile Include="Skills\GreaterHeal\GreaterHeal.cs" />
+    <Compile Include="Skills\GreatMonsoon\GreatMonsoon.cs" />
+    <Compile Include="Skills\GroupHeal\GroupHeal.cs" />
+    <Compile Include="Skills\Heal\ChepetawaHeal.cs" />
+    <Compile Include="Skills\Heal\Heal.cs" />
+    <Compile Include="Skills\Heal\TreantHeal.cs" />
+    <Compile Include="Skills\HurricaneSlash\HurricaneSlash.cs" />
+    <Compile Include="Skills\IceStorm\IceStorm.cs" />
+    <Compile Include="Skills\Immolate\Immolate.cs" />
+    <Compile Include="Skills\Invulnerability\GhostInvulnerability.cs" />
+    <Compile Include="Skills\Invulnerability\Invulnerability.cs" />
+    <Compile Include="Skills\LacunaRadiance\LacunaRadiance.cs" />
+    <Compile Include="Skills\Lightning\Demon3Lightning.cs" />
+    <Compile Include="Skills\Lightning\Lightning.cs" />
+    <Compile Include="Skills\ManaWard\ManaWard.cs" />
+    <Compile Include="Skills\Miasma\Miasma.cs" />
+    <Compile Include="Skills\Monsoon\BoggimusMonsoon.cs" />
+    <Compile Include="Skills\Monsoon\ChepetawaMonsoon.cs" />
+    <Compile Include="Skills\Monsoon\Monsoon.cs" />
+    <Compile Include="Skills\MultiFireBall.cs" />
+    <Compile Include="Skills\NemesisCannon\NemesisCannon.cs" />
+    <Compile Include="Skills\PandorasBox\ChepetawaPandorasBox.cs" />
+    <Compile Include="Skills\PandorasBox\PandorasBox.cs" />
+    <Compile Include="Skills\PaperMachete\PaperMachete.cs" />
+    <Compile Include="Skills\PaperMachete\TorMeyPaperMachete.cs" />
+    <Compile Include="Skills\Paralyze\BoggimusTadpoleParalyze.cs" />
+    <Compile Include="Skills\Paralyze\FrostFlyderParalyze.cs" />
+    <Compile Include="Skills\Paralyze\FrostFeeshParalyze.cs" />
+    <Compile Include="Skills\Paralyze\Paralyze.cs" />
+    <Compile Include="Skills\Plague\Plague.cs" />
+    <Compile Include="Skills\PoisonStrike\FeeshPoisonStrike.cs" />
+    <Compile Include="Skills\PoisonStrike\MaxPoisonStrike.cs" />
+    <Compile Include="Skills\PoisonStrike\PoisonStrike.cs" />
+    <Compile Include="Skills\PoisonStrike\WitchDoctorPoisonStrike.cs" />
+    <Compile Include="Skills\Poison\ApprenticePoison.cs" />
+    <Compile Include="Skills\Poison\PossessedBookPoison.cs" />
+    <Compile Include="Skills\Poison\Poison.cs" />
+    <Compile Include="Skills\Poison\WillPoison.cs" />
+    <Compile Include="Skills\PowerStrike\BanditPowerStrike.cs" />
+    <Compile Include="Skills\PowerStrike\NathanPowerStrike.cs" />
+    <Compile Include="Skills\PowerStrike\SidPowerStrike.cs" />
+    <Compile Include="Skills\PowerStrike\DesertBanditPowerStrike.cs" />
+    <Compile Include="Skills\PowerStrike\PossessedChairPowerStrike.cs" />
+    <Compile Include="Skills\PowerStrike\PowerStrike.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\PowerStrike\SnowBanditPowerStrike.cs" />
+    <Compile Include="Skills\PowerStrike\TohMeyPowerStrike.cs" />
+    <Compile Include="Skills\Rage\TippersRage.cs" />
+    <Compile Include="Skills\Rage\Rage.cs" />
+    <Compile Include="Skills\Regenerate\Regenerate.cs" />
+    <Compile Include="Skills\Ressurection\Ressurection.cs" />
+    <Compile Include="Skills\Rift\Rift.cs" />
+    <Compile Include="Skills\ShadowBlast\ShadowBlast.cs" />
+    <Compile Include="Skills\ShadowStrike\Demon1ShadowStrike.cs" />
+    <Compile Include="Skills\ShadowStrike\HauntedTreeShadowStrike.cs" />
+    <Compile Include="Skills\ShadowStrike\ShadowStrike.cs" />
+    <Compile Include="Skills\Shield\BurtleShield.cs" />
+    <Compile Include="Skills\Shield\Shield.cs" />
+    <Compile Include="Skills\Siphon\Demon2Siphon.cs" />
+    <Compile Include="Skills\Siphon\ImpSiphon.cs" />
+    <Compile Include="Skills\Siphon\Siphon.cs" />
+    <Compile Include="Skills\Skill.cs" />
+    <Compile Include="Skills\SlashAll\SlashAll.cs" />
+    <Compile Include="Skills\SoulDrain\MalticarSoulDrain.cs" />
+    <Compile Include="Skills\SoulDrain\SoulDrain.cs" />
+    <Compile Include="Skills\SpikeRain\SpikeRain.cs" />
+    <Compile Include="Skills\StunningStrike\ParalyzingStrike.cs" />
+    <Compile Include="Skills\SuicideSting\IceFeeshSuicideSting.cs" />
+    <Compile Include="Skills\SuicideSting\SuicideSting.cs" />
+    <Compile Include="Skills\SwordWave\SwordWave.cs" />
+    <Compile Include="Skills\Cleave\Cleave.cs" />
+    <Compile Include="Skills\UnholyRevelations\UnholyRevelations.cs" />
+    <Compile Include="Skills\Vigor\Vigor.cs" />
+    <Compile Include="Skills\WaterBlast\CrocSnakeWaterBlast.cs" />
+    <Compile Include="Skills\WaterBlast\FeeshWaterBlast.cs" />
+    <Compile Include="Skills\WaterBlast\WaterBlast.cs" />
+    <Compile Include="Skills\Weakness\HauntedTreeWeakness.cs" />
+    <Compile Include="Skills\Weakness\Weakness.cs" />
+    <Compile Include="Skills\Weakness\WitchDoctorWeakness.cs" />
+    <Compile Include="Skills\Whirlwind\FlyderWhirlwind.cs" />
+    <Compile Include="Skills\Whirlwind\Whirlwind.cs" />
+    <Compile Include="Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\EquipmentPool.cs" />
+    <Compile Include="Utility\ItemPool.cs" />
+    <Compile Include="Map\CutSceneEntry.cs" />
+    <Compile Include="Map\LayerModification.cs" />
+    <Compile Include="Map\Map.cs" />
+    <Compile Include="Map\Maps.cs" />
+    <Compile Include="Map\NPCEntry.cs" />
+    <Compile Include="Map\Portal.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScreenManager\CutScenes\CutSceneScreen.cs" />
+    <Compile Include="ScreenManager\MenuScreen.cs" />
+    <Compile Include="ScreenManager\PreGamePlayMenuScreens\MainMenuScreen.cs" />
+    <Compile Include="ScreenManager\PreGamePlayMenuScreens\SplashScreen.cs" />
+    <Compile Include="ScreenManager\Screen.cs" />
+    <Compile Include="ScreenManager\ScreenManager.cs" />
+    <Compile Include="Utility\ContentPaths.cs" />
+    <Compile Include="Utility\Fonts.cs" />
+    <Compile Include="Utility\GlobalSettings.cs" />
+    <Compile Include="Utility\InputState.cs" />
+    <Compile Include="Utility\MessageOverlay.cs" />
+    <Compile Include="Utility\PartyResponseEventArgs.cs" />
+    <Compile Include="Utility\SkillPool.cs" />
+    <Compile Include="Utility\SortedList.cs" />
+    <Compile Include="Utility\Utility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Skills\StunningStrike\Stomp\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Strings.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.fr.resx" />
+    <EmbeddedResource Include="Strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.zh-Hans.resx" />
+    <EmbeddedResource Include="Strings.zh-Hant.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

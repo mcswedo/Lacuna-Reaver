@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>blind_mans_forest_5</Name>
+    <TextureSheetName>mushroom_forest</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>20 12</DimensionsInTiles>
+    <GroundLayer>36 36 36 36 36 36 36 36 -1 -1 -1 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36</GroundLayer>
+    <ForeGroundLayer>5 6 5 6 5 6 104 85 70 54 70 89 106 3 6 5 6 5 6 5 29 30 33 32 33 32 23 103 104 72 106 107 24 27 26 27 26 27 26 12 30 33 32 33 32 33 24 29 -1 58 78 24 21 75 60 100 73 92 60 30 29 32 33 32 33 24 6 24 21 60 20 21 74 -1 101 62 82 62 28 23 30 33 32 33 24 27 20 21 76 92 82 60 93 82 60 64 62 93 76 28 29 32 33 24 27 77 62 100 64 63 64 63 81 50 47 47 47 47 47 47 30 23 24 27 60 82 101 58 82 63 62 64 100 48 46 46 46 46 46 46 29 24 27 74 92 63 63 78 60 62 92 60 62 75 81 62 92 26 29 11 30 29 62 63 75 62 73 64 60 64 62 63 58 64 101 60 73 62 11 29 29 30 29 62 81 64 93 63 92 63 62 93 81 58 63 58 62 30 29 30 30 29 30 29 62 62 62 62 100 63 64 62 74 60 77 62 30 29 30 29 29 30 29 30 29 30 27 78 81 62 81 58 63 92 62 30 29 30 29 30</ForeGroundLayer>
+    <FringeLayer>66 66 66 66 66 66 138 66 66 66 66 66 156 66 66 66 66 66 66 66 66 66 66 66 66 66 66 138 66 66 66 156 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 138 66 156 66 66 66 66 66 66 66 156 66 66 66 66 66 66 66 66 138 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 156 138 156 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 138 66 66 66 66 66 66 66 66 66 66 66 66 66 66 156 66 66 66 66 66 138 66 66 66 66 66 66 66 66 66 66 66 66 156 66 66 66 66 66 66 66 138 156 138 66 66 66 66 66 66 66 66 156 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 156 66 66 66 66 66</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>Will</AssetName>
+        <SpawnPosition>11 6</SpawnPosition>
+        <SpawnDirection>North</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>Ruith</AssetName>
+        <SpawnPosition>13 5</SpawnPosition>
+        <SpawnDirection>East</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries>
+      <Item>
+        <AssetName>CantLeaveSouthCutSceneScreen</AssetName>
+        <TriggerPosition>7 9</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>CantLeaveSouthCutSceneScreen</AssetName>
+        <TriggerPosition>8 9</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>CantLeaveSouthCutSceneScreen</AssetName>
+        <TriggerPosition>9 9</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>CantLeaveSouthCutSceneScreen</AssetName>
+        <TriggerPosition>12 9</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>CantLeaveSouthCutSceneScreen</AssetName>
+        <TriggerPosition>11 9</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>CantLeaveSouthCutSceneScreen</AssetName>
+        <TriggerPosition>10 9</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>WillsWanderCutSceneScreen</AssetName>
+        <TriggerPosition>12 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>WillsWanderCutSceneScreen</AssetName>
+        <TriggerPosition>11 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>WillsWanderCutSceneScreen</AssetName>
+        <TriggerPosition>9 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>WillsWanderCutSceneScreen</AssetName>
+        <TriggerPosition>8 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>WillsWanderCutSceneScreen</AssetName>
+        <TriggerPosition>7 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>WillsWanderCutSceneScreen</AssetName>
+        <TriggerPosition>10 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>CantLeaveSouthCutSceneScreen</AssetName>
+        <TriggerPosition>13 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>CantLeaveSouthCutSceneScreen</AssetName>
+        <TriggerPosition>14 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>CantLeaveSouthCutSceneScreen</AssetName>
+        <TriggerPosition>6 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>CantLeaveSouthCutSceneScreen</AssetName>
+        <TriggerPosition>5 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>CantLeaveSouthCutSceneScreen</AssetName>
+        <TriggerPosition>4 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>CantLeaveEastCutSceneScreen</AssetName>
+        <TriggerPosition>18 5</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>CantLeaveEastCutSceneScreen</AssetName>
+        <TriggerPosition>18 6</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>CantLeaveEastCutSceneScreen</AssetName>
+        <TriggerPosition>19 7</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>CapturedWillCutSceneScreen</AssetName>
+        <TriggerPosition>9 2</TriggerPosition>
+      </Item>
+    </CutSceneEntries>
+    <Portals>
+      <Item>
+        <DestinationMap>blind_mans_forest_4</DestinationMap>
+        <DestinationPosition>21 1</DestinationPosition>
+        <Position>7 11</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>blind_mans_forest_4</DestinationMap>
+        <DestinationPosition>21 1</DestinationPosition>
+        <Position>8 11</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>blind_mans_forest_4</DestinationMap>
+        <DestinationPosition>21 1</DestinationPosition>
+        <Position>9 11</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>blind_mans_forest_4</DestinationMap>
+        <DestinationPosition>22 1</DestinationPosition>
+        <Position>10 11</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>blind_mans_forest_4</DestinationMap>
+        <DestinationPosition>22 1</DestinationPosition>
+        <Position>11 11</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>blind_mans_forest_4</DestinationMap>
+        <DestinationPosition>22 1</DestinationPosition>
+        <Position>12 11</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>blind_mans_forest_4</DestinationMap>
+        <DestinationPosition>22 1</DestinationPosition>
+        <Position>13 11</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>blind_mans_forest_4</DestinationMap>
+        <DestinationPosition>22 1</DestinationPosition>
+        <Position>14 11</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>blind_mans_forest_4</DestinationMap>
+        <DestinationPosition>21 1</DestinationPosition>
+        <Position>6 11</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>blind_mans_forest_boss</DestinationMap>
+        <DestinationPosition>4 7</DestinationPosition>
+        <Position>9 1</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>overworld</DestinationMap>
+        <DestinationPosition>89 76</DestinationPosition>
+        <Position>19 5</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>East</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>overworld</DestinationMap>
+        <DestinationPosition>89 76</DestinationPosition>
+        <Position>19 6</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>East</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>BlindMansForest</MusicCueName>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.NPCMapCharacter">
+    <Name>WillsBlacksmith</Name>
+    <PortraitName>generic_man_portrait</PortraitName>
+    <IsCastingShadow>false</IsCastingShadow>
+    <ControllerName>WillsBlacksmithsController</ControllerName>
+    <IdleOnly>true</IdleOnly>
+  </Asset>
+</XnaContent>

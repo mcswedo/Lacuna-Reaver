@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>snow_town_hermit_info_house_f3</Name>
+    <TextureSheetName>snow_town_interior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>8 7</DimensionsInTiles>
+    <GroundLayer>4 5 4 -1 -1 5 4 5 71 71 71 -1 -1 71 71 71 71 71 71 -1 -1 71 71 71 71 71 71 -1 -1 71 71 71 71 71 71 -1 -1 71 -1 71 71 71 71 71 71 71 -1 71 71 71 71 71 71 71 -1 71</GroundLayer>
+    <ForeGroundLayer>6 7 5 -1 -1 4 16 17 14 15 13 -1 -1 12 24 25 35 35 35 -1 -1 -1 32 33 -1 -1 -1 -1 -1 -1 -1 -1 21 23 21 4 5 -1 -1 -1 92 94 95 12 13 -1 -1 55 -1 -1 -1 -1 -1 -1 -1 63</ForeGroundLayer>
+    <FringeLayer>77 78 78 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 85 86 87 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 1 1 1 0 1 0 0 0 1 0 1 0 1 0 0 0 1 0 1 1 1 1 1 1 1 0 1</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>SnowTownChest1</AssetName>
+        <SpawnPosition>0 2</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SnowTownChest2</AssetName>
+        <SpawnPosition>1 2</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SnowTownChest3</AssetName>
+        <SpawnPosition>2 2</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>snow_town_hermit_info_house_f2</DestinationMap>
+        <DestinationPosition>1 3</DestinationPosition>
+        <Position>7 6</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>SnowTown</MusicCueName>
+  </Asset>
+</XnaContent>

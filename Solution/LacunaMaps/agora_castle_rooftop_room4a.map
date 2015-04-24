@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>agora_castle_rooftop_room4a</Name>
+    <TextureSheetName>agora_castle_Interior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>7 10</DimensionsInTiles>
+    <GroundLayer>-1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 10 10 -1 -1 -1 -1 -1 21 21 0 0 0 0 0 31 31 0 31 31 31 0 31 31 0 31 31 31 0 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 -1 -1 -1 31 31 -1 -1</GroundLayer>
+    <ForeGroundLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 12 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 265 266 269 -1 -1 -1 96 81 82 83 96 -1 -1 106 -1 -1 -1 106 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 118 119 9 115 118 119 9 128 129 9 125 128 129 9 138 139 9 135 138 139 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9</FringeLayer>
+    <CollisionLayer>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>
+      0 0 0 0 0 0 0
+      0 0 0 0 0 0 0
+      0 0 0 0 0 0 0
+      0 0 0 0 0 0 0
+      0 0 0 0 0 0 0
+      0 0 0 0 0 0 0
+      0 0 0 0 0 0 0
+      0 0 0 0 0 0 0
+      0 0 0 0 0 0 0
+      0 0 0 0 0 0 0
+    </CombatLayer>
+    <NpcEntries />
+    <CutSceneEntries />
+    <Portals />
+    <MusicCueName>ArlanAgoraCastle</MusicCueName>
+  </Asset>
+</XnaContent>

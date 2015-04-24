@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>random_dungeon_1_floor2_ground</Name>
+    <TextureSheetName>catacombs</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>15 20</DimensionsInTiles>
+    <GroundLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 200 -1 -1 -1 -1 -1 2 2 2 -1 -1 -1 -1 -1 199 200 -1 -1 -1 -1 -1 2 2 2 -1 -1 -1 -1 -1 199 200 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 199 200 -1 -1 -1 -1 134 134 134 134 134 -1 -1 -1 -1 199 200 -1 -1 -1 -1 134 134 134 134 134 -1 -1 -1 -1 199 200 -1 -1 -1 -1 79 78 24 78 80 -1 -1 -1 -1 199 200 -1 -1 -1 -1 2 2 2 2 2 -1 -1 -1 -1 199 200 -1 -1 -1 -1 45 44 44 44 46 -1 -1 -1 -1 199 200 -1 -1 -1 -1 2 2 2 2 -1 -1 -1 -1 -1 199 200 -1 -1 -1 -1 216 182 182 182 212 -1 -1 -1 -1 199 200 -1 -1 -1 -1 248 214 214 214 244 -1 -1 -1 -1 199 2 164 164 164 164 164 164 164 164 164 164 164 164 164 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>5 35 35 35 35 35 35 35 35 35 35 35 35 35 1 37 67 67 67 67 67 67 67 67 67 67 67 67 67 33 69 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 65 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 8 9 9 9 9 9 101 9 9 9 9 9 10 -1 -1 181 182 182 182 182 67 133 67 182 182 182 182 183 -1 -1 213 214 214 214 214 152 -1 148 214 214 214 214 215 -1 -1 -1 -1 -1 -1 -1 184 150 180 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 3 4 3 4 3 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 111 89 56 89 112 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 152 -1 -1 -1 148 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 184 150 150 150 180 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 19 20 21 22 23 70 70 70 70 70 70 70 70 70 70 51 54 53 54 55 70 70 70 70 70 70 70 70 70 70 83 84 85 86 87 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 207 208 208 208 208 208 209 70 202 203 203 203 203 203 204 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70 70</FringeLayer>
+    <CollisionLayer>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries />
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>9 7</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>10 9</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>12 7</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>13 7</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>13 8</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>13 9</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>13 10</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>13 11</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>13 12</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>13 13</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>9 13</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>8 13</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>7 13</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>6 13</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>6 14</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>5 14</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>4 14</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>3 14</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>2 14</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>2 13</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>2 12</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>4 12</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>4 11</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>4 10</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>3 10</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>1 12</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>1 11</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>1 10</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>1 9</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>1 8</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>2 8</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>3 8</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>3 7</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>3 6</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>3 5</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>4 5</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>5 5</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>5 7</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>6 7</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>7 7</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>8 7</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>11 10</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>11 11</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>10 11</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>11 9</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>11 7</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>11 6</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>9 5</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>10 5</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>11 5</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>10 10</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>10 13</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>11 13</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>7 17</DestinationPosition>
+        <Position>12 13</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor2</DestinationMap>
+        <DestinationPosition>-1 -1</DestinationPosition>
+        <Position>7 4</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>random_dungeon_1_floor3</DestinationMap>
+        <DestinationPosition>4 5</DestinationPosition>
+        <Position>7 11</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>Labyrinth</MusicCueName>
+  </Asset>
+</XnaContent>

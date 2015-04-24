@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>snow_town_npchouse_nw_f2</Name>
+    <TextureSheetName>snow_town_interior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>10 7</DimensionsInTiles>
+    <GroundLayer>71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 -1 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 -1 71 71 71 71 71 71 71 71 71 -1 -1 71 71 71 71 71 71 71 71 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>6 7 16 17 2 3 53 54 6 7 14 15 24 25 10 11 61 62 14 15 65 -1 32 33 75 76 -1 -1 -1 -1 73 59 60 -1 -1 -1 -1 -1 -1 55 40 42 43 -1 -1 -1 -1 -1 -1 63 48 50 51 -1 -1 -1 21 21 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 57 -1 -1 -1 67 68 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries />
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>snow_town_npchouse_nw_f1</DestinationMap>
+        <DestinationPosition>9 3</DestinationPosition>
+        <Position>9 4</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>Inn</MusicCueName>
+  </Asset>
+</XnaContent>

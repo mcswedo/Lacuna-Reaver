@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>combat_test_swamp</Name>
+    <TextureSheetName>swamp_village_exterior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>10 10</DimensionsInTiles>
+    <GroundLayer>129 129 129 129 129 129 129 129 129 129 129 129 129 129 129 129 154 129 129 129 154 154 154 154 154 154 154 154 129 129 154 154 154 154 154 154 154 154 154 129 154 154 154 154 154 154 154 154 129 129 154 154 154 154 154 154 154 154 129 129 154 154 154 154 154 154 154 154 154 154 154 154 154 154 154 154 154 154 154 129 154 154 154 154 154 154 154 154 129 129 129 129 129 129 129 129 129 129 129 129</GroundLayer>
+    <ForeGroundLayer>385 386 387 289 290 291 -1 -1 79 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 222 -1 -1 222 -1 -1 222 -1 -1 222 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 222 -1 -1 222 -1 -1 222 -1 -1 222 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 222 -1 -1 222 -1 -1 222 -1 -1 222 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 586 587 -1 -1 -1 -1 -1 -1 -1 -1 610 611 -1 289 386 291 -1 -1 -1 538</ForeGroundLayer>
+    <FringeLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>0 1 0 0 1 0 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries />
+    <CutSceneEntries>
+      <Item>
+        <AssetName>SwampWitchDoctorTest</AssetName>
+        <TriggerPosition>0 6</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>SwampVoodooDollTest</AssetName>
+        <TriggerPosition>2 8</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>SwampMixTest</AssetName>
+        <TriggerPosition>6 4</TriggerPosition>
+      </Item>
+    </CutSceneEntries>
+    <Portals>
+      <Item>
+        <DestinationMap>combat_test_library</DestinationMap>
+        <DestinationPosition>4 1</DestinationPosition>
+        <Position>4 9</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>combat_test_desert</DestinationMap>
+        <DestinationPosition>4 8</DestinationPosition>
+        <Position>1 0</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+      <Item>
+        <DestinationMap>combat_test_snow</DestinationMap>
+        <DestinationPosition>5 8</DestinationPosition>
+        <Position>4 0</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+    </Portals>
+    <MusicCueName>Swamp</MusicCueName>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>agora_portal_room1</Name>
+    <TextureSheetName>cavemap</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>8 9</DimensionsInTiles>
+    <GroundLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 65 65 65 65 65 65 -1 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 -1 -1 65 65 65 65 65 65 -1 -1 65 65 65 65 65 65 -1 -1 65 65 65 65 65 65 -1 -1 65 65 65 -1 140 -1 -1 -1 -1 65 -1</GroundLayer>
+    <ForeGroundLayer>5 13 13 13 13 13 13 1 15 23 23 23 23 23 23 11 25 -1 -1 -1 -1 -1 -1 21 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 101 54 103 -1 -1 -1 -1 -1 15 64 11 -1 -1 -1 -1 -1 25 -1 21 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>210 210 210 210 210 210 210 210 169 210 210 210 210 210 210 168 169 210 210 210 210 210 210 168 169 210 210 213 214 210 210 168 169 210 168 -1 -1 169 210 168 169 210 168 -1 -1 169 210 168 169 210 168 -1 -1 169 210 168 214 210 213 -1 -1 214 210 213 -1 210 -1 -1 -1 -1 210 -1</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 0 1 1 1 0 0 0 1 0 1 1 1 0 0 1 1 1 1 1 1 0 0 1 1 1 0 1 0 0 0 0 1 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries />
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>overworld</DestinationMap>
+        <DestinationPosition>57 104</DestinationPosition>
+        <Position>1 8</Position>
+      </Item>
+      <Item>
+        <DestinationMap>agora_portal_room2</DestinationMap>
+        <DestinationPosition>4 2</DestinationPosition>
+        <Position>6 8</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+    </Portals>
+    <MusicCueName>AgoraOverworld</MusicCueName>
+  </Asset>
+</XnaContent>

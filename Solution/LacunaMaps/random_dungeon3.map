@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>random_dungeon3</Name>
+    <TextureSheetName>cavemap</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>3 20</DimensionsInTiles>
+    <GroundLayer>-1 -1 -1 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65</GroundLayer>
+    <ForeGroundLayer>5 13 1 15 23 11 25 62 21 62 31 61 61 -1 62 60 -1 60 60 -1 61 61 -1 60 62 -1 60 62 -1 60 61 -1 61 60 -1 62 62 -1 61 61 -1 60 62 -1 61 60 -1 62 60 -1 60 61 -1 62 61 -1 60 60 -1 61</ForeGroundLayer>
+    <FringeLayer>211 211 211 159 211 168 159 211 168 159 211 168 159 211 168 159 211 168 159 211 168 211 211 168 159 211 168 159 211 168 159 211 168 159 211 168 159 211 168 159 211 168 159 211 168 159 211 168 159 211 168 159 211 168 159 211 168 214 211 213</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>RandomCave3Chest1</AssetName>
+        <SpawnPosition>1 3</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries>
+      <Item>
+        <AssetName>Battle1CutSceneScreen</AssetName>
+        <TriggerPosition>1 16</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>Battle2CutSceneScreen</AssetName>
+        <TriggerPosition>1 13</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>Battle3CutSceneScreen</AssetName>
+        <TriggerPosition>1 10</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>Battle4CutSceneScreen</AssetName>
+        <TriggerPosition>1 7</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>Battle5CutSceneScreen</AssetName>
+        <TriggerPosition>1 4</TriggerPosition>
+      </Item>
+    </CutSceneEntries>
+    <Portals>
+      <Item>
+        <DestinationMap>overworld</DestinationMap>
+        <DestinationPosition>67 55</DestinationPosition>
+        <Position>1 19</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>Labyrinth</MusicCueName>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,5253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ConfirmItemDestroyScreen_DestroyThisItem" xml:space="preserve">
+    <value>丟棄?</value>
+  </data>
+  <data name="ConversationLogScreen_Location" xml:space="preserve">
+    <value>位置 :</value>
+  </data>
+  <data name="ConversationLogScreen_Speaker" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="InventoryScreen_SwitchCharacter" xml:space="preserve">
+    <value>切換角色</value>
+  </data>
+  <data name="ItemShopScreen_Cost" xml:space="preserve">
+    <value>價值</value>
+  </data>
+  <data name="ItemShopScreen_Name" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="ItemShopScreen_Owned" xml:space="preserve">
+    <value>擁有者</value>
+  </data>
+  <data name="MainMenuScreen_Continue" xml:space="preserve">
+    <value>繼續</value>
+  </data>
+  <data name="MainMenuScreen_Controls" xml:space="preserve">
+    <value>控制</value>
+  </data>
+  <data name="MainMenuScreen_Credits" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="MainMenuScreen_Exit" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="MainMenuScreen_FullScreen" xml:space="preserve">
+    <value>全螢幕</value>
+  </data>
+  <data name="MainMenuScreen_NewGame" xml:space="preserve">
+    <value>新遊戲</value>
+  </data>
+  <data name="MainMenuScreen_Windowed" xml:space="preserve">
+    <value>視窗化</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="QuitConfirmationScreen_AreYouSure1" xml:space="preserve">
+    <value>遊戲尚未儲存,</value>
+  </data>
+  <data name="QuitConfirmationScreen_AreYouSure2" xml:space="preserve">
+    <value>你確定要離開嗎?</value>
+  </data>
+  <data name="QuitConfirmationScreen_AreYouSure3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplashScreen_PressSpace" xml:space="preserve">
+    <value>空白鍵繼續</value>
+  </data>
+  <data name="StatusScreen_Agil" xml:space="preserve">
+    <value>敏捷</value>
+  </data>
+  <data name="StatusScreen_Def" xml:space="preserve">
+    <value>防禦</value>
+  </data>
+  <data name="StatusScreen_EXP" xml:space="preserve">
+    <value>經驗值</value>
+  </data>
+  <data name="StatusScreen_Gold" xml:space="preserve">
+    <value>黃金</value>
+  </data>
+  <data name="StatusScreen_HP" xml:space="preserve">
+    <value>血量</value>
+  </data>
+  <data name="StatusScreen_Int" xml:space="preserve">
+    <value>智慧</value>
+  </data>
+  <data name="StatusScreen_Inventory" xml:space="preserve">
+    <value>物品籃</value>
+  </data>
+  <data name="StatusScreen_Level" xml:space="preserve">
+    <value>等級</value>
+  </data>
+  <data name="StatusScreen_Log" xml:space="preserve">
+    <value>談話紀錄</value>
+  </data>
+  <data name="StatusScreen_MP" xml:space="preserve">
+    <value>魔力</value>
+  </data>
+  <data name="StatusScreen_Quit" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="StatusScreen_Skills" xml:space="preserve">
+    <value>技能</value>
+  </data>
+  <data name="StatusScreen_Str" xml:space="preserve">
+    <value>力量</value>
+  </data>
+  <data name="StatusScreen_Will" xml:space="preserve">
+    <value>意志</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="Z001" xml:space="preserve">
+    <value>很抱歉, 目前沒有空房間, 請稍待一會</value>
+  </data>
+  <data name="Z002" xml:space="preserve">
+    <value>是否儲存遊戲?</value>
+  </data>
+  <data name="Z003" xml:space="preserve">
+    <value>是否休息一下</value>
+  </data>
+  <data name="Z004" xml:space="preserve">
+    <value>黃金</value>
+  </data>
+  <data name="Z005" xml:space="preserve">
+    <value>感謝您的消費</value>
+  </data>
+  <data name="Z006" xml:space="preserve">
+    <value>歡迎再度光臨</value>
+  </data>
+  <data name="Z007" xml:space="preserve">
+    <value>遊戲已儲存, 您是否需要休息一下</value>
+  </data>
+  <data name="Z008" xml:space="preserve">
+    <value>先生,   很抱歉你沒有足夠的黃金</value>
+  </data>
+  <data name="Z009" xml:space="preserve">
+    <value>我想你不會想去那裡!</value>
+  </data>
+  <data name="Z010" xml:space="preserve">
+    <value>今天的天氣真適合散步, 是吧?</value>
+  </data>
+  <data name="Z011" xml:space="preserve">
+    <value>真不敢相信, 你居然打敗了所有的土匪. 你是我的英雄!</value>
+  </data>
+  <data name="Z012" xml:space="preserve">
+    <value>真高興能見到你, 英雄</value>
+  </data>
+  <data name="Z013" xml:space="preserve">
+    <value>你找到三個紅色藥水</value>
+  </data>
+  <data name="Z014" xml:space="preserve">
+    <value>小心點, 你還沒有痊癒. 別太操勞了!</value>
+  </data>
+  <data name="Z015" xml:space="preserve">
+    <value>You were so brave, fighting off those bandits. I hope you didn't hurt yourself.</value>
+  </data>
+  <data name="Z016" xml:space="preserve">
+    <value>He is dead. There is nothing you can do for him.</value>
+  </data>
+  <data name="Z017" xml:space="preserve">
+    <value>Hey buddy, can you please help me?</value>
+  </data>
+  <data name="Z018" xml:space="preserve">
+    <value>我把我最珍貴的寶物遺失在這個村莊裡了</value>
+  </data>
+  <data name="Z019" xml:space="preserve">
+    <value>如果你可以幫我找到它,我將會報答你!</value>
+  </data>
+  <data name="Z020" xml:space="preserve">
+    <value>我記的我最後一次看到它是我在井邊喝酒的時候</value>
+  </data>
+  <data name="Z021" xml:space="preserve">
+    <value>hey兄弟, 你在那邊拿到了什麼?</value>
+  </data>
+  <data name="Z022" xml:space="preserve">
+    <value>我最珍貴的寶物是不是在水井附近?</value>
+  </data>
+  <data name="Z023" xml:space="preserve">
+    <value>太感謝你了! 這邊是</value>
+  </data>
+  <data name="Z024" xml:space="preserve">
+    <value> 黃金, 報答你的辛勞!</value>
+  </data>
+  <data name="Z025" xml:space="preserve">
+    <value>太感謝你了! 這邊是</value>
+  </data>
+  <data name="Z026" xml:space="preserve">
+    <value>黃金, 報答你的辛勞!</value>
+  </data>
+  <data name="Z027" xml:space="preserve">
+    <value>感謝你再次找到我珍貴的寶物!</value>
+  </data>
+  <data name="Z028" xml:space="preserve">
+    <value>嗨 你早阿~!</value>
+  </data>
+  <data name="Z029" xml:space="preserve">
+    <value>我看到你有一些種子, 真希望我能幫你種這些種子,但是我的產子不見了.</value>
+  </data>
+  <data name="Z030" xml:space="preserve">
+    <value>我相信是森林南部小鎮,該死的土匪拿的</value>
+  </data>
+  <data name="Z031" xml:space="preserve">
+    <value>哇, 小姐! 我看到那那些就像一群雜草長在花園該死的土匪. 你真了不起!</value>
+  </data>
+  <data name="Z032" xml:space="preserve">
+    <value>歡迎回來小姐!重來沒看過妳離開, 城裡的人都在討論妳呢.</value>
+  </data>
+  <data name="Z033" xml:space="preserve">
+    <value>太棒了~~</value>
+  </data>
+  <data name="Z034" xml:space="preserve">
+    <value>讓我幫你種這些迷人的種子吧! 免費!!</value>
+  </data>
+  <data name="Z035" xml:space="preserve">
+    <value>你終於回來了阿,它們都長大了!</value>
+  </data>
+  <data name="Z036" xml:space="preserve">
+    <value>抱歉小姐,它還是沒長出來</value>
+  </data>
+  <data name="Z037" xml:space="preserve">
+    <value>你一定要有耐心點,這是農場經營</value>
+  </data>
+  <data name="Z038" xml:space="preserve">
+    <value>你的種子已經長大,你隨時都可以把它帶走</value>
+  </data>
+  <data name="Z039" xml:space="preserve">
+    <value>你可能在想這是什麼,其實我自己也在思考</value>
+  </data>
+  <data name="Z040" xml:space="preserve">
+    <value>我現在就可以告訴你 它一定不會是玉米... HAYUK! HAYUK! HAYUK!   </value>
+  </data>
+  <data name="Z041" xml:space="preserve">
+    <value>小姐, 我能幫你</value>
+  </data>
+  <data name="Z042" xml:space="preserve">
+    <value>能看到您回來真好</value>
+  </data>
+  <data name="Z043" xml:space="preserve">
+    <value>正如你所見,我的傷口已經完全治癒好了, 我希望我弟弟也能好起來</value>
+  </data>
+  <data name="Z044" xml:space="preserve">
+    <value>在你們的戰鬥中那個穿的紅色圍巾的突匪殺死了他,然後像個懦夫一樣的逃進了森林南部的小鎮</value>
+  </data>
+  <data name="Z045" xml:space="preserve">
+    <value>要不我有責任保護這個村莊,我一定會找到他然後為我弟報酬!</value>
+  </data>
+  <data name="Z046" xml:space="preserve">
+    <value>什麼?紅色圍巾?</value>
+  </data>
+  <data name="Z047" xml:space="preserve">
+    <value>我弟可以安息了,感謝你</value>
+  </data>
+  <data name="Z048" xml:space="preserve">
+    <value>請收下,這是我的弟的.我相信他會希望你能收下.</value>
+  </data>
+  <data name="Z049" xml:space="preserve">
+    <value>祝你一路順風</value>
+  </data>
+  <data name="Z050" xml:space="preserve">
+    <value>哇! 是你! 村子的英雄!</value>
+  </data>
+  <data name="Z051" xml:space="preserve">
+    <value>我聽到土匪王準備接收蘑菇森林,我本來是為了打敗這個壞蛋,但是我失敗了</value>
+  </data>
+  <data name="Z052" xml:space="preserve">
+    <value>我祖母一定很擔心我,你能幫助我找到回家的路嗎?</value>
+  </data>
+  <data name="Z053" xml:space="preserve">
+    <value>唉唷. 我那奸詐的老祖母說她永遠不會讓我離開房子!</value>
+  </data>
+  <data name="Z054" xml:space="preserve">
+    <value>這是你的劍. 經過我精湛的手藝. 你可以在你的物品籃找到你的劍</value>
+  </data>
+  <data name="Z055" xml:space="preserve">
+    <value>別這樣看這我小兄弟, 我只會製造武器,我不會使用它</value>
+  </data>
+  <data name="Z056" xml:space="preserve">
+    <value>還有我知道你沒有錢,滾開!</value>
+  </data>
+  <data name="Z057" xml:space="preserve">
+    <value>你們這邊有什麼? 劍柄嗎?這個劍柄已經損壞的很嚴重,但我不知道怎麼辦</value>
+  </data>
+  <data name="Z058" xml:space="preserve">
+    <value>交給我修理</value>
+  </data>
+  <data name="Z059" xml:space="preserve">
+    <value>黃金,所以以想說什麼? 我一整天都拿不到</value>
+  </data>
+  <data name="Z060" xml:space="preserve">
+    <value>明天就可以修好了</value>
+  </data>
+  <data name="Z061" xml:space="preserve">
+    <value>滾開! 你這個小氣鬼!</value>
+  </data>
+  <data name="Z062" xml:space="preserve">
+    <value>蛤? 你是聾子嗎? 我說你明天就可以拿到了! 你可以走了!</value>
+  </data>
+  <data name="Z063" xml:space="preserve">
+    <value>你拯救了我們村莊,所以你到底想要什麼?獎章? 滾開我的店!</value>
+  </data>
+  <data name="Z064" xml:space="preserve">
+    <value>不要在浪費我的時間了! 你就是沒有錢.</value>
+  </data>
+  <data name="Z065" xml:space="preserve">
+    <value>我所有的東西都賣光了,請稍後再來.</value>
+  </data>
+  <data name="Z066" xml:space="preserve">
+    <value>你想要看我的商品嗎?</value>
+  </data>
+  <data name="Z067" xml:space="preserve">
+    <value>沒關西,感謝你拯救了我們的村莊</value>
+  </data>
+  <data name="Z068" xml:space="preserve">
+    <value>你以拿起流浪者的珍貴寶物</value>
+  </data>
+  <data name="Z069" xml:space="preserve">
+    <value>很高興你好多了.只要你需要你可以待在我們的村莊</value>
+  </data>
+  <data name="Z070" xml:space="preserve">
+    <value>我看到你拯救了我們的村莊,你的劍術真是令人驚艷!</value>
+  </data>
+  <data name="Z071" xml:space="preserve">
+    <value>讓我提供你一些幫助,這裡是</value>
+  </data>
+  <data name="Z072" xml:space="preserve">
+    <value>黃金</value>
+  </data>
+  <data name="Z073" xml:space="preserve">
+    <value>我的村永遠都歡迎你!歡迎再來!</value>
+  </data>
+  <data name="Z074" xml:space="preserve">
+    <value>我看我女兒已經決定要跟著妳了</value>
+  </data>
+  <data name="Z075" xml:space="preserve">
+    <value>依照我的經驗,當她下定決心後是很難改變的</value>
+  </data>
+  <data name="Z076" xml:space="preserve">
+    <value>拜託請好好照顧她,她是我的唯一.</value>
+  </data>
+  <data name="Z077" xml:space="preserve">
+    <value>歡迎回來, Nathan</value>
+  </data>
+  <data name="Z078" xml:space="preserve">
+    <value>在磨菇森林要保持警覺,土匪王布個好惹的傢伙</value>
+  </data>
+  <data name="Z079" xml:space="preserve">
+    <value>哇這不是土匪王的黃冠嗎?你真了不起年輕人!</value>
+  </data>
+  <data name="Z080" xml:space="preserve">
+    <value>請收下這個東西當作我們村子的謝禮</value>
+  </data>
+  <data name="Z081" xml:space="preserve">
+    <value>你已收到1000黃金 和 光榮之戒</value>
+  </data>
+  <data name="Z082" xml:space="preserve">
+    <value>你必須檢起磨菇, 請查看你的物品籃</value>
+  </data>
+  <data name="Z083" xml:space="preserve">
+    <value>在磨菇後面的樹有一隻壞掉的劍插在土壤上</value>
+  </data>
+  <data name="Z084" xml:space="preserve">
+    <value>你收到 一隻劍柄 和 蘑菇, 劍柄上的記號好熟悉, 請查看您的物品籃</value>
+  </data>
+  <data name="Z085" xml:space="preserve">
+    <value>你找到 正義之戒</value>
+  </data>
+  <data name="Z086" xml:space="preserve">
+    <value>你找到 補藥(小)</value>
+  </data>
+  <data name="Z087" xml:space="preserve">
+    <value>你找到 藥水(小)</value>
+  </data>
+  <data name="Z088" xml:space="preserve">
+    <value>你找到 補藥(中) X2</value>
+  </data>
+  <data name="Z089" xml:space="preserve">
+    <value>你找到 藥水(大)</value>
+  </data>
+  <data name="Z090" xml:space="preserve">
+    <value>你找到 正義之戒</value>
+  </data>
+  <data name="Z091" xml:space="preserve">
+    <value>你的種子已成熟</value>
+  </data>
+  <data name="Z092" xml:space="preserve">
+    <value>你撿起 Mysteria </value>
+  </data>
+  <data name="Z093" xml:space="preserve">
+    <value>謝謝你的蘑菇, Sonny</value>
+  </data>
+  <data name="Z094" xml:space="preserve">
+    <value>哇!你找到好多磨菇. 可以為我孫子做很棒的蘑菇湯, 但我還需要更多 </value>
+  </data>
+  <data name="Z095" xml:space="preserve">
+    <value>你可以在幫我找一些嗎? 你人真好</value>
+  </data>
+  <data name="Z096" xml:space="preserve">
+    <value>我孫子病很重.他最喜歡蘑菇湯了.他總是特別開心當他在喝湯的時候</value>
+  </data>
+  <data name="Z097" xml:space="preserve">
+    <value>唉. 我已經沒有磨菇了. 我該怎麼做. 我太老了已經沒辦法自己去採蘑菇了</value>
+  </data>
+  <data name="Z098" xml:space="preserve">
+    <value>這樣就夠了, 感謝你的幫忙 這邊是</value>
+  </data>
+  <data name="Z099" xml:space="preserve">
+    <value>黃金,當作我的答謝</value>
+  </data>
+  <data name="Z100" xml:space="preserve">
+    <value>什麼?你找到了劍柄? 這看起來不錯 Sonny.</value>
+  </data>
+  <data name="Z101" xml:space="preserve">
+    <value>哇, 我想這些蘑菇已經足夠做我孫子的蘑菇湯了</value>
+  </data>
+  <data name="Z102" xml:space="preserve">
+    <value>你看, 我孫子真的病很重, 蘑菇湯總上能讓他感覺好一點. 來..把蘑菇放在桌上.</value>
+  </data>
+  <data name="Z103" xml:space="preserve">
+    <value>真的很感謝你, 這裡是</value>
+  </data>
+  <data name="Z104" xml:space="preserve">
+    <value>黃金, 當作我的答謝</value>
+  </data>
+  <data name="Z105" xml:space="preserve">
+    <value>什麼?你找到了劍柄? 這看起來不錯 Sonny.</value>
+  </data>
+  <data name="Z106" xml:space="preserve">
+    <value>我真的超怕那些土匪, 我以為我的心臟要停了,謝謝你就了我們Sonny</value>
+  </data>
+  <data name="Z107" xml:space="preserve">
+    <value> 天阿.....Sonny  我的孫子不見了!</value>
+  </data>
+  <data name="Z108" xml:space="preserve">
+    <value>我想他可能去蘑菇森林了, 至從你離開以後就經常看到土匪在哪裡出沒.</value>
+  </data>
+  <data name="Z109" xml:space="preserve">
+    <value>天阿, 我好擔心他, 你可以幫我一個忙嗎?幫我找找他. 我也會去找找只是我這些老骨頭可能不重用了.</value>
+  </data>
+  <data name="Z110" xml:space="preserve">
+    <value>真高興你能找到我孫子! 拜託 這些東西請收下 !</value>
+  </data>
+  <data name="Z111" xml:space="preserve">
+    <value>感謝您的再次幫忙, Sonny</value>
+  </data>
+  <data name="Z112" xml:space="preserve">
+    <value>你以撿起 一本筆記</value>
+  </data>
+  <data name="Z113" xml:space="preserve">
+    <value>我祖母不會再讓我離開床了, 他一直覺得我病很重</value>
+  </data>
+  <data name="Z114" xml:space="preserve">
+    <value>但我才不是! 我是村子中最強的戰士, 我這麼強壯怎麼可能生病</value>
+  </data>
+  <data name="Z115" xml:space="preserve">
+    <value>我才不想管她說什麼! 我就是要離開床布!</value>
+  </data>
+  <data name="Z116" xml:space="preserve">
+    <value>喀! 喀! 唉......我想我還是在躺一下子好了.</value>
+  </data>
+  <data name="Z117" xml:space="preserve">
+    <value>哇! 你真的結決了那些骯髒的的土匪? 其實我也想幫助你, 但是你也知道我那個奸詐的祖母不會讓我去的</value>
+  </data>
+  <data name="Z118" xml:space="preserve">
+    <value>你找到 藥水(大)</value>
+  </data>
+  <data name="Z119" xml:space="preserve">
+    <value>你找到 補藥(中)</value>
+  </data>
+  <data name="Z120" xml:space="preserve">
+    <value>你找到 訓練者的腰帶</value>
+  </data>
+  <data name="Z121" xml:space="preserve">
+    <value>你找到  魔法戰鬥之戒</value>
+  </data>
+  <data name="Z122" xml:space="preserve">
+    <value>你找到 補藥(大)</value>
+  </data>
+  <data name="Z123" xml:space="preserve">
+    <value>你找到 天空之鍊</value>
+  </data>
+  <data name="Z124" xml:space="preserve">
+    <value>你找到 自然之鍊</value>
+  </data>
+  <data name="Z125" xml:space="preserve">
+    <value>你找到 火焰之鍊</value>
+  </data>
+  <data name="Z126" xml:space="preserve">
+    <value>你找到 土靈手套</value>
+  </data>
+  <data name="Z127" xml:space="preserve">
+    <value>你找到 海洋之鍊</value>
+  </data>
+  <data name="Z128" xml:space="preserve">
+    <value>你找到  藥水(中)</value>
+  </data>
+  <data name="Z129" xml:space="preserve">
+    <value>你找到 尖刺之鍊</value>
+  </data>
+  <data name="Z130" xml:space="preserve">
+    <value>你找到 小偷之戒</value>
+  </data>
+  <data name="Z131" xml:space="preserve">
+    <value>你找到 戰鬥領主之戒</value>
+  </data>
+  <data name="Z132" xml:space="preserve">
+    <value>你找到 2000 黃金 和  戰鬥領主之戒</value>
+  </data>
+  <data name="Z133" xml:space="preserve">
+    <value>你找到了怪獸!</value>
+  </data>
+  <data name="Z134" xml:space="preserve">
+    <value>拜託請救救我們! 我的朋友還在城堡裡面. 不知道哪來的怪獸,你有武器吧? </value>
+  </data>
+  <data name="Z135" xml:space="preserve">
+    <value>拜託救救我吧!</value>
+  </data>
+  <data name="Z136" xml:space="preserve">
+    <value>謝謝你救了我!!我以為我死定了....</value>
+  </data>
+  <data name="Z137" xml:space="preserve">
+    <value>喔! 我點忘記了. 有個神祕男子走向了塔頂</value>
+  </data>
+  <data name="Z138" xml:space="preserve">
+    <value>我害怕他也在找神器... 我想要去找我朋友了, 她因該很害怕現在. 謝謝你</value>
+  </data>
+  <data name="Z139" xml:space="preserve">
+    <value>我才不相信你! 你還記得之前在塔前面?</value>
+  </data>
+  <data name="Z140" xml:space="preserve">
+    <value>你救了我! 我不會讓你離開我.</value>
+  </data>
+  <data name="Z141" xml:space="preserve">
+    <value>我後來就沒見到你了...恩,你知道那天發生了什嗎?</value>
+  </data>
+  <data name="Z142" xml:space="preserve">
+    <value>感謝你! 我永遠都會記得你對我做的事情!</value>
+  </data>
+  <data name="Z143" xml:space="preserve">
+    <value>我永遠都虧欠你</value>
+  </data>
+  <data name="Z144" xml:space="preserve">
+    <value>你選擇了 空箱子</value>
+  </data>
+  <data name="Z145" xml:space="preserve">
+    <value>你選擇了 錯誤的箱子</value>
+  </data>
+  <data name="Z146" xml:space="preserve">
+    <value>啊~~~~~</value>
+  </data>
+  <data name="Z147" xml:space="preserve">
+    <value>你找到了黃金</value>
+  </data>
+  <data name="Z148" xml:space="preserve">
+    <value>哇 有東西跑進我的箱子!!</value>
+  </data>
+  <data name="Z149" xml:space="preserve">
+    <value>每次我要拿我的金子的時候,它們總是跑來跑去.</value>
+  </data>
+  <data name="Z150" xml:space="preserve">
+    <value>或許你有辦法找出金子在哪個箱子裡.</value>
+  </data>
+  <data name="Z151" xml:space="preserve">
+    <value>好眼力! 謝謝你幫我找到黃金,請收下這個禮物</value>
+  </data>
+  <data name="Z152" xml:space="preserve">
+    <value>現在我的黃金都消失了!</value>
+  </data>
+  <data name="Z153" xml:space="preserve">
+    <value>不客氣!</value>
+  </data>
+  <data name="Z154" xml:space="preserve">
+    <value>不過還是謝謝你, 我有感覺可能是幽靈!</value>
+  </data>
+  <data name="Z155" xml:space="preserve">
+    <value>請收下這酬勞</value>
+  </data>
+  <data name="Z156" xml:space="preserve">
+    <value>真感謝你, 我的金子都回來了!</value>
+  </data>
+  <data name="Z157" xml:space="preserve">
+    <value>我現在該怎麼辦?我的金子都不見了!</value>
+  </data>
+  <data name="Z158" xml:space="preserve">
+    <value>感謝你驅趕了這些幽靈</value>
+  </data>
+  <data name="Z159" xml:space="preserve">
+    <value>請選擇一個箱子裡面有黃金的</value>
+  </data>
+  <data name="Z160" xml:space="preserve">
+    <value>拜託, 請幫我們淨化圖書館. 大俠</value>
+  </data>
+  <data name="Z161" xml:space="preserve">
+    <value>謝謝你幫我們淨化了圖書館. 大俠</value>
+  </data>
+  <data name="Z162" xml:space="preserve">
+    <value>很抱歉之前的事, 我因該多注意點.</value>
+  </data>
+  <data name="Z163" xml:space="preserve">
+    <value>感謝你淨化了圖書館. 歡迎你再來! 我的朋友.</value>
+  </data>
+  <data name="Z164" xml:space="preserve">
+    <value>我是圖書館館長, 我不知道為什麼這裡會變成這樣.但是你要去清理吧?是吧?</value>
+  </data>
+  <data name="Z165" xml:space="preserve">
+    <value>看吧, 你不是魔法師, 你一定會被卡在那邊的. 我們魔法師有魔法通道.它幫助我們穿梭在圖書館</value>
+  </data>
+  <data name="Z166" xml:space="preserve">
+    <value>這跟你找到這個城市的方法相似, 你一定要先找到通道先!</value>
+  </data>
+  <data name="Z167" xml:space="preserve">
+    <value>所以當你找不到路的時候,讓書來引導你正確的方向</value>
+  </data>
+  <data name="Z168" xml:space="preserve">
+    <value>這全部都是因螳螂? 早知道我就因該多注意Billy一點</value>
+  </data>
+  <data name="Z169" xml:space="preserve">
+    <value>他喜歡閱讀有關於怪物的書. 他遲早會招喚出怪物.</value>
+  </data>
+  <data name="Z170" xml:space="preserve">
+    <value>嗯..感謝你拯救了我們的圖書館. 我不期待你能整裡所有的雜亂. 我想我會找到方法.當我回來的時候</value>
+  </data>
+  <data name="Z171" xml:space="preserve">
+    <value>箱子無法開啟!</value>
+  </data>
+  <data name="Z172" xml:space="preserve">
+    <value>為了要淨化圖書館. 你一定要摧毀源頭</value>
+  </data>
+  <data name="Z173" xml:space="preserve">
+    <value>祝你幸運, 年輕人</value>
+  </data>
+  <data name="Z174" xml:space="preserve">
+    <value>你必須去找雪村裡的鐵匠</value>
+  </data>
+  <data name="Z175" xml:space="preserve">
+    <value>你需要找到Gargas. 我想他須重灌你的Lacuna Reaver. 這是個好消息</value>
+  </data>
+  <data name="Z176" xml:space="preserve">
+    <value>我也恢復記憶了.我叔叔Arlan 計畫要喚醒 Mal'ticar</value>
+  </data>
+  <data name="Z177" xml:space="preserve">
+    <value>有任何辦法我們可以阻止他嗎?</value>
+  </data>
+  <data name="Z178" xml:space="preserve">
+    <value>蛤? 你確定嗎? Arlan是怎麼知道儀式的?</value>
+  </data>
+  <data name="Z179" xml:space="preserve">
+    <value>我把所有的文本都銷毀了.</value>
+  </data>
+  <data name="Z180" xml:space="preserve">
+    <value>他怎麼會知道已經不重要了.我必須要阻止他!</value>
+  </data>
+  <data name="Z181" xml:space="preserve">
+    <value>儀式的最後一段一定要在 Verithus 城堡</value>
+  </data>
+  <data name="Z182" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z183" xml:space="preserve">
+    <value>我會招集一些法術師,然後我們在Ellaethia的最南端集合</value>
+  </data>
+  <data name="Z184" xml:space="preserve">
+    <value>快! 我們沒有時間可以浪費了!</value>
+  </data>
+  <data name="Z185" xml:space="preserve">
+    <value>快到最南端.我會追上你們的</value>
+  </data>
+  <data name="Z186" xml:space="preserve">
+    <value>不用當心我們,年輕人.你需要全力阻止你叔叔. 不太遲了</value>
+  </data>
+  <data name="Z187" xml:space="preserve">
+    <value>25413 二... 五... 四... 一... 三...</value>
+  </data>
+  <data name="Z188" xml:space="preserve">
+    <value>啊~ 我不知道!</value>
+  </data>
+  <data name="Z189" xml:space="preserve">
+    <value>我找如何打開箱子的指南了, 但是我看不懂. 天阿...我永遠都無法打開它</value>
+  </data>
+  <data name="Z190" xml:space="preserve">
+    <value>我知道了 2 5 4 1 3! 就是這五個箱子!</value>
+  </data>
+  <data name="Z191" xml:space="preserve">
+    <value>蛤? 你已經知道了? 可惡被你先想出來了!</value>
+  </data>
+  <data name="Z192" xml:space="preserve">
+    <value>大俠! 你一定要幫我! 翻翻和我在圖書館裡玩躲迷 </value>
+  </data>
+  <data name="Z193" xml:space="preserve">
+    <value>嗅" 我....是管理員..這裡拜已經鬼魂佔據了... 我可以聽到他們在呼喚我............</value>
+  </data>
+  <data name="Z194" xml:space="preserve">
+    <value>你找到了他, 大俠!</value>
+  </data>
+  <data name="Z195" xml:space="preserve">
+    <value>你有看到我的翻翻嗎?</value>
+  </data>
+  <data name="Z196" xml:space="preserve">
+    <value>翻翻! 你是我見過最好的人了! 真的很謝謝你. 我要回去跟翻翻玩了. 你要跟我們一起玩嗎?</value>
+  </data>
+  <data name="Z197" xml:space="preserve">
+    <value>嘿!大俠!  翻翻說謝謝你. 滾開!</value>
+  </data>
+  <data name="Z198" xml:space="preserve">
+    <value>快走, 大俠! 翻翻說他不需要</value>
+  </data>
+  <data name="Z199" xml:space="preserve">
+    <value>這是最後一次, 大俠. 翻翻說如果你在不離開的話 他就會傷害你..拜託你趕快走!</value>
+  </data>
+  <data name="Z200" xml:space="preserve">
+    <value>我不喜歡翻翻生氣的時候</value>
+  </data>
+  <data name="Z201" xml:space="preserve">
+    <value>你把我的警告當作耳邊風. 現在是以付出代價的時候了!</value>
+  </data>
+  <data name="Z202" xml:space="preserve">
+    <value>準備受死吧.就像這些一樣!</value>
+  </data>
+  <data name="Z203" xml:space="preserve">
+    <value>翻翻!! 你為什麼要這樣傷害翻翻?! 你從來沒有傷害你!</value>
+  </data>
+  <data name="Z204" xml:space="preserve">
+    <value>翻翻說她很高興跟你在一起. 我還記的.我第一次遇到他的時候 他才六歲.</value>
+  </data>
+  <data name="Z205" xml:space="preserve">
+    <value>自從我們第一次見面後 .翻翻和我一直都是好朋友</value>
+  </data>
+  <data name="Z206" xml:space="preserve">
+    <value>剛走下來的時候你有覺得頭暈暈的嗎?穿過秘密通道的時候, 感覺有點重心不穩.</value>
+  </data>
+  <data name="Z207" xml:space="preserve">
+    <value>當 Ellaethia 和 Agora 被拆散的時候. 大法師把 Celindar 顛倒放. 為了要把他們藏在地下</value>
+  </data>
+  <data name="Z208" xml:space="preserve">
+    <value>我們以為Mal'ticar 要把我們全部消滅.所以這是拯救我們的種族和歷史的唯一方法</value>
+  </data>
+  <data name="Z209" xml:space="preserve">
+    <value>魔法真是太神奇了!</value>
+  </data>
+  <data name="Z210" xml:space="preserve">
+    <value>我真榮幸能見證這歷史的一刻!</value>
+  </data>
+  <data name="Z211" xml:space="preserve">
+    <value>英雄, 祝你好運</value>
+  </data>
+  <data name="Z212" xml:space="preserve">
+    <value>這是你的盔甲, 希望你會喜歡</value>
+  </data>
+  <data name="Z213" xml:space="preserve">
+    <value>所以你救是那個引起騷動的人?</value>
+  </data>
+  <data name="Z214" xml:space="preserve">
+    <value>Ruith 如果知道我幫你的話 他因該會很失望..</value>
+  </data>
+  <data name="Z215" xml:space="preserve">
+    <value>呸. 我就是看他不順眼</value>
+  </data>
+  <data name="Z216" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z217" xml:space="preserve">
+    <value>多少黃金?</value>
+  </data>
+  <data name="Z218" xml:space="preserve">
+    <value>你想說什麼?</value>
+  </data>
+  <data name="Z219" xml:space="preserve">
+    <value>明天再過來拿吧</value>
+  </data>
+  <data name="Z220" xml:space="preserve">
+    <value>好. 但是你會後悔的</value>
+  </data>
+  <data name="Z221" xml:space="preserve">
+    <value>不夠錢? 真糟糕</value>
+  </data>
+  <data name="Z222" xml:space="preserve">
+    <value>我還好,孩子. 但也不是太好. 你明天再來吧.</value>
+  </data>
+  <data name="Z223" xml:space="preserve">
+    <value>那個盔甲對你怎麼了?</value>
+  </data>
+  <data name="Z224" xml:space="preserve">
+    <value>你會收到你的盔甲</value>
+  </data>
+  <data name="Z225" xml:space="preserve">
+    <value>盔甲的每一片都充滿了魔法</value>
+  </data>
+  <data name="Z226" xml:space="preserve">
+    <value>你想看看我的商品嗎?</value>
+  </data>
+  <data name="Z227" xml:space="preserve">
+    <value>你對這些鼴鼠有興趣啊?我們在大法師把Celindar顛倒埋在地底下的時候發現他們的</value>
+  </data>
+  <data name="Z228" xml:space="preserve">
+    <value>當我們其中一個人需要到地面上的時候.我會騎著鼴鼠穿越山脈</value>
+  </data>
+  <data name="Z229" xml:space="preserve">
+    <value>只要你把圖書館清理乾淨. 我就會讓你把他們其中一隻帶去另外一邊</value>
+  </data>
+  <data name="Z230" xml:space="preserve">
+    <value>謝謝你救了我們的圖書館. 讓我們一機能保留到下一個世代</value>
+  </data>
+  <data name="Z231" xml:space="preserve">
+    <value>你想要騎著鼴鼠到Ellaethia的另一邊嗎?</value>
+  </data>
+  <data name="Z232" xml:space="preserve">
+    <value>小心 保重!</value>
+  </data>
+  <data name="Z233" xml:space="preserve">
+    <value>你想要待多久都行! 當你準備好的時候通知我!</value>
+  </data>
+  <data name="Z234" xml:space="preserve">
+    <value>欸 年輕人! 我想你因該可以幫助我. 我的帽子不見了.但是我找了每個地方都找不到</value>
+  </data>
+  <data name="Z235" xml:space="preserve">
+    <value>你們三個人可以幫我找一下嗎? 你們會認出那就是我的帽子. 因為我把我的名子繡在帽子的邊緣</value>
+  </data>
+  <data name="Z236" xml:space="preserve">
+    <value>如果你們找到的話 . 我會報答你們豐厚的獎賞. 祝你們幸運!</value>
+  </data>
+  <data name="Z237" xml:space="preserve">
+    <value>什麼? 你們找到我的帽子了? 嗯蠻有道裡的!</value>
+  </data>
+  <data name="Z238" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z239" xml:space="preserve">
+    <value>嗯. 非常感謝你們 這是獎賞.就像我答應過你們的.</value>
+  </data>
+  <data name="Z240" xml:space="preserve">
+    <value>你找到了 藥水(中) X2</value>
+  </data>
+  <data name="Z241" xml:space="preserve">
+    <value>和 500黃金</value>
+  </data>
+  <data name="Z242" xml:space="preserve">
+    <value>年輕人真的很謝謝你找到我的帽子. 希望沒有造成你太多困擾!</value>
+  </data>
+  <data name="Z243" xml:space="preserve">
+    <value>你或許覺得Endor笨笨的.但我不是,我會注意你的!</value>
+  </data>
+  <data name="Z244" xml:space="preserve">
+    <value>所以你把圖書館清理乾淨了?嗯...但是我還是不相信你</value>
+  </data>
+  <data name="Z245" xml:space="preserve">
+    <value>我會幫你把時空之門打開的</value>
+  </data>
+  <data name="Z246" xml:space="preserve">
+    <value>你知道沼澤鎮有嚴重的瘟疫嗎?就在我們東邊的城鎮</value>
+  </data>
+  <data name="Z247" xml:space="preserve">
+    <value>我真同情那些窮困的人們</value>
+  </data>
+  <data name="Z248" xml:space="preserve">
+    <value>我每天只要一醒來就開時幫人們治療.但是他們還是沒有好轉...</value>
+  </data>
+  <data name="Z249" xml:space="preserve">
+    <value>你找到 巫師之帽!</value>
+  </data>
+  <data name="Z250" xml:space="preserve">
+    <value>你找到 補藥(大) X3!</value>
+  </data>
+  <data name="Z251" xml:space="preserve">
+    <value>你撿起了一隻鑰匙!</value>
+  </data>
+  <data name="Z252" xml:space="preserve">
+    <value>你找到 翻翻!</value>
+  </data>
+  <data name="Z253" xml:space="preserve">
+    <value>我怎麼帶著我全新的白項鍊. 我現在要走了.我會弄丟它..</value>
+  </data>
+  <data name="Z254" xml:space="preserve">
+    <value>真是個美好的一天!</value>
+  </data>
+  <data name="Z255" xml:space="preserve">
+    <value>去找Endor吧! 我相信它會有辦法幫你的!</value>
+  </data>
+  <data name="Z256" xml:space="preserve">
+    <value>你撿起了一本書!</value>
+  </data>
+  <data name="Z257" xml:space="preserve">
+    <value>一定是我那個討厭的鄰居偷了我的書!</value>
+  </data>
+  <data name="Z258" xml:space="preserve">
+    <value>我昨天晚上把它放在這個桌子上. 現在居然不見了!</value>
+  </data>
+  <data name="Z259" xml:space="preserve">
+    <value>你可以幫我一個忙嗎? 檢查看看這城鎮裡每間房子?</value>
+  </data>
+  <data name="Z260" xml:space="preserve">
+    <value>我相信一定是那些"小偷"拿的!</value>
+  </data>
+  <data name="Z261" xml:space="preserve">
+    <value>你可以幫我找到我的書嗎?</value>
+  </data>
+  <data name="Z262" xml:space="preserve">
+    <value>真不敢相信我和一群"小偷"住在一起!</value>
+  </data>
+  <data name="Z263" xml:space="preserve">
+    <value>啊!</value>
+  </data>
+  <data name="Z264" xml:space="preserve">
+    <value>它一直都在樓上?</value>
+  </data>
+  <data name="Z265" xml:space="preserve">
+    <value>一定是那些小偷 打破窗子進來, 把我的書移到上面去!</value>
+  </data>
+  <data name="Z266" xml:space="preserve">
+    <value>嗯...隨便啦. 你看起來不像小偷. 拿去吧!</value>
+  </data>
+  <data name="Z267" xml:space="preserve">
+    <value>!!no z267?</value>
+  </data>
+  <data name="Z268" xml:space="preserve">
+    <value>唉,小朋友這幾天!</value>
+  </data>
+  <data name="Z269" xml:space="preserve">
+    <value>我計畫把這間房子買下來. 它現在雖然是空房.我只需賺一些錢把它買下.</value>
+  </data>
+  <data name="Z270" xml:space="preserve">
+    <value>噓~不要告訴其他人.我有時候晚上都偷偷睡在這裡.假裝我住在這裡.</value>
+  </data>
+  <data name="Z271" xml:space="preserve">
+    <value>我每天都讀床前故事給我想像的小孩聽. 我需要住在這裡, 這是我的使命.</value>
+  </data>
+  <data name="Z272" xml:space="preserve">
+    <value>這完全沒有道理. 有人住在這裡! 我告訴我爸, 有一天我一定會住進來!</value>
+  </data>
+  <data name="Z273" xml:space="preserve">
+    <value>我要永遠離開! 我只希望住在這裡的人會愛這間房子. 像我一樣,如果我可以住進來.</value>
+  </data>
+  <data name="Z274" xml:space="preserve">
+    <value>所以... 旅行者, 或許我們會在哪裡再碰面.</value>
+  </data>
+  <data name="Z275" xml:space="preserve">
+    <value>怎麼又是你? 聽著! 這山洞裡有著奇怪的生物.我需要找他們的居住地.我要成為他們部落的一份子.</value>
+  </data>
+  <data name="Z276" xml:space="preserve">
+    <value>這些生物看起來原始人, 他們人好像還不錯. 我只是想說, 我們因該去找找看</value>
+  </data>
+  <data name="Z277" xml:space="preserve">
+    <value>你打開了箱子!</value>
+  </data>
+  <data name="Z278" xml:space="preserve">
+    <value>你似乎傭有強大的能力</value>
+  </data>
+  <data name="Z279" xml:space="preserve">
+    <value>在右邊. 你可以用這個能力打開時空之門.最些非常特別的事</value>
+  </data>
+  <data name="Z280" xml:space="preserve">
+    <value>讓我們來看看你的能力吧</value>
+  </data>
+  <data name="Z281" xml:space="preserve">
+    <value>在某個你曾經去過的地方.我把鑰駛放在那.用它來打開箱子</value>
+  </data>
+  <data name="Z282" xml:space="preserve">
+    <value>如果你想要找到鑰駛就要一定要解開謎語</value>
+  </data>
+  <data name="Z283" xml:space="preserve">
+    <value>在充滿蟲害沼澤鎮,你會找到鑰駛在休息的地方</value>
+  </data>
+  <data name="Z284" xml:space="preserve">
+    <value>謎語是 :</value>
+  </data>
+  <data name="Z285" xml:space="preserve">
+    <value>在沼澤鎮. 一個有青蛙跳躍的地方.你會找到鑰駛在賣東西的地方</value>
+  </data>
+  <data name="Z286" xml:space="preserve">
+    <value>你解出我所有的謎語!</value>
+  </data>
+  <data name="Z287" xml:space="preserve">
+    <value>打開箱子吧, 有個驚喜給你!</value>
+  </data>
+  <data name="Z288" xml:space="preserve">
+    <value>你值得擁有開啟時空之門的能力</value>
+  </data>
+  <data name="Z289" xml:space="preserve">
+    <value>你還沒找到鑰駛?</value>
+  </data>
+  <data name="Z290" xml:space="preserve">
+    <value>你是新來的嗎?</value>
+  </data>
+  <data name="Z291" xml:space="preserve">
+    <value>如果你是在找鐵匠的話.那你還真不幸</value>
+  </data>
+  <data name="Z292" xml:space="preserve">
+    <value>我們已經沒有這個東西一陣子了</value>
+  </data>
+  <data name="Z293" xml:space="preserve">
+    <value>但是謠言指出 那位隱士就住在北方,他曾經是世上最厲害的鐵匠</value>
+  </data>
+  <data name="Z294" xml:space="preserve">
+    <value>那只是個謠言, 當然. 我不會太在意這個謠言</value>
+  </data>
+  <data name="Z295" xml:space="preserve">
+    <value>所以那位隱士是真的鐵匠大師....</value>
+  </data>
+  <data name="Z296" xml:space="preserve">
+    <value>我以為他指是另外一個瘋老頭.</value>
+  </data>
+  <data name="Z297" xml:space="preserve">
+    <value>孩子.你再找什麼嗎?</value>
+  </data>
+  <data name="Z298" xml:space="preserve">
+    <value>你看起來不像本地人. 你是哪裡人?陌生人.</value>
+  </data>
+  <data name="Z299" xml:space="preserve">
+    <value>喔...你一定是ㄧ個內向的人!</value>
+  </data>
+  <data name="Z300" xml:space="preserve">
+    <value>你可以不要一直盯著我嗎? 我快被你嚇死了</value>
+  </data>
+  <data name="Z301" xml:space="preserve">
+    <value>拜託, 幫幫我們.</value>
+  </data>
+  <data name="Z302" xml:space="preserve">
+    <value>我怕我兒子可能撐不了這麼久!</value>
+  </data>
+  <data name="Z303" xml:space="preserve">
+    <value>你救了我的兒子, 我會銘記在心的!</value>
+  </data>
+  <data name="Z304" xml:space="preserve">
+    <value>抓到!!</value>
+  </data>
+  <data name="Z305" xml:space="preserve">
+    <value>我居然被你困住了.我差點就跑掉了</value>
+  </data>
+  <data name="Z306" xml:space="preserve">
+    <value>沒有人可以抓到我!</value>
+  </data>
+  <data name="Z307" xml:space="preserve">
+    <value>不要告訴我, 你們要拿走黃金!</value>
+  </data>
+  <data name="Z308" xml:space="preserve">
+    <value>記住!! 你永遠都別想抓到我!</value>
+  </data>
+  <data name="Z309" xml:space="preserve">
+    <value>媽你在哪裡??? 我走丟了...</value>
+  </data>
+  <data name="Z310" xml:space="preserve">
+    <value>你知道我媽在哪裡嗎? 告訴我...</value>
+  </data>
+  <data name="Z311" xml:space="preserve">
+    <value>把你的玩具撿起來!</value>
+  </data>
+  <data name="Z312" xml:space="preserve">
+    <value>我小孩不見了..你可以幫我找到他嗎?</value>
+  </data>
+  <data name="Z313" xml:space="preserve">
+    <value>我有點不舒服....</value>
+  </data>
+  <data name="Z314" xml:space="preserve">
+    <value>我現在感覺很多了</value>
+  </data>
+  <data name="Z315" xml:space="preserve">
+    <value>你揀起來筆記本</value>
+  </data>
+  <data name="Z316" xml:space="preserve">
+    <value>這個沒有希望的地方, 為什麼讓我出生在這裡.</value>
+  </data>
+  <data name="Z317" xml:space="preserve">
+    <value>我怕我們會失敗...</value>
+  </data>
+  <data name="Z318" xml:space="preserve">
+    <value>Chepetawa, 你怎麼可以...</value>
+  </data>
+  <data name="Z319" xml:space="preserve">
+    <value>你聽說妳就是那個打敗Chepetawa. 謝謝你, 你人真好</value>
+  </data>
+  <data name="Z320" xml:space="preserve">
+    <value>誰想買蛇靴?</value>
+  </data>
+  <data name="Z321" xml:space="preserve">
+    <value>*咳! 咳! * * 咳! 咳!*</value>
+  </data>
+  <data name="Z322" xml:space="preserve">
+    <value>謝謝你拯救了我的生命!</value>
+  </data>
+  <data name="Z323" xml:space="preserve">
+    <value>希望我能趕快好起來, 這樣我就能出去玩了</value>
+  </data>
+  <data name="Z324" xml:space="preserve">
+    <value>能再出來玩感覺真好~</value>
+  </data>
+  <data name="Z325" xml:space="preserve">
+    <value>啊~~~~~</value>
+  </data>
+  <data name="Z326" xml:space="preserve">
+    <value>該死的 Chepetawa!我才不會像他一樣.</value>
+  </data>
+  <data name="Z327" xml:space="preserve">
+    <value>你就是那個擊敗Chepetawa的年輕人.</value>
+  </data>
+  <data name="Z328" xml:space="preserve">
+    <value>能見到你真是我的榮幸.</value>
+  </data>
+  <data name="Z329" xml:space="preserve">
+    <value>這個鼠疫會害死我們.</value>
+  </data>
+  <data name="Z330" xml:space="preserve">
+    <value>謝謝你拯救了我們村莊, 年輕人.</value>
+  </data>
+  <data name="Z331" xml:space="preserve">
+    <value>請阻止 Chepetawa. 這是唯一的辦法可以拯救我門村莊</value>
+  </data>
+  <data name="Z332" xml:space="preserve">
+    <value>我永遠都歡迎你!</value>
+  </data>
+  <data name="Z333" xml:space="preserve">
+    <value>當我在商店前玩玩具的時候. 怪獸就出現了. 他把我的玩具搶走了. </value>
+  </data>
+  <data name="Z334" xml:space="preserve">
+    <value>他拿走我的玩具. 我要不回來...</value>
+  </data>
+  <data name="Z335" xml:space="preserve">
+    <value>來跟我走, 我帶你去找它</value>
+  </data>
+  <data name="Z336" xml:space="preserve">
+    <value>拜託, 把我的玩具帶回來</value>
+  </data>
+  <data name="Z337" xml:space="preserve">
+    <value>你這身本領是在哪學的? 大俠.</value>
+  </data>
+  <data name="Z338" xml:space="preserve">
+    <value>謝謝, 讓那個可惡的怪獸把我的玩具還來!</value>
+  </data>
+  <data name="Z339" xml:space="preserve">
+    <value>請收下這個舊戒指, 我在地上找到的</value>
+  </data>
+  <data name="Z340" xml:space="preserve">
+    <value>這個玩具是我的最愛. 謝謝你把它帶回來.</value>
+  </data>
+  <data name="Z341" xml:space="preserve">
+    <value>上 ,左 ,下 ,右 ,右 ,左 </value>
+  </data>
+  <data name="Z342" xml:space="preserve">
+    <value>你找到 衝突之戒!</value>
+  </data>
+  <data name="Z343" xml:space="preserve">
+    <value>你找到 光亮之戒!</value>
+  </data>
+  <data name="Z344" xml:space="preserve">
+    <value>你找到 暗影突襲之戒</value>
+  </data>
+  <data name="Z345" xml:space="preserve">
+    <value>你找到 玉雕像</value>
+  </data>
+  <data name="Z346" xml:space="preserve">
+    <value>你找到 藍寶石之戒</value>
+  </data>
+  <data name="Z347" xml:space="preserve">
+    <value>你收到了 黑曜之石</value>
+  </data>
+  <data name="Z348" xml:space="preserve">
+    <value>嘿! 小心這些瘋狂傢伙. 特別是你左邊那個</value>
+  </data>
+  <data name="Z349" xml:space="preserve">
+    <value>他現在手上拿著一個錢包, 我非常確定不是他的</value>
+  </data>
+  <data name="Z350" xml:space="preserve">
+    <value>嘿! 小心這些瘋狂的傢伙, 特別是你....欸 他人勒? 他跑去哪了?</value>
+  </data>
+  <data name="Z351" xml:space="preserve">
+    <value>他一定是帶著偷來的皮夾逃走了!</value>
+  </data>
+  <data name="Z352" xml:space="preserve">
+    <value>你喜歡這個夜晚, 你呢?</value>
+  </data>
+  <data name="Z353" xml:space="preserve">
+    <value>這個村莊總算平靜多了, 我可已不用在人擠人的買東西了</value>
+  </data>
+  <data name="Z354" xml:space="preserve">
+    <value>如果你在找些特別的東西,你最好快一點!</value>
+  </data>
+  <data name="Z355" xml:space="preserve">
+    <value>這些商店開這麼晚,老闆一定都很晚睡.</value>
+  </data>
+  <data name="Z356" xml:space="preserve">
+    <value>歡迎來到市場, 所有的商品都來治這個村莊.</value>
+  </data>
+  <data name="Z357" xml:space="preserve">
+    <value>你有需要什麼特別的東西嗎?</value>
+  </data>
+  <data name="Z358" xml:space="preserve">
+    <value>所有商店都要關了, 你或許可以拿到一些好價錢, 幸運的話.</value>
+  </data>
+  <data name="Z359" xml:space="preserve">
+    <value>豪宅的主人太有錢了, 而且只把錢花在自己的身上.</value>
+  </data>
+  <data name="Z360" xml:space="preserve">
+    <value>他擁有這個市場, 他雇用了一些人假裝站在攤位前面, 讓你感覺他快要賣完了.</value>
+  </data>
+  <data name="Z361" xml:space="preserve">
+    <value>他搞壞了這裡的經濟, 所以他因該承受東西被偷走!</value>
+  </data>
+  <data name="Z362" xml:space="preserve">
+    <value>看吧,他根本就什麼感覺都沒有.</value>
+  </data>
+  <data name="Z363" xml:space="preserve">
+    <value>看吧, 就跟我說的一樣</value>
+  </data>
+  <data name="Z364" xml:space="preserve">
+    <value>有些有為的年輕人或許會歸還那些他們偷的東西.</value>
+  </data>
+  <data name="Z365" xml:space="preserve">
+    <value>然後一些善良的撒瑪利亞人會在圖書館跟邪惡的魔法螳螂對抗. </value>
+  </data>
+  <data name="Z366" xml:space="preserve">
+    <value>什麼? 有一半的故事不是正確的?</value>
+  </data>
+  <data name="Z367" xml:space="preserve">
+    <value>事實上, 你所說完全不正確, 你是我見過最愚蠢人的人了</value>
+  </data>
+  <data name="Z368" xml:space="preserve">
+    <value>愚蠢人根本就不是個字</value>
+  </data>
+  <data name="Z369" xml:space="preserve">
+    <value>*嘆息*</value>
+  </data>
+  <data name="Z370" xml:space="preserve">
+    <value>*哈欠* 某方面來講豪宅主人就像個搶匪. 真希望我能離開這個鬼地方!</value>
+  </data>
+  <data name="Z371" xml:space="preserve">
+    <value>我都不記得上次我離開這個地方是什麼時候了, 真想睡在我的床上.</value>
+  </data>
+  <data name="Z372" xml:space="preserve">
+    <value>Zzzzz... 什麼? Michael's 又在睡覺? 我已經開始感到厭煩了..</value>
+  </data>
+  <data name="Z373" xml:space="preserve">
+    <value>Zzzzzzzzzz...</value>
+  </data>
+  <data name="Z374" xml:space="preserve">
+    <value>我看他要睡掉他的工作了.</value>
+  </data>
+  <data name="Z375" xml:space="preserve">
+    <value>不要光站在這裡, 那個小偷要跑走了. 去抓住他孩子.</value>
+  </data>
+  <data name="Z376" xml:space="preserve">
+    <value>怎麼又是你, 我想你可以待在這邊, 但是不要碰任何東西.</value>
+  </data>
+  <data name="Z377" xml:space="preserve">
+    <value>你一定要幫我, 我的錢包被偷了</value>
+  </data>
+  <data name="Z378" xml:space="preserve">
+    <value>這.......是我的錢包嗎? 真是謝謝你!</value>
+  </data>
+  <data name="Z379" xml:space="preserve">
+    <value>拜託請收下, 這是我一點心意.</value>
+  </data>
+  <data name="Z380" xml:space="preserve">
+    <value>我想我們在也不會看到那個渾蛋. 你是我們的救星.</value>
+  </data>
+  <data name="Z381" xml:space="preserve">
+    <value>晚上這些商家特別大方</value>
+  </data>
+  <data name="Z382" xml:space="preserve">
+    <value>他們已經準備要回家了, 所以會用很便宜的價錢趕快賣出去.</value>
+  </data>
+  <data name="Z383" xml:space="preserve">
+    <value>如果你知道該怎麼做. 你會做得很好</value>
+  </data>
+  <data name="Z384" xml:space="preserve">
+    <value>歡迎光臨, 請隨便看.</value>
+  </data>
+  <data name="Z385" xml:space="preserve">
+    <value>我從來沒有機會買結婚紀念品給我老婆. 我回家的時候他一定會很生氣.</value>
+  </data>
+  <data name="Z386" xml:space="preserve">
+    <value>你想要給商家項鍊嗎?</value>
+  </data>
+  <data name="Z387" xml:space="preserve">
+    <value>這是什麼? 非常地謝謝你. 世界上因該有更多這樣的好事.</value>
+  </data>
+  <data name="Z388" xml:space="preserve">
+    <value>我沒有太多東西可以回報你, 但是我相信我只少可以找到一些.</value>
+  </data>
+  <data name="Z389" xml:space="preserve">
+    <value>嗯..這個,全新的刮鬍刀.</value>
+  </data>
+  <data name="Z390" xml:space="preserve">
+    <value>拜託,請收下這個刮鬍刀, 來表示我的心意.</value>
+  </data>
+  <data name="Z391" xml:space="preserve">
+    <value>歡迎光臨, 買東西或離開!</value>
+  </data>
+  <data name="Z392" xml:space="preserve">
+    <value>你到底要做什麼?我趕著離開,快決定或滾開!</value>
+  </data>
+  <data name="Z393" xml:space="preserve">
+    <value>你想用劍來跟商店交易嗎?</value>
+  </data>
+  <data name="Z394" xml:space="preserve">
+    <value>哇.你有把不錯的劍, 我想你最好當一個乖女孩, 然後把劍拿給我.</value>
+  </data>
+  <data name="Z395" xml:space="preserve">
+    <value>你不會想要引起大家的注意!</value>
+  </data>
+  <data name="Z396" xml:space="preserve">
+    <value>我是最後一間商店還開著. 你最好快點回來. 如果你知道什麼是對你好了話.</value>
+  </data>
+  <data name="Z397" xml:space="preserve">
+    <value>你在威脅我嗎?</value>
+  </data>
+  <data name="Z398" xml:space="preserve">
+    <value>你最好再仔細想想. 在我傷害你之前.</value>
+  </data>
+  <data name="Z399" xml:space="preserve">
+    <value>你在不停止. 我不知道會發生什麼事.</value>
+  </data>
+  <data name="Z400" xml:space="preserve">
+    <value>嘿嘿嘿, 你最好有這麼厲害.</value>
+  </data>
+  <data name="Z401" xml:space="preserve">
+    <value>我不想傷害這漂亮的臉蛋, 但是需要有人給你一個教訓.</value>
+  </data>
+  <data name="Z402" xml:space="preserve">
+    <value>我好像把他擊倒了..我們最好快走</value>
+  </data>
+  <data name="Z403" xml:space="preserve">
+    <value>哇, Nathan 一定會很喜歡這個!  我想我會拿這個.</value>
+  </data>
+  <data name="Z404" xml:space="preserve">
+    <value>我將會離開顯示劍,反正他是個垃圾. 而且我不喜歡這樣的感覺好像我偷了他的樣子.</value>
+  </data>
+  <data name="Z405" xml:space="preserve">
+    <value>Cara 已收到 Nathan 的禮物.</value>
+  </data>
+  <data name="Z406" xml:space="preserve">
+    <value>He's still knocked out. I better get back to Nathan before this guy comes to his senses.</value>
+  </data>
+  <data name="Z407" xml:space="preserve">
+    <value>唉! 把他趕走! 別人他傷害我!</value>
+  </data>
+  <data name="Z408" xml:space="preserve">
+    <value>給你一些建議....</value>
+  </data>
+  <data name="Z409" xml:space="preserve">
+    <value>不要惹他生氣, 如果你還想要繼續有健康的身體</value>
+  </data>
+  <data name="Z410" xml:space="preserve">
+    <value>嘿..年輕小夥子.如果你想要買東西的話. 很抱歉我們已經打烊了..</value>
+  </data>
+  <data name="Z411" xml:space="preserve">
+    <value>我只是在等誰來買我的攤位.然後永遠離開這裡!</value>
+  </data>
+  <data name="Z412" xml:space="preserve">
+    <value>每個人都有欠豪宅主人錢, 對我來說這還是太超過了一點.</value>
+  </data>
+  <data name="Z413" xml:space="preserve">
+    <value>所以有些人雇用我保留這個位子, 直到他們找到想做的事.</value>
+  </data>
+  <data name="Z414" xml:space="preserve">
+    <value>這是不是在抱怨, 我就是沒事做</value>
+  </data>
+  <data name="Z415" xml:space="preserve">
+    <value>我們老闆說你會來看我的商品, 你有想要買些什麼嗎?</value>
+  </data>
+  <data name="Z416" xml:space="preserve">
+    <value>哈囉! 你好嗎? 我......這裡什麼事情都沒發生</value>
+  </data>
+  <data name="Z417" xml:space="preserve">
+    <value>啊啊啊啊~</value>
+  </data>
+  <data name="Z418" xml:space="preserve">
+    <value>什麼? 嗯. 我這裡有別人的錢包..</value>
+  </data>
+  <data name="Z419" xml:space="preserve">
+    <value>別看這我!</value>
+  </data>
+  <data name="Z420" xml:space="preserve">
+    <value>Ack! How did you find me! Did the mimbies tell you where I was?</value>
+  </data>
+  <data name="Z421" xml:space="preserve">
+    <value>沒有人相信我, 他們一定就在這附近吧.搞不好是他們偷了我的皮夾.</value>
+  </data>
+  <data name="Z422" xml:space="preserve">
+    <value>等一下! 如果我有皮夾的話, 那他們就不會有了</value>
+  </data>
+  <data name="Z423" xml:space="preserve">
+    <value>看這邊!</value>
+  </data>
+  <data name="Z424" xml:space="preserve">
+    <value>老鼠! 我就知道我因該把它藏在床下!</value>
+  </data>
+  <data name="Z425" xml:space="preserve">
+    <value>嘿! 你還記得我麼第一次見面的時候嗎? 那真是個美好的一天. 我們還一玩duck duck goose呢!</value>
+  </data>
+  <data name="Z426" xml:space="preserve">
+    <value>為什麼他叫做duck duck gooes? 我知道當夜晚的時候鴨子牙齒會變長 然後變成怪物.</value>
+  </data>
+  <data name="Z427" xml:space="preserve">
+    <value>喔 對,那我要趕快逃走才是</value>
+  </data>
+  <data name="Z428" xml:space="preserve">
+    <value>掰掰我也跑了.</value>
+  </data>
+  <data name="Z429" xml:space="preserve">
+    <value>哇! 我記得我之前見過妳!你是那個....</value>
+  </data>
+  <data name="Z430" xml:space="preserve">
+    <value>嗯.........</value>
+  </data>
+  <data name="Z431" xml:space="preserve">
+    <value>喔對了! 那個有頭髮的人</value>
+  </data>
+  <data name="Z432" xml:space="preserve">
+    <value>拿去,這個皮夾. 我忘記我拿這個要做什麼了.再見了 我的朋友!</value>
+  </data>
+  <data name="Z433" xml:space="preserve">
+    <value>這個豪宅的主人是個壞人, 他只給我食物. 我不需要食物,我需要的事錢!</value>
+  </data>
+  <data name="Z434" xml:space="preserve">
+    <value>你可以給我一些黃金嗎?</value>
+  </data>
+  <data name="Z435" xml:space="preserve">
+    <value>你救跟豪宅主人一樣可惡.當你對我感到抱歉的時候再回來吧!</value>
+  </data>
+  <data name="Z436" xml:space="preserve">
+    <value>嗯...妳可以給我481金嗎?</value>
+  </data>
+  <data name="Z437" xml:space="preserve">
+    <value>我想我因該會在那開一間店, 我相信北方是個不錯的地方.</value>
+  </data>
+  <data name="Z438" xml:space="preserve">
+    <value>如果妳已經開始感到抱歉, 把金塊留下. 你知道你因該現在就給我.</value>
+  </data>
+  <data name="Z439" xml:space="preserve">
+    <value>真的嗎? 待會見..或許. 感謝你做了對的事</value>
+  </data>
+  <data name="Z440" xml:space="preserve">
+    <value>哈. 你就跟我ㄧ樣窮嘛. 當你有錢的時候再回來吧!</value>
+  </data>
+  <data name="Z441" xml:space="preserve">
+    <value>嘿! 有是你.真的很謝謝, 我已經開了一家戒指店. 想要看一下我的商品嗎?</value>
+  </data>
+  <data name="Z442" xml:space="preserve">
+    <value>Oh... well are you going to give me 480 gold then?</value>
+  </data>
+  <data name="Z443" xml:space="preserve">
+    <value>*Sigh*... I guess I'll never live life to the fullest. I'll never be able to fulfill my dreams.</value>
+  </data>
+  <data name="Z444" xml:space="preserve">
+    <value>Wow! It's you again. I just knew I'd see you again, that's why I left without saying anything before.</value>
+  </data>
+  <data name="Z445" xml:space="preserve">
+    <value>You made me rich, here, take this for free. Thanks for the help! I am a changed man now.</value>
+  </data>
+  <data name="Z446" xml:space="preserve">
+    <value>I sure do fancy the rich life, it's quite spectacular indeed. My chaps are starting a new store back at my home.</value>
+  </data>
+  <data name="Z447" xml:space="preserve">
+    <value>I say, you should scuttle your way over there now. This conversation has been quite pleasant, hmm, yes, pleasant indeed. Good day, chum!</value>
+  </data>
+  <data name="Z448" xml:space="preserve">
+    <value>Sorry, sir, but all my merchandise is sold out, except for this one bag of seeds.</value>
+  </data>
+  <data name="Z449" xml:space="preserve">
+    <value>These seeds are very rare and are rumored to grow into a plant with magical properties.</value>
+  </data>
+  <data name="Z450" xml:space="preserve">
+    <value>這些種子是非常稀有的. 有謠言說他們會長程有魔法的植物</value>
+  </data>
+  <data name="Z451" xml:space="preserve">
+    <value>I'll sell them to you for</value>
+  </data>
+  <data name="Z452" xml:space="preserve">
+    <value>真的嗎? 謝謝你!</value>
+  </data>
+  <data name="Z453" xml:space="preserve">
+    <value>Oh well, I guess I'm still stuck with them then.</value>
+  </data>
+  <data name="Z454" xml:space="preserve">
+    <value>抱歉 我已經賣光了.謝謝您的光顧</value>
+  </data>
+  <data name="Z455" xml:space="preserve">
+    <value>喔..看起來你沒有足夠的錢</value>
+  </data>
+  <data name="Z456" xml:space="preserve">
+    <value>你收到了一包稀有的種子</value>
+  </data>
+  <data name="Z457" xml:space="preserve">
+    <value>哈囉, 你想要買這個項鍊嗎? 這是個真的不錯的東西</value>
+  </data>
+  <data name="Z458" xml:space="preserve">
+    <value>很榮幸跟你交易 希望能在見到你!</value>
+  </data>
+  <data name="Z459" xml:space="preserve">
+    <value>這個價值會直到我打烊. 如果改變主意的話歡迎再來!</value>
+  </data>
+  <data name="Z460" xml:space="preserve">
+    <value>抱歉. 我晚上就打烊了. 請明天再來.</value>
+  </data>
+  <data name="Z461" xml:space="preserve">
+    <value>Cara 收到一條項鍊.</value>
+  </data>
+  <data name="Z462" xml:space="preserve">
+    <value>這裡是你的鐮刀.正如你可以清楚地看到,我的技術遠遠超過其他兩位</value>
+  </data>
+  <data name="Z463" xml:space="preserve">
+    <value>I see the blacksmith that repaired your sorry excuse for a weapon sent you over here to gloat.</value>
+  </data>
+  <data name="Z464" xml:space="preserve">
+    <value>我沒有時間理你.出去!</value>
+  </data>
+  <data name="Z465" xml:space="preserve">
+    <value>所以你的鐮刀壞了? 然後你現在拿來過來給我修? 是這樣嗎?</value>
+  </data>
+  <data name="Z466" xml:space="preserve">
+    <value>嗯..天下沒有便宜的好貨</value>
+  </data>
+  <data name="Z467" xml:space="preserve">
+    <value>我會幫你修的</value>
+  </data>
+  <data name="Z468" xml:space="preserve">
+    <value>明天就會好.你現在可以出去了.我已經厭倦你的臉了.</value>
+  </data>
+  <data name="Z469" xml:space="preserve">
+    <value>對你來講是太貴了嗎?</value>
+  </data>
+  <data name="Z470" xml:space="preserve">
+    <value>真是太糟了.我不跟別人談判的. 尤其是你!</value>
+  </data>
+  <data name="Z471" xml:space="preserve">
+    <value>你是想捉弄我嘛小朋友?等你有錢的時候再來!</value>
+  </data>
+  <data name="Z472" xml:space="preserve">
+    <value>我不喜歡重複講同樣的話小朋友! 明才會好!</value>
+  </data>
+  <data name="Z473" xml:space="preserve">
+    <value>又是你?</value>
+  </data>
+  <data name="Z474" xml:space="preserve">
+    <value>你已經沒有什麼東西好修的了. 不要再浪費我的時間了!</value>
+  </data>
+  <data name="Z475" xml:space="preserve">
+    <value>哈囉小姐.有什我可以幫你的?</value>
+  </data>
+  <data name="Z476" xml:space="preserve">
+    <value>你想要用刮鬍刀來跟我交易?</value>
+  </data>
+  <data name="Z477" xml:space="preserve">
+    <value>所以你是想要用刮鬍刀來交換我的商品?</value>
+  </data>
+  <data name="Z478" xml:space="preserve">
+    <value>我的鬍子是有什麼問題嘛? 對我沒什麼吸引力</value>
+  </data>
+  <data name="Z479" xml:space="preserve">
+    <value>嗯..我是有把顯示劍.但是好像沒有人想要.</value>
+  </data>
+  <data name="Z480" xml:space="preserve">
+    <value>事實上武器的需求已經不像以前那麼多了</value>
+  </data>
+  <data name="Z481" xml:space="preserve">
+    <value>How about we trade your trimmer for my sword?</value>
+  </data>
+  <data name="Z482" xml:space="preserve">
+    <value>沒有.嗯? 好吧我快打烊了所以如果想改變心意的話要快</value>
+  </data>
+  <data name="Z483" xml:space="preserve">
+    <value>Cara收到了顯示之劍.</value>
+  </data>
+  <data name="Z484" xml:space="preserve">
+    <value>感謝你的修剪.我想女士一定會映像深刻</value>
+  </data>
+  <data name="Z485" xml:space="preserve">
+    <value>你找到 招換之戒</value>
+  </data>
+  <data name="Z486" xml:space="preserve">
+    <value>你找到 崇拜之戒</value>
+  </data>
+  <data name="Z487" xml:space="preserve">
+    <value>你找到 炫耀之戒</value>
+  </data>
+  <data name="Z488" xml:space="preserve">
+    <value>你找到 聖人之戒</value>
+  </data>
+  <data name="Z489" xml:space="preserve">
+    <value>你找到 後院鑰駛</value>
+  </data>
+  <data name="Z490" xml:space="preserve">
+    <value>嘿..你想要玩個遊戲嘛?</value>
+  </data>
+  <data name="Z491" xml:space="preserve">
+    <value>好.遊戲就是.我會把寶物放在我旁邊的箱子</value>
+  </data>
+  <data name="Z492" xml:space="preserve">
+    <value>然後你必須要在箱子停止移動的時候選出有寶物的那個箱子</value>
+  </data>
+  <data name="Z493" xml:space="preserve">
+    <value>如果你第一次就找到寶藏.寶藏就是你了</value>
+  </data>
+  <data name="Z494" xml:space="preserve">
+    <value>準備............出發!</value>
+  </data>
+  <data name="Z495" xml:space="preserve">
+    <value>你輸了.</value>
+  </data>
+  <data name="Z496" xml:space="preserve">
+    <value>如果你敢變主意的話再回來吧</value>
+  </data>
+  <data name="Z497" xml:space="preserve">
+    <value>你選了 空的箱子</value>
+  </data>
+  <data name="Z498" xml:space="preserve">
+    <value>你找到 暗影突襲之戒</value>
+  </data>
+  <data name="Z499" xml:space="preserve">
+    <value>哇..沒想到你可以找到正確的箱子.我以為你瞎了</value>
+  </data>
+  <data name="Z500" xml:space="preserve">
+    <value>抱歉.但你只能猜一次</value>
+  </data>
+  <data name="Z501" xml:space="preserve">
+    <value>你似乎有個強大的力量在你體內. 不要讓它控制了你</value>
+  </data>
+  <data name="Z502" xml:space="preserve">
+    <value>你有聽過聖氣嘛?</value>
+  </data>
+  <data name="Z503" xml:space="preserve">
+    <value>When a mage feels they have been wronged by a non-magic user, they typically make them a hallow.</value>
+  </data>
+  <data name="Z504" xml:space="preserve">
+    <value>When a mage makes a hallow they take away one of their victims' five senses. The sense that they take away is decided by how badly the mage was wronged.</value>
+  </data>
+  <data name="Z505" xml:space="preserve">
+    <value>The lesser senses, like touch, taste, and smell, are for minor offenses. A mage will only take hearing or sight if they feel greatly wronged.</value>
+  </data>
+  <data name="Z506" xml:space="preserve">
+    <value>The moles are asleep for the night. Try coming back in the morning.</value>
+  </data>
+  <data name="Z507" xml:space="preserve">
+    <value>Celindar is dangerous at night. Sleep walking is common in us mages and sometimes we leave our homes.</value>
+  </data>
+  <data name="Z508" xml:space="preserve">
+    <value>You would be amazed to see what can happen when you're confronted by a sleep walking mage. It gets ugly.</value>
+  </data>
+  <data name="Z509" xml:space="preserve">
+    <value>You caused quite a ruckus when you and your friends showed up here. Don't try to start anything. I say this for your own good.</value>
+  </data>
+  <data name="Z510" xml:space="preserve">
+    <value>走開!</value>
+  </data>
+  <data name="Z511" xml:space="preserve">
+    <value>你找到 補藥(大) X3</value>
+  </data>
+  <data name="Z512" xml:space="preserve">
+    <value>你找到 補藥(大)X4</value>
+  </data>
+  <data name="Z513" xml:space="preserve">
+    <value>等一下!</value>
+  </data>
+  <data name="Z514" xml:space="preserve">
+    <value>你是想質疑我的身分是嘛?</value>
+  </data>
+  <data name="Z515" xml:space="preserve">
+    <value>我不能讓你獨自離開.你還沒有完全康復</value>
+  </data>
+  <data name="Z516" xml:space="preserve">
+    <value>我要加入你.你最好不要說不.</value>
+  </data>
+  <data name="Z517" xml:space="preserve">
+    <value>Cara 加入了你的隊伍</value>
+  </data>
+  <data name="Z518" xml:space="preserve">
+    <value>搶劫這個村子因該比想像中的簡單!</value>
+  </data>
+  <data name="Z519" xml:space="preserve">
+    <value>恩阿.唯一能夠阻擋我們的是幾個懦弱的警衛</value>
+  </data>
+  <data name="Z520" xml:space="preserve">
+    <value>嘿! 看這個傢伙. 他居然想躲在樹後面</value>
+  </data>
+  <data name="Z521" xml:space="preserve">
+    <value>走!去抓住他!</value>
+  </data>
+  <data name="Z522" xml:space="preserve">
+    <value>天啊.村莊正被土匪襲擊..我們該怎麼做.......</value>
+  </data>
+  <data name="Z523" xml:space="preserve">
+    <value>先聲對不起.我們不能讓你通過. 這是為了你的安全</value>
+  </data>
+  <data name="Z524" xml:space="preserve">
+    <value>由於目前這附近盜賊增加. 城鎮現在已經關閉.</value>
+  </data>
+  <data name="Z525" xml:space="preserve">
+    <value>喔! 你終於醒來了. 別害怕你在這裡很安全. 我們在森林裡找到你的.</value>
+  </data>
+  <data name="Z526" xml:space="preserve">
+    <value>我的名子叫做Cara, 我已經照顧你有一陣子了. 我想你因該要休息一下別太緊張.</value>
+  </data>
+  <data name="Z527" xml:space="preserve">
+    <value>那你叫什麼名子呢?</value>
+  </data>
+  <data name="Z528" xml:space="preserve">
+    <value>你真得不記得我了?</value>
+  </data>
+  <data name="Z529" xml:space="preserve">
+    <value>你記得你從哪裡來和怎麼受傷或是任何事情嗎?</value>
+  </data>
+  <data name="Z530" xml:space="preserve">
+    <value>真糟糕...</value>
+  </data>
+  <data name="Z531" xml:space="preserve">
+    <value>嗯.試著去城裡走走吧. 人們都蠻好的.你因該見見他們. 他們也會很想見到你的</value>
+  </data>
+  <data name="Z532" xml:space="preserve">
+    <value>希望清晰的空氣能幫助喚醒你的記憶.</value>
+  </data>
+  <data name="Z533" xml:space="preserve">
+    <value>如果你想要的話可以去箱子裡拿一些補藥. 或許會派上用場</value>
+  </data>
+  <data name="Z534" xml:space="preserve">
+    <value>欸.在你離開之前我爸希望你把這把練習之劍帶在身上. 當你麻煩的時候能派上用場</value>
+  </data>
+  <data name="Z535" xml:space="preserve">
+    <value>嗯.你看起來已經準備好了.就不打擾你了. 小心安全</value>
+  </data>
+  <data name="Z536" xml:space="preserve">
+    <value>你收到 勇氣之戒 和  500 黃金</value>
+  </data>
+  <data name="Z537" xml:space="preserve">
+    <value>...然後我說. 這不是蘑菇, 這是我老婆! 呵呵呵呵!</value>
+  </data>
+  <data name="Z538" xml:space="preserve">
+    <value>爸爸! 你看那個帥氣的年輕人!</value>
+  </data>
+  <data name="Z539" xml:space="preserve">
+    <value>現在! 就是現在Cara. 他需要我們的幫忙和熱情款待. 抓住他的腿,讓他在我們房間休息</value>
+  </data>
+  <data name="Z540" xml:space="preserve">
+    <value>我會看住他.</value>
+  </data>
+  <data name="Z541" xml:space="preserve">
+    <value>... To make sure he's okay, and he stays healthy and stuff...</value>
+  </data>
+  <data name="Z542" xml:space="preserve">
+    <value>Cara, 這是?</value>
+  </data>
+  <data name="Z543" xml:space="preserve">
+    <value>一個了不起的想法!</value>
+  </data>
+  <data name="Z544" xml:space="preserve">
+    <value>誰來幫我們! 這裡太多敵人了</value>
+  </data>
+  <data name="Z545" xml:space="preserve">
+    <value>真高興見到你 Cara. 你也是...</value>
+  </data>
+  <data name="Z546" xml:space="preserve">
+    <value>他的名子是 Nathan, 父親.他已經想起一些事情了.至從我門離開城鎮後發生了什麼事?</value>
+  </data>
+  <data name="Z547" xml:space="preserve">
+    <value>冷靜. 這裡有些盜賊足跡在蘑菇森林</value>
+  </data>
+  <data name="Z548" xml:space="preserve">
+    <value>根據謠言. 王盜賊在此設立營區</value>
+  </data>
+  <data name="Z549" xml:space="preserve">
+    <value>我已經警告所有村民避開這個時段.</value>
+  </data>
+  <data name="Z550" xml:space="preserve">
+    <value>所以你父親是市長嘛?他一定也不錯的東西</value>
+  </data>
+  <data name="Z551" xml:space="preserve">
+    <value>你想都別想!</value>
+  </data>
+  <data name="Z552" xml:space="preserve">
+    <value>啦啦啦</value>
+  </data>
+  <data name="Z553" xml:space="preserve">
+    <value>我們終於到這裡了</value>
+  </data>
+  <data name="Z554" xml:space="preserve">
+    <value>看起來我們不是唯一個在找神器的人. 你會覺得我們太晚?</value>
+  </data>
+  <data name="Z555" xml:space="preserve">
+    <value>屍體還是溫的.他們才剛死沒多久. 如果我們快一點或許能救一些人</value>
+  </data>
+  <data name="Z556" xml:space="preserve">
+    <value>但是別忘了神器還是我們第一優先. 走吧!</value>
+  </data>
+  <data name="Z557" xml:space="preserve">
+    <value>救命! 怪獸正在攻擊城堡!</value>
+  </data>
+  <data name="Z558" xml:space="preserve">
+    <value>啊啊~~</value>
+  </data>
+  <data name="Z559" xml:space="preserve">
+    <value>吧啦啦啦~~</value>
+  </data>
+  <data name="Z560" xml:space="preserve">
+    <value>喀拉~</value>
+  </data>
+  <data name="Z561" xml:space="preserve">
+    <value>管理員!</value>
+  </data>
+  <data name="Z562" xml:space="preserve">
+    <value>他死了..</value>
+  </data>
+  <data name="Z563" xml:space="preserve">
+    <value>但..誰殺了他? 然後神器在哪?</value>
+  </data>
+  <data name="Z564" xml:space="preserve">
+    <value>什麼...</value>
+  </data>
+  <data name="Z565" xml:space="preserve">
+    <value>發什麼事了?</value>
+  </data>
+  <data name="Z566" xml:space="preserve">
+    <value>嘿嘿嘿嘿..你這個傻瓜</value>
+  </data>
+  <data name="Z567" xml:space="preserve">
+    <value>你是誰? 來啊! 懦夫!</value>
+  </data>
+  <data name="Z568" xml:space="preserve">
+    <value>喔.. Nathan... 你正的以為你能打敗我? 你的朋友已經死了, Nathan.</value>
+  </data>
+  <data name="Z569" xml:space="preserve">
+    <value>真是個天真的小孩.</value>
+  </data>
+  <data name="Z570" xml:space="preserve">
+    <value>廢話說夠了? 讓我看看你的本事吧.現在</value>
+  </data>
+  <data name="Z571" xml:space="preserve">
+    <value>呵呵...就如你所願, 小朋友</value>
+  </data>
+  <data name="Z572" xml:space="preserve">
+    <value>我並沒有想到你會在這裡, Nathan, 但是不重要. 準備去天堂找你朋友吧!</value>
+  </data>
+  <data name="Z573" xml:space="preserve">
+    <value>是時候讓你劍是我的力量了!</value>
+  </data>
+  <data name="Z574" xml:space="preserve">
+    <value>或許你有辦法能想出如何得到我的黃金</value>
+  </data>
+  <data name="Z575" xml:space="preserve">
+    <value>所以,你淨化了圖書館, 謝謝你年輕人.你可以走了</value>
+  </data>
+  <data name="Z576" xml:space="preserve">
+    <value>等一下! 你不是說你要告訴我們一些重要的事情?</value>
+  </data>
+  <data name="Z577" xml:space="preserve">
+    <value>重要的事情?</value>
+  </data>
+  <data name="Z578" xml:space="preserve">
+    <value>喔對了.我想起來了</value>
+  </data>
+  <data name="Z579" xml:space="preserve">
+    <value>你們一定要原諒我, 我的記憶已經沒有以前好了</value>
+  </data>
+  <data name="Z580" xml:space="preserve">
+    <value>如果我只有20歲我..</value>
+  </data>
+  <data name="Z581" xml:space="preserve">
+    <value>你真是老頑固, 講重點. 老頭</value>
+  </data>
+  <data name="Z582" xml:space="preserve">
+    <value>就如你所願.重要..</value>
+  </data>
+  <data name="Z583" xml:space="preserve">
+    <value>嗯..................</value>
+  </data>
+  <data name="Z584" xml:space="preserve">
+    <value>恩對了. 就是這個. 傳奇Lacuna的血</value>
+  </data>
+  <data name="Z585" xml:space="preserve">
+    <value>這些劍的故事.一個久到讓人遺忘的故事.當兩個最大的洲Ellaethia和Agora,其中一個</value>
+  </data>
+  <data name="Z586" xml:space="preserve">
+    <value>在那段時間魔法筆現今更普遍.</value>
+  </data>
+  <data name="Z587" xml:space="preserve">
+    <value>每個人都擁有能力控制魔法.而且不是少數</value>
+  </data>
+  <data name="Z588" xml:space="preserve">
+    <value>不間斷的練習魔法.而且常被濫用</value>
+  </data>
+  <data name="Z589" xml:space="preserve">
+    <value>過度的使用魔法,引來了深淵理的惡魔.</value>
+  </data>
+  <data name="Z590" xml:space="preserve">
+    <value>惡魔的名子叫做 Mal'ticar.</value>
+  </data>
+  <data name="Z591" xml:space="preserve">
+    <value>這惡毒的惡魔可望魔法能量</value>
+  </data>
+  <data name="Z592" xml:space="preserve">
+    <value>他會一個城鎮一個城鎮的尋找新的麼法能量, 然後摧毀一切.</value>
+  </data>
+  <data name="Z593" xml:space="preserve">
+    <value>對權力的渴望永遠沒有滿足的一天</value>
+  </data>
+  <data name="Z594" xml:space="preserve">
+    <value>在絕望中.南部大陸的人企圖逃往北部尋求庇護</value>
+  </data>
+  <data name="Z595" xml:space="preserve">
+    <value>結合了所有的力量,施法把大陸切成了兩半</value>
+  </data>
+  <data name="Z596" xml:space="preserve">
+    <value>他們創造了一個天然的海洋隔開了Mal'ticar和他們的所在地</value>
+  </data>
+  <data name="Z597" xml:space="preserve">
+    <value>那些不夠幸運的人就被困在南大陸和Mal'ticar</value>
+  </data>
+  <data name="Z598" xml:space="preserve">
+    <value>人們被迫要團結起來對抗惡魔.</value>
+  </data>
+  <data name="Z599" xml:space="preserve">
+    <value>南大陸的人們. 把他們所有魔法能量注入近幾把劍裡</value>
+  </data>
+  <data name="Z600" xml:space="preserve">
+    <value>這些劍有能量可以切斷任何東西.</value>
+  </data>
+  <data name="Z601" xml:space="preserve">
+    <value>他們被稱做Lacuna之刀</value>
+  </data>
+  <data name="Z602" xml:space="preserve">
+    <value>而那些被選上要揮動Lacuna之刀的被稱做lacuna掠奪者</value>
+  </data>
+  <data name="Z603" xml:space="preserve">
+    <value>這些掠奪者用它們的劍把世界切開, 然後把Mal'ticar封印在另一個空間.</value>
+  </data>
+  <data name="Z604" xml:space="preserve">
+    <value>過了幾千年以後.這暗黑的時代以被人們遺忘.</value>
+  </data>
+  <data name="Z605" xml:space="preserve">
+    <value>Lacuna 之刀已經永遠消失</value>
+  </data>
+  <data name="Z606" xml:space="preserve">
+    <value>直到現在</value>
+  </data>
+  <data name="Z607" xml:space="preserve">
+    <value>Nathan,你所帶的劍就是傳說的Lacuna之一.</value>
+  </data>
+  <data name="Z608" xml:space="preserve">
+    <value>記住這個名子, Nathan. 他可以幫你解開這把劍的真正淺能.</value>
+  </data>
+  <data name="Z609" xml:space="preserve">
+    <value>我是唯一存活知道這把劍的力量的人.</value>
+  </data>
+  <data name="Z610" xml:space="preserve">
+    <value>而且這個村莊只有一個人可以教你這個力量.可以扯開時空.</value>
+  </data>
+  <data name="Z611" xml:space="preserve">
+    <value>那我們開始吧. 我準備好了</value>
+  </data>
+  <data name="Z612" xml:space="preserve">
+    <value>不是你笨蛋! ˙他在跟Nathan說. 你沒聽清楚.</value>
+  </data>
+  <data name="Z613" xml:space="preserve">
+    <value>I drift in an' out.</value>
+  </data>
+  <data name="Z614" xml:space="preserve">
+    <value>Nathan! 年輕的掠奪者. 你準好要學Lacuna時空之門</value>
+  </data>
+  <data name="Z615" xml:space="preserve">
+    <value>我們走!</value>
+  </data>
+  <data name="Z616" xml:space="preserve">
+    <value>你已經學會新的法術-Lacuna時空之術.他可以帶你去過妳以前去過的所有地方.</value>
+  </data>
+  <data name="Z617" xml:space="preserve">
+    <value>這個法術耗費我很多力量. 我現在一定要休息. 小心安全旅行者.</value>
+  </data>
+  <data name="Z618" xml:space="preserve">
+    <value>喔..還有一件事情.</value>
+  </data>
+  <data name="Z619" xml:space="preserve">
+    <value>拜託, 不要再說了.</value>
+  </data>
+  <data name="Z620" xml:space="preserve">
+    <value>Lacuna之刀隱藏力量在刀柄. 這就是他可以開啟時空之門的秘密.</value>
+  </data>
+  <data name="Z621" xml:space="preserve">
+    <value>然而他真正的力量藏在刀中</value>
+  </data>
+  <data name="Z622" xml:space="preserve">
+    <value>我可以看得出來刀片的部分已經受損和維修過. 其實他已經消失很多力量.</value>
+  </data>
+  <data name="Z623" xml:space="preserve">
+    <value>你一定要雪地村莊找工匠大師</value>
+  </data>
+  <data name="Z624" xml:space="preserve">
+    <value>只有那位工匠大師能把你的劍恢復原形</value>
+  </data>
+  <data name="Z625" xml:space="preserve">
+    <value>這是我的榮幸見到你, 小心安全.</value>
+  </data>
+  <data name="Z626" xml:space="preserve">
+    <value>Nathan, 不是只有你這麼忠心, 但你是已經是個傳奇了. 你真帥!</value>
+  </data>
+  <data name="Z627" xml:space="preserve">
+    <value>嗯..不是..我意思是..太棒了!</value>
+  </data>
+  <data name="Z628" xml:space="preserve">
+    <value>我不了解你們兩個人, 但我覺得因該不難.</value>
+  </data>
+  <data name="Z629" xml:space="preserve">
+    <value>準備好!</value>
+  </data>
+  <data name="Z630" xml:space="preserve">
+    <value>Nathan,我們因該跟 Endor說我已經把圖書館淨化了.</value>
+  </data>
+  <data name="Z631" xml:space="preserve">
+    <value>你是怎麼找到我的?</value>
+  </data>
+  <data name="Z632" xml:space="preserve">
+    <value>你怎麼可能找的到這裡</value>
+  </data>
+  <data name="Z633" xml:space="preserve">
+    <value>我不知道你們再說什麼,也不知道你是誰. 就像你們看到的我是個瞎子.</value>
+  </data>
+  <data name="Z634" xml:space="preserve">
+    <value>我知道. 我就是那個讓你瞎了的人. 笨蛋.</value>
+  </data>
+  <data name="Z635" xml:space="preserve">
+    <value>所以你是那個我們看到逃走的人, 是嘛?</value>
+  </data>
+  <data name="Z636" xml:space="preserve">
+    <value>我想那個小偷沒有把全部的故事告訴你</value>
+  </data>
+  <data name="Z637" xml:space="preserve">
+    <value>我詛咒他失明, 因為他想偷我的東西</value>
+  </data>
+  <data name="Z638" xml:space="preserve">
+    <value>胡說! 他在說謊!</value>
+  </data>
+  <data name="Z639" xml:space="preserve">
+    <value>省了吧! 你知道我再說什麼!</value>
+  </data>
+  <data name="Z640" xml:space="preserve">
+    <value>嗯, 我想我因該要感謝你. 你的詛咒好像給了我什麼能力讓我在戰鬥中保護自己.</value>
+  </data>
+  <data name="Z641" xml:space="preserve">
+    <value>否則我想我會死在戰鬥中</value>
+  </data>
+  <data name="Z642" xml:space="preserve">
+    <value>你再說什麼?!</value>
+  </data>
+  <data name="Z643" xml:space="preserve">
+    <value>我以為你會死在森林裡. 我的詛咒就是讓你瞎了. 沒有別的了!</value>
+  </data>
+  <data name="Z644" xml:space="preserve">
+    <value>看這樣! 讓我們結束我們本來要在森林的事吧!</value>
+  </data>
+  <data name="Z645" xml:space="preserve">
+    <value>等一下!!</value>
+  </data>
+  <data name="Z646" xml:space="preserve">
+    <value>這是真的嘛?</value>
+  </data>
+  <data name="Z647" xml:space="preserve">
+    <value>By the stars, it is!</value>
+  </data>
+  <data name="Z648" xml:space="preserve">
+    <value>兒子, 你知道是什麼劍嘛?</value>
+  </data>
+  <data name="Z649" xml:space="preserve">
+    <value>你手上所拿的是傳奇的 Lacuna 之刀.</value>
+  </data>
+  <data name="Z650" xml:space="preserve">
+    <value>那是個神話! 沒有人會相信那些老人的故事.</value>
+  </data>
+  <data name="Z651" xml:space="preserve">
+    <value>這不再是個傳說! 這個年輕人在這裡已經證明了一切!</value>
+  </data>
+  <data name="Z652" xml:space="preserve">
+    <value>刀柄上的波動是確鑿無誤, 而且我可以看出來這有骨沉睡的力量在裡面!</value>
+  </data>
+  <data name="Z653" xml:space="preserve">
+    <value>這可以確定的是他是其中一把Lacuna之刀.</value>
+  </data>
+  <data name="Z654" xml:space="preserve">
+    <value>我不相信.毫無疑問的這是把普通的劍. 從一個無辜的人偷來的.</value>
+  </data>
+  <data name="Z655" xml:space="preserve">
+    <value>這些人是騙子, Endor!</value>
+  </data>
+  <data name="Z656" xml:space="preserve">
+    <value>不知怎樣他們知道了這個城市的秘密. 然後計畫把我所擁優的東西都偷走.</value>
+  </data>
+  <data name="Z657" xml:space="preserve">
+    <value>這不是真的! 我只是普通的旅行者為了找到我們朋友Nathan的身分. 你看他失去了他的記憶當..</value>
+  </data>
+  <data name="Z658" xml:space="preserve">
+    <value>不要聽他們的!</value>
+  </data>
+  <data name="Z659" xml:space="preserve">
+    <value>我看我們現在就把他們殺了.我們不能讓他們告訴別人我們....</value>
+  </data>
+  <data name="Z660" xml:space="preserve">
+    <value>夠了, Ruith!</value>
+  </data>
+  <data name="Z661" xml:space="preserve">
+    <value>我們會停止這樣的對話. 我們沒有惡意...旅行者</value>
+  </data>
+  <data name="Z662" xml:space="preserve">
+    <value>不過, 我蠻好奇你們怎麼找到我們躲藏的地方</value>
+  </data>
+  <data name="Z663" xml:space="preserve">
+    <value>先生, 我們只是跟著盲人朋友到這裡的</value>
+  </data>
+  <data name="Z664" xml:space="preserve">
+    <value>嗯.. 無意中偶然發現你的秘密入口。</value>
+  </data>
+  <data name="Z665" xml:space="preserve">
+    <value>偶然的發現?嗯....</value>
+  </data>
+  <data name="Z666" xml:space="preserve">
+    <value>非常可疑</value>
+  </data>
+  <data name="Z667" xml:space="preserve">
+    <value>你還有什麼東西想加在他的故事嗎? 年輕人</value>
+  </data>
+  <data name="Z668" xml:space="preserve">
+    <value>嗯..事實上...</value>
+  </data>
+  <data name="Z669" xml:space="preserve">
+    <value>我有強烈的感覺.有些東西在崖面後面</value>
+  </data>
+  <data name="Z670" xml:space="preserve">
+    <value>我沒辦法解釋.就好像我被人推到這裡</value>
+  </data>
+  <data name="Z671" xml:space="preserve">
+    <value>我之前沒有說是因為我覺得這樣聽起來有點白癡</value>
+  </data>
+  <data name="Z672" xml:space="preserve">
+    <value>這聽起來並不白癡. 事實上,還蠻讓人印相深刻的!</value>
+  </data>
+  <data name="Z673" xml:space="preserve">
+    <value>你這種感覺是最有天賦的法師當他們靠近這裡才會有的感覺</value>
+  </data>
+  <data name="Z674" xml:space="preserve">
+    <value>你是說我是個法師?</value>
+  </data>
+  <data name="Z675" xml:space="preserve">
+    <value>但是我從來沒有學過任何魔法.</value>
+  </data>
+  <data name="Z676" xml:space="preserve">
+    <value>我想我能解釋這個.</value>
+  </data>
+  <data name="Z677" xml:space="preserve">
+    <value>有人出生後就會有一股魔法沉睡在他們的身體裡面.</value>
+  </data>
+  <data name="Z678" xml:space="preserve">
+    <value>這些稀有的人甚至一生都不知道他們擁有這種力量.</value>
+  </data>
+  <data name="Z679" xml:space="preserve">
+    <value>直到必要的時候才能喚醒它.</value>
+  </data>
+  <data name="Z680" xml:space="preserve">
+    <value>生存, 以你看來.</value>
+  </data>
+  <data name="Z681" xml:space="preserve">
+    <value>當你在森林被我盲目的時候, 是你最絕望的狀態</value>
+  </data>
+  <data name="Z682" xml:space="preserve">
+    <value>這一定是ㄧ種催化劑</value>
+  </data>
+  <data name="Z683" xml:space="preserve">
+    <value>這大概就是WILL 為什麼能打這麼好的原因</value>
+  </data>
+  <data name="Z684" xml:space="preserve">
+    <value>沒錯, 年輕的治癒師</value>
+  </data>
+  <data name="Z685" xml:space="preserve">
+    <value>Hmmm, What are the odds of finding a latent mage traveling with a Lacuna Reaver?</value>
+  </data>
+  <data name="Z686" xml:space="preserve">
+    <value>時空掠奪者</value>
+  </data>
+  <data name="Z687" xml:space="preserve">
+    <value>Endor! Endor! 救命!</value>
+  </data>
+  <data name="Z688" xml:space="preserve">
+    <value>兒子冷靜點. 發生什麼事了?</value>
+  </data>
+  <data name="Z689" xml:space="preserve">
+    <value>一個學生的實驗發生了可怕的錯誤!</value>
+  </data>
+  <data name="Z690" xml:space="preserve">
+    <value>然後現在圖書館...</value>
+  </data>
+  <data name="Z691" xml:space="preserve">
+    <value>群魔!!</value>
+  </data>
+  <data name="Z692" xml:space="preserve">
+    <value>大家都逃出圖書了嗎?</value>
+  </data>
+  <data name="Z693" xml:space="preserve">
+    <value>是的</value>
+  </data>
+  <data name="Z694" xml:space="preserve">
+    <value>我要怎麼辦? 我們該怎麼辦?</value>
+  </data>
+  <data name="Z695" xml:space="preserve">
+    <value>那裡全部都是怪獸.</value>
+  </data>
+  <data name="Z696" xml:space="preserve">
+    <value>Endor,我們去幫助他們吧. 我想我們能夠處理這件事</value>
+  </data>
+  <data name="Z697" xml:space="preserve">
+    <value>嗯..就聽你的吧. 有你的幫忙就太好了.</value>
+  </data>
+  <data name="Z698" xml:space="preserve">
+    <value>Endor! 這樣好嗎?讓這些陌生人進入我們神聖的寶庫?</value>
+  </data>
+  <data name="Z699" xml:space="preserve">
+    <value>Ruith,如果你保持存疑, 那你還有什麼更好的辦法來證明他們有問題. 我是相信他們的.</value>
+  </data>
+  <data name="Z700" xml:space="preserve">
+    <value>年輕人, 如果你成功的消除了那些怪物, 來找我.</value>
+  </data>
+  <data name="Z701" xml:space="preserve">
+    <value>我會以我的知識來報答你們, 或許對你們在找的東西有幫助.</value>
+  </data>
+  <data name="Z702" xml:space="preserve">
+    <value>先生謝謝你, 我們不會讓你失望的.</value>
+  </data>
+  <data name="Z703" xml:space="preserve">
+    <value>Nathan,我也很擔心他.</value>
+  </data>
+  <data name="Z704" xml:space="preserve">
+    <value>這是非常不健康的, 把自己鎖在固執裡面. 來保住自己的公司.</value>
+  </data>
+  <data name="Z705" xml:space="preserve">
+    <value>答應我你不會變成那樣.</value>
+  </data>
+  <data name="Z706" xml:space="preserve">
+    <value>Nathan! 你又昏倒了. 你有想到些什麼嗎?</value>
+  </data>
+  <data name="Z707" xml:space="preserve">
+    <value>Nathan, 如果你還可以的話, 我想們因該要繼續前進. 我感覺到前方有股干擾來至書櫃.</value>
+  </data>
+  <data name="Z708" xml:space="preserve">
+    <value>這大概就是為什麼會有這些異常的活動的原因</value>
+  </data>
+  <data name="Z709" xml:space="preserve">
+    <value>他看起來沒這麼厲害.</value>
+  </data>
+  <data name="Z710" xml:space="preserve">
+    <value>他來了.小心, Nathan!</value>
+  </data>
+  <data name="Z711" xml:space="preserve">
+    <value>翻翻!? 你們為什麼要傷害他? 他從來不傷害別人的.</value>
+  </data>
+  <data name="Z712" xml:space="preserve">
+    <value>他看起來並不壞.</value>
+  </data>
+  <data name="Z713" xml:space="preserve">
+    <value>喔當然,你看它只是個小熊. 你完全搞錯了.</value>
+  </data>
+  <data name="Z714" xml:space="preserve">
+    <value>阿唷, 我只是想要鼓勵她一下.</value>
+  </data>
+  <data name="Z715" xml:space="preserve">
+    <value>翻翻!? 他沒事! 他說你們是厲害的戰士. 他很樂意幫助你們如果有需要的話</value>
+  </data>
+  <data name="Z716" xml:space="preserve">
+    <value>翻翻說你找的張只能夠在你危急的情況下招喚他.</value>
+  </data>
+  <data name="Z717" xml:space="preserve">
+    <value>跟我的魔法類型好像. 我會把這張紙放進我的書裡. 他是怎麼知道危機的意思?</value>
+  </data>
+  <data name="Z718" xml:space="preserve">
+    <value>翻翻跟我說她很聰明的. 我要去幫他找醫生了,我不希望他一直流血.</value>
+  </data>
+  <data name="Z719" xml:space="preserve">
+    <value>我覺得他好奇怪. 但是我不想再被他的玩具或是更多家具攻擊.</value>
+  </data>
+  <data name="Z720" xml:space="preserve">
+    <value>我們趕快離開這裡吧.</value>
+  </data>
+  <data name="Z721" xml:space="preserve">
+    <value>....真不像話! 外人是不允許進入Celindar! 這是大家都知道的事!</value>
+  </data>
+  <data name="Z722" xml:space="preserve">
+    <value>Ruith, 你自己需要冷靜一下. 他們不是ㄧ般的外人. 他們背負了很重要的命運.</value>
+  </data>
+  <data name="Z723" xml:space="preserve">
+    <value>你必須幫他們盡你所有的力量.</value>
+  </data>
+  <data name="Z724" xml:space="preserve">
+    <value>Haven't you seen that theif?! He's scum. He never should have made it out of that forest.</value>
+  </data>
+  <data name="Z725" xml:space="preserve">
+    <value>我想你小看它了. 他淺藏了個偉大的力量</value>
+  </data>
+  <data name="Z726" xml:space="preserve">
+    <value>你只是需要....</value>
+  </data>
+  <data name="Z727" xml:space="preserve">
+    <value>等一下, 我覺得有些東西在哪裡.</value>
+  </data>
+  <data name="Z728" xml:space="preserve">
+    <value>它只是個崖面.我想你的技能沒辦法在任何地方使用WILL.</value>
+  </data>
+  <data name="Z729" xml:space="preserve">
+    <value>讓我很快的看一下.</value>
+  </data>
+  <data name="Z730" xml:space="preserve">
+    <value>我改決這裡怪怪的. 你們怎麼可能沒感覺.</value>
+  </data>
+  <data name="Z731" xml:space="preserve">
+    <value>我越來越熱了...</value>
+  </data>
+  <data name="Z732" xml:space="preserve">
+    <value>回來啦 Will! 讓 Nathan決定吧. 它能解決所有問題.</value>
+  </data>
+  <data name="Z733" xml:space="preserve">
+    <value>Will! 別動, 我來了!</value>
+  </data>
+  <data name="Z734" xml:space="preserve">
+    <value>你怎麼知道我們要去哪裡?  這邊一片漆黑!</value>
+  </data>
+  <data name="Z735" xml:space="preserve">
+    <value>在我的經驗裡總是漆黑的! 閉上嘴跟我來.</value>
+  </data>
+  <data name="Z736" xml:space="preserve">
+    <value>這種感覺真奇怪. 我感覺好像顛倒了</value>
+  </data>
+  <data name="Z737" xml:space="preserve">
+    <value>欸, 我不是叫你閉嘴嗎?</value>
+  </data>
+  <data name="Z738" xml:space="preserve">
+    <value>我知道你的感覺. 有些問題.</value>
+  </data>
+  <data name="Z739" xml:space="preserve">
+    <value>這邊,跟我來!</value>
+  </data>
+  <data name="Z740" xml:space="preserve">
+    <value>真奇怪. 我看到一堆從來沒見過東西在這個洞穴裡面.</value>
+  </data>
+  <data name="Z741" xml:space="preserve">
+    <value>這個城裡圍著這些魔法燈籠, 他們一定有他們的功用.</value>
+  </data>
+  <data name="Z742" xml:space="preserve">
+    <value>現在是我報仇的時候了, 那個笨蛋法師 Ruith.</value>
+  </data>
+  <data name="Z743" xml:space="preserve">
+    <value>我會讓他後悔那天把我的所有拿走</value>
+  </data>
+  <data name="Z744" xml:space="preserve">
+    <value>你事認真的嗎?</value>
+  </data>
+  <data name="Z745" xml:space="preserve">
+    <value>We should give her a piece of our mind! Making us go into the library like that, just to treat us with disrespect!</value>
+  </data>
+  <data name="Z746" xml:space="preserve">
+    <value>這裡發生了什麼事?</value>
+  </data>
+  <data name="Z747" xml:space="preserve">
+    <value>或許在裡面的人能幫助我們</value>
+  </data>
+  <data name="Z748" xml:space="preserve">
+    <value>這裡真髒.</value>
+  </data>
+  <data name="Z749" xml:space="preserve">
+    <value>Nathan,看..鐵砧!</value>
+  </data>
+  <data name="Z750" xml:space="preserve">
+    <value>工匠一定住在這裡.</value>
+  </data>
+  <data name="Z751" xml:space="preserve">
+    <value>我有點擔心發生了什麼事</value>
+  </data>
+  <data name="Z752" xml:space="preserve">
+    <value>我感覺這裡有人擁有強大的力量.</value>
+  </data>
+  <data name="Z753" xml:space="preserve">
+    <value>這裡因該有什麼都西在跟鐵匠對抗.</value>
+  </data>
+  <data name="Z754" xml:space="preserve">
+    <value>你是說鐵匠可能被綁架了?</value>
+  </data>
+  <data name="Z755" xml:space="preserve">
+    <value>這是有可能的</value>
+  </data>
+  <data name="Z756" xml:space="preserve">
+    <value>我們因該去找他</value>
+  </data>
+  <data name="Z757" xml:space="preserve">
+    <value>他可能為是我們唯一的機會, 把 Nathan的劍修好.</value>
+  </data>
+  <data name="Z758" xml:space="preserve">
+    <value>或許我們因把這個工作交給我哥</value>
+  </data>
+  <data name="Z759" xml:space="preserve">
+    <value>不能因為 Nathan自己的疏失就解除他的任務, 這是他的夢想.</value>
+  </data>
+  <data name="Z760" xml:space="preserve">
+    <value>我想你說的對,我只是怕 Nathan 會犯可怕的錯誤. 我哥比Nathan更可靠.</value>
+  </data>
+  <data name="Z761" xml:space="preserve">
+    <value>Nathan會在當中學習. 我想當你年輕的時候也是一樣吧.</value>
+  </data>
+  <data name="Z762" xml:space="preserve">
+    <value>也是. 這是學習唯一的方法. 我想我哥已經太老去承擔這件事了</value>
+  </data>
+  <data name="Z763" xml:space="preserve">
+    <value>此外, 他的故直讓他很忙碌....</value>
+  </data>
+  <data name="Z764" xml:space="preserve">
+    <value>我都忘了上ㄧ次他離開這項研究.</value>
+  </data>
+  <data name="Z765" xml:space="preserve">
+    <value>這是結論. Nathan. 生唯一位時空掠奪者, Verithus的命運就交給你了 </value>
+  </data>
+  <data name="Z766" xml:space="preserve">
+    <value>Nathan, 我也很擔心他</value>
+  </data>
+  <data name="Z767" xml:space="preserve">
+    <value>他這樣把他自己鎖起來是很不健康的</value>
+  </data>
+  <data name="Z768" xml:space="preserve">
+    <value>答應我你永遠不會變成這樣.</value>
+  </data>
+  <data name="Z769" xml:space="preserve">
+    <value>你現在安全了, 我們回家吧.</value>
+  </data>
+  <data name="Z770" xml:space="preserve">
+    <value>謝謝你救了我</value>
+  </data>
+  <data name="Z771" xml:space="preserve">
+    <value>惡魔把我綁架然強迫我製造武器給他.</value>
+  </data>
+  <data name="Z772" xml:space="preserve">
+    <value>這真是太糟糕了</value>
+  </data>
+  <data name="Z773" xml:space="preserve">
+    <value>我有什麼方法可以報答你嗎大善人?</value>
+  </data>
+  <data name="Z774" xml:space="preserve">
+    <value>黃金! 很多很多!</value>
+  </data>
+  <data name="Z775" xml:space="preserve">
+    <value>閉嘴, Will!</value>
+  </data>
+  <data name="Z776" xml:space="preserve">
+    <value>不要理他, 不要給他.</value>
+  </data>
+  <data name="Z777" xml:space="preserve">
+    <value>但是, 我們現在很需要你的服務..</value>
+  </data>
+  <data name="Z778" xml:space="preserve">
+    <value>好的, 任何事. 我可以為你做什麼?</value>
+  </data>
+  <data name="Z779" xml:space="preserve">
+    <value>我的朋友 Nathan有把非常特別的劍需要修理.</value>
+  </data>
+  <data name="Z780" xml:space="preserve">
+    <value>叫時空之刀. 你有聽過媽?</value>
+  </data>
+  <data name="Z781" xml:space="preserve">
+    <value>時空之刀! 怎麼可能</value>
+  </data>
+  <data name="Z782" xml:space="preserve">
+    <value>所以你聽過?</value>
+  </data>
+  <data name="Z783" xml:space="preserve">
+    <value>當然, 我就其中的一個鑄造的人</value>
+  </data>
+  <data name="Z784" xml:space="preserve">
+    <value>怎麼可能! 有人告訴我們這是幾世紀前的東西.</value>
+  </data>
+  <data name="Z785" xml:space="preserve">
+    <value>你不可能這麼老!</value>
+  </data>
+  <data name="Z786" xml:space="preserve">
+    <value>很抱歉我就是.</value>
+  </data>
+  <data name="Z787" xml:space="preserve">
+    <value>時空之刀對我有無法預料的影響.</value>
+  </data>
+  <data name="Z788" xml:space="preserve">
+    <value>這股強大的力量讓我繼續活著.</value>
+  </data>
+  <data name="Z789" xml:space="preserve">
+    <value>我上次看到這把劍的時候, 劍被送到 Verithus.</value>
+  </data>
+  <data name="Z790" xml:space="preserve">
+    <value>Verithus!?</value>
+  </data>
+  <data name="Z791" xml:space="preserve">
+    <value>Nathan! Nathan!</value>
+  </data>
+  <data name="Z792" xml:space="preserve">
+    <value>你還好吧?</value>
+  </data>
+  <data name="Z793" xml:space="preserve">
+    <value>你還記得其他的事情嗎?</value>
+  </data>
+  <data name="Z794" xml:space="preserve">
+    <value>嗯.我都還記得.</value>
+  </data>
+  <data name="Z795" xml:space="preserve">
+    <value>太棒了!</value>
+  </data>
+  <data name="Z796" xml:space="preserve">
+    <value>Arlan!</value>
+  </data>
+  <data name="Z797" xml:space="preserve">
+    <value>我叔叔, Arlan.</value>
+  </data>
+  <data name="Z798" xml:space="preserve">
+    <value>他是ㄧ位令人尊敬的人. 這裡的人都很尊敬他.</value>
+  </data>
+  <data name="Z799" xml:space="preserve">
+    <value>然而, 他沉迷於所獲得的力量.</value>
+  </data>
+  <data name="Z800" xml:space="preserve">
+    <value>他會把他自己鎖在房間裡, 然後研究讓自己變強.</value>
+  </data>
+  <data name="Z801" xml:space="preserve">
+    <value>然後有一天,他找ㄧ個聖物.ㄧ個被禁止了幾世紀的黑暗儀式.</value>
+  </data>
+  <data name="Z802" xml:space="preserve">
+    <value>我父親發現了這件事, 然後叫我去阻止他.</value>
+  </data>
+  <data name="Z803" xml:space="preserve">
+    <value>我帶著兩個我最好的騎士去搜尋他鎖在的高塔裡面, 你發現我昏倒的地方.</value>
+  </data>
+  <data name="Z804" xml:space="preserve">
+    <value>他殺了他們, 我差點也被殺死.</value>
+  </data>
+  <data name="Z805" xml:space="preserve">
+    <value>Nathan...</value>
+  </data>
+  <data name="Z806" xml:space="preserve">
+    <value>儀式的手稿因該早就要被銷毀.</value>
+  </data>
+  <data name="Z807" xml:space="preserve">
+    <value>那儀式是做什麼的?</value>
+  </data>
+  <data name="Z808" xml:space="preserve">
+    <value>我想你一定很熟悉時空掠奪者.</value>
+  </data>
+  <data name="Z809" xml:space="preserve">
+    <value>是的, ㄧ個法師名叫Endor 告訴我的.</value>
+  </data>
+  <data name="Z810" xml:space="preserve">
+    <value>他就是那個送我們來找你的人.</value>
+  </data>
+  <data name="Z811" xml:space="preserve">
+    <value>Endor嗎?他是我的一位老朋友.</value>
+  </data>
+  <data name="Z812" xml:space="preserve">
+    <value>所以,事關於什麼傳說?</value>
+  </data>
+  <data name="Z813" xml:space="preserve">
+    <value>在偉大的分裂大陸後.</value>
+  </data>
+  <data name="Z814" xml:space="preserve">
+    <value>ㄧ些被困在 Agora 相信有辦法能阻止 Mal'ticar.</value>
+  </data>
+  <data name="Z815" xml:space="preserve">
+    <value>相反的, 他們覺得最好存活的方法就是加入他們.</value>
+  </data>
+  <data name="Z816" xml:space="preserve">
+    <value>mal'ticar將大部分變成可怕的惡魔, 並用他們作為奴隸.</value>
+  </data>
+  <data name="Z817" xml:space="preserve">
+    <value>剩餘的ㄧ些人, 她承諾她們如果可以找到大法師. 並且摧毀它就要給她們一股力量.</value>
+  </data>
+  <data name="Z818" xml:space="preserve">
+    <value>當時Mal'ticar被時空掠奪者鎖住, ㄧ群忠心的掠奪者想釋放Mal'ticar</value>
+  </data>
+  <data name="Z819" xml:space="preserve">
+    <value>所以她發明了一個可怕的儀式. 能把他從監獄釋放出來. 並且帶來這個世界</value>
+  </data>
+  <data name="Z820" xml:space="preserve">
+    <value>時空掠奪者發現了這一點. 並著手殺了手稿跟作者.</value>
+  </data>
+  <data name="Z821" xml:space="preserve">
+    <value>但不知道為什麼其中一份手稿還存在這世上.</value>
+  </data>
+  <data name="Z822" xml:space="preserve">
+    <value>但是我們還是有機會的, 我聽我叔叔說要花一個禮拜才能完成儀式.</value>
+  </data>
+  <data name="Z823" xml:space="preserve">
+    <value>所以我們還有時間. 你能幫我阻止我叔叔完成儀式嗎.</value>
+  </data>
+  <data name="Z824" xml:space="preserve">
+    <value>我所能做的就只有修理這把刀, 讓她充滿力量</value>
+  </data>
+  <data name="Z825" xml:space="preserve">
+    <value>但是我不知道ㄧ把時空之刀足夠阻止他.</value>
+  </data>
+  <data name="Z826" xml:space="preserve">
+    <value>我必須試試看</value>
+  </data>
+  <data name="Z827" xml:space="preserve">
+    <value>好吧, 我們走吧!</value>
+  </data>
+  <data name="Z828" xml:space="preserve">
+    <value>你的時空之刀已經完全修好了, 充滿了力量.</value>
+  </data>
+  <data name="Z829" xml:space="preserve">
+    <value>現在你的刀已經完全修好了, 我建議你可以直接前往法師村.</value>
+  </data>
+  <data name="Z830" xml:space="preserve">
+    <value>如果我知道Endor, 他就會就會幫助你.</value>
+  </data>
+  <data name="Z831" xml:space="preserve">
+    <value>謝謝你~</value>
+  </data>
+  <data name="Z832" xml:space="preserve">
+    <value>不了,謝謝你, 時空掠奪者. 這是我的榮譽祀奉 Verithus王子.</value>
+  </data>
+  <data name="Z833" xml:space="preserve">
+    <value>這個地方真巨大.</value>
+  </data>
+  <data name="Z834" xml:space="preserve">
+    <value>我可能永遠失去這裡.</value>
+  </data>
+  <data name="Z835" xml:space="preserve">
+    <value>我剛剛所感覺得的強大力量, 源頭好像就在這裡的某個地方.</value>
+  </data>
+  <data name="Z836" xml:space="preserve">
+    <value>嗯..我想我們沒有選擇一定要搜尋這個迷宮.</value>
+  </data>
+  <data name="Z837" xml:space="preserve">
+    <value>就是這裡! 有股強大的力量在我前方.</value>
+  </data>
+  <data name="Z838" xml:space="preserve">
+    <value>Nathan 看! 那個人一定是鐵匠.</value>
+  </data>
+  <data name="Z839" xml:space="preserve">
+    <value>你會什麼要綁架著個可憐的人</value>
+  </data>
+  <data name="Z840" xml:space="preserve">
+    <value>你好大的膽竟敢闖進我巢穴.</value>
+  </data>
+  <data name="Z841" xml:space="preserve">
+    <value>放開他!否則.</value>
+  </data>
+  <data name="Z842" xml:space="preserve">
+    <value>嗚嘿嘿嘿嘿!!</value>
+  </data>
+  <data name="Z843" xml:space="preserve">
+    <value>你這個傻瓜!</value>
+  </data>
+  <data name="Z844" xml:space="preserve">
+    <value>你會為你的盧莽付出代價!</value>
+  </data>
+  <data name="Z845" xml:space="preserve">
+    <value>撐住! 這個女孩是誰,Nathan?</value>
+  </data>
+  <data name="Z846" xml:space="preserve">
+    <value>喔對,當他們再行動前全部都被抓.</value>
+  </data>
+  <data name="Z847" xml:space="preserve">
+    <value>去塔救女孩, 你為什麼不告訴我! 真的不能相信你們這些人.</value>
+  </data>
+  <data name="Z848" xml:space="preserve">
+    <value>停止! 這不是你想得這樣. Nathan從惡魔中救了我.</value>
+  </data>
+  <data name="Z849" xml:space="preserve">
+    <value>我還很擔心當Nathan交戰然後讓我先走.</value>
+  </data>
+  <data name="Z850" xml:space="preserve">
+    <value>跟我的家人團圓是我撐下去的動力.</value>
+  </data>
+  <data name="Z851" xml:space="preserve">
+    <value>等一下, 所以 Nathan並沒騙我, 它是真的英雄?</value>
+  </data>
+  <data name="Z852" xml:space="preserve">
+    <value>我會把這件偉大的事情記錄在我的日記裡.</value>
+  </data>
+  <data name="Z853" xml:space="preserve">
+    <value>我還沒有正式的跟你道謝, 你那天救了我.</value>
+  </data>
+  <data name="Z854" xml:space="preserve">
+    <value>拜託, 請收下這個.這是我唯一可以給你的.</value>
+  </data>
+  <data name="Z855" xml:space="preserve">
+    <value>你收到 土靈手套</value>
+  </data>
+  <data name="Z856" xml:space="preserve">
+    <value>Some goddess. She wasn't so tough.</value>
+  </data>
+  <data name="Z857" xml:space="preserve">
+    <value>Nathan,我們去看看村莊居民有沒有好一點.</value>
+  </data>
+  <data name="Z858" xml:space="preserve">
+    <value>你救了我們的城鎮.  當你擊敗Chepetawa以後. 它的詛咒就馬上消失了.</value>
+  </data>
+  <data name="Z859" xml:space="preserve">
+    <value>請收下著個. 這個代表了我們的心意.</value>
+  </data>
+  <data name="Z860" xml:space="preserve">
+    <value>你收到 神聖之戒</value>
+  </data>
+  <data name="Z861" xml:space="preserve">
+    <value>它為什紙也給Nathanㄧ個人, 全部的事情都是我做的欸.</value>
+  </data>
+  <data name="Z862" xml:space="preserve">
+    <value>嘿!你想的美!</value>
+  </data>
+  <data name="Z863" xml:space="preserve">
+    <value>好大膽的蟲子居然敢進來我的地盤, 你最好快走!</value>
+  </data>
+  <data name="Z864" xml:space="preserve">
+    <value>我們是來這阻止你的!</value>
+  </data>
+  <data name="Z865" xml:space="preserve">
+    <value>阻止我?哈哈哈!不可能!</value>
+  </data>
+  <data name="Z866" xml:space="preserve">
+    <value>我了解了. 是姥姥送你道這裡的.是吧?</value>
+  </data>
+  <data name="Z867" xml:space="preserve">
+    <value>她告訴我們你曾經是個好人, 後來是發生了什麼事?</value>
+  </data>
+  <data name="Z868" xml:space="preserve">
+    <value>哈! 太可笑了.她從來不再呼這些.</value>
+  </data>
+  <data name="Z869" xml:space="preserve">
+    <value>那都是ㄧ些可笑的行為. 整型給了我能量.</value>
+  </data>
+  <data name="Z870" xml:space="preserve">
+    <value>現在我已經拿到了, 而且我準備使用他. 這個世界將會是我的了!!</value>
+  </data>
+  <data name="Z871" xml:space="preserve">
+    <value>好吧, 我開始厭倦你了. 是你受死的時候!</value>
+  </data>
+  <data name="Z872" xml:space="preserve">
+    <value>好大的膽子!</value>
+  </data>
+  <data name="Z873" xml:space="preserve">
+    <value>起來 , Boggimus!</value>
+  </data>
+  <data name="Z874" xml:space="preserve">
+    <value>囉!!!!!!!!!!!</value>
+  </data>
+  <data name="Z875" xml:space="preserve">
+    <value>現在, 嘗嘗我的憤怒. 臭蟲子!</value>
+  </data>
+  <data name="Z876" xml:space="preserve">
+    <value>誰..誰...</value>
+  </data>
+  <data name="Z877" xml:space="preserve">
+    <value>你是誰?</value>
+  </data>
+  <data name="Z878" xml:space="preserve">
+    <value>我們只是經過的旅行者</value>
+  </data>
+  <data name="Z879" xml:space="preserve">
+    <value>城鎮發生了什麼事情.</value>
+  </data>
+  <data name="Z880" xml:space="preserve">
+    <value>真是糟糕</value>
+  </data>
+  <data name="Z881" xml:space="preserve">
+    <value>切..切..</value>
+  </data>
+  <data name="Z882" xml:space="preserve">
+    <value>Chepetawa!</value>
+  </data>
+  <data name="Z883" xml:space="preserve">
+    <value>ㄧ切都是Chepetawa幹的!</value>
+  </data>
+  <data name="Z884" xml:space="preserve">
+    <value>誰是 Chepetawa?</value>
+  </data>
+  <data name="Z885" xml:space="preserve">
+    <value>Chepetawa 是上帝的其中一個女兒.</value>
+  </data>
+  <data name="Z886" xml:space="preserve">
+    <value>不像其他的小孩, 它是最危險的一個</value>
+  </data>
+  <data name="Z887" xml:space="preserve">
+    <value>雖然她沒有得到神聖的力量. 但是她擁有超越ㄧ般人的智慧.</value>
+  </data>
+  <data name="Z888" xml:space="preserve">
+    <value>她用她的智慧幫助村莊興旺繁榮.</value>
+  </data>
+  <data name="Z889" xml:space="preserve">
+    <value>上帝知道Shaper對我們村子所做的事以後. 就以上帝的恩惠還獎勵她.</value>
+  </data>
+  <data name="Z890" xml:space="preserve">
+    <value>然而, 這股力量卻讓她腐敗.</value>
+  </data>
+  <data name="Z891" xml:space="preserve">
+    <value>她詛咒村子有嚴重的瘟疫, 大部分的村名都被感染了.</value>
+  </data>
+  <data name="Z892" xml:space="preserve">
+    <value>少數存活下來的人也剩不到多少時間. 包括我.....</value>
+  </data>
+  <data name="Z893" xml:space="preserve">
+    <value>我搞不懂她為什麼要對自己的人們這樣.</value>
+  </data>
+  <data name="Z894" xml:space="preserve">
+    <value>你一定要幫我們!</value>
+  </data>
+  <data name="Z895" xml:space="preserve">
+    <value>我們能做些什麼?</value>
+  </data>
+  <data name="Z896" xml:space="preserve">
+    <value>你必須去縫之沼澤找到她並且摧毀她</value>
+  </data>
+  <data name="Z897" xml:space="preserve">
+    <value>只有這個辦法可以消除詛咒.</value>
+  </data>
+  <data name="Z898" xml:space="preserve">
+    <value>但是要小心一點, 去過縫之沼澤的人都沒     有再回來過</value>
+  </data>
+  <data name="Z899" xml:space="preserve">
+    <value>Chepetawa傭有強大的力量, 不是個簡單的敵人</value>
+  </data>
+  <data name="Z900" xml:space="preserve">
+    <value>夫人別擔心, 我阻止Chepetawa並且拯救著個村莊.</value>
+  </data>
+  <data name="Z901" xml:space="preserve">
+    <value>我還不能走, 我還沒有找到Nathan的禮物.</value>
+  </data>
+  <data name="Z902" xml:space="preserve">
+    <value>我想我今天已經買夠了</value>
+  </data>
+  <data name="Z903" xml:space="preserve">
+    <value>Nathan 最好會喜歡這個個禮物, 如果她知道我有多....</value>
+  </data>
+  <data name="Z904" xml:space="preserve">
+    <value>Nathan!你剛剛昏倒了發生什麼事了?</value>
+  </data>
+  <data name="Z905" xml:space="preserve">
+    <value>你有想到什麼? 你來自皇世家族. 我喜歡有權有勢的人.</value>
+  </data>
+  <data name="Z906" xml:space="preserve">
+    <value>算了, 好像是這間房子讓你昏倒的. 你知道為什麼嗎?</value>
+  </data>
+  <data name="Z907" xml:space="preserve">
+    <value>或許是在我們的旅程中, 啟發了你的過去! 你一定還有很多我們不知道的事.</value>
+  </data>
+  <data name="Z908" xml:space="preserve">
+    <value>好吧, 我們繼續往前吧. 看我們還能找到些什麼.</value>
+  </data>
+  <data name="Z909" xml:space="preserve">
+    <value>Nathan! 你怎麼去那麼久!? 你要更有責任感一點. 王子不是那麼好當的</value>
+  </data>
+  <data name="Z910" xml:space="preserve">
+    <value>做為王子. 你也要對我負責, 如我有什麼事情發生.</value>
+  </data>
+  <data name="Z911" xml:space="preserve">
+    <value>你父親是對的. 你有些東西是幾代祖先傳下來的.</value>
+  </data>
+  <data name="Z912" xml:space="preserve">
+    <value>你要自己保護好自己. 因為你是唯一個可以擊敗她的人. 如果他回來的話.</value>
+  </data>
+  <data name="Z913" xml:space="preserve">
+    <value>這個聲音讓人感覺顫抖.</value>
+  </data>
+  <data name="Z914" xml:space="preserve">
+    <value>我想我因該把這份工作給我兄弟.</value>
+  </data>
+  <data name="Z915" xml:space="preserve">
+    <value>不行! 不能因Nathan就ㄧ次的錯誤就解除的的職務. 這是他的夢想.</value>
+  </data>
+  <data name="Z916" xml:space="preserve">
+    <value>我想你說的對,我只是怕 Nathan 會犯可怕的錯誤. 我哥比Nathan更可靠.</value>
+  </data>
+  <data name="Z917" xml:space="preserve">
+    <value>Nathan會在當中學習. 我想當你年輕的時候也是一樣吧.</value>
+  </data>
+  <data name="Z918" xml:space="preserve">
+    <value>也是. 這是學習唯一的方法. 我想我哥已經太老去承擔這件事了</value>
+  </data>
+  <data name="Z919" xml:space="preserve">
+    <value>先生對不起, 大師現在不想見任何人.</value>
+  </data>
+  <data name="Z920" xml:space="preserve">
+    <value>真不敢相信我又被搶了...</value>
+  </data>
+  <data name="Z921" xml:space="preserve">
+    <value>有任何事情我們幫得上忙得嗎?</value>
+  </data>
+  <data name="Z922" xml:space="preserve">
+    <value>你是誰? 算了不重要. 我想你因該能幫助我.</value>
+  </data>
+  <data name="Z923" xml:space="preserve">
+    <value>我看到一群搶匪跑進了我房子後面的森林. 如果你可以抓到他們. 我會給你獎賞的.</value>
+  </data>
+  <data name="Z924" xml:space="preserve">
+    <value>先生不用擔心! Nathan 和我會幫助你的.</value>
+  </data>
+  <data name="Z925" xml:space="preserve">
+    <value>我現在要過去跟他說. 他手上的皮夾不是他的.</value>
+  </data>
+  <data name="Z926" xml:space="preserve">
+    <value>我真得很討厭男人自以為事的胡說八道.</value>
+  </data>
+  <data name="Z927" xml:space="preserve">
+    <value>如果是他偷了我的皮夾, 我會給他一點教訓或是兩點.</value>
+  </data>
+  <data name="Z928" xml:space="preserve">
+    <value>去找他吧!在他逃走之前.</value>
+  </data>
+  <data name="Z929" xml:space="preserve">
+    <value>他是怎麼這樣逃走的. 真是個奇怪的人.</value>
+  </data>
+  <data name="Z930" xml:space="preserve">
+    <value>嗯.真高興結束了. 讓我們把皮夾還給失主吧. 他因該在城裡的某處.</value>
+  </data>
+  <data name="Z931" xml:space="preserve">
+    <value>ㄧ直很想去Tamarel.購物聖地,我等不及要買Nathan的禮物了</value>
+  </data>
+  <data name="Z932" xml:space="preserve">
+    <value>我們最好快一點. 在他擔心我們去哪之前.</value>
+  </data>
+  <data name="Z933" xml:space="preserve">
+    <value>嗯..這有點奇怪. 他一定是把我誤認成其他人了. 呵呵</value>
+  </data>
+  <data name="Z934" xml:space="preserve">
+    <value>在修好武器之前我們沒辦法離開</value>
+  </data>
+  <data name="Z935" xml:space="preserve">
+    <value>我們讓他被殺死. 我們必須去幫助他.</value>
+  </data>
+  <data name="Z936" xml:space="preserve">
+    <value>你有看到那個媽?</value>
+  </data>
+  <data name="Z937" xml:space="preserve">
+    <value>失去視線好像激發了我的鬥志</value>
+  </data>
+  <data name="Z938" xml:space="preserve">
+    <value>好誇張!</value>
+  </data>
+  <data name="Z939" xml:space="preserve">
+    <value>喔不... 我又把我的武器用壞了..</value>
+  </data>
+  <data name="Z940" xml:space="preserve">
+    <value>你這個小偷. 你一定會為你的所作所為負責的.</value>
+  </data>
+  <data name="Z941" xml:space="preserve">
+    <value>我們有責任把你帶回去. 你最好不要抵抗.</value>
+  </data>
+  <data name="Z942" xml:space="preserve">
+    <value>我們抓到小偷了. 先生</value>
+  </data>
+  <data name="Z943" xml:space="preserve">
+    <value>在我們抓到他自己他想攻擊別人.  所以有人盲目了他.</value>
+  </data>
+  <data name="Z944" xml:space="preserve">
+    <value>哈哈 !正義必勝!</value>
+  </data>
+  <data name="Z945" xml:space="preserve">
+    <value>毫無疑問嫌犯是其他人. 他是無辜的.</value>
+  </data>
+  <data name="Z946" xml:space="preserve">
+    <value>他已經瞎了, 他已經沒辦法再偷別人的東西了.</value>
+  </data>
+  <data name="Z947" xml:space="preserve">
+    <value>因此. 我不會拘捕他.</value>
+  </data>
+  <data name="Z948" xml:space="preserve">
+    <value>這是你報答你的獎勵</value>
+  </data>
+  <data name="Z949" xml:space="preserve">
+    <value>你收到 正義之戒</value>
+  </data>
+  <data name="Z950" xml:space="preserve">
+    <value>你收到</value>
+  </data>
+  <data name="Z951" xml:space="preserve">
+    <value>黃金和 正義之戒</value>
+  </data>
+  <data name="Z952" xml:space="preserve">
+    <value>你真是幸運. 那個人可能讓你陷入困境. 那你接下來要做什麼?</value>
+  </data>
+  <data name="Z953" xml:space="preserve">
+    <value>嗯.....我想我會加入你們旅行一陣子.</value>
+  </data>
+  <data name="Z954" xml:space="preserve">
+    <value>畢竟你幫我擊敗了他. 我不喜歡虧欠別人.</value>
+  </data>
+  <data name="Z955" xml:space="preserve">
+    <value>我的名子是WILL. 我的新技能是很寶貴的.</value>
+  </data>
+  <data name="Z956" xml:space="preserve">
+    <value>你因該感到幸運. 我們是同一個團隊.</value>
+  </data>
+  <data name="Z957" xml:space="preserve">
+    <value>不用太囂張. 你只是在吹牛而以.</value>
+  </data>
+  <data name="Z958" xml:space="preserve">
+    <value>嗯..我知道.</value>
+  </data>
+  <data name="Z959" xml:space="preserve">
+    <value>Will 進去你的舞會!</value>
+  </data>
+  <data name="Z960" xml:space="preserve">
+    <value>Nathan,看!</value>
+  </data>
+  <data name="Z961" xml:space="preserve">
+    <value>小偷真急. 他一定不知道他偷來的東西掉出來了.</value>
+  </data>
+  <data name="Z962" xml:space="preserve">
+    <value>嘿!</value>
+  </data>
+  <data name="Z963" xml:space="preserve">
+    <value>那是什麼? 聽起來就在我們前面</value>
+  </data>
+  <data name="Z964" xml:space="preserve">
+    <value>我們最好去看看</value>
+  </data>
+  <data name="Z965" xml:space="preserve">
+    <value>喔不..他吵醒Burtle.</value>
+  </data>
+  <data name="Z966" xml:space="preserve">
+    <value>我們發現那個小偷, 但是她好像受傷了.</value>
+  </data>
+  <data name="Z967" xml:space="preserve">
+    <value>那個渾蛋弄瞎了我.</value>
+  </data>
+  <data name="Z968" xml:space="preserve">
+    <value>你要去哪裡?</value>
+  </data>
+  <data name="Z969" xml:space="preserve">
+    <value>我會找到你的!</value>
+  </data>
+  <data name="Z970" xml:space="preserve">
+    <value>喔不! 你需要我們的幫忙!</value>
+  </data>
+  <data name="Z971" xml:space="preserve">
+    <value>惡魔! 讓我結束這一切!</value>
+  </data>
+  <data name="Z972" xml:space="preserve">
+    <value>大家冷靜點! 看 那是我們的王子Nathan! 他回來了.</value>
+  </data>
+  <data name="Z973" xml:space="preserve">
+    <value>但是Nathan發生什麼事了. 我們以為你死了.</value>
+  </data>
+  <data name="Z974" xml:space="preserve">
+    <value>Nathan, Arlan 力量ㄧ直茁壯. 國王跟皇后...你爸爸媽媽都死了..</value>
+  </data>
+  <data name="Z975" xml:space="preserve">
+    <value>人們正在水深火熱當中. 祈求Arlan放過奄奄一息的他們.</value>
+  </data>
+  <data name="Z976" xml:space="preserve">
+    <value>我發誓我們一定會阻止這個暴君!</value>
+  </data>
+  <data name="Z977" xml:space="preserve">
+    <value>Arlan會後悔他推翻我的王國. 我們的王國!</value>
+  </data>
+  <data name="Z978" xml:space="preserve">
+    <value>王子你的勇敢激勵了我們. 我們會用任何方式來幫助你的.</value>
+  </data>
+  <data name="Z979" xml:space="preserve">
+    <value>大家都以為你會帶來和平 Agora!</value>
+  </data>
+  <data name="Z980" xml:space="preserve">
+    <value>我的英雄!</value>
+  </data>
+  <data name="Z981" xml:space="preserve">
+    <value>Would you cut it out! You're making me feel like a third wheel here!</value>
+  </data>
+  <data name="Z982" xml:space="preserve">
+    <value>我走吧..我討厭群眾..</value>
+  </data>
+  <data name="Z983" xml:space="preserve">
+    <value>太棒了, Nathan 你在這裡. 我們才準備好.</value>
+  </data>
+  <data name="Z984" xml:space="preserve">
+    <value>你只需要招換時空之刀開啟時空之縫.</value>
+  </data>
+  <data name="Z985" xml:space="preserve">
+    <value>ㄧ但你穿過, 你讓縫繼續開著. 這樣你久可以回來了.</value>
+  </data>
+  <data name="Z986" xml:space="preserve">
+    <value>Nathan,準備好了嗎?</value>
+  </data>
+  <data name="Z987" xml:space="preserve">
+    <value>是的.</value>
+  </data>
+  <data name="Z988" xml:space="preserve">
+    <value>這比我想像的還糟. 土地已經死亡了. 真不敢想信我讓這個件事發生.</value>
+  </data>
+  <data name="Z989" xml:space="preserve">
+    <value>你看看, Nathan. 治理你的王國便簡單多了. 你叔叔殺死了所有的忠誠.</value>
+  </data>
+  <data name="Z990" xml:space="preserve">
+    <value>Will! 嚴肅點.</value>
+  </data>
+  <data name="Z991" xml:space="preserve">
+    <value>Nathan的家被摧毀了. 我們必須把他修好.</value>
+  </data>
+  <data name="Z992" xml:space="preserve">
+    <value>Arlan會後悔背叛我們的家人和Agora的人民. 我們必須去結束這一切.</value>
+  </data>
+  <data name="Z993" xml:space="preserve">
+    <value>門被鎖住了. 我們必續要找出兩把鑰駛.</value>
+  </data>
+  <data name="Z994" xml:space="preserve">
+    <value>我們還需要一把.</value>
+  </data>
+  <data name="Z995" xml:space="preserve">
+    <value>門被鎖住了.我們需要鑰駛打開她</value>
+  </data>
+  <data name="Z996" xml:space="preserve">
+    <value>歡迎回家! Nathan.</value>
+  </data>
+  <data name="Z997" xml:space="preserve">
+    <value>Arlan! ㄧ切都結束了!</value>
+  </data>
+  <data name="Z998" xml:space="preserve">
+    <value>事實上, 這是給你的!</value>
+  </data>
+  <data name="Z999" xml:space="preserve">
+    <value>是償還你的罪惡的時候了!</value>
+  </data>
+  <data name="ZA001" xml:space="preserve">
+    <value>你們的贈恨讓我更強壯. 我因該謝謝你們的.. 等我把你們擊敗以後.</value>
+  </data>
+  <data name="ZA002" xml:space="preserve">
+    <value>Hahaha, and here he is to prove my point. So you're here to fight me....how expected.</value>
+  </data>
+  <data name="ZA003" xml:space="preserve">
+    <value>你有看到 Endor?她不屬於這裡她朋友也是一樣. 他們只是個麻煩.</value>
+  </data>
+  <data name="ZA004" xml:space="preserve">
+    <value>你最好趕快結決你們兩個的問題. 我已經受夠的的廢話.</value>
+  </data>
+  <data name="ZA005" xml:space="preserve">
+    <value>Ruith,這樣說真得很不友善. will為了你自己好別太固執.</value>
+  </data>
+  <data name="ZA006" xml:space="preserve">
+    <value>你們最好快和好, 在我用武力之前.</value>
+  </data>
+  <data name="ZA007" xml:space="preserve">
+    <value>我不是為了你才來的. 你最後再受傷前離開我面前. 我是來幫Ruith的</value>
+  </data>
+  <data name="ZA008" xml:space="preserve">
+    <value>你讓我沒有選擇. 你不因該想攻擊Ruith. 我不喜歡用暴力但是你讓我沒選擇.</value>
+  </data>
+  <data name="ZA009" xml:space="preserve">
+    <value>Prepare yourself, for you are about to face all of your flaws. You must examine yourself, and in so doing, defeat your impurities.</value>
+  </data>
+  <data name="ZA010" xml:space="preserve">
+    <value>唉唷.</value>
+  </data>
+  <data name="ZA011" xml:space="preserve">
+    <value>幹的好, Nathan. *咳*  *咳*</value>
+  </data>
+  <data name="ZA012" xml:space="preserve">
+    <value>你的父親會為你感到驕傲的.</value>
+  </data>
+  <data name="ZA013" xml:space="preserve">
+    <value>但是別以為你們贏了. 儀式的最後ㄧ部是血祭在Verithus的房子</value>
+  </data>
+  <data name="ZA014" xml:space="preserve">
+    <value>只有我們王室血統才有足夠的能力喚起Mal'Ticar.</value>
+  </data>
+  <data name="ZA015" xml:space="preserve">
+    <value>你就是那個犧牲的人, Nathan.</value>
+  </data>
+  <data name="ZA016" xml:space="preserve">
+    <value>不過我想我的血就足夠了</value>
+  </data>
+  <data name="ZA017" xml:space="preserve">
+    <value>Arlan, 不!!!</value>
+  </data>
+  <data name="ZA018" xml:space="preserve">
+    <value>甦醒吧, Mal'Ticar!</value>
+  </data>
+  <data name="ZA019" xml:space="preserve">
+    <value>終於. 我可以佔領這個世界了!</value>
+  </data>
+  <data name="ZA020" xml:space="preserve">
+    <value>喔不!我從來感受過這種力量.</value>
+  </data>
+  <data name="ZA021" xml:space="preserve">
+    <value>Arlan... 你做了什麼?</value>
+  </data>
+  <data name="ZA022" xml:space="preserve">
+    <value>哈哈! 世界現在都要成服於我了.我擁有了宇宙最強的力量.</value>
+  </data>
+  <data name="ZA023" xml:space="preserve">
+    <value>Mal'Ticar!我招換你! 造我所說的摧毀這些小蟲子!</value>
+  </data>
+  <data name="ZA024" xml:space="preserve">
+    <value>你以為你是誰?凡人?在我眼裡你們都是些小蟲子!</value>
+  </data>
+  <data name="ZA025" xml:space="preserve">
+    <value>我不會聽任何人的!</value>
+  </data>
+  <data name="ZA026" xml:space="preserve">
+    <value>你以為我花多少力氣招換你?</value>
+  </data>
+  <data name="ZA027" xml:space="preserve">
+    <value>你怎可以不聽我的</value>
+  </data>
+  <data name="ZA028" xml:space="preserve">
+    <value>嘿!</value>
+  </data>
+  <data name="ZA029" xml:space="preserve">
+    <value>Mal'Ticar's 的力量越來越強大了. 我們必須做些什麼.</value>
+  </data>
+  <data name="ZA030" xml:space="preserve">
+    <value>世界現在就靠我們了,我們必須擊敗Mal'Ticar. 在她恢復全部力量之前</value>
+  </data>
+  <data name="ZA031" xml:space="preserve">
+    <value>我們必須要迫使他回到虛空.</value>
+  </data>
+  <data name="ZA032" xml:space="preserve">
+    <value>Nathan我們來擊倒她!</value>
+  </data>
+  <data name="ZA033" xml:space="preserve">
+    <value>笨蛋!我的力量早就超出你們的想像. 準備被粉碎吧!</value>
+  </data>
+  <data name="ZA034" xml:space="preserve">
+    <value>夠了!</value>
+  </data>
+  <data name="ZA035" xml:space="preserve">
+    <value>什麼?</value>
+  </data>
+  <data name="ZA036" xml:space="preserve">
+    <value>Will!, Cara!</value>
+  </data>
+  <data name="ZA037" xml:space="preserve">
+    <value>不..又來.</value>
+  </data>
+  <data name="ZA038" xml:space="preserve">
+    <value>你會得到報應的</value>
+  </data>
+  <data name="ZA039" xml:space="preserve">
+    <value>你喚醒了時空之刀的新的技能</value>
+  </data>
+  <data name="ZA040" xml:space="preserve">
+    <value>你已經學會時空之光</value>
+  </data>
+  <data name="ZA041" xml:space="preserve">
+    <value>把 Mal'Ticar封印近虛空.永遠</value>
+  </data>
+  <data name="ZA042" xml:space="preserve">
+    <value>終於結束了.</value>
+  </data>
+  <data name="ZA043" xml:space="preserve">
+    <value>Will...</value>
+  </data>
+  <data name="ZA044" xml:space="preserve">
+    <value>Cara...</value>
+  </data>
+  <data name="ZA045" xml:space="preserve">
+    <value>Nathan.</value>
+  </data>
+  <data name="ZA046" xml:space="preserve">
+    <value>Cara!</value>
+  </data>
+  <data name="ZA047" xml:space="preserve">
+    <value>你們都還活著</value>
+  </data>
+  <data name="ZA048" xml:space="preserve">
+    <value>但是怎麼會?我以為</value>
+  </data>
+  <data name="ZA049" xml:space="preserve">
+    <value>我可以在她攻擊之前舉起盾牌.</value>
+  </data>
+  <data name="ZA050" xml:space="preserve">
+    <value>她保護了我.但是爆炸還是擊昏了我.</value>
+  </data>
+  <data name="ZA051" xml:space="preserve">
+    <value> Mal'Ticar呢?</value>
+  </data>
+  <data name="ZA052" xml:space="preserve">
+    <value>屬於他的地方. 我把他封印在虛空了.</value>
+  </data>
+  <data name="ZA053" xml:space="preserve">
+    <value>Nathan, 你真厲害!</value>
+  </data>
+  <data name="ZA054" xml:space="preserve">
+    <value>喔.Will你沒事吧</value>
+  </data>
+  <data name="ZA055" xml:space="preserve">
+    <value>Will?</value>
+  </data>
+  <data name="ZA056" xml:space="preserve">
+    <value>Nathan,  Will去哪了?</value>
+  </data>
+  <data name="ZA057" xml:space="preserve">
+    <value>喔, 不...</value>
+  </data>
+  <data name="ZA058" xml:space="preserve">
+    <value>我沒辦法救到她.</value>
+  </data>
+  <data name="ZA059" xml:space="preserve">
+    <value>Nathan, 這不是你的錯.</value>
+  </data>
+  <data name="ZA060" xml:space="preserve">
+    <value>你拯救了這個世界,WILL會感到很光榮的.</value>
+  </data>
+  <data name="ZA061" xml:space="preserve">
+    <value>藥水(小)</value>
+  </data>
+  <data name="ZA062" xml:space="preserve">
+    <value>恢復 100  生命值</value>
+  </data>
+  <data name="ZA063" xml:space="preserve">
+    <value>藥水(中)</value>
+  </data>
+  <data name="ZA064" xml:space="preserve">
+    <value>恢復400  生命值</value>
+  </data>
+  <data name="ZA065" xml:space="preserve">
+    <value>藥水(大)</value>
+  </data>
+  <data name="ZA066" xml:space="preserve">
+    <value>恢復1000 生命值</value>
+  </data>
+  <data name="ZA067" xml:space="preserve">
+    <value>補藥(小)</value>
+  </data>
+  <data name="ZA068" xml:space="preserve">
+    <value>恢復 75 法力</value>
+  </data>
+  <data name="ZA069" xml:space="preserve">
+    <value>補藥(中)</value>
+  </data>
+  <data name="ZA070" xml:space="preserve">
+    <value>恢復 100法力</value>
+  </data>
+  <data name="ZA071" xml:space="preserve">
+    <value>補藥(大)</value>
+  </data>
+  <data name="ZA072" xml:space="preserve">
+    <value>恢復 200 法力</value>
+  </data>
+  <data name="ZA073" xml:space="preserve">
+    <value>蘑菇</value>
+  </data>
+  <data name="ZA074" xml:space="preserve">
+    <value>可以做成好喝的湯</value>
+  </data>
+  <data name="ZA075" xml:space="preserve">
+    <value>正義之戒</value>
+  </data>
+  <data name="ZA076" xml:space="preserve">
+    <value>正義是什麼?</value>
+  </data>
+  <data name="ZA077" xml:space="preserve">
+    <value>炫耀之戒</value>
+  </data>
+  <data name="ZA078" xml:space="preserve">
+    <value>適合那些自大的人們</value>
+  </data>
+  <data name="ZA079" xml:space="preserve">
+    <value>力量</value>
+  </data>
+  <data name="ZA080" xml:space="preserve">
+    <value>敏捷</value>
+  </data>
+  <data name="ZA081" xml:space="preserve">
+    <value>智慧</value>
+  </data>
+  <data name="ZA082" xml:space="preserve">
+    <value>意志</value>
+  </data>
+  <data name="ZA083" xml:space="preserve">
+    <value>血量</value>
+  </data>
+  <data name="ZA084" xml:space="preserve">
+    <value>防禦</value>
+  </data>
+  <data name="ZA085" xml:space="preserve">
+    <value>法力</value>
+  </data>
+  <data name="ZA086" xml:space="preserve">
+    <value>耐力</value>
+  </data>
+  <data name="ZA087" xml:space="preserve">
+    <value>敬仰之戒</value>
+  </data>
+  <data name="ZA088" xml:space="preserve">
+    <value>這個戒子非常適合需要被保護的人.</value>
+  </data>
+  <data name="ZA089" xml:space="preserve">
+    <value>聖人之戒</value>
+  </data>
+  <data name="ZA090" xml:space="preserve">
+    <value>這個戒子適合心中神聖的人.</value>
+  </data>
+  <data name="ZA091" xml:space="preserve">
+    <value>召喚之戒</value>
+  </data>
+  <data name="ZA092" xml:space="preserve">
+    <value>這個戒指能繩接到到更遠的呼叫.</value>
+  </data>
+  <data name="ZA093" xml:space="preserve">
+    <value>青金石戒指</value>
+  </data>
+  <data name="ZA094" xml:space="preserve">
+    <value>ㄧ個藍色寶石的戒子</value>
+  </data>
+  <data name="ZA095" xml:space="preserve">
+    <value>珍珠手鍊</value>
+  </data>
+  <data name="ZA096" xml:space="preserve">
+    <value>簡單的手鍊上面有優雅的珍珠</value>
+  </data>
+  <data name="ZA097" xml:space="preserve">
+    <value>玉石雕像</value>
+  </data>
+  <data name="ZA098" xml:space="preserve">
+    <value>一個古老而且傷痕累累的小型雕像</value>
+  </data>
+  <data name="ZA099" xml:space="preserve">
+    <value>黑曜石的魅力</value>
+  </data>
+  <data name="ZA100" xml:space="preserve">
+    <value>This charm resembles a primitive arrowhead.</value>
+  </data>
+  <data name="ZA101" xml:space="preserve">
+    <value>紅寶石戒指</value>
+  </data>
+  <data name="ZA102" xml:space="preserve">
+    <value>一個閃閃發光的紅寶石的金戒指</value>
+  </data>
+  <data name="ZA103" xml:space="preserve">
+    <value>Nathan的禮物</value>
+  </data>
+  <data name="ZA104" xml:space="preserve">
+    <value>ㄧ個朋友送的充滿愛的禮物</value>
+  </data>
+  <data name="ZA105" xml:space="preserve">
+    <value>透亮之戒</value>
+  </data>
+  <data name="ZA106" xml:space="preserve">
+    <value>戒子上面的寶石晶瑩剔透</value>
+  </data>
+  <data name="ZA107" xml:space="preserve">
+    <value>衝突之戒</value>
+  </data>
+  <data name="ZA108" xml:space="preserve">
+    <value>這個尖刺的戒指其實可以用於戰鬥中(誤</value>
+  </data>
+  <data name="ZA109" xml:space="preserve">
+    <value>暗影之戒</value>
+  </data>
+  <data name="ZA110" xml:space="preserve">
+    <value>這戒子設計為那些想先發制人的人</value>
+  </data>
+  <data name="ZA111" xml:space="preserve">
+    <value>神聖之戒</value>
+  </data>
+  <data name="ZA112" xml:space="preserve">
+    <value>這個戒子有神秘的光芒</value>
+  </data>
+  <data name="ZA113" xml:space="preserve">
+    <value>尖刺之鏈</value>
+  </data>
+  <data name="ZA114" xml:space="preserve">
+    <value>你是如何不傷到自己?</value>
+  </data>
+  <data name="ZA115" xml:space="preserve">
+    <value>火焰之鏈</value>
+  </data>
+  <data name="ZA116" xml:space="preserve">
+    <value>這個項鍊散方熱能讓你溫暖.</value>
+  </data>
+  <data name="ZA117" xml:space="preserve">
+    <value>土靈手套</value>
+  </data>
+  <data name="ZA118" xml:space="preserve">
+    <value>真些骯髒的手套好像永遠不會乾淨</value>
+  </data>
+  <data name="ZA119" xml:space="preserve">
+    <value>Nature Charm</value>
+  </data>
+  <data name="ZA120" xml:space="preserve">
+    <value>A small wooden figurine.</value>
+  </data>
+  <data name="ZA121" xml:space="preserve">
+    <value>Chain of the Sea</value>
+  </data>
+  <data name="ZA122" xml:space="preserve">
+    <value>This chain necklace has a cool, calming nature to it.</value>
+  </data>
+  <data name="ZA123" xml:space="preserve">
+    <value>Chain of Skies</value>
+  </data>
+  <data name="ZA124" xml:space="preserve">
+    <value>When a cold wind blows...</value>
+  </data>
+  <data name="ZA125" xml:space="preserve">
+    <value>Battle Mage Ring</value>
+  </data>
+  <data name="ZA126" xml:space="preserve">
+    <value>A ring that holds great magical powers.</value>
+  </data>
+  <data name="ZA127" xml:space="preserve">
+    <value>Battle Lord's Ring</value>
+  </data>
+  <data name="ZA128" xml:space="preserve">
+    <value>This ring has obviously been worn in many battles.</value>
+  </data>
+  <data name="ZA129" xml:space="preserve">
+    <value>Battle Thief Ring</value>
+  </data>
+  <data name="ZA130" xml:space="preserve">
+    <value>This ring grants its wearer great speed and strength.</value>
+  </data>
+  <data name="ZA131" xml:space="preserve">
+    <value>Training Belt</value>
+  </data>
+  <data name="ZA132" xml:space="preserve">
+    <value>This belt grants its wearer more endurance in battle.</value>
+  </data>
+  <data name="ZA133" xml:space="preserve">
+    <value>Fantasy Book</value>
+  </data>
+  <data name="ZA134" xml:space="preserve">
+    <value>A fantasy book comprised of various tales of magic.</value>
+  </data>
+  <data name="ZA135" xml:space="preserve">
+    <value>Cloth Armor</value>
+  </data>
+  <data name="ZA136" xml:space="preserve">
+    <value>Basic cloth armor. Gives low defense.</value>
+  </data>
+  <data name="ZA137" xml:space="preserve">
+    <value>Cotton Armor</value>
+  </data>
+  <data name="ZA138" xml:space="preserve">
+    <value>Cloth armor made of cotton. Gives moderate defense and low willpower.</value>
+  </data>
+  <data name="ZA139" xml:space="preserve">
+    <value>Book of Myths</value>
+  </data>
+  <data name="ZA140" xml:space="preserve">
+    <value>A book with stories of myths. May contain magical elements.</value>
+  </data>
+  <data name="ZA141" xml:space="preserve">
+    <value>Plain Book</value>
+  </data>
+  <data name="ZA142" xml:space="preserve">
+    <value>A book. It has a plain cover and no pictures.</value>
+  </data>
+  <data name="ZA143" xml:space="preserve">
+    <value>Wool Armor</value>
+  </data>
+  <data name="ZA144" xml:space="preserve">
+    <value>Cloth armor made of wool. Gives high defense and moderate willpower.</value>
+  </data>
+  <data name="ZA145" xml:space="preserve">
+    <value>Plain Sword</value>
+  </data>
+  <data name="ZA146" xml:space="preserve">
+    <value>It has a plain blade and hilt.</value>
+  </data>
+  <data name="ZA147" xml:space="preserve">
+    <value>Advanced Sword</value>
+  </data>
+  <data name="ZA148" xml:space="preserve">
+    <value>It has a sharp blade and a plain hilt.</value>
+  </data>
+  <data name="ZA149" xml:space="preserve">
+    <value>Lacuna Blade</value>
+  </data>
+  <data name="ZA150" xml:space="preserve">
+    <value>It has a sharp blade and a intricate hilt.</value>
+  </data>
+  <data name="ZA151" xml:space="preserve">
+    <value>Armor</value>
+  </data>
+  <data name="ZA152" xml:space="preserve">
+    <value>Armor made of iron. Gives low defense.</value>
+  </data>
+  <data name="ZA153" xml:space="preserve">
+    <value>Advanced Armor</value>
+  </data>
+  <data name="ZA154" xml:space="preserve">
+    <value>Armor made of steel. Gives moderate defense.</value>
+  </data>
+  <data name="ZA155" xml:space="preserve">
+    <value>Obsidian Armor</value>
+  </data>
+  <data name="ZA156" xml:space="preserve">
+    <value>Armor made of mithril. Gives high defense.</value>
+  </data>
+  <data name="ZA157" xml:space="preserve">
+    <value>Plain Scythe</value>
+  </data>
+  <data name="ZA158" xml:space="preserve">
+    <value>A Scythe. It has a plain blade and a yew shaft.</value>
+  </data>
+  <data name="ZA159" xml:space="preserve">
+    <value>Advanced Scythe</value>
+  </data>
+  <data name="ZA160" xml:space="preserve">
+    <value>A Scythe. It has a honed blade and a pine shaft.</value>
+  </data>
+  <data name="ZA161" xml:space="preserve">
+    <value>Experts Scythe</value>
+  </data>
+  <data name="ZA162" xml:space="preserve">
+    <value>A Scythe. It has a honed blade and a oak shaft.</value>
+  </data>
+  <data name="ZA163" xml:space="preserve">
+    <value>Leather Armor</value>
+  </data>
+  <data name="ZA164" xml:space="preserve">
+    <value>Basic leather armor. Gives low defense and agility.</value>
+  </data>
+  <data name="ZA165" xml:space="preserve">
+    <value>Rawhide Leather</value>
+  </data>
+  <data name="ZA166" xml:space="preserve">
+    <value>Rawhide leather armor. Gives moderate defense and agility.</value>
+  </data>
+  <data name="ZA167" xml:space="preserve">
+    <value>Tanned Leather</value>
+  </data>
+  <data name="ZA168" xml:space="preserve">
+    <value>Tanned leather armor. Gives high defense and agility.</value>
+  </data>
+  <data name="ZA169" xml:space="preserve">
+    <value>Attack</value>
+  </data>
+  <data name="ZA170" xml:space="preserve">
+    <value>Skills</value>
+  </data>
+  <data name="ZA171" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="ZA172" xml:space="preserve">
+    <value>Defend</value>
+  </data>
+  <data name="ZA173" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="ZA174" xml:space="preserve">
+    <value>Stats Analysis Complete:</value>
+  </data>
+  <data name="ZA175" xml:space="preserve">
+    <value>Your Party Has Been DEFEATED!</value>
+  </data>
+  <data name="ZA176" xml:space="preserve">
+    <value>Load Game</value>
+  </data>
+  <data name="ZA177" xml:space="preserve">
+    <value>Restart Game</value>
+  </data>
+  <data name="ZA178" xml:space="preserve">
+    <value>Quit to Main Menu</value>
+  </data>
+  <data name="ZA179" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="ZA180" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="ZA181" xml:space="preserve">
+    <value>Skill</value>
+  </data>
+  <data name="ZA182" xml:space="preserve">
+    <value>advanced to level</value>
+  </data>
+  <data name="ZA183" xml:space="preserve">
+    <value>Skills Gained:</value>
+  </data>
+  <data name="ZA184" xml:space="preserve">
+    <value>VICTORY!</value>
+  </data>
+  <data name="ZA185" xml:space="preserve">
+    <value>LEVEL UP!</value>
+  </data>
+  <data name="ZA186" xml:space="preserve">
+    <value>Experience Gained:</value>
+  </data>
+  <data name="ZA187" xml:space="preserve">
+    <value>Experience Total:</value>
+  </data>
+  <data name="ZA188" xml:space="preserve">
+    <value>Current Level:</value>
+  </data>
+  <data name="ZA189" xml:space="preserve">
+    <value>Max Level Achieved</value>
+  </data>
+  <data name="ZA190" xml:space="preserve">
+    <value>Next Level:</value>
+  </data>
+  <data name="ZA191" xml:space="preserve">
+    <value>Gold Gained:</value>
+  </data>
+  <data name="ZA192" xml:space="preserve">
+    <value>Total Gold:</value>
+  </data>
+  <data name="ZA193" xml:space="preserve">
+    <value>Items Gained:</value>
+  </data>
+  <data name="ZA194" xml:space="preserve">
+    <value>Mayor</value>
+  </data>
+  <data name="ZA195" xml:space="preserve">
+    <value>Bandit King's Crown</value>
+  </data>
+  <data name="ZA196" xml:space="preserve">
+    <value>Only the strongest bandit is worthy enough to wear this crown.</value>
+  </data>
+  <data name="ZA197" xml:space="preserve">
+    <value>Beard Trimmer</value>
+  </data>
+  <data name="ZA198" xml:space="preserve">
+    <value>There must be somebody around here who could use one of these.</value>
+  </data>
+  <data name="ZA199" xml:space="preserve">
+    <value>Courtyard Key 1</value>
+  </data>
+  <data name="ZA200" xml:space="preserve">
+    <value>A key that opens main hall door in the courtyard.</value>
+  </data>
+  <data name="ZA201" xml:space="preserve">
+    <value>Display Sword</value>
+  </data>
+  <data name="ZA202" xml:space="preserve">
+    <value>It may not be practical, but at least it looks nice.</value>
+  </data>
+  <data name="ZA203" xml:space="preserve">
+    <value>Farmers Spade</value>
+  </data>
+  <data name="ZA204" xml:space="preserve">
+    <value>Great for planting seeds.</value>
+  </data>
+  <data name="ZA205" xml:space="preserve">
+    <value>Lost Item</value>
+  </data>
+  <data name="ZA206" xml:space="preserve">
+    <value>Looks very old</value>
+  </data>
+  <data name="ZA207" xml:space="preserve">
+    <value>Kids Toy</value>
+  </data>
+  <data name="ZA208" xml:space="preserve">
+    <value>Small action figure</value>
+  </data>
+  <data name="ZA209" xml:space="preserve">
+    <value>Book</value>
+  </data>
+  <data name="ZA210" xml:space="preserve">
+    <value>Old Book</value>
+  </data>
+  <data name="ZA211" xml:space="preserve">
+    <value>Mysteria Plant</value>
+  </data>
+  <data name="ZA212" xml:space="preserve">
+    <value>The leaves of this plant seem to have strange properties.</value>
+  </data>
+  <data name="ZA213" xml:space="preserve">
+    <value>Necklace</value>
+  </data>
+  <data name="ZA214" xml:space="preserve">
+    <value>Maybe it can be traded for something else.</value>
+  </data>
+  <data name="ZA215" xml:space="preserve">
+    <value>Purse</value>
+  </data>
+  <data name="ZA216" xml:space="preserve">
+    <value>This purse was stolen. It should be returned.</value>
+  </data>
+  <data name="ZA217" xml:space="preserve">
+    <value>Rare Seeds</value>
+  </data>
+  <data name="ZA218" xml:space="preserve">
+    <value>Seeds that are said to be the rarest in all of Elathia.</value>
+  </data>
+  <data name="ZA219" xml:space="preserve">
+    <value>Red Scarf</value>
+  </data>
+  <data name="ZA220" xml:space="preserve">
+    <value>Looks pretty dirty and beat up.</value>
+  </data>
+  <data name="ZA221" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="ZA222" xml:space="preserve">
+    <value>Golden key</value>
+  </data>
+  <data name="ZA223" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="ZA224" xml:space="preserve">
+    <value>This key belongs to someone in Snowy Ridge.</value>
+  </data>
+  <data name="ZA225" xml:space="preserve">
+    <value>You are close but you still should try, you'll find the key where mushrooms lie.</value>
+  </data>
+  <data name="ZA226" xml:space="preserve">
+    <value>Roof Top Key</value>
+  </data>
+  <data name="ZA227" xml:space="preserve">
+    <value>Opens main hall door on the roof top.</value>
+  </data>
+  <data name="ZA228" xml:space="preserve">
+    <value>Stolen Item</value>
+  </data>
+  <data name="ZA229" xml:space="preserve">
+    <value>Looks very expensive</value>
+  </data>
+  <data name="ZA230" xml:space="preserve">
+    <value>Sword Hilt</value>
+  </data>
+  <data name="ZA231" xml:space="preserve">
+    <value>The hilt remains intact but the blade seems to be shattered.</value>
+  </data>
+  <data name="ZA232" xml:space="preserve">
+    <value>Tippers</value>
+  </data>
+  <data name="ZA233" xml:space="preserve">
+    <value>A small teddy bear. This must belong to somebody.</value>
+  </data>
+  <data name="ZA234" xml:space="preserve">
+    <value>Wizard Hat</value>
+  </data>
+  <data name="ZA235" xml:space="preserve">
+    <value>A strange looking hat.</value>
+  </data>
+  <data name="ZA236" xml:space="preserve">
+    <value>Project Manager</value>
+  </data>
+  <data name="ZA237" xml:space="preserve">
+    <value>Programmers</value>
+  </data>
+  <data name="ZA238" xml:space="preserve">
+    <value>Art Director</value>
+  </data>
+  <data name="ZA239" xml:space="preserve">
+    <value>Artists</value>
+  </data>
+  <data name="ZA240" xml:space="preserve">
+    <value>Level Designer</value>
+  </data>
+  <data name="ZA241" xml:space="preserve">
+    <value>Writers</value>
+  </data>
+  <data name="ZA242" xml:space="preserve">
+    <value>User Interface Designers</value>
+  </data>
+  <data name="ZA243" xml:space="preserve">
+    <value>Audio Designer</value>
+  </data>
+  <data name="ZA244" xml:space="preserve">
+    <value>Quality Assurance</value>
+  </data>
+  <data name="ZA245" xml:space="preserve">
+    <value>Faculty Advisors</value>
+  </data>
+  <data name="ZA246" xml:space="preserve">
+    <value>Translators</value>
+  </data>
+  <data name="ZA247" xml:space="preserve">
+    <value>Students of CSE 440</value>
+  </data>
+  <data name="ZA248" xml:space="preserve">
+    <value>Students of CSE 441</value>
+  </data>
+  <data name="ZA249" xml:space="preserve">
+    <value>Acknowledgements</value>
+  </data>
+  <data name="ZA250" xml:space="preserve">
+    <value>Support for this project came from</value>
+  </data>
+  <data name="ZA251" xml:space="preserve">
+    <value>the National Science Foundation</value>
+  </data>
+  <data name="ZA252" xml:space="preserve">
+    <value>under CPATH award #0938964.</value>
+  </data>
+  <data name="ZA253" xml:space="preserve">
+    <value>Come Here, Go Anywhere!</value>
+  </data>
+  <data name="ZA254" xml:space="preserve">
+    <value>Who's this handsome guy?</value>
+  </data>
+  <data name="ZA255" xml:space="preserve">
+    <value>Well that was interesting...</value>
+  </data>
+  <data name="ZA256" xml:space="preserve">
+    <value>I feel like I've learned something. I don't want to kill Ruith quite as much as I did before.</value>
+  </data>
+  <data name="ZA257" xml:space="preserve">
+    <value>That would be a side effect from defeating your inner demons.</value>
+  </data>
+  <data name="ZA258" xml:space="preserve">
+    <value>You are now using logic, rather than rage and pride, to make your judgements. You still have much room to grow, but it is a start.</value>
+  </data>
+  <data name="ZA259" xml:space="preserve">
+    <value>Its about time someone put that stupid thief in his place.</value>
+  </data>
+  <data name="ZA260" xml:space="preserve">
+    <value>I would be careful if i were you. You may be next.</value>
+  </data>
+  <data name="ZA261" xml:space="preserve">
+    <value>I think I'd better get back to my friends. I have a lot to think about with the whole brain reconfiguration and all.</value>
+  </data>
+  <data name="ZA262" xml:space="preserve">
+    <value>This is a big step in realizing your true power. I am very interested to see where life takes you.</value>
+  </data>
+  <data name="ZA263" xml:space="preserve">
+    <value>Good luck on your journeys and farewell. </value>
+  </data>
+  <data name="ZA264" xml:space="preserve">
+    <value>Will has recieved Amulet of Insight</value>
+  </data>
+  <data name="ZA265" xml:space="preserve">
+    <value>You found Medium Tonic X3!</value>
+  </data>
+  <data name="ZA266" xml:space="preserve">
+    <value>You found a Ruby Ring and 125 gold!</value>
+  </data>
+  <data name="ZA267" xml:space="preserve">
+    <value>You found Medium Potion X3!</value>
+  </data>
+  <data name="ZA268" xml:space="preserve">
+    <value>Amulet of Insight</value>
+  </data>
+  <data name="ZA269" xml:space="preserve">
+    <value>"True strength comes from within."   - Endor</value>
+  </data>
+  <data name="ZA270" xml:space="preserve">
+    <value>Strange girl...</value>
+  </data>
+  <data name="ZA271" xml:space="preserve">
+    <value>It pleases me to watch you squirm. You have fought with all your might, and still, all will end in ruin.</value>
+  </data>
+  <data name="ZA272" xml:space="preserve">
+    <value>As we fought my power grew. Now there is nothing you can do to stop me!</value>
+  </data>
+  <data name="ZA273" xml:space="preserve">
+    <value>I'm so sorry Nathan. I was blinded by the power of Mal'Ticar's magic.</value>
+  </data>
+  <data name="ZA274" xml:space="preserve">
+    <value>The closer I got to summoning Mal'Ticar, the stronger I became. I never knew that this would be the outcome of my efforts.</value>
+  </data>
+  <data name="ZA275" xml:space="preserve">
+    <value>Nathan! Listen closely. I am going to funnel all of my strength and energy into your blade. </value>
+  </data>
+  <data name="ZA276" xml:space="preserve">
+    <value>That should give you the power you need to send Mal'Ticar back into the void.</value>
+  </data>
+  <data name="ZA277" xml:space="preserve">
+    <value>What will that do to you?</value>
+  </data>
+  <data name="ZA278" xml:space="preserve">
+    <value>I won't survive.</value>
+  </data>
+  <data name="ZA279" xml:space="preserve">
+    <value>But, I must atone for what I've done. This is the only way!</value>
+  </data>
+  <data name="ZA280" xml:space="preserve">
+    <value>Kinda late for the heroics, but we'll take what we can get. </value>
+  </data>
+  <data name="ZA281" xml:space="preserve">
+    <value>Don't be so insenstive!</value>
+  </data>
+  <data name="ZA282" xml:space="preserve">
+    <value>There is no time to waste! We must do this now!</value>
+  </data>
+  <data name="ZA283" xml:space="preserve">
+    <value>Thank you Uncle.</value>
+  </data>
+  <data name="ZA284" xml:space="preserve">
+    <value>Hurry Nathan! Send this monster back where he came from!</value>
+  </data>
+  <data name="ZA285" xml:space="preserve">
+    <value>It's time to end this.</value>
+  </data>
+  <data name="ZA286" xml:space="preserve">
+    <value>You found a Jade Statue!</value>
+  </data>
+  <data name="ZA287" xml:space="preserve">
+    <value>You found an Obsidian Charm!</value>
+  </data>
+  <data name="ZA288" xml:space="preserve">
+    <value>You have found a map of  Ellaethia!</value>
+  </data>
+  <data name="ZA289" xml:space="preserve">
+    <value>You received 150 gold and a Lapiz Lazuli Ring.</value>
+  </data>
+  <data name="ZA290" xml:space="preserve">
+    <value>Map(Agora)</value>
+  </data>
+  <data name="ZA291" xml:space="preserve">
+    <value>Map of Agora. Must be in  the overworld to view the map. (Press "M" on map to view)</value>
+  </data>
+  <data name="ZA292" xml:space="preserve">
+    <value>Map(Cave Labyrinth)</value>
+  </data>
+  <data name="ZA293" xml:space="preserve">
+    <value>Map of Cave Labyrinth. Must be in Cave Labyrinth to view the map. (Press "M" on map to view)</value>
+  </data>
+  <data name="ZA294" xml:space="preserve">
+    <value>Map(Ellaethia)</value>
+  </data>
+  <data name="ZA295" xml:space="preserve">
+    <value>Map of Ellaethia. Must be in  Ellaethia to view the map. (Press "M" on map to view)</value>
+  </data>
+  <data name="ZA296" xml:space="preserve">
+    <value>Map(Mushroom Hollow)</value>
+  </data>
+  <data name="ZA297" xml:space="preserve">
+    <value>Map of Mushroom Hollow. Must be in Mushroom Hollow to view the map. (Press "M" on map to view)</value>
+  </data>
+  <data name="ZA298" xml:space="preserve">
+    <value>Map(Celindar)</value>
+  </data>
+  <data name="ZA299" xml:space="preserve">
+    <value>Map of Celindar. Must be in Celindar to view the map. (Press "M" on map to view)</value>
+  </data>
+  <data name="ZA300" xml:space="preserve">
+    <value>Map(Mushroom Forest)</value>
+  </data>
+  <data name="ZA301" xml:space="preserve">
+    <value>Map of Mushroom Forest. Must be in Mushroom Forest to view the map. (Press "M" on map to view)</value>
+  </data>
+  <data name="ZA302" xml:space="preserve">
+    <value>Map(Possessed Library)</value>
+  </data>
+  <data name="ZA303" xml:space="preserve">
+    <value>Map of Possessed Library. Must be in Possessed Library to view the map. (Press "M" on map to view)</value>
+  </data>
+  <data name="ZA304" xml:space="preserve">
+    <value>Map(Refugee Camp)</value>
+  </data>
+  <data name="ZA305" xml:space="preserve">
+    <value>Map of Refugee Camp. Must be in Refugee Camp to view the map. (Press "M" on map to view)</value>
+  </data>
+  <data name="ZA306" xml:space="preserve">
+    <value>Map(Sewn Bog)</value>
+  </data>
+  <data name="ZA307" xml:space="preserve">
+    <value>Map of Sewn Bog. Must be in Sewn Bog to view the map. (Press "M" on map to view)</value>
+  </data>
+  <data name="ZA308" xml:space="preserve">
+    <value>Map(Snowy Ridge)</value>
+  </data>
+  <data name="ZA309" xml:space="preserve">
+    <value>Map of Snowy Ridge. Must be in Snowy Ridge to view the map. (Press "M" on map to view)</value>
+  </data>
+  <data name="ZA310" xml:space="preserve">
+    <value>Map(Chapaka)</value>
+  </data>
+  <data name="ZA311" xml:space="preserve">
+    <value>Map of Chapaka. Must be in Chapaka to view the map. (Press "M" on map to view)</value>
+  </data>
+  <data name="ZA312" xml:space="preserve">
+    <value>Map(Tamarel's Forest)</value>
+  </data>
+  <data name="ZA313" xml:space="preserve">
+    <value>Map of Tamarel's Forest. Must be in Tamarel's Forest to view the map. (Press "M" on map to view)</value>
+  </data>
+  <data name="ZA314" xml:space="preserve">
+    <value>Map(Tamarel)</value>
+  </data>
+  <data name="ZA315" xml:space="preserve">
+    <value>Map of Tamarel. Must be in Tamarel to view the map. (Press "M" on map to view)</value>
+  </data>
+  <data name="ZA316" xml:space="preserve">
+    <value>Increases both defense and willpower by 50%.</value>
+  </data>
+  <data name="ZA317" xml:space="preserve">
+    <value>Reveals the enemy's stats and skills.</value>
+  </data>
+  <data name="ZA318" xml:space="preserve">
+    <value>A standard melee or ranged attack.</value>
+  </data>
+  <data name="ZA319" xml:space="preserve">
+    <value>It sure is good to have you back Nathan.</value>
+  </data>
+  <data name="ZA320" xml:space="preserve">
+    <value>Leave this place at once bandit king!</value>
+  </data>
+  <data name="ZA321" xml:space="preserve">
+    <value>Why would I do that when the odds are clearly in my favor</value>
+  </data>
+  <data name="ZA322" xml:space="preserve">
+    <value>You have picked up the bandit king's crown.</value>
+  </data>
+  <data name="ZA323" xml:space="preserve">
+    <value>So your the one that killed the guards brother!</value>
+  </data>
+  <data name="ZA324" xml:space="preserve">
+    <value>You will soon join him!</value>
+  </data>
+  <data name="ZA325" xml:space="preserve">
+    <value>You have picked up a red scarf.</value>
+  </data>
+  <data name="ZA326" xml:space="preserve">
+    <value>You have acquired a Ring Of Bravura.</value>
+  </data>
+  <data name="ZA327" xml:space="preserve">
+    <value>Aegis</value>
+  </data>
+  <data name="ZA328" xml:space="preserve">
+    <value>Analyze</value>
+  </data>
+  <data name="ZA329" xml:space="preserve">
+    <value>Attack</value>
+  </data>
+  <data name="ZA330" xml:space="preserve">
+    <value>The bandit quickly cuts and slices his target with daggers.</value>
+  </data>
+  <data name="ZA331" xml:space="preserve">
+    <value>Boggimus uses his immense bulk to body slam all targets.</value>
+  </data>
+  <data name="ZA332" xml:space="preserve">
+    <value>The corpse tears off its arm and throws it at its target.</value>
+  </data>
+  <data name="ZA333" xml:space="preserve">
+    <value>The burtle swipes its claws at the target.</value>
+  </data>
+  <data name="ZA334" xml:space="preserve">
+    <value>Cara propels her orb to attack the enemy.</value>
+  </data>
+  <data name="ZA335" xml:space="preserve">
+    <value>Chepetawa strikes her target with a great lightning bolt.</value>
+  </data>
+  <data name="ZA336" xml:space="preserve">
+    <value>The wraith creates an ethereal blade and strikes its target.</value>
+  </data>
+  <data name="ZA337" xml:space="preserve">
+    <value>The feesh fires its stinger to attack the target.</value>
+  </data>
+  <data name="ZA338" xml:space="preserve">
+    <value>The flyder swoops down for an attack on its target.</value>
+  </data>
+  <data name="ZA339" xml:space="preserve">
+    <value>The ice feesh hits its target with a frozen venomless stinger.</value>
+  </data>
+  <data name="ZA340" xml:space="preserve">
+    <value>The ghost levitates to its target and slashes with it's claws.</value>
+  </data>
+  <data name="ZA341" xml:space="preserve">
+    <value>The tree rips a root from the ground and attacks its target.</value>
+  </data>
+  <data name="ZA342" xml:space="preserve">
+    <value>The imp blasts a strong wind and it's target.</value>
+  </data>
+  <data name="ZA343" xml:space="preserve">
+    <value>Max lunges forward and stabs the enemy.</value>
+  </data>
+  <data name="ZA344" xml:space="preserve">
+    <value>Nathan lunges forward and slices the enemy.</value>
+  </data>
+  <data name="ZA345" xml:space="preserve">
+    <value>The possessed book launches a page at its target.</value>
+  </data>
+  <data name="ZA346" xml:space="preserve">
+    <value>Sid lunges forward and stabs the enemy.</value>
+  </data>
+  <data name="ZA347" xml:space="preserve">
+    <value>Toh'mey launches its head to headbutt the target.</value>
+  </data>
+  <data name="ZA348" xml:space="preserve">
+    <value>The treant throws its axe at the target.</value>
+  </data>
+  <data name="ZA349" xml:space="preserve">
+    <value>The voodoo doll pulls a needle out of itself and throws it at its target.</value>
+  </data>
+  <data name="ZA350" xml:space="preserve">
+    <value>Will controls his scythe to slash at an enemy at range.</value>
+  </data>
+  <data name="ZA351" xml:space="preserve">
+    <value>Blackout</value>
+  </data>
+  <data name="ZA352" xml:space="preserve">
+    <value>A mass of darkness that blinds and damages the enemy.</value>
+  </data>
+  <data name="ZA353" xml:space="preserve">
+    <value>Blade Storm</value>
+  </data>
+  <data name="ZA354" xml:space="preserve">
+    <value>In an instant, the enemy is hit a hundred times.</value>
+  </data>
+  <data name="ZA355" xml:space="preserve">
+    <value>Blind</value>
+  </data>
+  <data name="ZA356" xml:space="preserve">
+    <value>Attempts to blind an enemy.</value>
+  </data>
+  <data name="ZA357" xml:space="preserve">
+    <value>Cheap Shot</value>
+  </data>
+  <data name="ZA358" xml:space="preserve">
+    <value>The bandit grabs a handful of sand and throws it at his target.</value>
+  </data>
+  <data name="ZA359" xml:space="preserve">
+    <value>Illuminate</value>
+  </data>
+  <data name="ZA360" xml:space="preserve">
+    <value>The book opens and releases a blinding light.</value>
+  </data>
+  <data name="ZA361" xml:space="preserve">
+    <value>Dark Strike</value>
+  </data>
+  <data name="ZA362" xml:space="preserve">
+    <value>Perform a powerful strike against an enemy that has a chance to blind.</value>
+  </data>
+  <data name="ZA363" xml:space="preserve">
+    <value>Destiny</value>
+  </data>
+  <data name="ZA364" xml:space="preserve">
+    <value>The voodoo doll binds your lifeforce with its own, dealing damage to a selected target whenever this voodoo doll receives damage.</value>
+  </data>
+  <data name="ZA365" xml:space="preserve">
+    <value>Disintegrate</value>
+  </data>
+  <data name="ZA366" xml:space="preserve">
+    <value>A blast of pure magical energy that reduces everything in its path to atoms.</value>
+  </data>
+  <data name="ZA367" xml:space="preserve">
+    <value>Your the one that stole the farmers spade.</value>
+  </data>
+  <data name="ZA368" xml:space="preserve">
+    <value>What's it to you!?</value>
+  </data>
+  <data name="ZA369" xml:space="preserve">
+    <value>You have picked up a spade.</value>
+  </data>
+  <data name="ZA370" xml:space="preserve">
+    <value>Dispel</value>
+  </data>
+  <data name="ZA371" xml:space="preserve">
+    <value>Removes all status effects from a target.</value>
+  </data>
+  <data name="ZA372" xml:space="preserve">
+    <value>Double Strike</value>
+  </data>
+  <data name="ZA373" xml:space="preserve">
+    <value>Perform two attacks in quick succession.</value>
+  </data>
+  <data name="ZA374" xml:space="preserve">
+    <value>Earth Shatter</value>
+  </data>
+  <data name="ZA375" xml:space="preserve">
+    <value>The earth crumbles beneath the foe, crushing them with shards of rock.</value>
+  </data>
+  <data name="ZA376" xml:space="preserve">
+    <value>Ether Blast</value>
+  </data>
+  <data name="ZA377" xml:space="preserve">
+    <value>Blasts all enemy targets with ether energy, restoring a random amount of stamina to each target. The amount of damage dealt depends on how much stamina was restored.</value>
+  </data>
+  <data name="ZA378" xml:space="preserve">
+    <value>Fire Bolt</value>
+  </data>
+  <data name="ZA379" xml:space="preserve">
+    <value>The apprentice raises its staff, projecting a firebolt at high speeds at it's target.</value>
+  </data>
+  <data name="ZA380" xml:space="preserve">
+    <value>Arlan channels energy from his pendant, projecting a firebolt at high speeds at it's target.</value>
+  </data>
+  <data name="ZA381" xml:space="preserve">
+    <value>The elder mantis channels energy into its orb, projecting a firebolt at high speeds at it's target.</value>
+  </data>
+  <data name="ZA382" xml:space="preserve">
+    <value>The imp casts a spell, projecting a firebolt at high speeds at it's target. Leaves the target burned.</value>
+  </data>
+  <data name="ZA383" xml:space="preserve">
+    <value>Fireball</value>
+  </data>
+  <data name="ZA384" xml:space="preserve">
+    <value>Channels a spell, creating a fireball that explodes on impact.</value>
+  </data>
+  <data name="ZA385" xml:space="preserve">
+    <value>Fire Storm</value>
+  </data>
+  <data name="ZA386" xml:space="preserve">
+    <value>A wave of fire surges toward the targets, leaving ashe in its wake.</value>
+  </data>
+  <data name="ZA387" xml:space="preserve">
+    <value>Impale</value>
+  </data>
+  <data name="ZA388" xml:space="preserve">
+    <value>Mal'ticar slams the ground, sending deadly spikes to four targets and random. Damage is diminished if a spike damages a target multiple times.</value>
+  </data>
+  <data name="ZA389" xml:space="preserve">
+    <value>Flame Lance</value>
+  </data>
+  <data name="ZA390" xml:space="preserve">
+    <value>The cave crab attacks with a lance of fire.</value>
+  </data>
+  <data name="ZA391" xml:space="preserve">
+    <value>The bandit uses his mystical powers to shoot fireballs from thin air.</value>
+  </data>
+  <data name="ZA392" xml:space="preserve">
+    <value>Flame Web</value>
+  </data>
+  <data name="ZA393" xml:space="preserve">
+    <value>The flyder launches a burning web from its abdomen. Leaves the target burned.</value>
+  </data>
+  <data name="ZA394" xml:space="preserve">
+    <value>A thin lance of fire that pierces through even the toughest armor.</value>
+  </data>
+  <data name="ZA395" xml:space="preserve">
+    <value>Flame Strike</value>
+  </data>
+  <data name="ZA396" xml:space="preserve">
+    <value>A strike that ends in a blast of fire.</value>
+  </data>
+  <data name="ZA397" xml:space="preserve">
+    <value>Focus</value>
+  </data>
+  <data name="ZA398" xml:space="preserve">
+    <value>Increases Nathan's attack damage. Has a small chance of failure.</value>
+  </data>
+  <data name="ZA399" xml:space="preserve">
+    <value>Summons a spike of ice under the target.</value>
+  </data>
+  <data name="ZA400" xml:space="preserve">
+    <value>Gaze of Despair</value>
+  </data>
+  <data name="ZA401" xml:space="preserve">
+    <value>The mantis's gaze pierces the targets soul, dealing damage.</value>
+  </data>
+  <data name="ZA402" xml:space="preserve">
+    <value>Shows the enemy true despair, cutting healing done to them by 50%</value>
+  </data>
+  <data name="ZA403" xml:space="preserve">
+    <value>Greater Heal</value>
+  </data>
+  <data name="ZA404" xml:space="preserve">
+    <value>Heals a party member for a greater amount.</value>
+  </data>
+  <data name="ZA405" xml:space="preserve">
+    <value>Great Monsoon</value>
+  </data>
+  <data name="ZA406" xml:space="preserve">
+    <value>Chepetawa summons forth the waters of the swamp to drown her enemies.</value>
+  </data>
+  <data name="ZA407" xml:space="preserve">
+    <value>Group Heal</value>
+  </data>
+  <data name="ZA408" xml:space="preserve">
+    <value>Heal all party members</value>
+  </data>
+  <data name="ZA409" xml:space="preserve">
+    <value>Heal</value>
+  </data>
+  <data name="ZA410" xml:space="preserve">
+    <value>Chepetawa heals Boggimus and herself.</value>
+  </data>
+  <data name="ZA411" xml:space="preserve">
+    <value>Heals an ally.</value>
+  </data>
+  <data name="ZA412" xml:space="preserve">
+    <value>The treant plants roots into the ground and heals itself.</value>
+  </data>
+  <data name="ZA413" xml:space="preserve">
+    <value>Ice Storm</value>
+  </data>
+  <data name="ZA414" xml:space="preserve">
+    <value>A powerful blizzard capable of freezing enemies solid in seconds.</value>
+  </data>
+  <data name="ZA415" xml:space="preserve">
+    <value>Immolate</value>
+  </data>
+  <data name="ZA416" xml:space="preserve">
+    <value>A blast of flame damages the enemy, sets them on fire, and reduces stamina.</value>
+  </data>
+  <data name="ZA417" xml:space="preserve">
+    <value>Invulnerability</value>
+  </data>
+  <data name="ZA418" xml:space="preserve">
+    <value>The ghost cloaks himself to become immune to all damage for one turn.</value>
+  </data>
+  <data name="ZA419" xml:space="preserve">
+    <value>Cara becomes immune to all damage for 2 turns.</value>
+  </data>
+  <data name="ZA420" xml:space="preserve">
+    <value>Lacuna Radiance</value>
+  </data>
+  <data name="ZA421" xml:space="preserve">
+    <value>The secret skill of the Lacuna Reavers. Deals an enormous amount of damage to a single target.</value>
+  </data>
+  <data name="ZA422" xml:space="preserve">
+    <value>Lightning</value>
+  </data>
+  <data name="ZA423" xml:space="preserve">
+    <value>The cursed knight releases a powerful lightning attack at its target. May leave the target paralyzed.</value>
+  </data>
+  <data name="ZA424" xml:space="preserve">
+    <value>A bolt of lightning capable of stopping even the toughest of foes in their tracks, strikes the enemy. Has a chance of inflicting paralysis.</value>
+  </data>
+  <data name="ZA425" xml:space="preserve">
+    <value>Mana Ward</value>
+  </data>
+  <data name="ZA426" xml:space="preserve">
+    <value>Increases an ally's willpower by 50%.</value>
+  </data>
+  <data name="ZA427" xml:space="preserve">
+    <value>Monsoon</value>
+  </data>
+  <data name="ZA428" xml:space="preserve">
+    <value>Boggimus shoots a powerful blast of water at a target.</value>
+  </data>
+  <data name="ZA429" xml:space="preserve">
+    <value>Great Monsoon</value>
+  </data>
+  <data name="ZA430" xml:space="preserve">
+    <value>Chepetawa shoots a powerful blast of blinding water at all targets.</value>
+  </data>
+  <data name="ZA431" xml:space="preserve">
+    <value>Boggimus summons forth the waters of the swamp  to drown his enemies.</value>
+  </data>
+  <data name="ZA432" xml:space="preserve">
+    <value>Pandora's Box</value>
+  </data>
+  <data name="ZA433" xml:space="preserve">
+    <value>Chepetawa uses her god given powers to bestow a curse upon her enemies.</value>
+  </data>
+  <data name="ZA434" xml:space="preserve">
+    <value>Chepetawa grants a random status effect on a single target.</value>
+  </data>
+  <data name="ZA435" xml:space="preserve">
+    <value>Hypnotize</value>
+  </data>
+  <data name="ZA436" xml:space="preserve">
+    <value>The corpse hypnotizes its target into a state of paralysis.</value>
+  </data>
+  <data name="ZA437" xml:space="preserve">
+    <value>Frost</value>
+  </data>
+  <data name="ZA438" xml:space="preserve">
+    <value>Casts a veil of frost in an attempt to paralyze a target.</value>
+  </data>
+  <data name="ZA439" xml:space="preserve">
+    <value>Paralyze</value>
+  </data>
+  <data name="ZA440" xml:space="preserve">
+    <value>Paralyzes the enemy, making them unable to act during combat for a short time.</value>
+  </data>
+  <data name="ZA441" xml:space="preserve">
+    <value>Plague</value>
+  </data>
+  <data name="ZA442" xml:space="preserve">
+    <value>A cloud of gas that poison's all enemies.</value>
+  </data>
+  <data name="ZA443" xml:space="preserve">
+    <value>Poisonous Void</value>
+  </data>
+  <data name="ZA444" xml:space="preserve">
+    <value>The apprentice raises its staff, creating a void on the target. The void deals damage and has a chance to poison.</value>
+  </data>
+  <data name="ZA445" xml:space="preserve">
+    <value>Poison</value>
+  </data>
+  <data name="ZA446" xml:space="preserve">
+    <value>A cloud of gas that poisons the enemy.</value>
+  </data>
+  <data name="ZA447" xml:space="preserve">
+    <value>Poison Sting</value>
+  </data>
+  <data name="ZA448" xml:space="preserve">
+    <value>The feesh fires its stinger at the target with a chance to poison.</value>
+  </data>
+  <data name="ZA449" xml:space="preserve">
+    <value>Poison Strike</value>
+  </data>
+  <data name="ZA450" xml:space="preserve">
+    <value>Perform a powerful strike against an enemy that has a chance to poison.</value>
+  </data>
+  <data name="ZA451" xml:space="preserve">
+    <value>Spear Toss</value>
+  </data>
+  <data name="ZA452" xml:space="preserve">
+    <value>The witch doctor throws a poisoned spear at his target.</value>
+  </data>
+  <data name="ZA453" xml:space="preserve">
+    <value>I've been training fighters for a long time. Did you know defending in combat recovers exta SP?</value>
+  </data>
+  <data name="ZA454" xml:space="preserve">
+    <value>Keep an eye on your SP. The outcome of a fight relies on your ability to manage your stamina levels over time.</value>
+  </data>
+  <data name="ZA455" xml:space="preserve">
+    <value>Did he just sing us to sleep? This guy is craftier than I thought.</value>
+  </data>
+  <data name="ZA456" xml:space="preserve">
+    <value>Guillotine</value>
+  </data>
+  <data name="ZA457" xml:space="preserve">
+    <value>Toh'Mey jumps on its target in an attempt to slice the target in two.</value>
+  </data>
+  <data name="ZA458" xml:space="preserve">
+    <value>Ambush</value>
+  </data>
+  <data name="ZA459" xml:space="preserve">
+    <value>The bandit surprises the target dealing more damage than usual.</value>
+  </data>
+  <data name="ZA460" xml:space="preserve">
+    <value>Power Strike</value>
+  </data>
+  <data name="ZA461" xml:space="preserve">
+    <value>Perform a powerful strike against an enemy.</value>
+  </data>
+  <data name="ZA462" xml:space="preserve">
+    <value>Regenerate</value>
+  </data>
+  <data name="ZA463" xml:space="preserve">
+    <value>Heals a party member over time.</value>
+  </data>
+  <data name="ZA464" xml:space="preserve">
+    <value>Ressurection</value>
+  </data>
+  <data name="ZA465" xml:space="preserve">
+    <value>Raises a party member from the dead with 25% health.</value>
+  </data>
+  <data name="ZA466" xml:space="preserve">
+    <value>Rift</value>
+  </data>
+  <data name="ZA467" xml:space="preserve">
+    <value>Instantly travel to a previously visited town.</value>
+  </data>
+  <data name="ZA468" xml:space="preserve">
+    <value>ShadowBlast</value>
+  </data>
+  <data name="ZA469" xml:space="preserve">
+    <value>Fires a shadowy mass of destruction at an enemy.</value>
+  </data>
+  <data name="ZA470" xml:space="preserve">
+    <value>Shadow Strike</value>
+  </data>
+  <data name="ZA471" xml:space="preserve">
+    <value>Will sends the shadow of his scythe to attack.</value>
+  </data>
+  <data name="ZA472" xml:space="preserve">
+    <value>Haunt</value>
+  </data>
+  <data name="ZA473" xml:space="preserve">
+    <value>The tree shakes and projects a shadow of its face at the target.</value>
+  </data>
+  <data name="ZA474" xml:space="preserve">
+    <value>The wraith strikes its foe with a powerful shadow attack.</value>
+  </data>
+  <data name="ZA475" xml:space="preserve">
+    <value>Shield</value>
+  </data>
+  <data name="ZA476" xml:space="preserve">
+    <value>Increases the character's defense by 50%.</value>
+  </data>
+  <data name="ZA477" xml:space="preserve">
+    <value>Withdraw</value>
+  </data>
+  <data name="ZA478" xml:space="preserve">
+    <value>Siphon</value>
+  </data>
+  <data name="ZA479" xml:space="preserve">
+    <value>Energy that damages the enemy and heals the user.</value>
+  </data>
+  <data name="ZA480" xml:space="preserve">
+    <value>The imp launches a purple energy beam that hits its target and then returns to the imp.</value>
+  </data>
+  <data name="ZA481" xml:space="preserve">
+    <value>The wraith uses its dark magic to steal energy from its target.</value>
+  </data>
+  <data name="ZA482" xml:space="preserve">
+    <value>Slash All</value>
+  </data>
+  <data name="ZA483" xml:space="preserve">
+    <value>A single strike that hits all enemies.</value>
+  </data>
+  <data name="ZA484" xml:space="preserve">
+    <value>Spike Rain</value>
+  </data>
+  <data name="ZA485" xml:space="preserve">
+    <value>The burtle launches the spikes off its back into the air impaling it's foes.</value>
+  </data>
+  <data name="ZA486" xml:space="preserve">
+    <value>Paralyzing Strike</value>
+  </data>
+  <data name="ZA487" xml:space="preserve">
+    <value>Perform a powerful strike against an enemy that has a chance to paralyze them.</value>
+  </data>
+  <data name="ZA488" xml:space="preserve">
+    <value>Suicide Sting</value>
+  </data>
+  <data name="ZA489" xml:space="preserve">
+    <value>The feesh uses its remaining energy to perform a final sting on its target dealing extra damage the more health the feesh currently has.</value>
+  </data>
+  <data name="ZA490" xml:space="preserve">
+    <value>Sword Wave</value>
+  </data>
+  <data name="ZA491" xml:space="preserve">
+    <value>Flings a wave of energy from your sword, dealing massive damage to a single enemy.</value>
+  </data>
+  <data name="ZA492" xml:space="preserve">
+    <value>Unholy Revelations</value>
+  </data>
+  <data name="ZA493" xml:space="preserve">
+    <value>Summons an undead army with sin deep in their blood to devour a single target.</value>
+  </data>
+  <data name="ZA494" xml:space="preserve">
+    <value>Vigor</value>
+  </data>
+  <data name="ZA495" xml:space="preserve">
+    <value>Causes the target to gain a burst of strength.</value>
+  </data>
+  <data name="ZA496" xml:space="preserve">
+    <value>Water Blast</value>
+  </data>
+  <data name="ZA497" xml:space="preserve">
+    <value>Fires a pressurized blast of water at the enemy.</value>
+  </data>
+  <data name="ZA498" xml:space="preserve">
+    <value>Wither</value>
+  </data>
+  <data name="ZA499" xml:space="preserve">
+    <value>The tree shakes and hits its target with black and yellow cryptic energy. May leave the target weakened.</value>
+  </data>
+  <data name="ZA500" xml:space="preserve">
+    <value>Weakness</value>
+  </data>
+  <data name="ZA501" xml:space="preserve">
+    <value>Lower's an enemy's damage by 50%.</value>
+  </data>
+  <data name="ZA502" xml:space="preserve">
+    <value>Curse</value>
+  </data>
+  <data name="ZA503" xml:space="preserve">
+    <value>The witch doctor raises his skull to shine a cursed, red light to weaken his target.</value>
+  </data>
+  <data name="ZA504" xml:space="preserve">
+    <value>Whirlwind</value>
+  </data>
+  <data name="ZA505" xml:space="preserve">
+    <value>A blast of spiraling wind that cuts and tears at the enemy.</value>
+  </data>
+  <data name="ZA506" xml:space="preserve">
+    <value>Multi-Fireball</value>
+  </data>
+  <data name="ZA507" xml:space="preserve">
+    <value>Multiple red orbs of flame that explode on impact.</value>
+  </data>
+  <data name="ZA508" xml:space="preserve">
+    <value>You found 750 gold!</value>
+  </data>
+  <data name="ZA509" xml:space="preserve">
+    <value>An old scythe. It has a rusty blade and a yew shaft.</value>
+  </data>
+  <data name="ZA510" xml:space="preserve">
+    <value>Rusty Scythe</value>
+  </data>
+  <data name="ZA511" xml:space="preserve">
+    <value>In the mean time take this old rusty scythe.</value>
+  </data>
+  <data name="ZA512" xml:space="preserve">
+    <value>Now get out of here. I'm tired of looking at your face.</value>
+  </data>
+  <data name="ZA513" xml:space="preserve">
+    <value>For now, take this plain armor. We can't have you guys running around here naked now can we. HA!HA!</value>
+  </data>
+  <data name="ZA514" xml:space="preserve">
+    <value>Plain Armor</value>
+  </data>
+  <data name="ZA515" xml:space="preserve">
+    <value>Plain armor. It is thin and flimsy. </value>
+  </data>
+  <data name="ZA516" xml:space="preserve">
+    <value>Sire!?</value>
+  </data>
+  <data name="ZA517" xml:space="preserve">
+    <value>I have a plan to save Agora from your uncle. I've obtained three legendary items that should guarantee my success.</value>
+  </data>
+  <data name="ZA518" xml:space="preserve">
+    <value>You have to stop your uncle!</value>
+  </data>
+  <data name="ZA519" xml:space="preserve">
+    <value>Its good to have you back sire.</value>
+  </data>
+  <data name="ZA520" xml:space="preserve">
+    <value>My condolences Prince Nathan. Your parents were the greatest king and queen in history.</value>
+  </data>
+  <data name="ZA521" xml:space="preserve">
+    <value>By the stars! Our prince has returned.</value>
+  </data>
+  <data name="ZA522" xml:space="preserve">
+    <value>You received a Translucent Ring and 450 gold pieces.</value>
+  </data>
+  <data name="ZA523" xml:space="preserve">
+    <value>You received 450 gold pieces.</value>
+  </data>
+  <data name="ZA524" xml:space="preserve">
+    <value>The crab summons a razor-sharp pillar below it's target.</value>
+  </data>
+  <data name="ZA525" xml:space="preserve">
+    <value>Soul Drain</value>
+  </data>
+  <data name="ZA526" xml:space="preserve">
+    <value>Drains the energy from the soul, replenishing the life of the caster and steals their strength.</value>
+  </data>
+  <data name="ZA527" xml:space="preserve">
+    <value>You received Earthen Gloves and 300 gold pieces.</value>
+  </data>
+  <data name="ZA528" xml:space="preserve">
+    <value>We shouldn't steal.</value>
+  </data>
+  <data name="ZA529" xml:space="preserve">
+    <value>Your game has been saved.</value>
+  </data>
+  <data name="ZA530" xml:space="preserve">
+    <value>A strange energy surrounds you.</value>
+  </data>
+  <data name="ZA531" xml:space="preserve">
+    <value>You feel rejuvinated.</value>
+  </data>
+  <data name="ZA532" xml:space="preserve">
+    <value>This can't be your house. A blacksmith we're looking for lives here. We think he's in trouble.</value>
+  </data>
+  <data name="ZA533" xml:space="preserve">
+    <value>Well then it seems you've found who you were searching for. I am your missing blacksmith.</value>
+  </data>
+  <data name="ZA534" xml:space="preserve">
+    <value>Ha! How is this girl supposed to be a master blacksmith?</value>
+  </data>
+  <data name="ZA535" xml:space="preserve">
+    <value>Why are you doing this? Are you working with Arlan?</value>
+  </data>
+  <data name="ZA536" xml:space="preserve">
+    <value>I am Arlan you poor, defenseless, nephew of mine. Now that I have the artifact, I can finally resurrect Mal'ticar.</value>
+  </data>
+  <data name="ZA537" xml:space="preserve">
+    <value>You never should have come here. You never stood a chance against me.</value>
+  </data>
+  <data name="ZA538" xml:space="preserve">
+    <value>My father sent me to find you after he learned your intentions. Neither of us could have imagined what you were becoming. Can't you see how this evil has twisted you?</value>
+  </data>
+  <data name="ZA539" xml:space="preserve">
+    <value>I have greater power than you can imagine. By summoning Mal'ticar I can join with him and finally be out from under my brother's shadow.</value>
+  </data>
+  <data name="ZA540" xml:space="preserve">
+    <value>You're just a pathetic shell of the the man my uncle was. My uncle was a wise and loving man. He was nothing like you.</value>
+  </data>
+  <data name="ZA541" xml:space="preserve">
+    <value>I have enjoyed our talk, but I have a world to conquer. Take comfort in knowing that your family will soon be joining you in the afterlife.</value>
+  </data>
+  <data name="ZA542" xml:space="preserve">
+    <value>You found 150 gold!</value>
+  </data>
+  <data name="ZA543" xml:space="preserve">
+    <value>You found a Large Tonic X3!</value>
+  </data>
+  <data name="ZA544" xml:space="preserve">
+    <value>Maybe, if you prove your worth, I will lend you these items so you might defeat your uncle instead. </value>
+  </data>
+  <data name="ZA545" xml:space="preserve">
+    <value>There are 30 hidden marks in the Forbidden Cavern to the east of our camp. There are 10 marks for three different sets. I will give you an item for each complete set of marks you find. Good luck!</value>
+  </data>
+  <data name="ZA546" xml:space="preserve">
+    <value>Green Marks Needed:  </value>
+  </data>
+  <data name="ZA547" xml:space="preserve">
+    <value>Red Marks Needed:  </value>
+  </data>
+  <data name="ZA548" xml:space="preserve">
+    <value>Blue Marks Needed:  </value>
+  </data>
+  <data name="ZA549" xml:space="preserve">
+    <value>Green Mark</value>
+  </data>
+  <data name="ZA550" xml:space="preserve">
+    <value>Red Mark</value>
+  </data>
+  <data name="ZA551" xml:space="preserve">
+    <value>Blue Mark</value>
+  </data>
+  <data name="ZA552" xml:space="preserve">
+    <value>Collect them all!</value>
+  </data>
+  <data name="ZA553" xml:space="preserve">
+    <value>You found a Green Mark!</value>
+  </data>
+  <data name="ZA554" xml:space="preserve">
+    <value>You found a Red Mark!</value>
+  </data>
+  <data name="ZA555" xml:space="preserve">
+    <value>You found a Blue Mark!</value>
+  </data>
+  <data name="ZA556" xml:space="preserve">
+    <value>You've collected all of the Green Marks!</value>
+  </data>
+  <data name="ZA557" xml:space="preserve">
+    <value>You've collected all of the Red Marks!</value>
+  </data>
+  <data name="ZA558" xml:space="preserve">
+    <value>You've collected all of the Blue Marks!</value>
+  </data>
+  <data name="ZA559" xml:space="preserve">
+    <value>You've collected all of the Green Marks! Your courage has earned you the Battle Lords Ring.</value>
+  </data>
+  <data name="ZA560" xml:space="preserve">
+    <value>You've collected all of the Red Marks! Your guile has earned you the Battle Thief Ring.</value>
+  </data>
+  <data name="ZA561" xml:space="preserve">
+    <value>You've collected all of the Blue Marks! Your wisdom has earned you the Battle Mage Ring.</value>
+  </data>
+  <data name="ZA562" xml:space="preserve">
+    <value>You've managed to collect all the marks in the Forbidden Cavern. You truly are great warriors. I trust you will make good use of the items I've given you.</value>
+  </data>
+  <data name="ZA563" xml:space="preserve">
+    <value>I will use what power I have left to unblock the entrance to the Sewn bog.</value>
+  </data>
+  <data name="ZA564" xml:space="preserve">
+    <value>...Down, Right, Left, Up...Down, Right, Left, Up...Down, Right...</value>
+  </data>
+  <data name="ZA565" xml:space="preserve">
+    <value>You found a Divine Ring!</value>
+  </data>
+  <data name="ZA566" xml:space="preserve">
+    <value>Starfire Ore</value>
+  </data>
+  <data name="ZA567" xml:space="preserve">
+    <value>An extremely rare crafting material. Few blacksmiths have the skill to make use of it.</value>
+  </data>
+  <data name="ZA568" xml:space="preserve">
+    <value>Blood Metal Ore</value>
+  </data>
+  <data name="ZA569" xml:space="preserve">
+    <value>You found Starfire Ore!</value>
+  </data>
+  <data name="ZA570" xml:space="preserve">
+    <value>You found Blood Metal Ore!</value>
+  </data>
+  <data name="ZA571" xml:space="preserve">
+    <value>Boots of Quickening</value>
+  </data>
+  <data name="ZA572" xml:space="preserve">
+    <value>Party gains additional walking speed. Hold down left shift key to activate.</value>
+  </data>
+  <data name="ZA573" xml:space="preserve">
+    <value>You found Boots of Quickening!</value>
+  </data>
+  <data name="ZA574" xml:space="preserve">
+    <value>Hey Jeremiah!</value>
+  </data>
+  <data name="ZA575" xml:space="preserve">
+    <value>What's up Franky D?</value>
+  </data>
+  <data name="ZA576" xml:space="preserve">
+    <value>This fella' thinks he can break into our hideout. And how many times did I tell you to stop calling me that!</value>
+  </data>
+  <data name="ZA577" xml:space="preserve">
+    <value>Sorry Lenny. Do you think he know about the treasure?</value>
+  </data>
+  <data name="ZA578" xml:space="preserve">
+    <value>He does now! He knows too much, let's kill him!</value>
+  </data>
+  <data name="ZA579" xml:space="preserve">
+    <value>They killed our pawns! Time for plan B.</value>
+  </data>
+  <data name="ZA580" xml:space="preserve">
+    <value>Wait... We have a plan B?</value>
+  </data>
+  <data name="ZA581" xml:space="preserve">
+    <value>... The trees you imbecile!</value>
+  </data>
+  <data name="ZA582" xml:space="preserve">
+    <value>Trees!? You think trees are gonna kill these guys!? They're trees! You know what trees are right?</value>
+  </data>
+  <data name="ZA583" xml:space="preserve">
+    <value>Just send in the trees!</value>
+  </data>
+  <data name="ZA584" xml:space="preserve">
+    <value>They defeated our secret weapons! We need to send in the four elite members of the guild!</value>
+  </data>
+  <data name="ZA585" xml:space="preserve">
+    <value>But Gary! What if-</value>
+  </data>
+  <data name="ZA586" xml:space="preserve">
+    <value>That's Gary sir to you Bruno!</value>
+  </data>
+  <data name="ZA587" xml:space="preserve">
+    <value>Sorry. Gary sir, what if-</value>
+  </data>
+  <data name="ZA588" xml:space="preserve">
+    <value>Hmm, I think I like sir Gary better. Or maybe sir Gary sir!</value>
+  </data>
+  <data name="ZA589" xml:space="preserve">
+    <value>I like that a lot actually.</value>
+  </data>
+  <data name="ZA590" xml:space="preserve">
+    <value>Well we're in a bit of a predicament here I think.</value>
+  </data>
+  <data name="ZA591" xml:space="preserve">
+    <value>What's the problem Sam?</value>
+  </data>
+  <data name="ZA592" xml:space="preserve">
+    <value>Where do I begin. Most of the guild has been killed by these punks, our strongest team was killed, and now most of the ghosts are running rampant due to sudden loss of guild members.</value>
+  </data>
+  <data name="ZA593" xml:space="preserve">
+    <value>Our guild was taken down all because we had to protect this chest? It's not even worth dying for!</value>
+  </data>
+  <data name="ZA594" xml:space="preserve">
+    <value>Well we have no choice now. We're trapped now, might as well die as heroes protecting the most ancient treasure of all treasures.</value>
+  </data>
+  <data name="ZA595" xml:space="preserve">
+    <value>We're running out of options here. What do you suggest Antonio?</value>
+  </data>
+  <data name="ZA596" xml:space="preserve">
+    <value>Well we have these ghosts that we've tamed to help us out.</value>
+  </data>
+  <data name="ZA597" xml:space="preserve">
+    <value>We have a ghost taming division in our guild?</value>
+  </data>
+  <data name="ZA598" xml:space="preserve">
+    <value>Of course! Some of the guild thought our ghost hunting division was immoral, so we tame them now.</value>
+  </data>
+  <data name="ZA599" xml:space="preserve">
+    <value>We had a ghost hunting division in our guild? Nobody tells me nothin'. Well send them in!</value>
+  </data>
+  <data name="ZA600" xml:space="preserve">
+    <value>Mysterious Page</value>
+  </data>
+  <data name="ZA601" xml:space="preserve">
+    <value>I can't thank you enough for saving my friend. She's upstairs if you'd like to talk to her.</value>
+  </data>
+  <data name="ZA602" xml:space="preserve">
+    <value>Hey you're that soldier that left my friend to those monsters back at the keep. I'll never forgive you for not saving her.</value>
+  </data>
+  <data name="ZA603" xml:space="preserve">
+    <value>You recieved 400 gold pieces.</value>
+  </data>
+  <data name="ZA604" xml:space="preserve">
+    <value>So you solved my riddle! Well that was an easy one. Lets try one more.</value>
+  </data>
+  <data name="ZA605" xml:space="preserve">
+    <value>The bandit performs a melee attack that exposes armor, reducing defense with every strike.</value>
+  </data>
+  <data name="ZA606" xml:space="preserve">
+    <value>Hg. Potion</value>
+  </data>
+  <data name="ZA607" xml:space="preserve">
+    <value>Restores 8000 health.</value>
+  </data>
+  <data name="ZA608" xml:space="preserve">
+    <value>Hg. Tonic</value>
+  </data>
+  <data name="ZA609" xml:space="preserve">
+    <value>Restores 1000 mana.</value>
+  </data>
+  <data name="ZA610" xml:space="preserve">
+    <value>You received a Nature Charm!</value>
+  </data>
+  <data name="ZA611" xml:space="preserve">
+    <value>You found a Ruby Ring!</value>
+  </data>
+  <data name="ZA612" xml:space="preserve">
+    <value>gold pieces and an Obsidian Charm!</value>
+  </data>
+  <data name="ZA613" xml:space="preserve">
+    <value>You received a Lapiz Lazuli Ring!</value>
+  </data>
+  <data name="ZA614" xml:space="preserve">
+    <value>All stats + 5, HP and Mana + 200, Stam +1</value>
+  </data>
+  <data name="ZA615" xml:space="preserve">
+    <value>You found 2000 gold!</value>
+  </data>
+  <data name="ZA616" xml:space="preserve">
+    <value>Now that your sword has been restored, you need armor befitting a Lacuna Reaver. I'm sure I have something lying around here somewhere...</value>
+  </data>
+  <data name="ZA617" xml:space="preserve">
+    <value>Ah! Here it is.</value>
+  </data>
+  <data name="ZA618" xml:space="preserve">
+    <value>You have received Obsidian Armor.</value>
+  </data>
+  <data name="ZA619" xml:space="preserve">
+    <value>You have received a Huge Potion and a Huge Tonic!</value>
+  </data>
+  <data name="ZA620" xml:space="preserve">
+    <value>Death Bringer</value>
+  </data>
+  <data name="ZA621" xml:space="preserve">
+    <value>Blood Leather</value>
+  </data>
+  <data name="ZA622" xml:space="preserve">
+    <value>Sorceress' Robes</value>
+  </data>
+  <data name="ZA623" xml:space="preserve">
+    <value>You found a Huge Potion!</value>
+  </data>
+  <data name="ZA624" xml:space="preserve">
+    <value>You found a Huge Tonic!</value>
+  </data>
+  <data name="ZA625" xml:space="preserve">
+    <value>Is that Blood Metal Ore!? I haven't seen crafting material of this caliber in ages. I can build you a magnificent weapon and armor set if you so desire.</value>
+  </data>
+  <data name="ZA626" xml:space="preserve">
+    <value>I call it!</value>
+  </data>
+  <data name="ZA627" xml:space="preserve">
+    <value>Right. Well I guess the new weapon and armor goes to the thief.</value>
+  </data>
+  <data name="ZA628" xml:space="preserve">
+    <value>Will has recieved the Death Bringer scythe and Blood Leather armor!</value>
+  </data>
+  <data name="ZA629" xml:space="preserve">
+    <value>This stuff better work or you'll be hearing from me. Uh, I mean, thanks....</value>
+  </data>
+  <data name="ZA630" xml:space="preserve">
+    <value>Sorry. I'm not very good with manners. I'm working on it.</value>
+  </data>
+  <data name="ZA631" xml:space="preserve">
+    <value>Ah, I see you found some Starfire Ore. That is a very rare ore with mysteriously magical properties.</value>
+  </data>
+  <data name="ZA632" xml:space="preserve">
+    <value>I could craft a very special weapon and armor set designed to enhance magical abilities if you would like.</value>
+  </data>
+  <data name="ZA633" xml:space="preserve">
+    <value>See if you can find me some more rare ores to work with. I truely enjoy the challenge of working with new materials.</value>
+  </data>
+  <data name="ZA634" xml:space="preserve">
+    <value>I hope the gifts I've made for you will help you to defeat Mal'ticar. The fate of our world rests on your shoulders now.</value>
+  </data>
+  <data name="ZA635" xml:space="preserve">
+    <value>Yes, please!</value>
+  </data>
+  <data name="ZA636" xml:space="preserve">
+    <value>I've been getting a little tired of my old gear anyway...</value>
+  </data>
+  <data name="ZA637" xml:space="preserve">
+    <value>Cara has recieved Sorceress' Robes and Book of Myths!</value>
+  </data>
+  <data name="ZA638" xml:space="preserve">
+    <value>I'm particularly proud of my work this time.</value>
+  </data>
+  <data name="ZA639" xml:space="preserve">
+    <value>You have bits of Starfire Ore crafted to your armor and the pendant in your book to amplify your magical skills.</value>
+  </data>
+  <data name="ZA640" xml:space="preserve">
+    <value>I can't thank you enough Zella. I promise to make good use of what you've given me.</value>
+  </data>
+  <data name="ZA641" xml:space="preserve">
+    <value>Nathan! You did it!</value>
+  </data>
+  <data name="ZA642" xml:space="preserve">
+    <value>Where did he go? What happend!?</value>
+  </data>
+  <data name="ZA643" xml:space="preserve">
+    <value>It's over. Mal'ticar is gone.</value>
+  </data>
+  <data name="ZA644" xml:space="preserve">
+    <value>What do we do now?</value>
+  </data>
+  <data name="ZA645" xml:space="preserve">
+    <value>My people need me. I made a promise to live for this kingdom and I plan to uphold it.</value>
+  </data>
+  <data name="ZA646" xml:space="preserve">
+    <value>That sounds like a good plan to me. I'll help.</value>
+  </data>
+  <data name="ZA647" xml:space="preserve">
+    <value>I guess you can count me in too. You'll need all the help you can get.</value>
+  </data>
+  <data name="ZA648" xml:space="preserve">
+    <value>You still have something of a monster infestation after all.</value>
+  </data>
+  <data name="ZA649" xml:space="preserve">
+    <value>Our job is far from over. Thank you for helping. My parents would be proud.</value>
+  </data>
+  <data name="ZA650" xml:space="preserve">
+    <value>The cursed Knight stabs it's target with it's empowered spear.</value>
+  </data>
+  <data name="ZA651" xml:space="preserve">
+    <value>Nemesis Cannon</value>
+  </data>
+  <data name="ZA652" xml:space="preserve">
+    <value>Arlan transmits unknown energy from another realm that damages all opposing enemies. May leave targets poisoned.</value>
+  </data>
+  <data name="ZA653" xml:space="preserve">
+    <value>Drains the energy from the soul, replenishing the life of the caster and steals their strength and stamina.</value>
+  </data>
+  <data name="ZA654" xml:space="preserve">
+    <value>Rage</value>
+  </data>
+  <data name="ZA655" xml:space="preserve">
+    <value>The burtle becomes enraged in dire situations, granting a high increase in strength and defense.</value>
+  </data>
+  <data name="ZA656" xml:space="preserve">
+    <value>The book casts a spell from it's contents in an attempt to poison a target.</value>
+  </data>
+  <data name="ZA657" xml:space="preserve">
+    <value>Pandoras box has gained the powers of Boggimus, dealing great damage and curses all targets.</value>
+  </data>
+  <data name="ZA658" xml:space="preserve">
+    <value>Boggimus has gained the powers of Chepetawa, Great Monsoon will damage and curse all targets.</value>
+  </data>
+  <data name="ZA659" xml:space="preserve">
+    <value>Endowment</value>
+  </data>
+  <data name="ZA660" xml:space="preserve">
+    <value>This target has been endowed with increased stats, health regeneration, and sp regeneration.</value>
+  </data>
+  <data name="ZA661" xml:space="preserve">
+    <value>Tippers is on fire! The hot emissions from Tippers' body damages all opponents at the start of his turn.</value>
+  </data>
+  <data name="ZA662" xml:space="preserve">
+    <value>The Serlynx smashes the ground with his hammer, reducing the targets armor, healing Serlynx, and may restore Stamina to Serlynx.</value>
+  </data>
+  <data name="ZA663" xml:space="preserve">
+    <value>Miasma</value>
+  </data>
+  <data name="ZA664" xml:space="preserve">
+    <value>A noxious gas emission that damages the enemy. This may leave the targets blinded and weakened.</value>
+  </data>
+  <data name="ZA665" xml:space="preserve">
+    <value>Ah, it's you. I bet you're wondering why I'm here. While you were out, we were invaded and now we're all dead!</value>
+  </data>
+  <data name="ZA666" xml:space="preserve">
+    <value>Just kidding! Endor came to me with a new business venture.</value>
+  </data>
+  <data name="ZA667" xml:space="preserve">
+    <value>He thought creating this astral projection of myself could double my profit, but I tend to get little business out here for some reason.</value>
+  </data>
+  <data name="ZA668" xml:space="preserve">
+    <value>Let me heal those wounds for you sir.</value>
+  </data>
+    <data name="ZA669" xml:space="preserve">
+    <value>      Nathan, Cara, and Will went on to rid Agora of the evil that still remained. Those years were long and grueling, but the bond they formed was stronger for it. Through their efforts and the help of the survivors, they were able to rebuild the kingdom to be even grander than it was before. Nathan took his place on the throne where he worked tirelessly to solve the problems of his people and his subjects loved him all the more for it.</value>
+  </data>
+  <data name="ZA670" xml:space="preserve">
+    <value>      Cara spent much of the early years healing the wounded and teaching others how to heal as well. Word quickly spread and Cara eventually became a symbol of love and devotion to the people of Agora. Word around the castle is that Nathan and Cara have been seen taking strolls around the garden as of late. News of their union is expected in the near future.</value>
+  </data>
+  <data name="ZA671" xml:space="preserve">
+    <value>      The lack of control Will felt everyday due to his blindness instantly disappeared when he was defending himself in combat. Will's desire to feel in control led him to train others how to be skilled fighters like himself....by fighting them of course. Will eventually learned to treat others with a little more kindness and respect, even if it was just a ploy to steal their things later.</value>
+  </data>
+  <data name="ZA672" xml:space="preserve">
+    <value>      The three heros remain vigilant against the return of Mal'ticar for who could know what plots are forming in the shadows.</value>
+  </data>
+  <data name="ZA673" xml:space="preserve">
+    <value>Thank you for playing Lacuna Reaver</value>
+  </data>
+  <data name="ZA674" xml:space="preserve">
+    <value>      A memorial was held in Will's honor soon after his death. Nathan and Cara told stories of their travels and how Will selflessly risked his life in service of their cause. Over the years, tales of Will turned to legend and songs were written in his memory. A statue of Will stands in the courtyard of Verithus Castle so all who visit may remember his sacrifice.</value>
+  </data>
+  <data name="ZA675" xml:space="preserve">
+    <value>      The two heros remain vigilant against the return of Mal'ticar for who could know what plots are forming in the shadows.</value>
+  </data>
+  <data name="ZA676" xml:space="preserve">
+    <value>      Nathan and Cara went on to rid Agora of the evil that still remained. Those years were long and grueling, but the bond they formed was stronger for it. Through their efforts and the help of the survivors, they were able to rebuild the kingdom to be even grander than it was before. Nathan took his place on the throne where he worked tirelessly to solve the problems of his people and his subjects loved him all the more for it.</value>
+  </data>
+</root>

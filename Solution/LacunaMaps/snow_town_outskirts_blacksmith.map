@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>snow_town_outskirts_blacksmith</Name>
+    <TextureSheetName>snow_town_blacksmith_ruin</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>15 13</DimensionsInTiles>
+    <GroundLayer>53 53 53 53 53 53 61 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 60 61 61 53 53 53 53 53 53 53 53 53 53 53 53 61 52 53 53 53 53 53 53 53 53 53 53 53 53 53 52 53 52 53 53 53 53 53 53 53 53 53 53 53 53 53 61 52 52 53 53 53 53 53 53 53 53 53 53 53 53 53 53 61 53 53 53 53 53 61 60 63 53 53 53 53 21 67 52 52 53 53 53 53 53 53 69 70 71 -1 53 53 67 60 53 53 53 53 53 53 60 77 78 79 68 68 68 53 61 60 53 53 53 53 53 53 61 60 53 61 53 52 60 52 60 53 53 53 53 52 53 61 53 52 53 61 61 53 52 53 53 53 53 53 53 60 53 53 60 53 53 60 52 53 53 53 53 53 53 53 53 53 53 53 53 61 53 53 53 53 53 53 53</GroundLayer>
+    <ForeGroundLayer>9 10 9 10 9 10 11 -1 -1 6 24 18 10 18 10 17 9 10 9 10 9 -1 14 -1 -1 -1 10 18 10 18 9 10 9 10 9 10 27 -1 -1 7 24 18 10 18 10 17 9 10 11 24 9 -1 14 -1 -1 -1 24 18 10 18 18 10 11 -1 -1 8 11 -1 -1 -1 -1 -1 24 18 10 10 11 -1 -1 40 41 42 43 20 -1 14 -1 -1 10 18 18 -1 -1 -1 48 49 50 51 28 -1 -1 -1 24 18 10 10 27 7 -1 56 57 58 59 47 -1 -1 15 -1 10 18 18 -1 -1 -1 -1 -1 -1 -1 -1 -1 14 -1 24 18 10 10 11 -1 6 -1 -1 -1 -1 -1 -1 -1 -1 -1 10 18 18 -1 -1 7 14 -1 -1 -1 14 -1 -1 -1 10 18 10 10 18 -1 -1 -1 -1 -1 -1 -1 -1 -1 10 18 10 18 18 10 18 17 18 -1 -1 -1 10 18 10 18 10 18 10</ForeGroundLayer>
+    <FringeLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 3 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 19 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 32 35 35 35 35 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 19 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 19 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 19 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 19 2 19 -1 -1 -1 2 19 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 19 -1 2 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 1 1 1 0 0 0 1 1 0 0 0 0 0 0 0 1 1 1 1 0 0 0 1 0 0 0 1 1 1 0 1 1 1 1 1 0 0 1 0 0 1 1 0 0 0 0 0 1 1 1 0 0 1 1 0 1 1 1 0 0 0 0 1 1 1 0 1 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 0 0 0 1 1 1 0 0 0 0 0 1 1</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries />
+    <CutSceneEntries>
+      <Item>
+        <AssetName>HermitHouseAttackedCutSceneScreen</AssetName>
+        <TriggerPosition>6 11</TriggerPosition>
+      </Item>
+    </CutSceneEntries>
+    <Portals>
+      <Item>
+        <DestinationMap>snow_town_blacksmith_interior</DestinationMap>
+        <DestinationPosition>4 5</DestinationPosition>
+        <Position>6 7</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>overworld</DestinationMap>
+        <DestinationPosition>20 57</DestinationPosition>
+        <Position>9 0</Position>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>overworld</DestinationMap>
+        <DestinationPosition>20 57</DestinationPosition>
+        <Position>8 0</Position>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>overworld</DestinationMap>
+        <DestinationPosition>20 57</DestinationPosition>
+        <Position>7 0</Position>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>overworld</DestinationMap>
+        <DestinationPosition>21 60</DestinationPosition>
+        <Position>6 12</Position>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>SnowTown</MusicCueName>
+  </Asset>
+</XnaContent>

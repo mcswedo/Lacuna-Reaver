@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>healers_village_npchouse_se</Name>
+    <TextureSheetName>healers_village_interior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>9 9</DimensionsInTiles>
+    <GroundLayer>43 124 124 124 124 124 124 124 44 63 144 144 144 144 144 144 144 64 11 13 13 13 14 11 13 13 12 11 13 13 13 13 62 280 62 280 33 62 62 62 62 62 62 62 34 33 62 62 62 62 62 62 62 34 33 62 62 62 62 36 62 41 34 31 14 14 14 62 14 14 14 32 -1 -1 -1 -1 35 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>-1 -1 128 -1 60 -1 128 93 -1 57 56 -1 56 2 -1 -1 -1 -1 75 75 55 75 22 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 283 -1 282 -1 -1 -1 -1 -1 -1 300 -1 300 -1 222 222 223 -1 -1 -1 -1 -1 80 81 81 82 -1 -1 -1 -1 46 100 101 101 102 -1 -1 -1 46 47 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>126 126 126 126 126 126 126 126 126 -1 -1 148 -1 -1 -1 148 -1 -1 -1 -1 -1 -1 -1 -1 260 -1 260 -1 -1 -1 -1 -1 -1 -1 -1 282 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 109 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 0 0 1 1 1 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 1 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>OldLady</AssetName>
+        <SpawnPosition>3 5</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SickGrandson</AssetName>
+        <SpawnPosition>8 3</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>healers_village</DestinationMap>
+        <DestinationPosition>31 15</DestinationPosition>
+        <Position>4 8</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>HealersVillage</MusicCueName>
+  </Asset>
+</XnaContent>

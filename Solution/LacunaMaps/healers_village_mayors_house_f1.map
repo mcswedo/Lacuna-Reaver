@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>healers_village_mayors_house_f1</Name>
+    <TextureSheetName>healers_village_interior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>16 11</DimensionsInTiles>
+    <GroundLayer>43 124 124 124 -1 124 124 124 124 124 124 44 -1 -1 -1 -1 63 144 144 144 -1 144 144 144 144 144 144 64 -1 -1 -1 -1 62 62 13 13 -1 13 13 11 34 13 13 12 -1 -1 -1 -1 11 13 13 12 -1 11 13 13 13 62 62 34 -1 -1 -1 -1 33 62 62 34 -1 33 62 62 62 62 62 34 17 62 43 44 33 62 62 34 17 33 62 62 62 62 62 34 37 35 63 64 33 62 62 34 37 33 62 62 62 62 62 62 13 13 13 12 31 14 14 14 15 62 62 62 62 62 62 14 14 14 14 32 -1 -1 -1 -1 -1 33 62 62 62 62 34 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 31 14 62 62 14 32 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 62 62 -1 -1 -1 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>-1 -1 -1 128 -1 -1 -1 -1 -1 -1 -1 128 -1 -1 -1 -1 55 52 53 148 -1 53 55 98 99 -1 -1 148 -1 -1 -1 -1 73 73 75 92 -1 75 76 118 119 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 80 82 83 -1 -1 -1 180 181 181 182 183 -1 93 240 93 -1 100 102 103 -1 -1 -1 200 201 201 202 -1 -1 -1 242 -1 55 47 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 12 75 47 47 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 39 -1 -1 -1 -1 -1 107 -1 -1 -1 -1 107 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>126 126 126 126 106 126 126 126 126 126 126 126 106 106 106 106 -1 -1 -1 -1 106 -1 -1 -1 -1 -1 -1 -1 106 106 106 106 -1 -1 -1 -1 106 -1 -1 -1 -1 -1 -1 -1 106 106 106 106 -1 -1 -1 -1 106 -1 -1 -1 -1 -1 -1 -1 106 106 106 106 -1 -1 -1 -1 106 -1 -1 -1 -1 -1 -1 -1 126 136 126 126 -1 -1 -1 -1 126 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 87 -1 -1 -1 -1 87 -1 -1 -1 -1 -1 105 105 105 105 105 -1 -1 -1 -1 -1 -1 105 105 105 105 105 105 105 105 105 105 -1 -1 -1 -1 -1 -1 105 105 105 105 105 105 105 105 105 105 105 105 -1 -1 105 105 105 105 105 105 105</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 1 1 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 0 1 0 0 0 0 1 1 0 1 0 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 0 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 0 0 1 1 0 0 0 1 1 1 1</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>Mayor</AssetName>
+        <SpawnPosition>8 3</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries>
+      <Item>
+        <AssetName>ReturnToMayorCutSceneScreen</AssetName>
+        <TriggerPosition>7 9</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>ReturnToMayorCutSceneScreen</AssetName>
+        <TriggerPosition>8 9</TriggerPosition>
+      </Item>
+    </CutSceneEntries>
+    <Portals>
+      <Item>
+        <DestinationMap>healers_village_mayors_house_f2</DestinationMap>
+        <DestinationPosition>13 3</DestinationPosition>
+        <Position>13 4</Position>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>healers_village</DestinationMap>
+        <DestinationPosition>20 7</DestinationPosition>
+        <Position>7 10</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>healers_village</DestinationMap>
+        <DestinationPosition>21 7</DestinationPosition>
+        <Position>8 10</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>Kara</MusicCueName>
+  </Asset>
+</XnaContent>

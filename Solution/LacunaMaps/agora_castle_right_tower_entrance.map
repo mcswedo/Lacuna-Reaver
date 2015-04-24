@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>agora_castle_right_tower_entrance</Name>
+    <TextureSheetName>agora_castle_courtyard</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>15 17</DimensionsInTiles>
+    <GroundLayer>194 6 6 6 6 6 6 6 6 6 6 6 6 6 194 194 38 38 38 38 38 38 38 38 38 38 38 38 38 194 194 0 0 0 0 0 0 0 0 0 0 0 0 0 194 194 16 9 18 16 9 18 16 9 18 16 9 18 16 194 194 26 19 28 26 19 28 26 19 28 26 19 28 26 194 194 36 38 38 36 38 38 36 38 38 36 38 38 36 194 194 48 0 0 48 0 0 48 0 0 48 0 0 48 194 194 0 0 0 0 0 0 0 0 11 12 12 13 0 194 194 0 0 0 0 0 0 0 0 21 22 22 23 0 194 194 0 0 0 0 0 0 0 0 21 22 22 22 0 194 194 0 0 0 0 0 0 0 0 21 22 22 23 0 194 194 0 11 12 12 12 12 12 12 22 22 22 23 0 194 194 0 21 22 22 22 22 22 22 22 22 22 23 0 194 194 0 21 22 22 22 22 22 22 22 22 22 23 0 194 194 0 31 32 32 32 32 32 32 32 32 32 33 0 194 194 0 0 0 0 0 0 0 0 0 0 0 0 0 194 194 194 194 194 194 194 194 194 194 0 0 194 194 194 194</GroundLayer>
+    <ForeGroundLayer>-1 155 156 38 38 157 158 -1 -1 -1 -1 -1 -1 -1 -1 -1 155 156 38 38 157 158 -1 -1 -1 -1 -1 -1 -1 -1 -1 155 156 38 38 157 158 -1 -1 -1 -1 -1 -1 -1 -1 -1 155 156 38 38 157 158 184 184 184 184 184 184 184 -1 -1 155 156 38 38 157 158 -1 -1 -1 -1 -1 -1 -1 -1 -1 155 156 38 38 157 158 -1 -1 -1 -1 -1 -1 -1 -1 -1 155 156 38 38 157 158 -1 -1 -1 -1 -1 -1 -1 -1 -1 155 156 17 15 157 158 -1 -1 109 -1 280 283 -1 -1 -1 155 156 27 25 157 158 -1 -1 -1 -1 -1 -1 -1 -1 -1 165 166 37 35 167 168 -1 -1 280 283 -1 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 128 -1 -1 -1 -1 -1 -1 135 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 282 283 107 -1 280 283 -1 -1 -1 -1 -1 280 283 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 126 282 283 139 -1 -1 280 283 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 179 179 179 179 179 179 179 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 195 196 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 195 196 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 195 196 4 4 195 196 4 4 4 4 4 195 196 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 195 196 4 4 4 195 196 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 1 0 1 1 0 1 1 1 0 0 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 0 0 1 1 0 0 1 0 0 1 1 0 0 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 0 0 1 1 1 0 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>
+      94 95 96 94 95 96 94 95 96 94 95 96 94 95 96 94 95
+      95 96 94 95 96 94 95 96 94 95 96 94 95 96 94 95 96
+      96 94 95 96 94 95 96 94 95 96 94 95 96 94 95 96 94
+      94 95 96 94 95 96 94 95 96 94 95 96 94 95 96 94 95
+      95 96 94 95 96 94 95 96 94 95 96 94 95 96 94 95 96
+      96 94 95 96 94 95 96 94 95 96 94 95 96 94 95 96 94
+      94 95 96 94 95 96 94 95 96 94 95 96 94 95 96 94 95
+      95 96 94 95 96 94 95 96 94 95 96 94 95 96 94 95 96
+      96 94 95 96 94 95 96 94 95 96 94 95 96 94 95 96 94
+      94 95 96 94 95 96 94 95 96 94 95 96 94 95 96 94 95
+      95 96 94 95 96 94 95 96 94 95 96 94 95 96 94 95 96
+      96 94 95 96 94 95 96 94 95 96 94 95 96 94 95 96 94
+      94 95 96 94 95 96 94 95 96 94 95 96 94 95 96 94 95
+      95 96 94 95 96 94 95 96 94 95 96 94 95 96 94 95 96
+      96 94 95 96 94 95 96 94 95 96 94 95 96 94 95 96 94
+    </CombatLayer>
+    <NpcEntries />
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>agora_castle_right_tower_anteroom</DestinationMap>
+        <DestinationPosition>9 6</DestinationPosition>
+        <Position>9 16</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>agora_castle_right_tower_anteroom</DestinationMap>
+        <DestinationPosition>10 6</DestinationPosition>
+        <Position>10 16</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>agora_castle_rooftop</DestinationMap>
+        <DestinationPosition>36 13</DestinationPosition>
+        <Position>3 9</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>agora_castle_rooftop</DestinationMap>
+        <DestinationPosition>37 13</DestinationPosition>
+        <Position>4 9</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>ArlanAgoraCastle</MusicCueName>
+  </Asset>
+</XnaContent>

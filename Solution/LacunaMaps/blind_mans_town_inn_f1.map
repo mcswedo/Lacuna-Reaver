@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>blind_mans_town_inn_f1</Name>
+    <TextureSheetName>healers_village_interior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>9 9</DimensionsInTiles>
+    <GroundLayer>43 43 43 43 -1 43 43 43 43 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 -1 -1 -1 -1 62 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>144 144 144 144 240 144 144 144 144 -1 -1 -1 -1 6 -1 -1 -1 -1 3 4 4 5 -1 3 4 4 5 23 24 24 25 -1 23 24 24 25 -1 -1 -1 -1 -1 -1 -1 -1 -1 120 121 122 123 -1 -1 -1 -1 -1 140 141 142 143 -1 -1 -1 -1 -1 160 161 162 -1 -1 -1 -1 -1 104 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>69 -1 -1 69 -1 69 -1 -1 69 87 46 48 88 -1 88 -1 26 87 107 -1 -1 108 -1 108 -1 -1 107 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 89 -1 -1 -1 -1 -1 -1 84 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 0 0 0 0 1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 0 0 0 0 1 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>WillsItemClerk</AssetName>
+        <SpawnPosition>6 1</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>WillsInvisibleItemClerk</AssetName>
+        <SpawnPosition>6 2</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>WillsInvisibleInnClerk</AssetName>
+        <SpawnPosition>2 2</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>WillsInnClerk</AssetName>
+        <SpawnPosition>2 1</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>blind_mans_town_inn_f2</DestinationMap>
+        <DestinationPosition>13 4</DestinationPosition>
+        <Position>4 0</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>blind_mans_town</DestinationMap>
+        <DestinationPosition>43 6</DestinationPosition>
+        <Position>4 8</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>Inn</MusicCueName>
+  </Asset>
+</XnaContent>

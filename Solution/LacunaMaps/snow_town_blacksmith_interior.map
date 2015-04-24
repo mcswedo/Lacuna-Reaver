@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>snow_town_blacksmith_interior</Name>
+    <TextureSheetName>healers_village_interior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>9 7</DimensionsInTiles>
+    <GroundLayer>43 124 124 124 124 124 124 124 44 63 144 144 144 144 144 144 144 64 62 62 62 62 62 41 62 62 62 62 62 62 62 62 62 61 62 62 -1 62 62 62 62 62 62 42 62 -1 -1 62 62 62 62 62 62 62 -1 -1 -1 -1 62 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 84 84 84 -1 -1 -1 0 1 -1 104 104 104 -1 -1 47 20 21 40 -1 -1 -1 -1 -1 360 -1 -1 363 -1 -1 -1 -1 -1 380 381 382 383 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 361 362 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 1 1 1 1 1 0 1 1 0 0 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 1 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>MasterBlacksmithInvisible</AssetName>
+        <SpawnPosition>6 4</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>MasterBlacksmithInvisible2</AssetName>
+        <SpawnPosition>7 4</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>MasterBlacksmithInvisible4</AssetName>
+        <SpawnPosition>5 4</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>MasterBlacksmithInvisible5</AssetName>
+        <SpawnPosition>8 4</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>MasterBlacksmithInvisible6</AssetName>
+        <SpawnPosition>5 3</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries>
+      <Item>
+        <AssetName>InsideHermitHouseCutSceneScreen</AssetName>
+        <TriggerPosition>4 5</TriggerPosition>
+      </Item>
+    </CutSceneEntries>
+    <Portals>
+      <Item>
+        <DestinationMap>snow_town_outskirts_blacksmith</DestinationMap>
+        <DestinationPosition>6 8</DestinationPosition>
+        <Position>4 6</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>Blacksmith</MusicCueName>
+  </Asset>
+</XnaContent>

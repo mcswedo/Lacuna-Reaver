@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>mage_town_inn</Name>
+    <TextureSheetName>mage_town</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>13 10</DimensionsInTiles>
+    <GroundLayer>79 0 65 0 65 18 15 17 65 0 65 0 80 79 33 65 33 65 50 15 49 65 33 65 33 80 45 44 44 44 44 110 34 109 44 44 44 44 46 233 231 231 231 231 234 36 233 231 231 231 231 234 45 44 44 44 44 110 34 109 44 44 44 44 46 41 34 34 34 34 34 34 34 34 34 34 34 42 41 34 34 34 34 34 34 34 34 34 34 34 42 41 34 34 34 34 34 34 34 34 34 34 34 42 35 37 37 37 37 37 34 37 37 37 37 37 38 -1 -1 -1 -1 -1 -1 36 -1 -1 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 246 -1 315 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 278 315 347 -1 -1 -1 -1 311 -1 309 -1 -1 -1 310 347 306 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 308 338 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 340 305 -1 31 -1 -1 -1 -1 -1 -1 -1 31 -1 307 337 -1 63 -1 -1 -1 -1 -1 -1 -1 63 -1 339 306 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 308 338 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 340 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>173 174 173 174 173 176 102 172 173 174 173 174 173 205 206 205 206 207 208 102 204 207 206 207 206 207 230 235 235 235 235 229 102 230 235 235 235 235 229 96 97 98 99 100 102 102 102 96 97 98 99 100 128 129 130 131 132 102 102 102 128 129 130 131 132 160 161 162 163 164 102 102 102 160 161 162 163 164 192 193 194 195 196 102 102 102 192 193 194 195 196 224 225 226 227 228 102 102 102 224 225 226 227 228 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 1 0 1 0 1 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 0 0 1 0 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>MagesInvisibleItemClerk</AssetName>
+        <SpawnPosition>9 3</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>MagesItemClerk</AssetName>
+        <SpawnPosition>9 2</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>MagesInvisibleItemClerk2</AssetName>
+        <SpawnPosition>8 3</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>MagesInvisibleItemClerk3</AssetName>
+        <SpawnPosition>10 3</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>MagesInnClerk</AssetName>
+        <SpawnPosition>3 2</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>MagesInvisibleInnClerk</AssetName>
+        <SpawnPosition>3 3</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>MagesInvisibleInnClerk2</AssetName>
+        <SpawnPosition>4 3</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>MagesInvisibleInnClerk3</AssetName>
+        <SpawnPosition>2 3</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>mage_town</DestinationMap>
+        <DestinationPosition>24 31</DestinationPosition>
+        <Position>6 9</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>mage_town_inn_f2</DestinationMap>
+        <DestinationPosition>3 5</DestinationPosition>
+        <Position>6 0</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>Inn</MusicCueName>
+  </Asset>
+</XnaContent>

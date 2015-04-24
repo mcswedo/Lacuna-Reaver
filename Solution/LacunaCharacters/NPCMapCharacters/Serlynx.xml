@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.NPCMapCharacter">
+    <Name>Serlynx</Name>
+    <PortraitName>generic_man_portrait</PortraitName>
+    <IsCastingShadow>false</IsCastingShadow>
+    <IdleAnimation>
+      <Name>Idle</Name>
+      <Animations>
+        <Item>
+          <Key>North</Key>
+          <Value>
+            <Frames>0 0 128 196</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>South</Key>
+          <Value>
+            <Frames>0 0 128 196</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>East</Key>
+          <Value>
+            <Frames>0 0 128 196</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>West</Key>
+          <Value>
+            <Frames>0 0 128 196</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+      </Animations>
+      <SpriteSheetName>serlynx</SpriteSheetName>
+    </IdleAnimation>
+    <MoveSpeed>0.8</MoveSpeed>
+    <ControllerName>NullController</ControllerName>
+    <IdleOnly>true</IdleOnly>
+    <MoveDelay>2</MoveDelay>
+  </Asset>
+</XnaContent>

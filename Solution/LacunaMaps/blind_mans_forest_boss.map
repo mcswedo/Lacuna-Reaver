@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>blind_mans_forest_boss</Name>
+    <TextureSheetName>cavemap</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>10 10</DimensionsInTiles>
+    <GroundLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 -1 65 65 65 65 65 65 65 65 65 65 65 65 65 65 -1 -1 -1 -1 140 -1 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>5 13 13 13 13 13 13 13 13 1 15 23 23 23 23 23 23 23 23 11 25 -1 60 -1 -1 -1 -1 -1 61 21 28 -1 -1 -1 -1 -1 -1 -1 -1 27 28 -1 60 -1 -1 -1 -1 -1 61 27 28 -1 -1 -1 -1 -1 -1 60 -1 27 28 61 -1 -1 -1 -1 -1 -1 -1 27 28 -1 -1 -1 -1 65 -1 -1 60 27 -1 -1 -1 -1 29 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>36 36 36 36 36 36 36 36 36 36 159 36 36 36 36 36 36 36 36 158 159 36 36 36 36 36 36 36 36 158 159 36 36 36 36 36 36 36 36 158 159 36 36 36 36 36 36 36 36 158 159 36 36 36 36 36 36 36 36 158 159 36 36 36 36 36 36 36 36 158 159 36 36 36 36 36 36 36 36 158 225 226 226 227 36 220 221 221 221 222 36 36 36 36 36 36 36 36 36 36</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 0 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>Burtle</AssetName>
+        <SpawnPosition>3 1</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>Will</AssetName>
+        <SpawnPosition>4 4</SpawnPosition>
+        <SpawnDirection>North</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries>
+      <Item>
+        <AssetName>WillsBurtleInitiateCutSceneScreen</AssetName>
+        <TriggerPosition>4 7</TriggerPosition>
+      </Item>
+    </CutSceneEntries>
+    <Portals>
+      <Item>
+        <DestinationMap>blind_mans_forest_5</DestinationMap>
+        <DestinationPosition>9 2</DestinationPosition>
+        <Position>4 8</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>BlindMansForest</MusicCueName>
+  </Asset>
+</XnaContent>

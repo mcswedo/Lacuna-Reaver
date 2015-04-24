@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>keepf5</Name>
+    <TextureSheetName>keepinterior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>11 13</DimensionsInTiles>
+    <GroundLayer>117 56 55 57 31 31 31 55 56 57 119 117 72 73 74 34 34 34 75 72 75 119 136 47 47 47 47 47 47 47 47 47 136 39 31 35 33 31 35 34 32 35 35 39 27 31 33 31 31 33 31 33 35 31 27 27 31 31 35 34 31 34 34 31 31 27 27 31 35 34 32 35 33 35 34 31 27 27 151 138 137 45 45 45 135 138 137 27 26 47 47 47 32 33 34 47 47 47 25 117 54 119 45 45 45 45 45 117 55 119 135 74 137 45 45 45 45 45 135 73 137 70 62 62 24 24 31 24 24 62 62 71 -1 -1 -1 -1 -1 49 -1 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>-1 -1 -1 -1 120 120 120 -1 -1 -1 -1 -1 -1 -1 -1 138 138 138 -1 -1 -1 -1 -1 53 106 -1 -1 -1 -1 -1 -1 53 -1 106 53 -1 36 11 1 10 131 106 53 106 106 53 106 -1 9 -1 9 264 106 53 106 106 53 -1 37 13 14 12 -1 132 53 106 129 53 246 -1 131 9 37 -1 262 53 132 37 -1 -1 -1 44 97 43 -1 -1 -1 38 -1 132 244 38 -1 9 -1 -1 245 36 106 -1 -1 -1 44 -1 97 -1 43 -1 -1 -1 -1 -1 -1 44 -1 97 -1 43 -1 -1 -1 -1 -1 -1 -1 -1 9 246 -1 -1 -1 -1 -1 -1 -1 -1 -1 113 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>189 189 103 155 156 157 158 159 104 189 189 189 107 103 173 174 175 176 177 104 107 189 189 107 103 191 192 193 194 195 104 107 189 189 107 214 101 101 101 101 101 215 107 189 189 107 189 189 189 189 189 189 189 107 189 189 107 189 189 189 189 189 189 189 107 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 1 0 0 0 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 0 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>DeadKing</AssetName>
+        <SpawnPosition>5 4</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries>
+      <Item>
+        <AssetName>Keepf5CutSceneScreen</AssetName>
+        <TriggerPosition>4 7</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>Keepf5CutSceneScreen</AssetName>
+        <TriggerPosition>5 7</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>Keepf5CutSceneScreen</AssetName>
+        <TriggerPosition>6 7</TriggerPosition>
+      </Item>
+    </CutSceneEntries>
+    <Portals>
+      <Item>
+        <DestinationMap>keepf4treasury</DestinationMap>
+        <DestinationPosition>5 1</DestinationPosition>
+        <Position>5 12</Position>
+      </Item>
+    </Portals>
+    <MusicCueName>Arlan</MusicCueName>
+  </Asset>
+</XnaContent>

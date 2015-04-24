@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>snow_town_hermit_info_house_f2</Name>
+    <TextureSheetName>snow_town_interior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>8 7</DimensionsInTiles>
+    <GroundLayer>-1 -1 -1 -1 71 71 71 71 -1 -1 -1 -1 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 -1 71 71 71 71 71 71 71 -1 71 71 71 71 71 71</GroundLayer>
+    <ForeGroundLayer>-1 -1 -1 -1 2 3 2 3 -1 -1 -1 -1 10 11 10 11 4 47 53 54 65 -1 -1 65 12 55 61 62 73 -1 -1 73 -1 -1 -1 -1 -1 -1 -1 59 55 -1 75 75 -1 -1 40 42 63 -1 -1 -1 -1 -1 48 50</ForeGroundLayer>
+    <FringeLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 57 -1 -1 57 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 67 68 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 0 0 0 1 1 0 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 0 0 0 1 1 0 0 1 0 1 1 1 1 1 1</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>MissplacedBook</AssetName>
+        <SpawnPosition>7 6</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>snow_town_hermit_info_house_f3</DestinationMap>
+        <DestinationPosition>7 5</DestinationPosition>
+        <Position>1 2</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>snow_town_hermit_info_house</DestinationMap>
+        <DestinationPosition>2 5</DestinationPosition>
+        <Position>0 6</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>SnowTown</MusicCueName>
+  </Asset>
+</XnaContent>

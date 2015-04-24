@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>mage_town_npc_house3</Name>
+    <TextureSheetName>mage_town</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>13 9</DimensionsInTiles>
+    <GroundLayer>79 0 65 0 65 0 65 0 65 0 65 0 80 79 33 65 33 65 33 65 33 65 33 65 33 80 45 44 44 44 44 44 44 44 44 44 44 44 46 41 34 34 34 34 34 34 34 34 34 34 34 42 41 42 34 2 2 2 34 41 34 2 2 2 2 41 42 34 34 34 34 34 41 34 258 261 256 259 41 34 109 44 44 44 110 34 42 265 270 268 266 35 37 37 37 37 37 34 37 37 117 117 117 158 -1 -1 -1 -1 -1 -1 36 -1 -1 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>31 -1 31 -1 31 -1 31 -1 31 246 31 -1 31 315 315 -1 -1 -1 -1 -1 -1 -1 278 -1 -1 312 347 347 -1 -1 -1 -1 -1 -1 -1 310 -1 345 344 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 376 -1 309 236 -1 -1 -1 232 311 -1 -1 -1 -1 -1 -1 309 233 231 231 231 234 311 -1 274 275 274 274 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 307 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 339 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>175 174 175 174 175 174 175 174 175 174 175 174 175 207 206 207 206 207 206 207 206 207 206 207 206 207 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 230 235 235 235 229 102 96 97 98 99 100 102 102 102 102 102 102 102 102 128 129 130 131 132 102 102 102 102 102 102 102 102 160 161 162 163 164 102 102 102 102 102 102 102 102 192 193 194 195 196 102 102 102 102 102 102 102 102 224 225 226 227 228 102 102 102 102 102 102 102 102 102 102 102 102 102</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>Wesley</AssetName>
+        <SpawnPosition>9 7</SpawnPosition>
+        <SpawnDirection>North</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>mage_town</DestinationMap>
+        <DestinationPosition>7 40</DestinationPosition>
+        <Position>6 8</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>MageTown</MusicCueName>
+  </Asset>
+</XnaContent>

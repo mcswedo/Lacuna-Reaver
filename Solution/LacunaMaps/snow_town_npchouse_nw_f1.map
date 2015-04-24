@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>snow_town_npchouse_nw_f1</Name>
+    <TextureSheetName>snow_town_interior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>10 7</DimensionsInTiles>
+    <GroundLayer>4 5 2 3 4 5 2 3 -1 -1 71 71 71 71 71 71 71 71 -1 -1 71 71 71 71 71 71 71 71 4 47 71 71 71 71 71 71 71 71 71 55 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 -1 -1 -1 -1 71 71 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>-1 -1 -1 -1 53 54 -1 -1 -1 -1 12 13 10 11 61 62 10 11 -1 -1 64 59 64 -1 21 59 21 -1 12 -1 40 41 42 43 40 41 42 43 12 -1 48 49 50 -1 48 49 50 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>-1 82 -1 -1 -1 -1 -1 -1 -1 -1 56 90 56 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 0 0 1 0 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>SnowItemClerk</AssetName>
+        <SpawnPosition>5 2</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SnowInnClerk</AssetName>
+        <SpawnPosition>1 2</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SnowInvisibleInnClerk</AssetName>
+        <SpawnPosition>0 3</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SnowInvisibleInnClerk2</AssetName>
+        <SpawnPosition>1 3</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SnowInvisibleInnClerk3</AssetName>
+        <SpawnPosition>2 3</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SnowInvisibleItemClerk</AssetName>
+        <SpawnPosition>4 3</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SnowInvisibleItemClerk2</AssetName>
+        <SpawnPosition>5 3</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SnowInvisibleItemClerk3</AssetName>
+        <SpawnPosition>6 3</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>snow_town</DestinationMap>
+        <DestinationPosition>4 7</DestinationPosition>
+        <Position>4 6</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>snow_town</DestinationMap>
+        <DestinationPosition>5 7</DestinationPosition>
+        <Position>5 6</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>snow_town_npchouse_nw_f2</DestinationMap>
+        <DestinationPosition>9 3</DestinationPosition>
+        <Position>9 2</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>Inn</MusicCueName>
+  </Asset>
+</XnaContent>

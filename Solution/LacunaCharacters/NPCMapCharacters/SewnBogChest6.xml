@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.NPCMapCharacter">
+    <Name>SewnBogChest6</Name>
+    <PortraitName>generic_man_portrait</PortraitName>
+    <IsCastingShadow>false</IsCastingShadow>
+    <IdleAnimation>
+      <Name>Idle</Name>
+      <Animations>
+        <Item>
+          <Key>South</Key>
+          <Value>
+            <Frames>0 0 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>North</Key>
+          <Value>
+            <Frames>0 0 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>West</Key>
+          <Value>
+            <Frames>0 0 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>East</Key>
+          <Value>
+            <Frames>0 0 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+      </Animations>
+      <SpriteSheetName>chest</SpriteSheetName>
+    </IdleAnimation>
+    <ControllerName>SewnBogChest6Controller</ControllerName>
+    <IdleOnly>true</IdleOnly>
+  </Asset>
+</XnaContent>

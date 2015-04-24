@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>snow_town_npchouse_s_nw</Name>
+    <TextureSheetName>snow_town_interior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>9 12</DimensionsInTiles>
+    <GroundLayer>71 71 71 71 71 71 71 71 -1 71 71 71 71 71 71 71 71 -1 71 71 71 71 71 71 71 71 -1 71 71 71 71 71 71 71 71 -1 71 71 71 71 71 71 71 71 -1 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 71 -1 71 71 71 71 71 71 71 71 -1 71 71 71 71 71 71 71 71 -1 71 71 71 71 71 71 71 71 -1 71 71 71 71 71 71 71 71 -1 71 71 71 71 71 71 71 71 -1</GroundLayer>
+    <ForeGroundLayer>2 3 16 17 4 5 2 3 -1 10 11 24 25 12 13 10 11 -1 21 23 32 33 59 35 35 36 -1 -1 59 60 -1 -1 -1 -1 -1 -1 -1 40 42 43 -1 -1 -1 -1 -1 -1 48 50 51 -1 -1 -1 -1 -1 -1 -1 -1 -1 21 22 22 35 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 6 7 4 5 -1 -1 -1 -1 4 14 15 12 13 -1 -1 -1 -1 12 65 66 -1 65 -1 -1 -1 -1 -1 73 74 -1 73 -1</ForeGroundLayer>
+    <FringeLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 31 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 159 159 159 159 159 -1 -1 -1 -1 159 -1 -1 -1 -1 -1 -1 -1 -1 -1 57 -1 -1 57 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 1 0 1 0 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 1 1 1 0 0 1 1 0 0 1 1 1 1 1 1 1 1 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>SnowTownChest1</AssetName>
+        <SpawnPosition>5 2</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SnowTownChest2</AssetName>
+        <SpawnPosition>6 2</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SnowTownChest3</AssetName>
+        <SpawnPosition>6 9</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>snow_town</DestinationMap>
+        <DestinationPosition>14 14</DestinationPosition>
+        <Position>8 5</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>East</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>SnowTown</MusicCueName>
+  </Asset>
+</XnaContent>

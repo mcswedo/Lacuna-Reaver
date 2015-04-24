@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>mage_town_npc_house1</Name>
+    <TextureSheetName>mage_town</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>9 7</DimensionsInTiles>
+    <GroundLayer>79 258 65 258 65 266 65 266 65 258 258 258 258 261 258 261 259 258 266 272 273 267 272 273 266 267 273 39 43 40 233 234 39 43 43 40 41 34 34 109 110 34 34 34 42 35 37 37 37 34 37 37 37 38 -1 -1 -1 -1 36 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>275 274 275 274 275 274 275 274 275 -1 -1 -1 -1 -1 -1 -1 246 -1 315 -1 -1 238 237 -1 -1 278 -1 347 -1 -1 313 -1 -1 -1 310 -1 344 -1 -1 -1 -1 -1 309 345 311 376 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>175 174 175 174 175 174 175 174 175 205 206 205 206 205 206 205 206 205 102 102 102 102 102 102 102 102 102 341 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 0 1 0 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 1 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>Rendil</AssetName>
+        <SpawnPosition>4 4</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>mage_town</DestinationMap>
+        <DestinationPosition>12 45</DestinationPosition>
+        <Position>4 6</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>MageTown</MusicCueName>
+  </Asset>
+</XnaContent>

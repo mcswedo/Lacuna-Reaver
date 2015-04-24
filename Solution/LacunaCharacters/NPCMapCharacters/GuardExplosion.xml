@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.NPCMapCharacter">
+    <Name>GuardExplsion</Name>
+    <PortraitName>generic_man_portrait</PortraitName>
+    <IdleAnimation>
+      <Name>Idle</Name>
+      <Animations>       
+        <Item>
+          <Key>South</Key>
+          <Value>
+            <Frames>0 64 64 64 64 64 64 64 128 64 64 64 192 64 64 64 256 64 64 64 
+            320 64 64 64 384 64 64 64 448 64 64 64 512 64 64 64 576 64 64 64 640 64 64 64 
+            704 64 64 64 768 64 64 64 832 64 64 64 896 64 64 64 960 64 64 64 1024 64 64 64 
+            1088 64 64 64 1152 64 64 64 
+            </Frames>
+            <FrameDelay>1</FrameDelay>
+          </Value>
+        </Item>
+      </Animations>
+      <SpriteSheetName>guard_explosion</SpriteSheetName>
+    </IdleAnimation>
+    <MoveSpeed>0.8</MoveSpeed>
+    <ControllerName>NullController</ControllerName>
+    <IdleOnly>true</IdleOnly>
+    <MoveDelay>2</MoveDelay>
+  </Asset>
+</XnaContent>

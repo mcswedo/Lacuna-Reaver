@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>agora_portal_room3</Name>
+    <TextureSheetName>cavemap</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>3 6</DimensionsInTiles>
+    <GroundLayer>-1 -1 -1 65 65 65 65 65 65 65 65 65 65 65 65 -1 140 -1</GroundLayer>
+    <ForeGroundLayer>5 13 1 15 23 11 25 -1 21 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>210 210 210 210 210 210 210 210 210 210 210 210 214 210 213 210 210 210</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>RiftPortal</AssetName>
+        <SpawnPosition>1 3</SpawnPosition>
+        <SpawnDirection>North</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries>
+      <Item>
+        <AssetName>PortalToElathiaCutSceneScreen</AssetName>
+        <TriggerPosition>1 3</TriggerPosition>
+      </Item>
+    </CutSceneEntries>
+    <Portals>
+      <Item>
+        <DestinationMap>overworld</DestinationMap>
+        <DestinationPosition>58 127</DestinationPosition>
+        <Position>1 5</Position>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>AgoraOverworld</MusicCueName>
+  </Asset>
+</XnaContent>

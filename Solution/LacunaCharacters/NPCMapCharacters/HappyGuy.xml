@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.NPCMapCharacter">
+    <Name>HappyGuy</Name>
+    <PortraitName>generic_man_portrait</PortraitName>
+    <IdleAnimation>
+      <Name>Idle</Name>
+      <Animations>
+        <Item>
+          <Key>North</Key>
+          <Value>
+            <Frames>0 640 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>South</Key>
+          <Value>
+            <Frames>64 640 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>West</Key>
+          <Value>
+            <Frames>128 640 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>East</Key>
+          <Value>
+            <Frames>192 640 64 64</Frames>
+            <FrameDelay>0</FrameDelay>
+          </Value>
+        </Item>
+      </Animations>
+      <SpriteSheetName>snow_town_npcs</SpriteSheetName>
+    </IdleAnimation>
+    <WalkingAnimation>
+      <Name>Walking</Name>
+      <Animations>
+        <Item>
+          <Key>West</Key>
+          <Value>
+            <Frames>0 896 64 64 64 896 64 64 128 896 64 64 192 896 64 64 256 896 64 64 320 896 64 64</Frames>
+            <FrameDelay>0.1</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>East</Key>
+          <Value>
+            <Frames>0 832 64 64 64 832 64 64 128 832 64 64 192 832 64 64 256 832 64 64 320 832 64 64</Frames>
+            <FrameDelay>0.1</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>North</Key>
+          <Value>
+            <Frames>0 768 64 64 64 768 64 64 128 768 64 64 192 768 64 64</Frames>
+            <FrameDelay>0.1</FrameDelay>
+          </Value>
+        </Item>
+        <Item>
+          <Key>South</Key>
+          <Value>
+            <Frames>0 704 64 64 64 704 64 64 128 704 64 64 192 704 64 64</Frames>
+            <FrameDelay>0.1</FrameDelay>
+          </Value>
+        </Item>
+      </Animations>
+      <SpriteSheetName>snow_town_npcs</SpriteSheetName>
+    </WalkingAnimation>
+    <MoveSpeed>0.8</MoveSpeed>
+    <ControllerName>happyguyController</ControllerName>
+    <IdleOnly>false</IdleOnly>
+    <MoveDelay>1</MoveDelay>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>swamp_village_inn</Name>
+    <TextureSheetName>swamp_village_inn</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>20 10</DimensionsInTiles>
+    <GroundLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 21 21 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 21 21 1 1 1 1 1 11 11 11 11 11 11 11 11 11 11 11 11 11 21 11 11 11 11 11 11 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 101 102 103 104 105 21 21 21 21 21 21 21 101 102 103 104 105 21 21 21 111 112 113 114 115 21 21 21 21 21 21 21 111 112 113 114 115 21 21 21 121 122 123 124 125 21 21 21 21 21 21 21 121 122 123 124 125 21 21 -1 -1 -1 -1 -1 -1 -1 -1 -1 21 21 -1 -1 -1 -1 -1 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>-1 16 -1 -1 17 -1 18 -1 -1 -1 -1 18 -1 -1 0 -1 -1 -1 -1 -1 -1 27 28 29 17 -1 31 -1 -1 161 -1 74 -1 -1 1 -1 -1 -1 -1 -1 -1 37 38 39 3 4 4 5 30 171 3 5 34 -1 36 30 90 94 -1 34 -1 47 48 49 -1 -1 -1 -1 40 -1 74 -1 44 -1 46 40 41 42 43 44 -1 -1 -1 -1 -1 -1 -1 -1 50 51 52 53 54 -1 139 50 51 52 53 54 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 32 32 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 36 14 15 35 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 31 31 23 25 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 31 162 80 92 134 162 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 31 172 -1 -1 -1 172 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 22 57 -1 68 67 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 161 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 31 163 163 31 -1 161 171 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 31 31 -1 -1 -1 -1 171 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 1 1 1 0 1 0 0 1 1 1 0 0 1 1 1 1 1 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>SwampInnClerk</AssetName>
+        <SpawnPosition>10 3</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SwampItemClerk</AssetName>
+        <SpawnPosition>17 3</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SwampInvisibleItemClerk3</AssetName>
+        <SpawnPosition>18 4</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SwampInvisibleItemClerk2</AssetName>
+        <SpawnPosition>17 4</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SwampInvisibleItemClerk</AssetName>
+        <SpawnPosition>16 4</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SwampInvisibleInnClerk3</AssetName>
+        <SpawnPosition>11 4</SpawnPosition>
+        <SpawnDirection>North</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SwampInvisibleInnClerk2</AssetName>
+        <SpawnPosition>10 4</SpawnPosition>
+        <SpawnDirection>North</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>SwampInvisibleInnClerk</AssetName>
+        <SpawnPosition>9 4</SpawnPosition>
+        <SpawnDirection>North</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>swamp_village</DestinationMap>
+        <DestinationPosition>44 60</DestinationPosition>
+        <Position>9 9</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>swamp_village</DestinationMap>
+        <DestinationPosition>45 60</DestinationPosition>
+        <Position>10 9</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>swamp_village_inn_fl2</DestinationMap>
+        <DestinationPosition>4 8</DestinationPosition>
+        <Position>13 0</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>Inn</MusicCueName>
+  </Asset>
+</XnaContent>

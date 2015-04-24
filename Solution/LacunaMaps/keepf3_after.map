@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>keepf3_after</Name>
+    <TextureSheetName>keepinterior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>11 14</DimensionsInTiles>
+    <GroundLayer>117 56 54 57 119 51 117 57 54 56 119 135 73 75 73 137 50 135 74 73 72 137 41 47 47 47 47 31 47 47 47 47 40 26 117 119 42 45 45 45 42 117 119 27 27 135 137 42 26 31 25 42 135 137 27 26 47 40 42 45 45 45 42 41 47 25 26 31 25 42 26 31 25 42 27 31 25 26 31 25 42 45 45 45 42 26 31 40 26 31 25 42 26 31 25 42 26 31 25 26 31 25 42 45 45 45 42 26 31 25 26 31 25 42 26 31 25 42 26 31 25 26 31 25 42 45 45 45 42 26 31 25 26 31 25 42 26 31 25 42 26 31 25 23 24 22 42 23 31 22 42 23 24 22</GroundLayer>
+    <ForeGroundLayer>-1 196 58 59 232 112 232 58 59 196 -1 -1 -1 76 77 -1 130 -1 76 77 -1 -1 -1 -1 -1 -1 245 9 262 -1 -1 -1 -1 -1 58 59 -1 44 97 43 -1 232 -1 -1 -1 76 77 -1 53 9 53 -1 -1 -1 -1 -1 126 127 -1 44 97 43 -1 -1 -1 -1 246 81 83 -1 53 9 53 -1 -1 322 323 163 164 165 -1 44 97 43 -1 -1 47 -1 67 69 -1 -1 53 9 53 -1 67 68 69 67 69 -1 -1 44 97 43 -1 -1 -1 245 67 67 69 -1 53 9 53 -1 -1 306 307 67 69 -1 -1 44 97 43 -1 -1 81 67 67 124 125 -1 53 9 53 -1 -1 67 68 -1 123 68 -1 -1 113 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>189 189 189 265 268 267 268 269 189 189 189 189 189 189 283 284 285 286 287 189 189 189 189 20 20 20 189 189 189 20 20 20 189 189 189 189 189 107 189 107 189 266 269 189 189 189 189 189 189 189 189 189 286 287 189 189 128 189 189 107 189 107 189 189 20 20 278 257 258 189 189 189 189 189 189 189 189 189 189 189 189 107 189 107 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 107 189 107 189 189 189 189 189 189 189 189 189 189 189 189 189 128 189 189 189 189 189 107 189 107 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189 189</FringeLayer>
+    <CollisionLayer>0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 1 1 1 0 1 1 1 1 1 1 0 0 1 0 0 1 0 0 0 0 0 0 1 1 1 0 1 1 1 0 1 1 0 0 1 0 0 0 0 1 0 1 1 0 1 1 1 0 1 1 1 0 0 1 0 0 1 0 0 1 0 0 0 1 1 0 1 1 1 0 1 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 1 1 0 1 1 1</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>SavedGirl</AssetName>
+        <SpawnPosition>10 13</SpawnPosition>
+        <SpawnDirection>West</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>keepf4treasury</DestinationMap>
+        <DestinationPosition>5 10</DestinationPosition>
+        <Position>5 0</Position>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>keepf2</DestinationMap>
+        <DestinationPosition>5 10</DestinationPosition>
+        <Position>5 13</Position>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>Castle</MusicCueName>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>healers_village_inn_f1</Name>
+    <TextureSheetName>healers_village_interior</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>9 9</DimensionsInTiles>
+    <GroundLayer>43 124 124 44 35 43 124 124 44 63 144 144 64 35 62 144 144 64 11 13 13 13 62 13 13 13 12 33 62 62 62 62 62 62 62 34 33 62 62 62 62 62 62 62 34 33 62 62 62 62 62 62 62 34 33 62 62 62 62 62 62 62 34 31 14 14 14 62 14 14 14 32 -1 -1 -1 -1 35 -1 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>-1 -1 -1 -1 6 -1 -1 -1 -1 63 -1 -1 -1 6 63 -1 -1 -1 3 46 48 5 -1 3 -1 26 5 3 4 4 5 -1 3 4 4 5 23 24 24 25 -1 23 24 24 25 -1 -1 -1 -1 -1 -1 -1 -1 -1 46 47 48 -1 -1 -1 -1 -1 -1 46 47 48 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>126 126 126 126 136 126 126 126 126 87 -1 -1 88 -1 88 -1 -1 87 107 -1 -1 108 -1 108 -1 -1 107 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 0 0 0 1 0 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries>
+      <Item>
+        <AssetName>HealersInnClerk</AssetName>
+        <SpawnPosition>2 2</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>HealersItemClerk</AssetName>
+        <SpawnPosition>6 2</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>HealersInvisibleInnClerk</AssetName>
+        <SpawnPosition>2 3</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>HealersInvisibleInnClerk2</AssetName>
+        <SpawnPosition>1 3</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>HealersInvisibleInnClerk3</AssetName>
+        <SpawnPosition>3 3</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>HealersInvisibleInnClerk4</AssetName>
+        <SpawnPosition>3 2</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>HealersInvisibleItemClerk</AssetName>
+        <SpawnPosition>6 3</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>HealersInvisibleItemClerk2</AssetName>
+        <SpawnPosition>7 3</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>HealersInvisibleItemClerk3</AssetName>
+        <SpawnPosition>5 3</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+      <Item>
+        <AssetName>HealersInvisibleItemClerk4</AssetName>
+        <SpawnPosition>5 2</SpawnPosition>
+        <SpawnDirection>South</SpawnDirection>
+      </Item>
+    </NpcEntries>
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>healers_village</DestinationMap>
+        <DestinationPosition>8 6</DestinationPosition>
+        <Position>4 8</Position>
+        <SoundCueName>Door</SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+      <Item>
+        <DestinationMap>healers_village_inn_f2</DestinationMap>
+        <DestinationPosition>13 3</DestinationPosition>
+        <Position>4 0</Position>
+        <DestinationDirection>North</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>Inn</MusicCueName>
+  </Asset>
+</XnaContent>

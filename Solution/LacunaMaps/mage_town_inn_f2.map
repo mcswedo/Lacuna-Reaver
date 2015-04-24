@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>mage_town_inn_f2</Name>
+    <TextureSheetName>mage_town</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>7 7</DimensionsInTiles>
+    <GroundLayer>65 0 0 0 0 0 65 79 33 33 33 33 33 80 45 44 44 44 44 44 46 41 34 34 34 34 34 42 41 34 34 34 34 34 42 233 234 37 34 37 37 38 -1 -1 -1 36 -1 -1 -1</GroundLayer>
+    <ForeGroundLayer>275 274 274 274 274 274 275 -1 312 -1 312 -1 312 -1 -1 344 -1 344 -1 344 -1 -1 376 -1 376 -1 376 -1 -1 -1 -1 -1 -1 -1 -1 -1 313 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>169 170 102 102 102 168 169 201 202 102 102 102 200 201 102 102 102 102 102 102 102 102 102 102 102 102 102 102 235 235 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102</FringeLayer>
+    <CollisionLayer>1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 0 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 0 0 0 1 0 0 0</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries />
+    <CutSceneEntries />
+    <Portals>
+      <Item>
+        <DestinationMap>mage_town_inn</DestinationMap>
+        <DestinationPosition>6 1</DestinationPosition>
+        <Position>3 6</Position>
+        <SoundCueName></SoundCueName>
+        <DestinationDirection>South</DestinationDirection>
+      </Item>
+    </Portals>
+    <MusicCueName>Inn</MusicCueName>
+  </Asset>
+</XnaContent>

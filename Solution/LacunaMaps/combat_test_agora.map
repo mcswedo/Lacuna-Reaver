@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="MyQuest.Map">
+    <Name>combat_test_agora</Name>
+    <TextureSheetName>blind_mans_town_mansion</TextureSheetName>
+    <TileDimensions>64 64</TileDimensions>
+    <DimensionsInTiles>10 10</DimensionsInTiles>
+    <GroundLayer>34 34 34 34 34 34 34 34 34 34 36 36 36 36 36 36 36 36 36 34 36 36 36 36 36 36 36 36 36 34 36 36 36 36 36 36 36 36 36 34 36 36 36 36 36 36 36 36 36 34 36 36 36 36 36 36 36 36 36 34 36 36 36 36 36 36 36 36 34 34 36 36 36 36 36 36 36 36 34 34 36 36 36 36 36 36 36 36 34 34 36 36 36 36 36 36 34 34 34 34</GroundLayer>
+    <ForeGroundLayer>-1 -1 -1 -1 -1 -1 -1 -1 46 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 46 -1 -1 46 -1 -1 46 -1 -1 46 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 46 -1 -1 46 -1 -1 46 -1 -1 46 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 46 -1 -1 46 -1 -1 46 -1 -1 46 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 92 -1 -1 -1 -1 -1</ForeGroundLayer>
+    <FringeLayer>-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</FringeLayer>
+    <CollisionLayer>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</CollisionLayer>
+    <DamageLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</DamageLayer>
+    <CombatLayer>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</CombatLayer>
+    <NpcEntries />
+    <CutSceneEntries>
+      <Item>
+        <AssetName>RuinCrockSnakeTest</AssetName>
+        <TriggerPosition>0 6</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>RuinWallBoggimusTadTest</AssetName>
+        <TriggerPosition>6 6</TriggerPosition>
+      </Item>
+      <Item>
+        <AssetName>RuinMixedMediumTest</AssetName>
+        <TriggerPosition>3 6</TriggerPosition>
+      </Item>
+    </CutSceneEntries>
+    <Portals>
+      <Item>
+        <DestinationMap>combat_test_snow</DestinationMap>
+        <DestinationPosition>5 1</DestinationPosition>
+        <Position>4 9</Position>
+        <SoundCueName></SoundCueName>
+      </Item>
+    </Portals>
+    <MusicCueName>Overworld</MusicCueName>
+  </Asset>
+</XnaContent>
