@@ -9,7 +9,7 @@ This game was created in XNA Game Studio, and will require XNA Game Studio 4.0 -
 -----
 
 Lacuna Reaver was created by:
-
+'''
 Gerren Willis
 James Braudaway
 Kyle Elder
@@ -29,17 +29,17 @@ David Garcia
 Marc Galang
 Derek Cervantez
 Ziduan Liu
-
+'''
 With additional help by:
-
+'''
 Mac Chou (French Translation)
 Cristhal Poron (Spanish Translation)
 Hsiang-Po Chuang (Chinese Translation)
 Dr. David Turner
 Dr. Arturo Concepcion
-
+'''
 And the students of CSE 440 Game Design and CSE 441 Game Programming:
-
+'''
 Jared Bruhn
 Kyle Johnson
 Ashley Koyama
@@ -59,3 +59,4 @@ Donovan Neighbor
 Luke Simpson
 David Sturgeon
 Takenori Tsuruga
+'''
